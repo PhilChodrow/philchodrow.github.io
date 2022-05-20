@@ -8,7 +8,7 @@ website:
     title: | 
       <span class="display-name"> Dr. <b>Phil Chodrow</b> <br></span>  <span class="job-title"> Assistant Professor<br> Department of Computer Science <br> Middlebury College</span> 
     header: |
-      <img class="circular--square" src="https://www.philchodrow.com/assets/img/avatar.jpg" width=200em>
+      <img class="circular--square" src="assets/img/avatar.jpg" width=200em>
     footer: |
       <span class="job-title"> <span style="font-family: monospace"> pchodrow@middlebury.edu</span> <br> 75 Shannon St., Room 218 </span> <br><br>
       <img src="https://vericant.cn/wp-content/uploads/2020/11/Middlebury-College-Logo.png" width=200em/>
