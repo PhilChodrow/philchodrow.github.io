@@ -1,0 +1,45 @@
+project:
+  type: website
+
+website:
+  title: "Dr. Phil Chodrow"
+  sidebar:
+    title: | 
+      <span class="display-name"> Dr. <b>Phil Chodrow</b> <br></span>  <span class="job-title"> Assistant Professor<br> Department of Computer Science <br> Middlebury College</span> 
+    header: |
+      <img class="circular--square" src="https://www.philchodrow.com/assets/img/avatar.jpg" width=200em>
+    footer: |
+      <span class="job-title"> <span style="font-family: monospace"> pchodrow@middlebury.edu</span> <br> 75 Shannon St., Room 218 </span> <br><br>
+      <img src="https://vericant.cn/wp-content/uploads/2020/11/Middlebury-College-Logo.png" width=200em/>
+    style: "floating"
+    collapse-level: 1	
+    contents: 
+      - research.qmd
+      - section: "For Students"
+        contents: 
+        - teaching.qmd
+        - for-students.qmd
+      - mission.qmd
+      - resources.qmd
+      - section: "About Me"
+        contents: 
+        - journey.qmd
+        - text: CV
+          href: https://www.philchodrow.com/CV/cv.pdf
+        - text: CS Jobs at SLACs
+          href: job_app.qmd
+        - reading.qmd
+      - acknowledgments.qmd
+    search: false 
+    pinned: true
+  favicon: assets/img/favicon.png
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    css: styles.css
+    toc-title: ""
+    padding-top: "2em"
+
+  
+
+

@@ -1,0 +1,10 @@
+---
+title: "Local symmetry and global structure in adaptive voter models"
+authors: [PSC, Peter Mucha]
+categories: [news, code, analysis]
+image: "img.png"
+venue: "SIAM Journal on Applied Mathematics"
+year: "2021"
+url: "https://epubs.siam.org/doi/abs/10.1137/18M1232346"
+page-layout: article
+---

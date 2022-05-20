@@ -1,0 +1,13 @@
+---
+title: "Nonbacktracking spectral clustering of nonuniform hypergraphs"
+authors: [PSC, Nicole Eikmeier, Jamie Haddock]
+categories: [news, code, analysis]
+image: "img.png"
+venue: "arXiv:2204.13586"
+year: "2022"
+priority: 1
+url: "https://arxiv.org/abs/2204.13586#"
+page-layout: article
+---
+
+

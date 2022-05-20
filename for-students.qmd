@@ -1,0 +1,148 @@
+---
+title: "FAQs"
+page-layout: article
+toc: true
+---
+
+This page collects my answers to a wide range of frequent student questions. 
+
+
+## My Profession
+
+#### What are you? Are you a computer scientist, a mathematician or a data scientist?
+
+Uh...yes? I am all those things! 
+
+My training was primarily mathematical. These days, I use mathematical theory, algorithms, simulations, and data analysis to learn about complex systems in theory, society, and nature. Almost all my work involves software implementation, and I'm working on growing my skills as a developer in order to help more people use and reproduce my findings. 
+
+#### What kinds of things do you like to study?
+
+You can learn lots more about my interests on my [research page](research.qmd). 
+
+#### What do you do all day?
+
+[This graphic](https://pbs.twimg.com/media/EtzOT2MWYAA78IO?format=jpg&name=4096x4096) by Marissa Kawehi Loving gives a high-level overview of the activities that go into a career as an academic mathematician. My activities as a computer scientist / mathematician / data scientist look relatively similar. Mentally, I'd divide them into the following broad categories: 
+
+- "**Doing science**": developing models and algorithms, proving mathematical facts about them, performing computations, analyzing data, and reading papers. 
+- **Writing**: creating notes, writing scholarly papers, writing reviews of the scholarly work of others.
+- **Communication**: largely emails and meetings. Lots of the "doing science" part happens in these meetings (i.e. collaboratively). An important category here is **mentorship**: working with junior collaborators and students; talking about ideas; giving feedback. Another important category here is **speaking** about my research, which used to happen at conferences but is now largely online. 
+- **Teaching**: I spend a **lot** of time on teaching. The preparation includes formulating course philosophies, designing curricula, writing lectures and assignments, etc. Then there's the best part -- working with students -- as well as managing instructional teams, handling grades, and troubleshooting concerns as they arise.  
+- **Professional development**: there's a lot of room for me to grow. One of my main goals is to further develop my courses as actively anti-sexist and anti-racist, and measure their effectiveness along these axes. I attend trainings, read, and learn from others. 
+
+#### Is it nice to be a professor? Should I become one?
+
+Here's my personal list of the pros and cons about being a professor. This list is quite personal to me, and reflects my identity and priorities. Note that the pros and cons for computer scientists and mathematicians working in industry look very different. 
+
+**Pros**:
+
+- Freedom to control my own schedule. 
+- Freedom to set my priorities and spend much of my time thinking about things that interest me. 
+- Freedom to decide whom to work with (very important to me).
+
+**Cons**:
+
+- Low salary compared to many other careers for quantitative people (although still enough for me to have a comfortable life). 
+- Uncertainty about long-term job prospects. I didn't know where I would spend most of my career---or whether I would even make it in my chosen career---until I was 31. 
+- Lack of control over location: I'm very happy here, and I'm exceptionally lucky to have been able to choose to come here over several other attractive options. In general, though, academics often won't be able to choose where they will live. This is one factor that can contribute to challenges associated with being an academic and starting a family. 
+
+#### Is academic science an equitable space, a "meritocracy," or a "neutral" discipline?
+
+No. Academic science is not yet an equitable community, and many parts of it replicate systemic misogyny, racism, ableism, and classism. Certain people, departments, and institutions are not safe or nurturing spaces for members of certain groups. For example, a [recent article](https://www.scientificamerican.com/article/modern-mathematics-confronts-its-white-patriarchal-past/) in *Scientific American* highlighted the intersection of racism and misogyny in modern mathematics. 
+
+Due in part to my own privileged identity, I have had an overall pleasant experience in academic science which makes me want to stay here. If you do aspire to become an academic computer scientist, mathematician, data scientist, or scholar of any kind---and especially if you benefit from intersecting privilege---then part of your responsibility is to reflect on what work you will do to make our profession a more equitable and just place. The [Mission](mission.qmd) page expresses how I think about this responsibility, and the [Resources](resources.qmd) page contains some links that might help you get started. 
+
+## Classes
+
+#### What are you teaching?
+
+In Fall 2022, I am teaching CSCI 0145: Introduction to Computing. 
+
+#### How should I address you? 
+
+If you're not sure, please call me "Professor Chodrow." I usually invite  members of my instructional teams and student research collaborators to address me as "Phil." 
+
+Please remember to address all your professors respectfully and according to their preferences. As argued in a [recent study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6048538/pdf/pnas.201805284.pdf), many of us have harmful, gendered biases about when we use earned titles like “Dr.” or “Professor." A small, simple thing you can do to make academia a more equitable place is to check your own potential biases. If you’re not sure, “Professor X” or “Dr. X” is always a safe choice — but even better is to just ask what your instructor prefers! My own personal preference is related to [this short poem](https://pressfolios-production.s3.amazonaws.com/uploads/story/story_pdf/254906/2549061489249557.pdf) by Susan Harlan.
+
+
+## Research with Students {#student-research}
+
+#### Would you be a good fit for my research interests? 
+
+I love working with students on research projects! We might be a good fit for each other if several (but not necessarily all) of the statements below describe you. 
+
+- You are interested in networks, models of social behavior, or other topics mentioned on my [research](research.qmd) page.  
+- You have strong computing skills (for example, you've taken a 300-level computer science course).  
+- You have strong math background (for example, you've taken some mathematics or statistics courses at the 200- and 300-levels). 
+- You've taken a course that studies *graphs* and their applications, like CSCI 200 or MATH 247.  
+- You are excited about applying computational and mathematical techniques to real-world data sets. 
+- You want to use your computational skills to contribute to social justice, equity, or sustainability. 
+- You already have a scientific problem or data set on which you want mentorship related to data science, modeling, or computation. 
+- You want to contribute to to [open science](https://en.wikipedia.org/wiki/Open_science) by developing and sharing reproducible code. 
+
+Additionally, I prefer to work with students as **long-term** collaborators. This means that I'm more likely to accept you as a summer research student if you also intend to continue working with me during the school year. The most common ways to do this are by enrolling in either CSCI 500 (Advanced Study) or CSCI 702 (Senior Thesis). 
+
+#### Am I likely to get a research position in your group? 
+
+First, I'm sure you're awesome! If several of the points above describe you, then I expect we could work successfully together. Second, there are many students with research interest. Due to limitations on my time and funding resources, I sadly don't expect to be able to accept all of them. 
+
+
+## Advice and Recommendation Letters 
+
+#### Can I talk to you about future courses/grad school/jobs/internships? 
+
+Definitely! Shoot me an email and we'll set up a meeting. Just to set expectations, I know a lot more about courses and academic careers than I do about jobs and internships. 
+
+#### Will you write me a letter of recommendation?
+
+You may need a letter of recommendation from a faculty member for applications to graduate school, jobs, or internships.  
+
+If you have completed a course with me or are currently enrolled, you are welcome to request a letter from me. I will only refuse if you are requesting support for an application for jobs or internships involving surveillance, policing, or military applications. If I feel that I am not able to write you a strong letter, I will tell you -- but if you still want a letter from me, I will still write it.
+
+Please keep in mind that I can write stronger letters for students whom I see more frequently, such as in lecture or office hours. If you’d like a letter, talking to me in these contexts, or scheduling another meeting time, is highly recommended.
+
+To request a letter, fill out [this request form](https://forms.gle/tL79wtFrfHC5Vspw7)! Please give me at least one month of advance notice when possible.
+
+#### I want to learn more about the intersection of computing, math, data science, and social justice. Where do I start? 
+That's a great question, Imaginary Student! Check the [Resources](resources.qmd#data-science-math-technology-and-social-justice) page for some of my favorite organizations and books related to this topic. 
+
+## Thoughts on Software 
+
+#### What software do you use? 
+I spend a lot of time on my laptop, and I've given some thought to the tools that allow me to be most productive in that time. Here's what I'm using these days: 
+
+- **Programming languages**: [Julia](https://julialang.org/) and [R](https://www.r-project.org/about.html). I also know (and teach) [Python](https://www.python.org/), but Julia has largely replaced Python in my research workflows. I use R when I am primarily working with data frames or when I need to construct scientific graphics, and I use Julia for most other tasks. I still occasionally work in Python when collaborating with folks who strongly prefer it. 
+- **Text editor**: [VSCode](https://code.visualstudio.com/). I use this for writing code, as well as writing mathematical documents and research papers using LaTeX. I have extensions that make it easy to work with some of my main tools, including Python, Julia, R, LaTeX, Quarto, and Markdown. When coding in R, I sometimes use [RStudio](https://www.rstudio.com/) instead of VSCode. 
+- **Operating system**: MacOS. I don't have strong negative feelings about Windows, but as someone who writes code I strongly prefer an OS with a first class terminal. I have dabbled in Linux but don't consider myself enough of a power user to justify the time investment. Because I have access to high-performance servers, I don't need a very powerful laptop -- I just use an entry-level MacBook Air. 
+- **Website**: [Quarto](https://quarto.org) and [GitHub](https://github.com/). This website, as well as my course websites, are generated by the Quarto publishing sytem using plaintext files. I edit these files in VSCode, run Quarto to preview them, and then push them to GitHub which hosts them online. Through working on my websites, I have picked up a **minimal** amount of HTML and CSS. 
+    - Ethics note: GitHub has [contributed an infrastructure product to ICE](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/) and developed a machine learning product that [may infringe on open source code licenses](https://sdtimes.com/os/github-copilot-sparks-debates-around-open-source-licenses/). While I rely on GitHub for now, I may change to a competitor like [GitLab](https://gitlab.com/) or [BitBucket](https://bitbucket.org/product) in the future. 
+- **Email client**: [Spark](https://sparkmailapp.com/) -- it's free, simple, and cross-platform. 
+- **Launcher**: [Alfred](https://www.alfredapp.com/). Pressing a simple keyboard shortcut spawns a search bar when I can open apps, search for files, etc. 
+- **Browser**: [Vivaldi](https://vivaldi.com). A customizable browser compatible with Chrome plugins. 
+
+
+#### Is programming language A better than programming language B?
+Probably not! Most programming languages have certain strengths in which they excel. You don't need "the best" programming language -- you need the one that's right for your task. For example, R and Python have different strengths for data science, and most practicing data scientists know both. Here are my thoughts on the languages I know and use. 
+
+- **Python**: extremely versatile, pretty good at almost everything. Often slower than compiled languages like C++ or just-in-time compiled languages like Julia. Widely used in industry, and an excellent first language to learn. Extremely vibrant ecosystem of free software modules. 
+- **R**: specialized for data analysis and statistics. World-class handling of tabular data via the Tidyverse ecosystem. `ggplot2` is the world's best two-dimensional data visualization system, bar none. The RStudio IDE is excellent.  
+- **Julia**: specialized for technical computing (science and engineering applications). Similar syntax to Python. Often compared to Matlab in its focus, but open-source and (in my view) easier to understand. Well-written Julia is extremely fast, and can reach speeds comparable to C++. 
+
+## Other
+
+#### Can I ask you to speak at my student organization? 
+
+Yes! I love doing this kind of thing. Send me a note. 
+
+#### Can I talk to you for a class project?
+
+On occasion, students approach me with a class project that asks them to interview a scientist, faculty member, or professional. If hearing from someone like me meets the professional goals of your project, then feel free to ask me about this. 
+
+#### What kinds of books do you like to read? 
+
+Some of the kinds of books I like are scifi and fantasy novels; U.S. and modern world history; feminism and antiracism; and yes, the occasional book on math, algorithms, network science, or computation. 
+
+I love suggestions! 
+
+Perhaps like you, the growing presence of screens in my life has detracted from my reading. I'm trying to fix that! To keep myself on track, I'm keeping a [list](reading.qmd) of the things I've been reading lately.
+
+(In case you're wondering, I do read a lot of computer science and math stuff, but most of it is in scholarly articles rather than books.) 

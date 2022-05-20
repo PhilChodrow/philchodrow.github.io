@@ -1,0 +1,17 @@
+---
+title: "Emergence of hierarchy in networked endorsement dynamics"
+authors: [Mari Kawakatsu, PSC, Nicole Eikmeier, Dan Larremore]
+categories: [news, code, analysis]
+image: "img.png"
+venue: "Proceedings of the National Academy of Sciences"
+year: "2021"
+url: "https://www.pnas.org/doi/10.1073/pnas.2015188118"
+page-layout: article
+extra: |
+    <li> <a href="https://www.pnas.org/content/118/21/e2106186118">Commentary</a> by Simon DeDeo and Elizabeth Hobson</li>
+    <li> <a href="https://sinews.siam.org/Details-Page/networks-dynamics-and-prestige-how-hierarchies-emerge-from-individual-choices">Explainer post</a> on SIAM News blog</li>
+---
+
+
+
+

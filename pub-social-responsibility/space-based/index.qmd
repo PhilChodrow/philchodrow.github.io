@@ -1,0 +1,12 @@
+---
+title: "Space-based observational constraints on NO₂ air pollution inequality from diesel traffic in major U.S. cities"
+authors: [Mary Angelique Demetillo, Colin Harkins, Brian McDonald, PSC, Kang Sun, Sally Pusede]
+categories: [news, code, analysis]
+image: "img.png"
+venue: "Geophysics Review Letters"
+year: "2021"
+url: "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GL094333"
+page-layout: article
+extra: |
+    <li> <a href="https://cen.acs.org/environment/pollution/Satellite-data-reveal-diesel-trucking/99/i32"> Writeup </a> in <i>Chemical and Engineering News</i></li>
+---

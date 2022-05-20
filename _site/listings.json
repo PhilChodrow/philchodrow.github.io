@@ -1,0 +1,21 @@
+[
+  {
+    "listing": "/research.html",
+    "items": [
+      "/pub-network-data-science/annotated-hypergraphs/index.html",
+      "/pub-network-data-science/configuration-hypergraphs/index.html",
+      "/pub-network-data-science/hypergraph-modularity/index.html",
+      "/pub-network-data-science/multigraph-moments/index.html",
+      "/pub-network-data-science/spectral-clustering-hypergraphs/index.html",
+      "/pub-models-of-social-systems/emergence-of-hierarchy/index.html",
+      "/pub-models-of-social-systems/adaptive-voter-models/index.html",
+      "/pub-social-responsibility/846-analysis/index.html",
+      "/pub-social-responsibility/space-based/index.html",
+      "/pub-social-responsibility/structure-info-race/index.html"
+    ]
+  },
+  {
+    "listing": "/list.html",
+    "items": []
+  }
+]

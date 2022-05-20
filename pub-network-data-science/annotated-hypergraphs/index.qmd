@@ -1,0 +1,11 @@
+---
+title: "Annotated hypergraphs: models and applications"
+authors: [PSC, Andrew Mellor]
+categories: [news, code, analysis]
+image: "img.png"
+venue: "Applied Network Science"
+year: "2020"
+priority: 10
+url: "https://link.springer.com/article/10.1007/s41109-020-0252-y"
+page-layout: article
+---

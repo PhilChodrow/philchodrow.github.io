@@ -1,0 +1,29 @@
+---
+title: "Welcome!"
+page-layout: article
+toc: true
+---
+ 
+I'm Dr. Phil Chodrow, an assistant professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/#story645114). My pronouns are *he/him/his*. 
+
+### Research
+
+In [my research](research.qmd), I study mathematical and computational techniques for understanding our increasingly connected and complex world. A lot of what I do falls under the heading of *[network science](https://en.wikipedia.org/wiki/Network_science)*. I've recently worked on spectral algorithms for analyzing hypergraphs, opinion dynamics on graphs, and dominance hierarchies in human and animal societies. I also work on data science projects to promote equity and sustainability. 
+
+### Teaching
+
+In Fall 2022, I am teaching **CSCI 0145: Introduction to Computing**. 
+
+I am a passionate educator, enthusiastic about evidence-based pedagogy, student-centered design, and inclusion in the classroom. Topics I teach include introductory computing, network science, and machine learning. Read more about my [mission](mission.qmd) and the [courses I teach](teaching.qmd). 
+
+
+
+
+## News
+
+- **September, 2022**: I am a guest editor in a [focus issue](https://iopscience.iop.org/journal/2632-072X/page/focus-on-learning-and-reasoning-in-generalized-graphs) of the *Journal of Physics: Complexity* on "Learning and Reasoning in Generalized Graphs." The deadline for submissions is September 30th, 2022! 
+- **September 26th-30th, 2022**: I am attending the [SIAM Conference on Mathematics of Data Science](https://www.siam.org/conferences/cm/conference/mds22) in San Diego, CA. There, [Heather Zinn Brooks](https://math.hmc.edu/hzinnbrooks/) (Harvey Mudd) and I will co-lead a Guided Affinity Group on network science as part of the Sustainable Horizon Institute's [Broader Engagement Program](https://shinstitute.org/be-mds-2022/).  
+- **June-July, 2022**: I am an invited Fellow at the upcoming [Social Justice and Data Science Summer Research Program](https://icerm.brown.edu/programs/ep-22-dssj/) at ICERM. Looking forward to learning, making friends, and doing good work. 
+- **June, 2022**: I am a participant and assistant to the organizers at the AMS [Mathematics Research Community](https://www.ams.org/programs/research-communities/2022MRC-HyperNet) on "Models and Methods for Sparse (Hyper)Network Science. 
+- **May 21st, 2022**: I am a co-organizer of the [Southern California Applied Mathematics Symposium](https://www.socams.org) (SOCAMS) at Harvey Mudd College. 
+- **May 18th, 2022**: I am speaking at a panel on data science and the social sciences, hosted by the UCLA Data Science Union. 

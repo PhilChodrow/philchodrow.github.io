@@ -1,0 +1,51 @@
+---
+title: "CS Jobs at Small Liberal Arts Colleges"
+page-layout: article
+toc: true
+---
+
+I work at Middlebury College, an academically rigorous small liberal arts college (SLAC). Working at a place like Middlebury is wonderful! Many job seekers  may not know much about what these jobs are like or how to get them. Careers at SLACs offer distinctive advantages and disadvantages when compared to careers at research-intensive institutions. 
+
+Consider SLACs if...
+
+- You love **both** research and teaching, and you want to be incentivized for excellence in each. 
+- You would like to continue your academic career without needing to regularly write grant proposals. 
+- You enjoy mentoring and collaborating with undergraduate students. 
+
+A SLAC might not be for you if...
+
+- You prefer to teach as little as possible in order to focus on research. 
+- You are very eager to work with graduate students. 
+
+## Application Tips
+
+### Before You Enter the Job Market
+
+Consider how you are going to demonstrate both excellence as a researcher and promise as an instructor. Hiring committees understand that not all candidates will have had opportunities to serve as instructors of record at the time they apply. You should, however, give us evidence that you will grow into an outstanding instructor. Some good kinds of evidence include: 
+
+- Student evaluations of teaching (SET) ratings and selected comments. 
+- Materials that you created as an instructor or teaching assistant. 
+- Participation in professional development activities related to teaching. 
+
+It's usually expected that at least one of your letters of recommendation will speak to your teaching potential. With this in mind, you should plan early: *who will write your teaching letter, and what information will they have?* It's a good idea to ask your prospective writer well in advance. Their letter may be stronger if you can give them materials from previous courses, a draft of your teaching statement, or an opportunity to observe one of your classes. 
+
+### In Your Cover Letter
+
+First and foremost, **carefully read the job ad** in order to avoid silly mistakes.  If your cover letter highlights your interest in mentoring grad students, and the institution doesn't have grad students, then the committee is unlikely to move forward on your application. 
+
+More generally, find ways to connect the job ad to your interests, and share them in your cover letter. My cover letter to Middlebury expressed:
+
+- My overall interest in the school and the department.
+- My excitement about the location, including the presence of many collaborators at nearby institutions. 
+- My interest in collaborating on data science initiatives, which I knew from the job ad and the Middlebury website to be an area of institutional focus. 
+- My teaching interests and how I felt these would align with the department's mission. 
+
+## My Application Materials
+
+Most applications to SLAC positions include statements on research, teaching, and equity, diversity, and inclusion (EDI). I include the statements that brought me to Middlebury in the hopes that they might be useful to future SLAC job-seekers. 
+
+- [Statement on research](assets/pdf/research-cs.pdf)
+- [Statement on teaching](assets/pdf/teaching-cs.pdf)
+- [Statement on equity, diversity, and inclusion (EDI)](assets/pdf/EDI.pdf)
+
+A complete application usually also includes a cover letter addressing specific reasons why the candidate is an excellent fit for the specific institution, and 3-4 letters of reference. Usually, at least one of these letters should focus on teaching. 

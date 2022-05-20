@@ -1,0 +1,25 @@
+---
+title: "Acknowledgements"
+page-layout: article
+toc: true
+---
+
+### Selected Teaching Influences
+
+These are some of the people whose teaching techniques and insights have had major impacts on my own practice. 
+
+- [Rose Morris-Wright](https://www.rosemorriswright.com) (Department of Mathematics, Middlebury College)
+<!-- -  Heather Zinn Brooks (Department of Mathematics, Harvey Mudd) -->
+- [Shanna Shaked](https://www.ioes.ucla.edu/person/shanna-shaked/) (Institute of the Environment and Sustainability and Center for Excellence, Innovation, and Learning in the Sciences, UCLA). 
+- Don Chodrow (Department of Physics, James Madison University)
+- Bill Terry (Staunton High School)
+- Don Laliberty-sensei (Aikido Tekkojuku of Boston)
+- [Dolita Cathcart](https://wheatoncollege.edu/academics/faculty-directory/dolita-cathcart/)-sensei (Harvard Aikikai, Wheaton College)
+- Rick Berry-sensei (Wilmington Aikido)
+- [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu) (Department of Computer Science, Grinnell College)
+
+### Credits and Tools
+
+This site is driven by the [Quarto](https://quarto.org) publishing system. 
+
+My current portrait was taken by  [Riccardo di Clemente](http://riccardodiclemente.com) (University of Exeter). 
