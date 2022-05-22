@@ -31,9 +31,9 @@ It's usually expected that at least one of your letters of recommendation will s
 
 ### In Your Cover Letter
 
-First and foremost, **carefully read the job ad** in order to avoid silly mistakes.  If your cover letter highlights your interest in mentoring grad students, and the institution doesn't have grad students, then the committee is unlikely to move forward on your application. 
+First and foremost, **carefully read the job ad** in order to avoid silly mistakes.  If your cover letter highlights your interest in mentoring graduate students, and the institution doesn't have graduate students, then the committee is unlikely to move forward on your application. 
 
-More generally, find ways to connect the job ad to your interests, and share them in your cover letter. My cover letter to Middlebury expressed:
+More generally, find ways to connect the job posting to your interests, and share them in your cover letter. My cover letter to Middlebury expressed:
 
 - My overall interest in the school and the department.
 - My excitement about the location, including the presence of many collaborators at nearby institutions. 
@@ -44,8 +44,8 @@ More generally, find ways to connect the job ad to your interests, and share the
 
 Most applications to SLAC positions include statements on research, teaching, and equity, diversity, and inclusion (EDI). I include the statements that brought me to Middlebury in the hopes that they might be useful to future SLAC job-seekers. 
 
-- [Statement on research](assets/pdf/research-cs.pdf)
-- [Statement on teaching](assets/pdf/teaching-cs.pdf)
-- [Statement on equity, diversity, and inclusion (EDI)](assets/pdf/EDI.pdf)
+- [Statement on research](assets/pdf/research-cs.pdf).
+- [Statement on teaching](assets/pdf/teaching-cs.pdf).
+- [Statement on equity, diversity, and inclusion (EDI)](assets/pdf/EDI.pdf).
 
 A complete application usually also includes a cover letter addressing specific reasons why the candidate is an excellent fit for the specific institution, and 3-4 letters of reference. Usually, at least one of these letters should focus on teaching. 

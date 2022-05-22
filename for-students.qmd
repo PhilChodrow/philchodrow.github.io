@@ -9,15 +9,15 @@ This page collects my answers to a wide range of frequent student questions.
 
 ## My Profession
 
-#### What are you? Are you a computer scientist, a mathematician or a data scientist?
+#### What are you? Are you a computer scientist, a mathematician, or a data scientist?
 
 Uh...yes? I am all those things! 
 
-My training was primarily mathematical. These days, I use mathematical theory, algorithms, simulations, and data analysis to learn about complex systems in theory, society, and nature. Almost all my work involves software implementation, and I'm working on growing my skills as a developer in order to help more people use and reproduce my findings. 
+My training was primarily mathematical. These days I use math, algorithms, simulations, and data analysis to learn about complex systems in theory, society, and nature. Almost all my work involves software implementation, and I'm working on growing my skills as a developer in order to help more people use and reproduce my findings. 
 
 #### What kinds of things do you like to study?
 
-You can learn lots more about my interests on my [research page](research.qmd). 
+Networks and complex social systems! You can learn lots more about my interests on my [research page](research.qmd). 
 
 #### What do you do all day?
 
