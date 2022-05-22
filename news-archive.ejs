@@ -1,0 +1,38 @@
+
+```{=html}
+<% items.sort(function(a,b){return new Date(b.date) - new Date(a.date)}) %>
+<% var currentDate = new Date() %>
+
+<% var currentYear = currentDate.getFullYear() %>
+
+<h2> 
+    <%= currentYear %>
+</h2>
+
+<ul>
+<% for (const item of items) { %>
+    <% var newDate = new Date(item.date) %>
+    <% var newYear = newDate.getFullYear() %>
+
+    <% if (newYear != currentYear) { %> 
+    </ul>
+        <h2> 
+            <%= newYear %>
+        </h2>
+    <ul>
+        <% currentYear = newYear %> 
+    <% } %>
+
+    <% if (newDate < currentDate) { %>
+        <li> 
+            <% if (item.display_date) { %>
+                <b><%= item.display_date %></b>:    
+            <% } else { %>
+                <b><%= item.date %></b>:
+            <% } %>
+            <%= item.text %>
+        </li>
+    <% } %>
+<% } %>
+</ul>
+```

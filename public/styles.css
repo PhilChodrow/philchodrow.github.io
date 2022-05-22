@@ -34,16 +34,11 @@
 
 
 .quarto-sidebar-header { 
-      margin-top: 1em;
-      padding-bottom: 0em;
+    margin-top: 1em;
+    padding-bottom: 0em;
+    padding-left: .5em;
+    padding-right: .5em;
   }
-
-.quarto-sidebar-header p {
-  padding-bottom: 0em;
-  margin-bottom: 0em;
-}
-
-
   
   .content{
       padding-top: 4em !important; 
@@ -60,12 +55,20 @@
 
   body {
     background-image: url("assets/img/background-network.png"); 
+    min-height: 500px;
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ffffff;
    }
+
+  @media only screen and (max-device-width: 1366px) {
+    body {
+      background-attachment: scroll;
+    }
+  }
 
 .quarto-listing { 
   padding-bottom: 0em;

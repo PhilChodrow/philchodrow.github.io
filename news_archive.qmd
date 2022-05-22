@@ -1,0 +1,16 @@
+---
+title: "News Archive"
+page-layout: article
+toc: true
+listing:
+  - id: old_news
+    contents: 
+      - news.yml
+    sort-ui: false
+    filter-ui: false
+    template: news-archive.ejs
+---
+
+#
+
+

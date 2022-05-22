@@ -17,5 +17,13 @@
   {
     "listing": "/list.html",
     "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/news_archive.html",
+    "items": []
   }
 ]
