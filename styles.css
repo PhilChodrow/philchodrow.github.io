@@ -55,12 +55,20 @@
 
   body {
     background-image: url("assets/img/background-network.png"); 
+    min-height: 500px;
+
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ffffff;
    }
+
+  @media only screen and (max-device-width: 1366px) {
+    body {
+      background-attachment: scroll;
+    }
+  }
 
 .quarto-listing { 
   padding-bottom: 0em;
