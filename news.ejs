@@ -3,6 +3,7 @@
 <ul>
 <% items.sort(function(a,b){return new Date(b.date) - new Date(a.date)}) %>
 <% var currentDate = new Date() %>
+<% currentDate.setDate(currentDate.getDate() - 90) %>
 <% for (const item of items) { %>
     <% var newDate = new Date(item.date) %>
     <% if (newDate >= currentDate || item.highlight) { %>
