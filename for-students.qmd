@@ -103,11 +103,13 @@ Please keep in mind that I can write stronger letters for students whom I see mo
 To request a letter, fill out [this request form](https://forms.gle/tL79wtFrfHC5Vspw7)! Please give me at least one month of advance notice when possible.
 
 #### I want to learn more about the intersection of computing, math, data science, and social justice. Where do I start? 
+
 That's a great question, Imaginary Student! Check the [Resources](resources.qmd#data-science-math-technology-and-social-justice) page for some of my favorite organizations and books related to this topic. 
 
 ## Thoughts on Software 
 
 #### What software do you use? 
+
 I spend a lot of time on my laptop, and I've given some thought to the tools that allow me to be most productive in that time. Here's what I'm using these days: 
 
 - **Programming languages**: [Julia](https://julialang.org/) and [R](https://www.r-project.org/about.html). I also know (and teach) [Python](https://www.python.org/), but Julia has largely replaced Python in my research workflows. I use R when I am primarily working with data frames or when I need to construct scientific graphics, and I use Julia for most other tasks. I still occasionally work in Python when collaborating with folks who strongly prefer it. 
@@ -121,6 +123,7 @@ I spend a lot of time on my laptop, and I've given some thought to the tools tha
 
 
 #### Is programming language A better than programming language B?
+
 Probably not! Most programming languages have certain strengths in which they excel. You don't need "the best" programming language -- you need the one that's right for your task. For example, R and Python have different strengths for data science, and most practicing data scientists know both. Here are my thoughts on the languages I know and use. 
 
 - **Python**: extremely versatile, pretty good at almost everything. Often slower than compiled languages like C++ or just-in-time compiled languages like Julia. Widely used in industry, and an excellent first language to learn. Extremely vibrant ecosystem of free software modules. 
