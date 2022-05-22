@@ -5,7 +5,7 @@
 <% var currentDate = new Date() %>
 <% for (const item of items) { %>
     <% var newDate = new Date(item.date) %>
-    <% if (newDate >= currentDate) { %>
+    <% if (newDate >= currentDate || item.highlight) { %>
         <li> 
             <% if (item.display_date) { %>
                 <b><%= item.display_date %></b>:    

@@ -5,14 +5,14 @@
 - date: 2022-09-30
   display_date: September 26th-30th, 2022
   text: | 
-    I am attending the <a href="https://www.siam.org/conferences/cm/conference/mds22"> SIAM Conference on Mathematics of Data Science </a> in San Diego, CA. There, <a href="https://math.hmc.edu/hzinnbrooks/">Heather Zinn Brooks</a> (Harvey Mudd) and I will co-lead a Guided Affinity Group on network science as part of the Sustainable Horizon Institute's <a href="https://shinstitute.org/be-mds-2022/"> Broader Engagement Program</a>.  
+    I am attending the <a href="https://www.siam.org/conferences/cm/conference/mds22"> SIAM Conference on Mathematics of Data Science </a> in San Diego, CA. There, <a href="https://math.hmc.edu/hzinnbrooks/">Heather Zinn Brooks</a> (Harvey Mudd) and I are co-leading a Guided Affinity Group on network science as part of the Sustainable Horizon Institute's <a href="https://shinstitute.org/be-mds-2022/"> Broader Engagement Program</a>.  
 - date: 2022-07-01
   text: |
     I join Middlebury College as an assistant professor of computer science! In my first semester, I am teaching <b>CSCI 145: Introduction to Computing</b>. 
 - date: 2022-06-15
   display_date: June-July, 2022
   text: |
-    I am an invited Fellow at the upcoming <a href="https://icerm.brown.edu/programs/ep-22-dssj/"> Social Justice and Data Science Summer Research Program </a> at ICERM. 
+    I am an invited Fellow at the upcoming <a href="https://icerm.brown.edu/programs/ep-22-dssj/"> Social Justice and Data Science Summer Research Program </a> at ICERM. While there, I am also serving as a project group leader in a weeklong workshop on <a href="https://icerm.brown.edu/programs/ep-22-dssj/w1/"> Interdisciplinary Network Analysis Methods for Analyzing Social Systems</a>.
 - date: 2022-06-05
   display_date: June 5th-11th, 2022
   text: |
@@ -29,7 +29,7 @@
 - date: 2022-04-28
   text: |
     Together with <a href="https://sites.google.com/view/bradleylewisburdick"> Bradley Burdick </a> (Hanover College), I organized a freestanding online workshop on "Projects Across the Mathematics Curriculum" as part of MAA Project NExT. 
-- date: 2022-06-27
-  display_date: June 27th-July 1st, 2022
+- date: 2022-04-27
   text: |
-    I am a participant and group leader at ICERM's workshop on <a href="https://icerm.brown.edu/programs/ep-22-dssj/w1/"> Interdisciplinary Network Analysis Methods for Analyzing Social Systems</a>.
+    New preprint! I am thrilled to share "<a href="https://arxiv.org/abs/2204.13586">Nonbacktracking spectral clustering of nonuniform hypergraphs</a>." This is joint work with <a href="https://eikmeier.sites.grinnell.edu">Nicole Eikmeier</a> (Grinnell College) and <a href="https://jamiehaddock.com">Jamie Haddock</a> (Harvey Mudd College). 
+  highlight: true
