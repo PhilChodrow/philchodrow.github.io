@@ -88,3 +88,13 @@
 .sidebar-title{
   line-height: 1rem;
 }
+
+.month { 
+  vertical-align: top;
+  padding-right: 1em;
+  text-align: right;
+}
+
+.news-item { 
+  padding-bottom: 1em;
+}

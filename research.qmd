@@ -7,17 +7,17 @@ listing:
     contents: pub-network-data-science
     sort-ui: false
     filter-ui: false
-    template: publications.ejs
+    template: ejs/publications.ejs
   - id: research-2
     contents: pub-models-of-social-systems
     sort-ui: false
     filter-ui: false
-    template: publications.ejs
+    template: ejs/publications.ejs
   - id: research-3
     contents: pub-social-responsibility
     sort-ui: false
     filter-ui: false
-    template: publications.ejs
+    template: ejs/publications.ejs
 ---
 
 My research addresses computational, mathematical, and statistical problems in the study of complex systems. My interests include network data science, dynamical models of social structures, and data science applications supporting equity and sustainability. 

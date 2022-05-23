@@ -8,7 +8,7 @@ listing:
       - news.yml
     sort-ui: false
     filter-ui: false
-    template: news.ejs
+    template: ejs/news.ejs
 ---
  
 I'm Dr. Phil Chodrow, an assistant professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/#story645114). My pronouns are *he/him/his*. 
