@@ -6,12 +6,14 @@ toc: true
 
 This page collects a variety of references, organizations, data repositories, links, and books that I find useful or motivating. In all cases, the lists are highly partial, in reflection of my own experience and limitations. If you have a suggestion for an addition, please let me know! 
 
+With some exceptions, I have prioritized resources that are available for free online. 
 
 ## Network Theory
 
 - [*Lectures on Network Systems*](http://motion.me.ucsb.edu/book-lns/), a free book by [Francesco Bullo](http://motion.me.ucsb.edu/) at UC Santa Barbara covering a range of important topics related to dynamical systems on networks. The development of the linear algebra toolbox for approaching network problems is clear and of high general utility.   
 - [Aaron Clauset](https://aaronclauset.github.io/) at CU Boulder maintains excellent lecture notes on [Network Analysis and Modeling](https://aaronclauset.github.io/courses/5352/) and [Biological Networks](https://aaronclauset.github.io/courses/3352/). 
 - [*Economic Networks: Theory and Computation*](https://arxiv.org/pdf/2203.11972.pdf) by John Stachurski and Thomas J. Sargent. I haven’t personally read this one, but I'd like to soon! 
+- [*The Atlas for the Aspiring Network Scientist*](https://arxiv.org/pdf/2101.00863.pdf) by Michele Coscia contains brief discussion of a very large cross section of the math, models, and ideas of network science. 
 
 ## Useful Math
 
@@ -28,6 +30,7 @@ This page collects a variety of references, organizations, data repositories, li
     - The [Colorado Index of Complex Networks](https://icon.colorado.edu/#!/) (ICON) hosts a large variety of network data sets spanning a large variety of research fields. ICON is curated by the [group of Aaron Clauset](https://aaronclauset.github.io) at CU Boulder. 
     - The [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/) (SNAP) hosts a wide range of network data sets. SNAP is curated by Jure Leskovec and Andrej Krevl at Stanford University. 
     - [Austin Benson](https://www.cs.cornell.edu/~arb/) at Cornell hosts [a collection of data sets](https://www.cs.cornell.edu/~arb/data/) for a range of problems related to graphs and hypergraphs. 
+- [Congress In Data](https://www.congressindata.com) collects a wide range of data sets, including many with network structure, on the US Senate and House of Representatives. 
 
 ## Organizations
 
@@ -67,7 +70,7 @@ This page collects a variety of references, organizations, data repositories, li
 - [*Automating Inequality*](https://bookshop.org/books/automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor/9781250215789) by Virginia Eubanks.
 - [*Invisible Women: Data Bias in a World Designed for Men*](https://bookshop.org/books/invisible-women-data-bias-in-a-world-designed-for-men/9781419735219) by Caroline Criado Perez. 
 
-## Books on Social Justice, Broadly
+## Feminism, Antiracism, and Anti-Colonialism More Broadly
 
 - [*Entitled: How Male Privilege Hurts Women*](https://bookshop.org/books/entitled-how-male-privilege-hurts-women/9781984826558) by Kate Manne. 
 - [*How to be an Antiracist*](https://bookshop.org/books/how-to-be-an-antiracist/9780525509288) by Ibram X. Kendi. 

@@ -5,7 +5,7 @@
 - date: 2022-09-30
   display_date: September 26th-30th, 2022
   text: | 
-    I am attending the <a href="https://www.siam.org/conferences/cm/conference/mds22"> SIAM Conference on Mathematics of Data Science </a> in San Diego, CA. There, <a href="https://math.hmc.edu/hzinnbrooks/">Heather Zinn Brooks</a> (Harvey Mudd) and I are co-leading a Guided Affinity Group on network science as part of the Sustainable Horizon Institute's <a href="https://shinstitute.org/be-mds-2022/"> Broader Engagement Program</a>.  
+    I am attending the <a href="https://www.siam.org/conferences/cm/conference/mds22"> SIAM Conference on Mathematics of Data Science </a> in San Diego, CA. There, <a href="https://math.hmc.edu/hzinnbrooks/">Heather Zinn Brooks</a> (Harvey Mudd) and I are co-leading a Guided Affinity Group on network science as part of the Sustainable Horizon Institute's <a href="https://shinstitute.org/be-mds-2022/"> Broader Engagement Program</a>. I'll also be speaking on <a href="https://arxiv.org/abs/2204.13586">nonbacktracking spectral hypergraph clustering</a> and organizing a session with <a href="https://jamiehaddock.com"> Jamie Haddock </a> (Harvey Mudd) on "Tensor Methods for Network Data Science."
 - date: 2022-07-01
   text: |
     I join Middlebury College as an assistant professor of computer science! I'm excited to continue my scholarship and teaching in this wonderful community. 
@@ -16,7 +16,7 @@
 - date: 2022-06-05
   display_date: June 5th-11th, 2022
   text: |
-    I am a participant and assistant to the organizers at the AMS <a href="https://www.ams.org/programs/research-communities/2022MRC-HyperNet"> Mathematics Research Community</a> on "Models and Methods for Sparse (Hyper)Network Science. 
+    I am a participant and assistant to the organizers at the AMS <a href="https://www.ams.org/programs/research-communities/2022MRC-HyperNet"> Mathematics Research Community</a> on "Models and Methods for Sparse (Hyper)Network Science." 
 - date: 2022-05-21
   text: | 
     I am a co-organizer of the <a href="https://www.socams.org"> Southern California Applied Mathematics Symposium </a>  (SOCAMS) at Harvey Mudd College. 
@@ -32,3 +32,6 @@
 - date: 2022-04-27
   text: |
     New preprint! I am thrilled to share "<a href="https://arxiv.org/abs/2204.13586">Nonbacktracking spectral clustering of nonuniform hypergraphs</a>." This is joint work with <a href="https://eikmeier.sites.grinnell.edu">Nicole Eikmeier</a> (Grinnell College) and <a href="https://jamiehaddock.com">Jamie Haddock</a> (Harvey Mudd College). 
+- date: 2022-06-02
+  text: |
+    I am a 2022 Liggett Instructor! This award recognizes excellence in undergraduate teaching in the UCLA Department of Mathematics. 

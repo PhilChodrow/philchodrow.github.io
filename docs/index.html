@@ -3,7 +3,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.165">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Dr.&nbsp;Phil Chodrow - CS Jobs at Small Liberal Arts Colleges</title>
+  <title>Dr.&nbsp;Phil Chodrow - Welcome!</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,8 @@
   <script src="site_libs/quarto-search/fuse.min.js"></script>
   <script src="site_libs/quarto-search/quarto-search.js"></script>
   <link href="./assets/img/favicon.png" rel="icon" type="image/png">
+  <script src="site_libs/quarto-listing/list.min.js"></script>
+  <script src="site_libs/quarto-listing/quarto-listing.js"></script>
   <script src="site_libs/quarto-html/quarto.js"></script>
   <script src="site_libs/quarto-html/popper.min.js"></script>
   <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -48,6 +50,29 @@
       "search-submit-button-title": "Submit"
     }
   }</script>
+  <script>
+
+    window.document.addEventListener("DOMContentLoaded", function (_event) {
+      const listingTargetEl = window.document.querySelector('#listing-news .list');
+      if (!listingTargetEl) {
+        // No listing discovered, do not attach.
+        return; 
+      }
+
+      const options = {
+        valueNames: ['listing-date','listing-display_date','listing-text',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+        
+        searchColumns: ["listing-date","listing-display_date","listing-text"],
+      };
+
+      window['quarto-listings'] = window['quarto-listings'] || {};
+      window['quarto-listings']['listing-news'] = new List('listing-news', options);
+
+      if (window['quarto-listing-loaded']) {
+        window['quarto-listing-loaded']();
+      }
+    });
+    </script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -58,7 +83,7 @@
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">CS Jobs at Small Liberal Arts Colleges</h1>
+      <h1 class="quarto-secondary-nav-title">Welcome!</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -115,12 +140,12 @@
 </li>
         <li class="sidebar-item sidebar-item-section">
     <div class="sidebar-item-container"> 
-        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">About Me</a>
-      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+        <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">About Me</a>
+      <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
         <i class="bi bi-chevron-right ms-2"></i>
       </a>
     </div>
-    <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+    <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./journey.html" class="sidebar-item-text sidebar-link">Personal</a>
@@ -133,7 +158,7 @@
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./job_app.html" class="sidebar-item-text sidebar-link active">CS Jobs at SLACs</a>
+  <a href="./job_app.html" class="sidebar-item-text sidebar-link">CS Jobs at SLACs</a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -158,12 +183,9 @@
         <nav id="TOC" role="doc-toc">
 <h2 id="toc-title">.</h2>
 <ul>
-<li><a href="#application-tips" class="nav-link active" data-scroll-target="#application-tips">Application Tips</a>
-<ul class="collapse">
-<li><a href="#before-you-enter-the-job-market" class="nav-link" data-scroll-target="#before-you-enter-the-job-market">Before You Enter the Job Market</a></li>
-<li><a href="#in-your-cover-letter" class="nav-link" data-scroll-target="#in-your-cover-letter">In Your Cover Letter</a></li>
-</ul></li>
-<li><a href="#my-application-materials" class="nav-link" data-scroll-target="#my-application-materials">My Application Materials</a></li>
+<li><a href="#research" class="nav-link active" data-scroll-target="#research">Research</a></li>
+<li><a href="#teaching" class="nav-link" data-scroll-target="#teaching">Teaching</a></li>
+<li><a href="#news" class="nav-link" data-scroll-target="#news">News</a></li>
 </ul>
 </nav>
     </div>
@@ -171,53 +193,101 @@
 <main class="content" id="quarto-document-content">
 <header id="title-block-header" class="quarto-title-block default">
 
-<div class="quarto-title"><h1 class="title d-none d-lg-block display-7">CS Jobs at Small Liberal Arts Colleges</h1></div></header>
+<div class="quarto-title"><h1 class="title d-none d-lg-block display-7">Welcome!</h1></div></header>
 
-<p>I work at Middlebury College, an academically rigorous small liberal arts college (SLAC). Working at a place like Middlebury is wonderful! Many job seekers may not know much about what these jobs are like or how to get them. Careers at SLACs offer distinctive advantages and disadvantages when compared to careers at research-intensive institutions.</p>
-<p>Consider SLACs if…</p>
-<ul>
-<li>You love <strong>both</strong> research and teaching, and you want to be incentivized for excellence in each.</li>
-<li>You would like to continue your academic career without needing to regularly write grant proposals.</li>
-<li>You enjoy mentoring and collaborating with undergraduate students.</li>
-</ul>
-<p>A SLAC might not be for you if…</p>
-<ul>
-<li>You prefer to teach as little as possible in order to focus on research.</li>
-<li>You are very eager to work with graduate students.</li>
-</ul>
-<section id="application-tips" class="level2">
-<h2 class="anchored" data-anchor-id="application-tips">Application Tips</h2>
-<section id="before-you-enter-the-job-market" class="level3">
-<h3 class="anchored" data-anchor-id="before-you-enter-the-job-market">Before You Enter the Job Market</h3>
-<p>Consider how you are going to demonstrate both excellence as a researcher and promise as an instructor. Hiring committees understand that not all candidates will have had opportunities to serve as instructors of record at the time they apply. You should, however, give us evidence that you will grow into an outstanding instructor. Some good kinds of evidence include:</p>
-<ul>
-<li>Student evaluations of teaching (SET) ratings and selected comments.</li>
-<li>Materials that you created as an instructor or teaching assistant.</li>
-<li>Participation in professional development activities related to teaching.</li>
-</ul>
-<p>It’s usually expected that at least one of your letters of recommendation will speak to your teaching potential. With this in mind, you should plan early: <em>who will write your teaching letter, and what information will they have?</em> It’s a good idea to ask your prospective writer well in advance. Their letter may be stronger if you can give them materials from previous courses, a draft of your teaching statement, or an opportunity to observe one of your classes.</p>
+<p>I’m Phil Chodrow, an assistant professor in the <a href="https://www.middlebury.edu/academics/cs">Department of Computer Science</a> at <a href="https://www.middlebury.edu/#story645114">Middlebury College</a> (as of July 1st, 2022). My pronouns are <em>he/him/his</em>.</p>
+<section id="research" class="level3">
+<h3 class="anchored" data-anchor-id="research">Research</h3>
+<p>In <a href="./research.html">my research</a>, I study mathematical and computational techniques for understanding our increasingly connected and complex world. A lot of what I do falls under the heading of <em><a href="https://en.wikipedia.org/wiki/Network_science">network science</a></em>. Some of the things I’ve worked on recently include algorithms for analyzing hypergraph data using eigenvectors,models of opinion dynamics in social networks, and statistical models for studying hierarchy in human and animal societies. I also work on data science projects to promote equity and sustainability.</p>
 </section>
-<section id="in-your-cover-letter" class="level3">
-<h3 class="anchored" data-anchor-id="in-your-cover-letter">In Your Cover Letter</h3>
-<p>First and foremost, <strong>carefully read the job ad</strong> in order to avoid silly mistakes. If your cover letter highlights your interest in mentoring graduate students, and the institution doesn’t have graduate students, then the committee is unlikely to move forward on your application.</p>
-<p>More generally, find ways to connect the job posting to your interests, and share them in your cover letter. My cover letter to Middlebury expressed:</p>
-<ul>
-<li>My overall interest in the school and the department.</li>
-<li>My excitement about the location, including the presence of many collaborators at nearby institutions.</li>
-<li>My interest in collaborating on data science initiatives, which I knew from the job ad and the Middlebury website to be an area of institutional focus.</li>
-<li>My teaching interests and how I felt these would align with the department’s mission.</li>
-</ul>
+<section id="teaching" class="level3">
+<h3 class="anchored" data-anchor-id="teaching">Teaching</h3>
+<p>In Fall 2022, I am teaching <strong>CSCI 0145: Introduction to Computing</strong>.</p>
+<p>I am a passionate educator, enthusiastic about evidence-based pedagogy, student-centered design, and inclusion in the classroom. Topics I teach include introductory computing, network science, and machine learning. Read more about my <a href="./mission.html">mission</a> and the <a href="./teaching.html">courses I teach</a>.</p>
 </section>
-</section>
-<section id="my-application-materials" class="level2">
-<h2 class="anchored" data-anchor-id="my-application-materials">My Application Materials</h2>
-<p>Most applications to SLAC positions include statements on research, teaching, and equity, diversity, and inclusion (EDI). I include the statements that brought me to Middlebury in the hopes that they might be useful to future SLAC job-seekers.</p>
-<ul>
-<li><a href="assets/pdf/research-cs.pdf">Statement on research</a>.</li>
-<li><a href="assets/pdf/teaching-cs.pdf">Statement on teaching</a>.</li>
-<li><a href="assets/pdf/EDI.pdf">Statement on equity, diversity, and inclusion (EDI)</a>.</li>
-</ul>
-<p>A complete application usually also includes a cover letter addressing specific reasons why the candidate is an excellent fit for the specific institution, and 3-4 letters of reference. Usually, at least one of these letters should focus on teaching.</p>
+<section id="news" class="level2">
+<h2 class="anchored" data-anchor-id="news">News</h2>
+<div id="listing-news" class="quarto-listing quarto-listing-container-custom">
+<table>
+        <tbody><tr>
+        <td class="month">
+            <b>September<br>2022 </b>
+        </td>
+        <td class="news-item"> I am attending the <a href="https://www.siam.org/conferences/cm/conference/mds22"> SIAM Conference on Mathematics of Data Science </a> in San Diego, CA. There, <a href="https://math.hmc.edu/hzinnbrooks/">Heather Zinn Brooks</a> (Harvey Mudd) and I are co-leading a Guided Affinity Group on network science as part of the Sustainable Horizon Institute's <a href="https://shinstitute.org/be-mds-2022/"> Broader Engagement Program</a>. I'll also be speaking on <a href="https://arxiv.org/abs/2204.13586">nonbacktracking spectral hypergraph clustering</a> and organizing a session with <a href="https://jamiehaddock.com"> Jamie Haddock </a> (Harvey Mudd) on "Tensor Methods for Network Data Science."
+ </td>
+        </tr>
+        <tr>
+        <td class="month">
+        </td>
+        <td class="news-item"> I am a guest editor in a <a href="https://iopscience.iop.org/journal/2632-072X/page/focus-on-learning-and-reasoning-in-generalized-graphs"> focus issue </a> of the <i>Journal of Physics: Complexity</i> on "Learning and Reasoning in Generalized Graphs." The deadline for submissions is September 30th, 2022!
+ </td>
+        </tr>
+        <tr>
+        <td class="month">
+            <b>July<br>2022 </b>
+        </td>
+        <td class="news-item"> I join Middlebury College as an assistant professor of computer science! I'm excited to continue my scholarship and teaching in this wonderful community. 
+ </td>
+        </tr>
+        <tr>
+        <td class="month">
+            <b>June<br>2022 </b>
+        </td>
+        <td class="news-item"> I am an invited Fellow at the upcoming <a href="https://icerm.brown.edu/programs/ep-22-dssj/"> Social Justice and Data Science Summer Research Program </a> at ICERM. I also serve as a project group leader in a weeklong workshop on <a href="https://icerm.brown.edu/programs/ep-22-dssj/w1/"> Interdisciplinary Network Analysis Methods for Analyzing Social Systems</a>.
+ </td>
+        </tr>
+        <tr>
+        <td class="month">
+        </td>
+        <td class="news-item"> I am a participant and assistant to the organizers at the AMS <a href="https://www.ams.org/programs/research-communities/2022MRC-HyperNet"> Mathematics Research Community</a> on "Models and Methods for Sparse (Hyper)Network Science." 
+ </td>
+        </tr>
+        <tr>
+        <td class="month">
+        </td>
+        <td class="news-item"> I am a 2022 Liggett Instructor! This award recognizes excellence in undergraduate teaching in the UCLA Department of Mathematics. 
+ </td>
+        </tr>
+        <tr>
+        <td class="month">
+            <b>May<br>2022 </b>
+        </td>
+        <td class="news-item"> I am a co-organizer of the <a href="https://www.socams.org"> Southern California Applied Mathematics Symposium </a>  (SOCAMS) at Harvey Mudd College. 
+ </td>
+        </tr>
+        <tr>
+        <td class="month">
+        </td>
+        <td class="news-item"> I speak on a panel on "Data Science and the Social Sciences" hosted by the UCLA Data Science Union.
+ </td>
+        </tr>
+        <tr>
+        <td class="month">
+            <b>April<br>2022 </b>
+        </td>
+        <td class="news-item"> <a href="https://sites.google.com/view/bradleylewisburdick"> Bradley Burdick </a> (Hanover College) and I organize a freestanding online workshop on "Projects Across the Mathematics Curriculum" as part of MAA Project NExT. 
+ </td>
+        </tr>
+        <tr>
+        <td class="month">
+        </td>
+        <td class="news-item"> New preprint! I am thrilled to share "<a href="https://arxiv.org/abs/2204.13586">Nonbacktracking spectral clustering of nonuniform hypergraphs</a>." This is joint work with <a href="https://eikmeier.sites.grinnell.edu">Nicole Eikmeier</a> (Grinnell College) and <a href="https://jamiehaddock.com">Jamie Haddock</a> (Harvey Mudd College). 
+ </td>
+        </tr>
+        <tr>
+        <td class="month">
+            <b>March<br>2022 </b>
+        </td>
+        <td class="news-item"> Invited talk on “Smoothly Nonlinear Opinion Dynamics” at the AMS Eastern Sectional Meeting in a Special Session on Structured Populations. Excited to share this joint work with <a href="https://math.hmc.edu/hzinnbrooks/">Heather Zinn Brooks</a> and <a href="https://www.math.ucla.edu/~mason/"> Mason Porter</a>!
+ </td>
+        </tr>
+</tbody></table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<p>(<a href="./news_archive.html"><em>Older news</em></a>)</p>
+
 
 
 
