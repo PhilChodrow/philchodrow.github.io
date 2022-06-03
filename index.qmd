@@ -13,6 +13,8 @@ listing:
  
 I'm Phil Chodrow, an assistant professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/#story645114) (as of July 1st, 2022). My pronouns are *he/him/his*. 
 
+Through June 30th, I am a Hedrick Visiting Assistant Adjunct Professor in the Department of Mathematics at UCLA. 
+
 ### Research
 
 In [my research](research.qmd), I study mathematical and computational techniques for understanding our increasingly connected and complex world. A lot of what I do falls under the heading of *[network science](https://en.wikipedia.org/wiki/Network_science)*. Some of the things I've worked on recently include algorithms for analyzing hypergraph data using eigenvectors,models of opinion dynamics in social networks, and statistical models for studying hierarchy in human and animal societies. I also work on data science projects to promote equity and sustainability. 
