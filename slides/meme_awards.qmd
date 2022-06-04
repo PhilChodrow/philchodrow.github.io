@@ -1,0 +1,138 @@
+---
+title: Math 168 Meme Awards!!
+format:
+  revealjs:
+    theme: [default, custom.scss, layouts.css]
+    slide-level: 0
+---
+
+::: {.split-33} 
+
+::: {.column .bg1} 
+<br> <br> 
+
+Communication of a Network Concept
+
+[Nora Liu]{.alert}    
+:::
+
+::: {.column .bg0}         
+<br> 
+![](../assets/img/students/math-168-memes/distracted-modularity.jpeg)x
+:::
+ 
+:::
+
+---
+
+::: {.split-33} 
+
+::: {.column .bg1} 
+<br> <br> 
+
+"I'm in This Picture and I Don't Like It"
+
+[Ashwin Ranade]{.alert}    
+:::
+
+::: {.column .bg0}          
+<br> 
+![](../assets/img/students/math-168-memes/derp.jpeg)
+:::
+
+:::
+
+---
+
+::: {.split-33} 
+
+::: {.column .bg1} 
+<br> <br> 
+
+### Very News   
+
+[Hunter Crosland]{.alert}    
+:::
+
+::: {.column .bg0}          
+<br> 
+![](../assets/img/students/math-168-memes/scale-free.jpeg)
+:::
+
+:::
+
+---
+
+::: {.split-33}
+
+::: {.column .bg1}
+<br> <br> 
+
+Made Phil Giggle Uncontrollably
+
+[Reiya Downs]{.alert}    
+:::
+
+::: {.column .bg0}
+<br> 
+![](../assets/img/students/math-168-memes/chad.jpeg)
+:::
+
+:::
+
+---
+
+::: {.split-33} 
+
+::: {.column .bg1} 
+<br> <br> 
+
+In-est In-Joke
+
+[Nancy Zhang]{.alert}    
+:::
+
+::: {.column .bg0}         
+<img width="70%" src="../assets/img/students/math-168-memes/exam.png">
+:::
+ 
+:::
+
+---
+
+::: {.split-33} 
+
+::: {.column .bg1} 
+<br> <br> 
+
+Best Roast
+
+[Amy Tang]{.alert}    
+:::
+
+::: {.column .bg0}  
+   
+<img width="100%" src="../assets/img/students/math-168-memes/question.jpeg">
+:::
+ 
+:::
+
+---
+
+::: {.split-33} 
+
+::: {.column .bg1} 
+<br> <br> 
+
+Most Apt Detection of the Hidden Course Agenda
+
+[Zheng Tan]{.alert}    
+:::
+
+::: {.column .bg0}  
+   
+<img width="100%" src="../assets/img/students/math-168-memes/trojan-horse.jpeg">
+:::
+ 
+:::
+

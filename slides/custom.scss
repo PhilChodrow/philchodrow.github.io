@@ -1,0 +1,52 @@
+/*-- scss:defaults --*/
+
+$bg-main0: #ffffff;
+$color-main0: #191919;
+$bg-main1: #191919;
+$color-main1: #fff;
+$alert-color: #f0542d;
+// $link-color: #42affa;
+
+/*-- scss:rules --*/
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}
+
+.bg0 { 
+    background-color: $bg-main0;
+    color: $color-main0;
+}
+
+.bg1 {
+    background-color: $bg-main1;
+    color: $color-main1; 
+}
+
+.column.bg1 h1 { 
+    color: $color-main1; 
+}
+
+.column.bg1 h2 {
+    color: $color-main1; 
+}
+
+.column.bg1 h3 {
+    color: $color-main1; 
+}
+
+
+
+.column h1, h2, h3, h4, h5, p { 
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.alert {
+	color: $alert-color;
+	font-weight: bold;
+}
+
+
