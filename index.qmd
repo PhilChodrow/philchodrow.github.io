@@ -12,7 +12,7 @@ listing:
 ---
 
 
-<img src="assets/img/sitting.png" class="float-left" width=350px alt="Phil Chodrow seated on a bench, smiling leaning towards the viewer.">
+<img src="assets/img/sitting.png" class="img-responsive img-profile" width=350px alt="Phil Chodrow seated on a bench, smiling leaning towards the viewer.">
 
 # Welcome! 
 

@@ -106,3 +106,21 @@
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
+
+.img-profile {
+  float: left;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.img-responsive {
+  width: 45%;
+}
+
+@media only screen and (max-width: 768px) {
+  .img-responsive {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
