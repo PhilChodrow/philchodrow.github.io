@@ -39,11 +39,7 @@
     padding-left: .5em;
     padding-right: .5em;
   }
-  
-  .content{
-    padding-top: 2em !important; 
-}
-  
+    
   .sidebar.margin-sidebar {
       margin-top:2em !important;
   }
@@ -51,6 +47,7 @@
 
   h1, h2, h3, h4 {
     font-weight: bold;
+    margin-top: 1rem;
   }
 
   body {
@@ -97,4 +94,15 @@
 
 .news-item { 
   padding-bottom: 1em;
+}
+
+.no-wrap { 
+  clear: left;
+}
+
+.float-left { 
+  float: left;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }

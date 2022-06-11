@@ -22,4 +22,4 @@ These are some of the people whose teaching techniques and insights have had maj
 
 This site is driven by the [Quarto](https://quarto.org) publishing system. 
 
-My current portrait was taken by  [Riccardo di Clemente](http://riccardodiclemente.com) (University of Exeter). 
+The image on the front page of this website was taken by Jason Zhu for the Daily Bruin at UCLA. It was originally used in [this article](https://dailybruin.com/2022/06/05/gallery-ucla-professors-offer-parting-words-advice-to-graduating-students). 
