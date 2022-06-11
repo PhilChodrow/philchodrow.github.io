@@ -44,6 +44,7 @@ This page collects a variety of references, organizations, data repositories, li
     - The [Colorado Index of Complex Networks](https://icon.colorado.edu/#!/) (ICON) hosts a large variety of network data sets spanning a large variety of research fields. ICON is curated by the [group of Aaron Clauset](https://aaronclauset.github.io) at CU Boulder. 
     - The [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/) (SNAP) hosts a wide range of network data sets. SNAP is curated by Jure Leskovec and Andrej Krevl at Stanford University. 
     - [Austin Benson](https://www.cs.cornell.edu/~arb/) at Cornell hosts [a collection of data sets](https://www.cs.cornell.edu/~arb/data/) for a range of problems related to graphs and hypergraphs. 
+    - UCLA students Christine Gu, Yu-Hsin Wang, and Shaodian Wang assembled a data set of Reddit submissions and comments related to the COVID-19 vaccine. You are welcome to [access the data](https://github.com/christinegu27/reddit_covidvaccine_data) and use it in projects. Please acknowledge Christine, Yu-Hsin, and Shaodian in any published work that uses this data. 
 - [Congress In Data](https://www.congressindata.com) collects a wide range of data sets, including many with network structure, on the US Senate and House of Representatives. 
 
 ## Organizations
