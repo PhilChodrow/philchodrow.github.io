@@ -15,11 +15,13 @@ listing:
 
 # Welcome! 
 
-I'm Phil Chodrow, an assistant professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/#story645114). My pronouns are *he/him/his*. 
+I'm Dr. Phil Chodrow, an assistant professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/#story645114). My pronouns are *he/him/his*. 
+
+You can email me at `pchodrow@middlebury.edu` or stop by my office, Room 218 in 75 Shannon St. 
 
 ### Research
 
-[My research](research.qmd) focuses on *[network science](https://en.wikipedia.org/wiki/Network_science)*, the scientific study of connected systems in society and nature. Much of my work lies in the intersection of applied mathematics, machine learning, statistics, and physics. I also work on data science projects to promote equity and sustainability. I have [awesome collaborators](research.qmd#key-collaborators). 
+[My research](research.qmd) focuses on [network science](https://en.wikipedia.org/wiki/Network_science), the study of connected systems in society and nature. I draw on methods from applied mathematics, machine learning, statistics, and physics. I also work on data science projects to promote equity and sustainability. I have [awesome collaborators](research.qmd#key-collaborators). 
 
 ### Teaching
 

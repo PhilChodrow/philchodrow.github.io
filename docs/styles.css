@@ -109,12 +109,12 @@
 
 .img-profile {
   float: left;
-  margin-right: 5%;
+  margin-right: 3%;
   margin-top: 2%;
   margin-bottom: 1%;
 }
 .img-responsive {
-  width: 45%;
+  width: 47%;
 }
 
 @media only screen and (max-width: 400px) {
