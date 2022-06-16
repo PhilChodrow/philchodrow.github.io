@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.583">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Phil Chodrow">
+<meta name="dcterms.date" content="2022-06-16">
+
+<title>Dr.&nbsp;Phil Chodrow - Information Measures Segregation</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/img/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title"><span class="display-name"> Dr.&nbsp;<b>Phil Chodrow</b></span> <span class="hidden" data-render-id="quarto-int-navbar:Research">Research</span> <span class="hidden" data-render-id="quarto-int-navbar:For Students">For Students</span> <span class="hidden" data-render-id="quarto-int-navbar:Teaching">Teaching</span> <span class="hidden" data-render-id="quarto-int-navbar:FAQs">FAQs</span> <span class="hidden" data-render-id="quarto-int-navbar:Mission">Mission</span> <span class="hidden" data-render-id="quarto-int-navbar:Resources">Resources</span> <span class="hidden" data-render-id="quarto-int-navbar:About">About</span> <span class="hidden" data-render-id="quarto-int-navbar:Me">Me</span> <span class="hidden" data-render-id="quarto-int-navbar:Jobs at SLACs">Jobs at SLACs</span> <span class="hidden" data-render-id="quarto-int-navbar:What I'm Reading">What I’m Reading</span> <span class="hidden" data-render-id="quarto-int-navbar:Blog">Blog</span> <span class="hidden" data-render-id="quarto-int-navbar:CV">CV</span> <span class="hidden" data-render-id="quarto-int-navbar:Gratitude">Gratitude</span></span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../research.html">Research</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-for-students" role="button" data-bs-toggle="dropdown" aria-expanded="false">For Students</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-for-students">    
+        <li>
+    <a class="dropdown-item" href="../../teaching.html">
+ <span class="dropdown-text">Teaching</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../for-students.html">
+ <span class="dropdown-text">FAQs</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../mission.html">Mission</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resources.html">Resources</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../../journey.html">
+ <span class="dropdown-text">Me</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../job_app.html">
+ <span class="dropdown-text">Jobs at SLACs</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../reading.html">
+ <span class="dropdown-text">What I’m Reading</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../blog.html">
+ <span class="dropdown-text">Blog</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.philchodrow.com/CV/cv.pdf">CV</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../acknowledgments.html">Gratitude</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#recap" id="toc-recap" class="nav-link active" data-scroll-target="#recap">Recap</a></li>
+  <li><a href="#local-entropy" id="toc-local-entropy" class="nav-link" data-scroll-target="#local-entropy">Local Entropy</a></li>
+  <li><a href="#mutual-information-measures-segregation" id="toc-mutual-information-measures-segregation" class="nav-link" data-scroll-target="#mutual-information-measures-segregation">Mutual Information Measures Segregation</a>
+  <ul class="collapse">
+  <li><a href="#mutual-information-measures-dependence" id="toc-mutual-information-measures-dependence" class="nav-link" data-scroll-target="#mutual-information-measures-dependence">Mutual Information Measures Dependence</a></li>
+  </ul></li>
+  <li><a href="#diversity-exposure-segregation" id="toc-diversity-exposure-segregation" class="nav-link" data-scroll-target="#diversity-exposure-segregation">Diversity = Exposure + Segregation</a>
+  <ul class="collapse">
+  <li><a href="#dividing-walls" id="toc-dividing-walls" class="nav-link" data-scroll-target="#dividing-walls">Dividing Walls</a></li>
+  </ul></li>
+  <li><a href="#extensions" id="toc-extensions" class="nav-link" data-scroll-target="#extensions">Extensions</a>
+  <ul class="collapse">
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further Reading</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Information Measures Segregation</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Phil Chodrow </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 16, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p><strong><em>Editor’s note</em></strong><em>: this post and the following one are hastily revised blog posts from early in my graduate career. They reflect some simplistic thinking about questions of segregation and equity. I am working to do better, and I own all mistakes.</em></p>
+<p>This post is about mathematical methods for studying diversity and spatial segregation using information theory. I’d like to stipulate at the outset:</p>
+<div class="callout-note callout callout-style-simple no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>By <strong>diversity</strong>, I refer to the balanced presence of individuals from multiple groups.</p>
+</div>
+</div>
+</div>
+<div class="callout-note callout callout-style-simple no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>By <strong>segregation</strong>, I refer to patterned differences of distributions of people between areas or categories.</p>
+</div>
+</div>
+</div>
+<p>More generally, <em>segregation</em> refers to ideology, policy, and social processes. I’m not talking about any of these things: just patterned differences of distributions of people in space.</p>
+<section id="recap" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="recap">Recap</h2>
+<p><a href="../../posts/2022-06-16-info-segregation.qmd">Last time</a>, we studied the information-theoretic idea of <em>entropy</em> and its relationship to our intuitive concept of <em>diversity</em>. We saw that the entropy <span class="math inline">\(H\)</span> is highest precisely when all possible groups are represented equally in a population, and lowest when only one group is represented. High entropy, high diversity.</p>
+<p>Now let’s move on to an information-theoretic view of <em>segregation</em>. It’s important to remember that segregation is a fundamentally distinct concept from diversity. We can remind ourselves of this difference by recalling the example of the tea drinkers in the cafe. There are drinkers who prefer <strong><font color="#543005">black</font></strong>, <strong><font color="#D73027">red</font></strong>, and <strong><font color="#A1D76A">green</font></strong> teas; on three different days, the population of the cafe looked like this:</p>
+<div class="cell">
+
+</div>
+<div class="cell page-columns page-full">
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption margin-caption">Tea drinkers in the cafe on three different days. Colors encode the kinds of tea they are drinking.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>We’re interested in whether or not the shop is <em>diverse</em>, and whether or not it is <em>segregated</em> (by room). Intuitively,</p>
+<ul>
+<li><strong>Friday</strong> is neither diverse nor segregated.</li>
+<li><strong>Saturday</strong> is diverse, but relatively unsegregated.</li>
+<li><strong>Sunday</strong> is diverse but highly segregated.</li>
+</ul>
+<p>As you may remember, the entropy <span class="math inline">\(H\)</span> could distinguish Friday (<span class="math inline">\(H = 0\)</span>) from Saturday and Sunday (<span class="math inline">\(H = 1.10\)</span>), but couldn’t distinguish Saturday and Sunday from each other. For that we need more subtle ideas. Let’s dive in!</p>
+</section>
+<section id="local-entropy" class="level1">
+<h1>Local Entropy</h1>
+<p>One way to think about segregation is just to think about diversity again – but on a lower level of organization. To see this, compare Saturday and Sunday again, <em>within each room</em>. Computing entropies for each of the three rooms individually, on each day, we have:</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Day</th>
+<th style="text-align: right;">Garden</th>
+<th style="text-align: right;">Left</th>
+<th style="text-align: right;">Right</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Friday</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Saturday</td>
+<td style="text-align: right;">1.08</td>
+<td style="text-align: right;">1.01</td>
+<td style="text-align: right;">1.03</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sunday</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Just as we’d expect, the entropies in the individual rooms are zero on Friday and Sunday, but high on Saturday, reflecting diversity in each room.</p>
+<p>Mathematically, the entropy of each individual room is an example of <em>conditioned</em> or <em>local</em> entropy. To write this down, let’s allow <span class="math inline">\(Y\)</span> to be a random variable denoting the tea preference of a randomly selected customer, and <span class="math inline">\(X\)</span> be a random variable denoting where they sit in the cafe. Then, we can write the overall entropy as <span class="math inline">\(H(Y)\)</span>, and the entropy of tea preferences conditioned on sitting in the garden as as <span class="math inline">\(H(Y \vert X = \text{garden})\)</span>. The average value of the conditioned entropy across all rooms is important enough to have a special name: the <em>conditional entropy</em>. We can write it as:</p>
+<p><span class="math display">\[H(Y\vert X) \triangleq \sum_{x \in \{\text{garden, left, right}\}} H(Y|X = x) \mathbb{P}(X = x)\;.\]</span></p>
+<p>To calculate the conditional entropy, we compute the local entropy conditioned on each room, and then take a weighted average in which each room counts according to its “population.” This weighting is reflected in the factor <span class="math inline">\(\mathbb{P}(X = x)\)</span>, which can be read as “the probability that a randomly selected patron is sitting in room <span class="math inline">\(x\)</span>.” In our example, this is the same as the proportion of patrons in room <span class="math inline">\(x\)</span>. Applying the formula above to the local entropies we calculated earlier, we have that <span class="math inline">\(H(Y\vert X) \approx 1.09\)</span> on Saturday, and is zero on Friday and Sunday.</p>
+</section>
+<section id="mutual-information-measures-segregation" class="level1">
+<h1>Mutual Information Measures Segregation</h1>
+<p>Let’s summarise:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Day</th>
+<th style="text-align: right;">Diverse</th>
+<th style="text-align: right;">Segregated</th>
+<th style="text-align: right;"><span class="math inline">\(H(Y)\)</span></th>
+<th style="text-align: right;"><span class="math inline">\(H(Y \vert X)\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Friday</td>
+<td style="text-align: right;">No</td>
+<td style="text-align: right;">No</td>
+<td style="text-align: right;">0.00</td>
+<td style="text-align: right;">0.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Saturday</td>
+<td style="text-align: right;">Yes</td>
+<td style="text-align: right;">No</td>
+<td style="text-align: right;">1.10</td>
+<td style="text-align: right;">1.09</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sunday</td>
+<td style="text-align: right;">Yes</td>
+<td style="text-align: right;">Yes</td>
+<td style="text-align: right;">1.10</td>
+<td style="text-align: right;">0.00</td>
+</tr>
+</tbody>
+</table>
+<p>A pattern is emerging: if diversity is measured by <em>high</em> <span class="math inline">\(H(Y)\)</span>, segregation is measured by <em>high</em> <span class="math inline">\(H(Y)\)</span> and <em>low</em> <span class="math inline">\(H(Y \vert X)\)</span>. The difference between <span class="math inline">\(H(Y)\)</span> and <span class="math inline">\(H(Y \vert X)\)</span> turns out to be a fundamental concept in information theory: the <strong>mutual information</strong>, denoted <span class="math inline">\(I(X,Y)\)</span>.</p>
+<p><span class="math display">\[ I(X,Y) \triangleq H(Y) - H(Y \vert X) \;.\]</span></p>
+<p>Recall from last post that <span class="math inline">\(H(Y)\)</span> measures the difficulty of a guessing game in which I try to match the preferences of the cafe customers. From our discussion above, we can think of <span class="math inline">\(H(Y\vert X)\)</span> in similar terms: its the difficulty of a guessing game in which I try to match the preferences of customers in <em>in a single room.</em> So, <span class="math inline">\(I(X,Y)\)</span> can be interpreted as the (average) <strong>value of knowing which room I need to serve.</strong> The value is high on Sunday: matching the preferences of the whole shop is hard (high entropy), but if you tell me which room I am serving, the problem is suddenly easy – I only need to accomodate one kind of customer. This phenomenon is measured by a high value of <span class="math inline">\(I(X,Y) = 1.10\)</span>. On Saturday, however, matching the preferences of any individual room is about as hard as matching the preferences of the whole shop: both the entropy <span class="math inline">\(H(Y)\)</span> and conditional entropy <span class="math inline">\(H(Y\vert X)\)</span> are high, giving a low value of <span class="math inline">\(I(X,Y)\)</span>.</p>
+<p>Another natural way to say this is that knowing what room I am serving is highly <em>informative</em> on Sunday, but not on Saturday. The mutual information measures exactly how informative that knowledge really is.</p>
+<p>Let’s now cash out the role of the mutual information in the measurement of segregation. It’s possible to prove that the only case in which <span class="math inline">\(I(X,Y) = 0\)</span> is precisely the one in which each room has the same distribution of tea preferences as the shop generally. This obtains on Friday and Saturday, but not Sunday. Furthermore, <span class="math inline">\(I(X,Y)\)</span> achieves its maximum value of <span class="math inline">\(H(Y)\)</span> precisely when each room has just one kind of tea drinker: the Saturday scenario. The larger <span class="math inline">\(I(X,Y)\)</span>, the greater role that your tea preference plays in determining what room you sit in.</p>
+<p>Indeed, <span class="math inline">\(I(X,Y)\)</span> turns out to be such a natural measure of segregation that it was reinvented in the sociological community some 25 years after Shannon’s seminal work founding information theory. The frequently used “Information Theory Index” of Theil and Finezza (1971)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> is nothing more than <span class="math inline">\(I(X,Y) / H(Y)\)</span>; the normalization by <span class="math inline">\(H(Y)\)</span> results in a measure that takes values in <span class="math inline">\([0,1]\)</span>. Formally, what <span class="math inline">\(I(X,Y)\)</span> measures is <em>unevenness</em>: the tendency of groups to be differently-distributed in space. Since Theil and Finezza, a number<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> of methodologists<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> have formulated<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> a variety<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> of measures,<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a><a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> all of which can be viewed as normalized mutual informations.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<section id="mutual-information-measures-dependence" class="level2">
+<h2 class="anchored" data-anchor-id="mutual-information-measures-dependence">Mutual Information Measures Dependence</h2>
+<p>Readers with statistical background might read the above as a statement about dependence: <span class="math inline">\(I(X,Y)\)</span> measures the degree of statistical association between room and tea preference. Let’s step back from the context of diversity for a moment to explore this point. To do this, let’s compare <span class="math inline">\(I(X,Y)\)</span> to a more familiar quantity that does something similar: the correlation coefficient <span class="math inline">\(R^2\)</span>. If you took a statistics class, you might remember linear regression, the problem of drawing a “best fit” line through a cloud of data plotted on the <span class="math inline">\(x-y\)</span> plane. One thing you might have done was to compute “<span class="math inline">\(R^2\)</span>,” which is more formally called the Pearson correlation coefficient. When <span class="math inline">\(R^2 = 1\)</span>, the explanatory variable <span class="math inline">\(x\)</span> is perfectly correlated with the explanandum <span class="math inline">\(y\)</span>, but when <span class="math inline">\(R^2 = 0\)</span>, there’s no linear relationship. One thing that might have been emphasized to you is:</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(R^2 = 0\)</span> does not imply that the variables <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> are independent.</p>
+</blockquote>
+<p>Here’s a <a href="https://commons.wikimedia.org/wiki/File:Correlation_examples2.svg#/media/File:Correlation_examples2.svg">set of examples</a> that you can view on Wikipedia: the bottom row data sets are all uncorrelated (<span class="math inline">\(R^2 = 0\)</span>), but clearly not independent.</p>
+<p>The mutual information <span class="math inline">\(I(X,Y)\)</span> is something like a supercharged correlation coefficient, in the sense that:</p>
+<blockquote class="blockquote">
+<p><span class="math inline">\(I(X,Y) = 0\)</span> <strong>does</strong> imply that <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> are independent.</p>
+</blockquote>
+<p>One nice thing about this result is that it actually makes precise an intuition about probabilistic dependence that many of us share: two variables are dependent if knowing one “gives you information” about the other. <span class="math inline">\(I(X,Y)\)</span> quantifies this idea and makes it rigorously correct. Another way to say this is:</p>
+<blockquote class="blockquote">
+<p>The tea shop is segregated when knowing which room someone is sitting in gives high information about their tea preferences, or vice versa.</p>
+</blockquote>
+</section>
+</section>
+<section id="diversity-exposure-segregation" class="level1 page-columns page-full">
+<h1>Diversity = Exposure + Segregation</h1>
+<p>Returning to segregation and diversity, we’re ready to write out a lovely and simple equation relating diversity and segregation across spatial scales. Let’s go back to the definition of <span class="math inline">\(I(X,Y)\)</span> above. Let’s recall first that <span class="math inline">\(H(Y)\)</span> measures the diversity of the entire shop. Next, the conditional entropy <span class="math inline">\(H(Y|X)\)</span> is a measure of average diversity in each room. In the context of segregation studies, <span class="math inline">\(H(Y|X)\)</span> measures <strong>exposure</strong> – the diversity that an individual experiences in their local environment. From my individual perspective, the diversity of the entire shop doesn’t matter – just the diversity of my immediate surroundings. Finally, as we discussed above, the mutual information <span class="math inline">\(I(X,Y)\)</span> measures the segregation of the entire shop. If we take the definition of <span class="math inline">\(I(X,Y) = H(Y) - H(Y|X)\)</span> and rearrange the terms, we wind up with what I think of as the fundamental equation of segregation and diversity:</p>
+<p><span id="eq-fundamental"><span class="math display">\[
+\begin{aligned}
+H(Y) &amp;= H(Y|X) + I(X,Y) \\
+\text{Global Diversity} &amp;= \text{Local Exposure} + \text{Global Segregation}
+\end{aligned}
+\tag{1}\]</span></span></p>
+<p>What’s striking about this equation is not surprise or complexity, but the way it so neatly organizes natural concepts into a quantitative order. The intuition here is simple: if there are many groups coexisting in a system (global diversity is high), then they must exist either in the same spaces (local exposure is high) or in difference spaces (global segregation is high). One of my favorite points about information theory is its ability to give precise quantitative formulations for common sense ideas about structure and learning; this equation is a prime example.</p>
+<section id="dividing-walls" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="dividing-walls">Dividing Walls</h2>
+<p>In fact, we can do even more complex decompositions. Let <span class="math inline">\(f:X \mapsto Z\)</span> be a function. We think of <span class="math inline">\(f\)</span> as an <em>aggregation</em> or <em>labeling</em>. This is an extremely practical propety of information measures when performing multiscale spatial analysis. Here’s a figure from my paper on this topic:</p>
+<div class="cell page-columns page-full">
+<div class="cell-output-display page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="detroit-spectral.png" class="img-fluid figure-img" width="657"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption margin-caption">Census tracts in Detroit. Each tract is colored according to the racial group that is most overrepresented there when compared to the overall city-wide average. Black lines were found by an algorithm, and their thickness corresponds to their contribution to overall segregation. I have since received feedback that the use of a catchall category “Other” is harmful, and will work on doing better on this in the future. Figure reproduced from Chodrow, P. (2017). Structure and Information in Spatial Segregation. Proceedings of the National Academy of Sciences.</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>This figure divides the city of Detroit, MI into six regions. If <span class="math inline">\(X\)</span> is a census tract, we can think of <span class="math inline">\(f:X\mapsto X\)</span> as the function that assigns to each <span class="math inline">\(X\)</span> the region in which that tract is located. Now, mathematically, a quick argument shows that we can write</p>
+<p><span class="math display">\[
+I(X,Y) = I(Z,Y) + I(X,Y|Z)\;,
+\]</span></p>
+<p>where <span class="math inline">\(I(X,Y|Z)\)</span> is the mean mutual information within each of the regions. We can again interpret these terms: <span class="math inline">\(I(Z,Y)\)</span> is the amount of segregation accounted for by the division into regions, while <span class="math inline">\(I(X,Y|Z)\)</span> is the amount of segregation “left over” because it lies <em>within</em> regions. Substituting back into <a href="#eq-fundamental">Equation&nbsp;1</a>, we have</p>
+<p><span class="math display">\[
+\begin{aligned}
+H(Y) &amp;= H(Y|X) + I(Z,Y) + I(X,Y|Z) \\
+\text{Global Diversity} &amp;= \text{Local Exposure} + \text{Segregation Between Regions} + \text{Segregation Within Regions}
+\end{aligned}
+\]</span></p>
+<p>This style of analysis is extremely helpful for studying segregation at multiple scales.</p>
+</section>
+</section>
+<section id="extensions" class="level1">
+<h1>Extensions</h1>
+<ul>
+<li>The decomposability property of <a href="#eq-fundamental">Equation&nbsp;1</a> is not unique to entropy and information measures. More generally, this is a property of <em>Bregman divergences</em>.</li>
+<li>An implication is that other measures can be customed designed for different kinds of data. This is important when considering data with ordered categories like education or income levels – you wouldn’t want to use simple entropy measures for these, because entropy measures don’t account for the fact that these kinds of categories have an important ordering attached to them.</li>
+</ul>
+<section id="further-reading" class="level2">
+<h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="https://arxiv.org/pdf/1708.07459.pdf">These notes</a> give a more detailed exposition of the same overall approach and attitude.</li>
+<li>My paper “<a href="https://www.pnas.org/doi/epdf/10.1073/pnas.1708201114">Structure and information in spatial segregation</a>” discusses how to take these ideas and operationalize them for <em>spatial</em> data. There, the main question is: <em>how should we account for the metric structure of spatial data when studying spatial segregation</em>? This leads to some interesting mathematics and algorithms.</li>
+</ul>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1" role="doc-endnote"><p>Theil, H., &amp; Finezza, A. J. (1971). A note on the measurement of racial integration of schools by means of informational concepts. Taylor and Francis.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Reardon, S. F. (2008). Measures of Ordinal Segregation. In Y. Flückiger, S. F. Reardon, &amp; J. Silber (Eds.), Occupational and Residential Segregation (Research on Economic Inequality, Volume 17) (pp.&nbsp;129–155).<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>Reardon, S. F., &amp; O’Sullivan, D. (2004). Measures of Spatial Segregation. Sociological Methodology, 34(1), 121–162. http://doi.org/10.1111/j.0081-1750.2004.00150.x<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>Reardon, S. F., &amp; Firebaugh, G. (2002). Measures of multigroup segregation. Sociological Methodology, 32, 33–67. http://doi.org/10.1111/1467-9531.00110<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>Jargowsky, P. A., &amp; Kim, J. (2005). A measure of spatial segregation: The generalized neighborhood sorting index. National Poverty Center Working Paper Series. Retrieved from http://nationalpovertycenter.net/publications/workingpaper05/paper03/jargowsky_kim_21mar2005.pdf<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>Roberto, E. (2015). Measuring Inequality and Segregation. arXiv.org, 1–26. Retrieved from http://arxiv.org/abs/1508.01167<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p>Roberto, E. (2016). The Spatial Context of Residential Segregation. arXiv.org, 1–27.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p>Chodrow, P. (2017). Structure and Information in Spatial Segregation. <em>Proceedings of the National Academy of Sciences</em>.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

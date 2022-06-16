@@ -230,8 +230,6 @@ On Friday, only one tea preference (green) is represented, and so $H(p) = 0$. On
 ## Further Reading
 
 
-
-
 - If you'd like to learn more about about information theory, check out Colah's fantastic blog post, [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/). That post focuses more on the inferential framework than I will today, but is an all-around fantastic resource.  
 - [These notes](https://arxiv.org/pdf/1708.07459.pdf) give a more detailed exposition of the same overall approach and attitude. 
 - The next post in this series is called "[Information Measures Segregation](/posts/2022-06-16-info-segregation-2.qmd)."
