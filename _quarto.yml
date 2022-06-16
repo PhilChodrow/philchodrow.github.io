@@ -25,6 +25,7 @@ website:
           href: job_app.qmd
         - text: What I'm Reading
           href: reading.qmd
+        - blog.qmd
       - text: CV
         href: https://www.philchodrow.com/CV/cv.pdf
       - acknowledgments.qmd
@@ -37,6 +38,7 @@ format:
     css: styles.css
     toc-title: ""
     padding-top: "2em"
+    smooth-scroll: true	
 
   
 

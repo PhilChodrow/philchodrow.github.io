@@ -16,7 +16,10 @@
   },
   {
     "listing": "/list.html",
-    "items": []
+    "items": [
+      "/posts/2022-06-16-info-segregation-2.qmd/index.html",
+      "/posts/2022-06-16-info-segregation.qmd/index.html"
+    ]
   },
   {
     "listing": "/index.html",
@@ -25,5 +28,12 @@
   {
     "listing": "/news_archive.html",
     "items": []
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/2022-06-16-info-segregation.qmd/index.html",
+      "/posts/2022-06-16-info-segregation-2.qmd/index.html"
+    ]
   }
 ]
