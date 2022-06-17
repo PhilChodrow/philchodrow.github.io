@@ -65,6 +65,13 @@ This page collects a variety of references, organizations, data repositories, li
 - [Lecture notes](https://philchodrow.github.io/PIC16B/schedule/) from PIC16B, my course on advanced computational and data science in Python.  
 - [*The Python Data Science Handbook*](https://jakevdp.github.io/PythonDataScienceHandbook/) by Jake VanderPlas is an excellent and freely-available online resource for practical data science in Python. 
 
+### R
+
+- [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund is my favorite “0 to data analysis” text. Great chapters on data wrangling, visualization, modeling, and communication.
+- Folks with a bit of prior programming experience might like reading Jenny Bryan’s [STAT 545](https://stat545.com/), which covers many of the same topics but also addresses workflow considerations like version control, automation, and interactivity.
+- Advanced programmers who want to develop their own R packages should consult [R Packages](https://r-pkgs.org) by Hadley Wickham and Jenny Bryan.  
+
+
 ### Julia
 
 - [*ThinkJulia: How to Think Like a Computer Scientist*](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html) by Ben Lauwens and Allen Downey is an introduction to computer science principles through the Julia programming language. 

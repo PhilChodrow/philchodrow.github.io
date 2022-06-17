@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources: 
+    - "assets/css/custom.scss"
+    - "assets/css/layouts.css"
 
 website:
   title: "Dr. Phil Chodrow"
@@ -32,6 +35,7 @@ website:
     search: false 
     pinned: true
   favicon: assets/img/favicon.png
+  
 format:
   html:
     theme: [cosmo, custom.scss]

@@ -2,7 +2,7 @@
 title: Math 168 Meme Awards!!
 format:
   revealjs:
-    theme: [default, custom.scss, layouts.css]
+    theme: [default, ../assets/css/slides/custom.scss, ../assets/css/slides/layouts.css]
     slide-level: 0
 ---
 
