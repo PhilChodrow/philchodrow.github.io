@@ -26,6 +26,11 @@ library(acs)       # only used for lists of counties
 library(leaflet)
 ```
 
+```{r}
+#| echo: false
+library(widgetframe)
+```
+
 Next we'll acquire a shapefile of Census blockgroups in Providence: 
 
 ```{r}
@@ -87,13 +92,11 @@ locations
 Ok, plot time! 
 
 ```{r}
-#| column: screen
-
 # for colors
 mypalette <- colorNumeric( palette="inferno", domain=bg$pct_black, na.color="transparent")
 
 # construct the map
-leaflet(bg) %>% 
+pvd_map <- leaflet(bg) %>% 
     # background street map
 	addProviderTiles("CartoDB.Positron") %>%  
     # choropleth: % Black per blockgroup
@@ -111,10 +114,16 @@ leaflet(bg) %>%
                      fill = "black", 
                      radius = 3) %>% 
     setView(lng = -71.40702260001015, lat = 41.82458541770865, zoom = 13)
-
 ```
+
+```{r}
+#| echo: false
+htmlwidgets::saveWidget(pvd_map, file = "pvd_map.html", selfcontained = TRUE)
+```
+
+<iframe src="pvd_map.html" width = "850" height = "300"></iframe>
 
 Lighter colors correspond to higher proportions of Black residents, while darker colors correspond to lower proportions. This map is draggable, zoomable, and clickable. 
 
-There are some issues here with the polygons not being totally correctly aligned. I believe that this is an issue with map projection that can be easily solved, but I haven't looked into it further. 
+There are some issues here with the polygons not being totally correctly aligned. I believe that this is an issue with map projection that can be easily solved, but I haven't looked into it further.  
 
