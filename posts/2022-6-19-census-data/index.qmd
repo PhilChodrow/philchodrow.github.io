@@ -93,7 +93,7 @@ Ok, plot time!
 mypalette <- colorNumeric( palette="inferno", domain=bg$pct_black, na.color="transparent")
 
 # construct the map
-pvd_map <- leaflet(bg) %>% 
+leaflet(bg) %>% 
     # background street map
 	addProviderTiles("CartoDB.Positron") %>%  
     # choropleth: % Black per blockgroup
@@ -112,17 +112,9 @@ pvd_map <- leaflet(bg) %>%
                      radius = 3) %>% 
     setView(lng = -71.40702260001015, lat = 41.82458541770865, zoom = 13)
 
-pvd_map
 ```
 
 Lighter colors correspond to higher proportions of Black residents, while darker colors correspond to lower proportions. This map is draggable, zoomable, and clickable. 
 
 There are some issues here with the polygons not being totally correctly aligned. I believe that this is an issue with map projection that can be easily solved, but I haven't looked into it further. 
 
-
-The following code saves the result as an HTML file. 
-```{r}
-#| eval: false
-library(htmlwidgets)
-saveWidget(pvd_map, file="map.html")
-```
