@@ -1,0 +1,128 @@
+---
+title: "Interactive Choropleths of Census Data with R" 
+author: Phil Chodrow
+tags: [r, census, spatial]
+date: 2022-06-19
+echo: true
+warning: false
+message: false
+toc: true
+callout-icon: false
+callout-appearance: simple
+cap-location: margin
+---
+
+In this short blog post, I'll illustrate how to acquire and visualize US Census data choropleths using R. Since the last time I worked on spatial data, the R ecosystem surrounding Census data and geospatial visualization has evolved considerably. As a result, while I make an effort here to show the use of the latest packages, I'm limited a bit in my knowledge of what's going on behind the scenes. 
+
+Our aim in this blog post will be to construct a choropleth map showing the percentage of Black residents in each of the block groups in Providence, with selected locations highlighted on top. We are just going to do a minimal version of this task: there are lots of customization and appearance possibilities for the map that we won't mess with. 
+
+We'll use the following R packages: 
+
+```{r}
+library(tigris)
+library(tidycensus)
+library(tidyverse)
+library(acs)       # only used for lists of counties
+library(leaflet)
+```
+
+Next we'll acquire a shapefile of Census blockgroups in Providence: 
+
+```{r}
+#| results: hide
+#| 
+counties <- fips.county %>% 
+	filter(State == "RI") %>% 
+	filter(County.Name == "Providence County") %>%
+	select(County.ANSI) %>% 
+	unlist()
+
+bg <- tigris::block_groups(state = "RI", county = counties, cb=TRUE) %>%
+  sf::st_transform('+proj=longlat +datum=WGS84')
+```
+
+Now we'll acquire Census demographic data, in this case from the 2015-2020 American Community Survey (ACS). We'll acquire the ACS' basic breakdown of race and ethnicity. [Census Reporter](censusreporter.org/) is a useful site for finding the table codes for various topics of interest. We are using the [tidycensus](https://walker-data.com/tidycensus/articles/basic-usage.html) package to obtain the data. 
+ 
+```{r}
+
+
+# if you haven't done so before, you need to acquire and 
+# log a Census API key prior to the get_acs call. 
+# API keys can be obtained here: 
+# http://api.census.gov/data/key_signup.html
+# once you have your key, run 
+# census_api_key("text-of-key")
+
+vars <- load_variables(2020, "acs5", cache = TRUE) %>% 
+	filter(grepl("B03002", name)) 
+
+race_ethnicity <- get_acs(geography = "block group", 
+                variables = vars$name, 
+                year = 2020, 
+                state = "RI")
+```
+
+The `race_ethnicity` data frame now contains the ACS estimates for each column (representing a racial group) and blockgroup (representing a geographic area). From this, we compute the percentage of Black residents in each blockgroup. We use both the columns `B03002_014` (Black non-Hispanic) and `B03002_004` (Black Hispanic). 
+
+```{r}
+pct_black <- race_ethnicity %>% 
+	group_by(GEOID) %>% 
+	summarize(pct_black = sum(estimate*(variable %in% c("B03002_014","B03002_004")))/sum(estimate))
+```
+
+Now we can join the results to the blockgroups, joining on the unique `GEOID` identifier for each area.  
+
+```{r}
+bg <- bg %>% 
+	left_join(pct_black, by = c("GEOID"))
+```
+
+Our final data source is a CSV file of locations. This file contains simply latitude, longitude, and the name of the location, although richer information could also be provided and displayed. 
+
+```{r}
+locations <- read_csv("data/locations.csv")
+locations
+```
+
+Ok, plot time! 
+
+```{r}
+#| column: screen
+
+# for colors
+mypalette <- colorNumeric( palette="inferno", domain=bg$pct_black, na.color="transparent")
+
+# construct the map
+pvd_map <- leaflet(bg) %>% 
+    # background street map
+	addProviderTiles("CartoDB.Positron") %>%  
+    # choropleth: % Black per blockgroup
+	addPolygons(fillColor = ~mypalette(pct_black), 
+                stroke=FALSE, 
+                weight = 2,
+                fillOpacity = 0.7,
+                smoothFactor = 0) %>% 
+    # locations
+	addCircleMarkers(lng = ~lon, 
+                     lat = ~lat, 
+                     popup = ~name, 
+                     data = locations, 
+                     color = "white",
+                     fill = "black", 
+                     radius = 3) %>% 
+    setView(lng = -71.40702260001015, lat = 41.82458541770865, zoom = 13)
+
+pvd_map
+```
+
+Lighter colors correspond to higher proportions of Black residents, while darker colors correspond to lower proportions. This map is draggable, zoomable, and clickable. 
+
+There are some issues here with the polygons not being totally correctly aligned. I believe that this is an issue with map projection that can be easily solved, but I haven't looked into it further. 
+
+
+The following code saves the result as an HTML file. 
+```{r}
+#| eval: false
+library(htmlwidgets)
+saveWidget(pvd_map, file="map.html")
+```
