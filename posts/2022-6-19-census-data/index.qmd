@@ -59,7 +59,8 @@ Now we'll acquire Census demographic data, in this case from the 2015-2020 Ameri
 # census_api_key("text-of-key")
 
 vars <- load_variables(2020, "acs5", cache = TRUE) %>% 
-	filter(grepl("B03002", name)) 
+	filter(grepl("B03002", name),
+		   str_sub(label, start=-1) != ":") 
 
 race_ethnicity <- get_acs(geography = "block group", 
                 variables = vars$name, 
