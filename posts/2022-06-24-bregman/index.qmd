@@ -27,7 +27,22 @@ bibliography: refs.bib
 
 This is a post for folks who are interested in some of the most important mathematical properties of Bregman divergences. Bregman divergences offer a flexible platform from which to derive measures of diversity and segregation, and folks who wish to engineer such measures may benefit from understanding some useful properties. 
 
-# Audience
+# The Big Picture
+
+A *Bregman divergence* is a measure of difference between two vectors "through the lens" of a convex function $f$. A *Bregman information* is a measure of how variable a set of vectors is, again through the lens of $f$. Many methods for measuring segregation from the sociology literature can be expressed simply in terms of Bregman informations. These include:
+
+- The Information Theory Index of @theil1971note and @reardon2004measures. 
+- The Ordinal Information Theory, Variation Ratio, and Square Root Indices of @reardon2009measures. 
+- The Generalized Neighborhood Sorting Index of @jargowsky2005measure. 
+
+Understanding the mathematical properties of Bregman information is very helpful, in that it allows us to neatly unify the mathematical properties of each of these indices. There are two main mathematical properties of these indices that are extremely helpful in multiscale analysis. 
+
+- **Termwise interpretation** (@thm-information-entropy): a Bregman information can be interpreted as a difference between a measure of local diversity and global diversity. This makes Bregman informations extremely natural as quantifications of certain concepts of segregation. 
+- **Chain rule** (@thm-chain-rule): when coarse-graining data, a Bregman information decomposes into terms corresponding to the information contained in the coarse-graining and the information left over. This makes Bregman informations extremely amenable to multiscale spatial analysis, and allows them to quantify the significance of spatial boundaries in separating groups with different demographic features. 
+
+Additionally, Bregman informations are related to *information geometries*, which turn out to be one useful route for incorporating space into our analytical toolbox. In particular, the Bregman information can be used to quantify how quickly demographics shift in space. This turns out to be because they are related to the curvature of a so-called *information manifold*. We won't discuss this point too much here, but there's much more discussion in @chodrow2017structure. 
+
+# Background
 
 The primary audience for these notes consists of folks with training in math and/or machine learning theory. I'll assume familiarity with: 
 
@@ -35,7 +50,6 @@ The primary audience for these notes consists of folks with training in math and
 - Joint, marginal, and conditional probability distributions on discrete sets. 
 - [Convex functions](https://en.wikipedia.org/wiki/Convex_function). 
 - Prior background in [Shannon information theory](https://en.wikipedia.org/wiki/Information_theory#:~:text=Information%20theory%20is%20the%20scientific,Claude%20Shannon%20in%20the%201940s.) is helpful but not assumed. I tell this story in my preferred sequence in @chodrow2017divergence. 
-
 
 # Introducing Bregman Divergences
 
@@ -151,6 +165,36 @@ Let $f$ be strictly convex and let $p_Y(y) > 0$ for all $y \in \cY$. Then, $I_f(
 Recall that $I_f(X:Y) = \sum_{y \in \cY} p_Y(y) d_f(p_{X|y}, p_X)$. Since $p_Y(y) > 0$ for each $y \in \cY$ by hypothesis, for $I_f(X:Y) = 0$ we must have $d_f(p_{X|y}, p_X)$ for each $y$. If $f$ is strictly convex, then by @thm-bregman-basics, $d_f(p,q) = 0$ iff $p = q$. So, we must have $p_{X|y} = p_X$ for each $y$, which implies that $X$ and $Y$ are independent. 
 :::
 
+There is another formula for the Bregman information that helps to interpret its meaning. This formula is the version emphasized in [this post](/posts/2022-06-16-info-segregation-2.qmd), which expresses global diversity as a sum of local diversity and global segregation. 
+
+::: {.callout-tip}
+::: {#thm-information-entropy}
+
+The Bregman information satisfies 
+
+$$
+I_f(X:Y) = \sum_{y \in \cY} p_Y(y) f(p_{X|y}) - f(p_X)\;.
+$$
+
+:::
+:::
+
+::: {.proof}
+We can directly write out
+$$
+\begin{aligned}
+    I_f(X:Y) &= \sum_{y \in \cY} p_Y(y) d_f(p_{X|y}, p_X) \\ 
+             &= \sum_{y \in \cY} p_Y(y) \left[f(p_{X|y}) - f(p_X) - \langle \nabla f(p_X), p_{X|y} - p_X\rangle \right] \\ 
+\end{aligned}
+$$
+Next, we use that $\sum_{y \in \cY} p_Y(y) p_X = \sum_{y \in \cY} p_Y(y) p_{X|y} = p_X$, which causes the inner product to vanish. The only remaining terms are 
+$$
+I_f(X:Y) = \sum_{y \in \cY} p_Y(y) f(p_{X|y}) - f(p_X)\;,
+$$
+completing the proof. 
+:::
+
+@thm-information-entropy is often used as the definition of the mutual information in the context of Shannon information theory; indeed, it's the definition that I emphasize in my [previous post](/posts/2022-06-16-info-segregation-2.qmd) on Shannon information theory. The interpretation of this theorem as relating global segregation, global diversity, and local diversity translates directly. 
 
 
 # The Chain Rule

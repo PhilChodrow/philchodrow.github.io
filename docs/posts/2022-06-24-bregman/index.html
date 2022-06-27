@@ -159,7 +159,8 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#audience" id="toc-audience" class="nav-link active" data-scroll-target="#audience">Audience</a></li>
+  <li><a href="#the-big-picture" id="toc-the-big-picture" class="nav-link active" data-scroll-target="#the-big-picture">The Big Picture</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
   <li><a href="#introducing-bregman-divergences" id="toc-introducing-bregman-divergences" class="nav-link" data-scroll-target="#introducing-bregman-divergences">Introducing Bregman Divergences</a></li>
   <li><a href="#bregman-information" id="toc-bregman-information" class="nav-link" data-scroll-target="#bregman-information">Bregman Information</a>
   <ul class="collapse">
@@ -204,8 +205,23 @@ div.csl-indent {
 </header>
 
 <p>This is a post for folks who are interested in some of the most important mathematical properties of Bregman divergences. Bregman divergences offer a flexible platform from which to derive measures of diversity and segregation, and folks who wish to engineer such measures may benefit from understanding some useful properties.</p>
-<section id="audience" class="level1">
-<h1>Audience</h1>
+<section id="the-big-picture" class="level1">
+<h1>The Big Picture</h1>
+<p>A <em>Bregman divergence</em> is a measure of difference between two vectors “through the lens” of a convex function <span class="math inline">\(f\)</span>. A <em>Bregman information</em> is a measure of how variable a set of vectors is, again through the lens of <span class="math inline">\(f\)</span>. Many methods for measuring segregation from the sociology literature can be expressed simply in terms of Bregman informations. These include:</p>
+<ul>
+<li>The Information Theory Index of <span class="citation" data-cites="theil1971note">Thiel and Finezza (<a href="#ref-theil1971note" role="doc-biblioref">1971</a>)</span> and <span class="citation" data-cites="reardon2004measures">Reardon and O’Sullivan (<a href="#ref-reardon2004measures" role="doc-biblioref">2004</a>)</span>.</li>
+<li>The Ordinal Information Theory, Variation Ratio, and Square Root Indices of <span class="citation" data-cites="reardon2009measures">Reardon (<a href="#ref-reardon2009measures" role="doc-biblioref">2009</a>)</span>.</li>
+<li>The Generalized Neighborhood Sorting Index of <span class="citation" data-cites="jargowsky2005measure">Jargowsky and Kim (<a href="#ref-jargowsky2005measure" role="doc-biblioref">2005</a>)</span>.</li>
+</ul>
+<p>Understanding the mathematical properties of Bregman information is very helpful, in that it allows us to neatly unify the mathematical properties of each of these indices. There are two main mathematical properties of these indices that are extremely helpful in multiscale analysis.</p>
+<ul>
+<li><strong>Termwise interpretation</strong> (<a href="#thm-information-entropy">Theorem&nbsp;4</a>): a Bregman information can be interpreted as a difference between a measure of local diversity and global diversity. This makes Bregman informations extremely natural as quantifications of certain concepts of segregation.</li>
+<li><strong>Chain rule</strong> (<a href="#thm-chain-rule">Theorem&nbsp;5</a>): when coarse-graining data, a Bregman information decomposes into terms corresponding to the information contained in the coarse-graining and the information left over. This makes Bregman informations extremely amenable to multiscale spatial analysis, and allows them to quantify the significance of spatial boundaries in separating groups with different demographic features.</li>
+</ul>
+<p>Additionally, Bregman informations are related to <em>information geometries</em>, which turn out to be one useful route for incorporating space into our analytical toolbox. In particular, the Bregman information can be used to quantify how quickly demographics shift in space. This turns out to be because they are related to the curvature of a so-called <em>information manifold</em>. We won’t discuss this point too much here, but there’s much more discussion in <span class="citation" data-cites="chodrow2017structure">Chodrow (<a href="#ref-chodrow2017structure" role="doc-biblioref">2017b</a>)</span>.</p>
+</section>
+<section id="background" class="level1">
+<h1>Background</h1>
 <p>The primary audience for these notes consists of folks with training in math and/or machine learning theory. I’ll assume familiarity with:</p>
 <ul>
 <li>The gradient operator <span class="math inline">\(\nabla\)</span>.</li>
@@ -344,6 +360,37 @@ Bregman Information
 <div class="proof">
 <p><span class="proof-title"><em>Proof</em>. </span>Recall that <span class="math inline">\(I_f(X:Y) = \sum_{y \in \mathcal{Y}} p_Y(y) d_f(p_{X|y}, p_X)\)</span>. Since <span class="math inline">\(p_Y(y) &gt; 0\)</span> for each <span class="math inline">\(y \in \mathcal{Y}\)</span> by hypothesis, for <span class="math inline">\(I_f(X:Y) = 0\)</span> we must have <span class="math inline">\(d_f(p_{X|y}, p_X)\)</span> for each <span class="math inline">\(y\)</span>. If <span class="math inline">\(f\)</span> is strictly convex, then by <a href="#thm-bregman-basics">Theorem&nbsp;1</a>, <span class="math inline">\(d_f(p,q) = 0\)</span> iff <span class="math inline">\(p = q\)</span>. So, we must have <span class="math inline">\(p_{X|y} = p_X\)</span> for each <span class="math inline">\(y\)</span>, which implies that <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> are independent.</p>
 </div>
+<p>There is another formula for the Bregman information that helps to interpret its meaning. This formula is the version emphasized in <a href="../../posts/2022-06-16-info-segregation-2.qmd">this post</a>, which expresses global diversity as a sum of local diversity and global segregation.</p>
+<div class="callout-tip callout callout-style-simple no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<div id="thm-information-entropy" class="theorem">
+<p><span class="theorem-title"><strong>Theorem 4 </strong></span>The Bregman information satisfies</p>
+<p><span class="math display">\[
+I_f(X:Y) = \sum_{y \in \mathcal{Y}} p_Y(y) f(p_{X|y}) - f(p_X)\;.
+\]</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="proof">
+<p><span class="proof-title"><em>Proof</em>. </span>We can directly write out</p>
+<p><span class="math display">\[
+\begin{aligned}
+    I_f(X:Y) &amp;= \sum_{y \in \mathcal{Y}} p_Y(y) d_f(p_{X|y}, p_X) \\
+             &amp;= \sum_{y \in \mathcal{Y}} p_Y(y) \left[f(p_{X|y}) - f(p_X) - \langle \nabla f(p_X), p_{X|y} - p_X\rangle \right] \\
+\end{aligned}
+\]</span></p>
+<p>Next, we use that <span class="math inline">\(\sum_{y \in \mathcal{Y}} p_Y(y) p_X = \sum_{y \in \mathcal{Y}} p_Y(y) p_{X|y} = p_X\)</span>, which causes the inner product to vanish. The only remaining terms are</p>
+<p><span class="math display">\[
+I_f(X:Y) = \sum_{y \in \mathcal{Y}} p_Y(y) f(p_{X|y}) - f(p_X)\;,
+\]</span></p>
+<p>completing the proof.</p>
+</div>
+<p><a href="#thm-information-entropy">Theorem&nbsp;4</a> is often used as the definition of the mutual information in the context of Shannon information theory; indeed, it’s the definition that I emphasize in my <a href="../../posts/2022-06-16-info-segregation-2.qmd">previous post</a> on Shannon information theory. The interpretation of this theorem as relating global segregation, global diversity, and local diversity translates directly.</p>
 </section>
 </section>
 <section id="the-chain-rule" class="level1 page-columns page-full">
@@ -374,7 +421,7 @@ I(X:Y|Z) = \sum_{z \in Z} p_Z(z) I_f(X:Y|z) = \sum_{z \in \mathcal{Z}} p_Z(z) \s
 </div>
 <div class="callout-body-container">
 <div id="thm-chain-rule" class="theorem">
-<p><span class="theorem-title"><strong>Theorem 4 (Chain Rule of Bregman Information) </strong></span>If <span class="math inline">\(Z = g(Y)\)</span> for some function <span class="math inline">\(g\)</span>, then</p>
+<p><span class="theorem-title"><strong>Theorem 5 (Chain Rule of Bregman Information) </strong></span>If <span class="math inline">\(Z = g(Y)\)</span> for some function <span class="math inline">\(g\)</span>, then</p>
 <p><span class="math display">\[
 I_f(X:Y) = I_f(X:Z) + I_f(X:Y|Z)
 \]</span></p>
@@ -431,7 +478,7 @@ I_f(X:Y) &amp;= \sum_{y \in \mathcal{Y}} p_Y(y) d_f(p_{X|y}, p_X) \\
 </div>
 <div class="callout-body-container">
 <div id="thm-riemannian" class="theorem">
-<p><span class="theorem-title"><strong>Theorem 5 </strong></span>The Hessian (matrix of second derivatives) <span class="math inline">\(H(q)\)</span> of <span class="math inline">\(f\)</span> at point <span class="math inline">\(q\)</span> is positive semi-definite for any <span class="math inline">\(q\)</span>, and positive-definite if <span class="math inline">\(f\)</span> is strictly convex. Furthermore, there exists <span class="math inline">\(\epsilon &gt; 0\)</span> such that, if <span class="math inline">\(\lVert p - q \rVert &lt; \epsilon\)</span>, then</p>
+<p><span class="theorem-title"><strong>Theorem 6 </strong></span>The Hessian (matrix of second derivatives) <span class="math inline">\(H(q)\)</span> of <span class="math inline">\(f\)</span> at point <span class="math inline">\(q\)</span> is positive semi-definite for any <span class="math inline">\(q\)</span>, and positive-definite if <span class="math inline">\(f\)</span> is strictly convex. Furthermore, there exists <span class="math inline">\(\epsilon &gt; 0\)</span> such that, if <span class="math inline">\(\lVert p - q \rVert &lt; \epsilon\)</span>, then</p>
 <p><span class="math display">\[
 d_f(p, q) = \frac{1}{2} \langle p-q,H(q)(p-q) \rangle + O(\epsilon^2)
 \]</span></p>
@@ -453,13 +500,13 @@ d_f(p, q) = d_f(q, q) + \langle \nabla_1 d_f(q, q),p - q \rangle + \frac{1}{2} \
 \]</span></p>
 <p>It remains to calculate <span class="math inline">\(\bar{H}\)</span>. When taking two derivatives with respect to the first argument of <span class="math inline">\(d_f\)</span>, only the term initially corresponding to <span class="math inline">\(f(p)\)</span> survives, and we therefore have <span class="math inline">\(\bar{H} = H\)</span>, the Hessian of <span class="math inline">\(H\)</span>. Finally, noting that <span class="math inline">\(\lVert p - q \rVert &lt; \epsilon\)</span> by construction completes the argument.</p>
 </div>
-<p>One reason that <a href="#thm-riemannian">Theorem&nbsp;5</a> is so good is that it allows us actually get “real” metrics from divergences. From the simplest perspective, we know that, for <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> close, <span class="math inline">\(d_f(p,q) \approx \frac{1}{2} \langle p-q,H(q)(p-q)\rangle\)</span>, which is a metric when <span class="math inline">\(f\)</span> is strictly convex (as <span class="math inline">\(H\)</span> is then positive-definite). On the other hand, we can also use the perspective of Riemannian geometry, under which <span class="math inline">\(H\)</span> plays the role of an <em>ambient metric tensor</em>. Many problems in statistical inference can be framed in terms exploring the structure of a <em>manifold</em> of probability distributions. Any smooth parameterized family of distributions defines such a manifold; for example, the Poisson distribution <span class="math inline">\(p_K(k;\lambda) = \frac{e^{\lambda}\lambda^k}{k!}\)</span> is parameterized by a single parameter <span class="math inline">\(\lambda\)</span>. We can compare these distributions using the ambient metric, and the result is a <em>Riemannian metric</em> induced on the 1-dimensional manifold of distributions.</p>
+<p>One reason that <a href="#thm-riemannian">Theorem&nbsp;6</a> is so good is that it allows us actually get “real” metrics from divergences. From the simplest perspective, we know that, for <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> close, <span class="math inline">\(d_f(p,q) \approx \frac{1}{2} \langle p-q,H(q)(p-q)\rangle\)</span>, which is a metric when <span class="math inline">\(f\)</span> is strictly convex (as <span class="math inline">\(H\)</span> is then positive-definite). On the other hand, we can also use the perspective of Riemannian geometry, under which <span class="math inline">\(H\)</span> plays the role of an <em>ambient metric tensor</em>. Many problems in statistical inference can be framed in terms exploring the structure of a <em>manifold</em> of probability distributions. Any smooth parameterized family of distributions defines such a manifold; for example, the Poisson distribution <span class="math inline">\(p_K(k;\lambda) = \frac{e^{\lambda}\lambda^k}{k!}\)</span> is parameterized by a single parameter <span class="math inline">\(\lambda\)</span>. We can compare these distributions using the ambient metric, and the result is a <em>Riemannian metric</em> induced on the 1-dimensional manifold of distributions.</p>
 <p>For more on information geometry, see <span class="citation" data-cites="nielsen2020elementary">Nielsen (<a href="#ref-nielsen2020elementary" role="doc-biblioref">2020</a>)</span> or <span class="citation" data-cites="amari2016information">Amari (<a href="#ref-amari2016information" role="doc-biblioref">2016</a>)</span>.</p>
 </section>
 <section id="information-geometry-and-spatial-analysis" class="level1">
 <h1>Information Geometry and Spatial Analysis</h1>
 <p>The information geometry point can feel pretty abstract, but there’s a specific reason to be interested in this perspective when studying spatial segregation. In particular, consider the following idealized model of Census data. Let <span class="math inline">\(S\)</span> be a connected, closed region in <span class="math inline">\(\mathbb{R}^2\)</span>. For each point <span class="math inline">\(s \in S\)</span>, we have a probability distribution <span class="math inline">\(p_{X|s}\)</span> over some set of demographic variables <span class="math inline">\(\mathcal{X}\)</span>.</p>
-<p>We now impose the assumption that <span class="math inline">\(p_{X|s}\)</span> is smooth as a function of <span class="math inline">\(s\)</span>. This allows us to apply <a href="#thm-riemannian">Theorem&nbsp;5</a>, which in turn allows us to treat <span class="math inline">\(S\)</span> as a Riemannian manifold and do geometric calculations in a metric that is adapted to the demographic structure. This allow us to do things like measure “demographic distance” between points in space, and also enables some novel approaches to characterizing the spatial scale of segregation <span class="citation" data-cites="chodrow2017structure">(<a href="#ref-chodrow2017structure" role="doc-biblioref">Chodrow 2017b</a>)</span>.</p>
+<p>We now impose the assumption that <span class="math inline">\(p_{X|s}\)</span> is smooth as a function of <span class="math inline">\(s\)</span>. This allows us to apply <a href="#thm-riemannian">Theorem&nbsp;6</a>, which in turn allows us to treat <span class="math inline">\(S\)</span> as a Riemannian manifold and do geometric calculations in a metric that is adapted to the demographic structure. This allow us to do things like measure “demographic distance” between points in space, and also enables some novel approaches to characterizing the spatial scale of segregation <span class="citation" data-cites="chodrow2017structure">(<a href="#ref-chodrow2017structure" role="doc-biblioref">Chodrow 2017b</a>)</span>.</p>
 
 
 
@@ -478,8 +525,20 @@ Chodrow, Philip. 2017a. <span>“Divergence, Entropy, Information: An Opinionate
 <div id="ref-chodrow2017structure" class="csl-entry" role="doc-biblioentry">
 ———. 2017b. <span>“Structure and Information in Spatial Segregation.”</span> <em>Proceedings of the National Academy of Sciences</em> 114 (44): 11591–96.
 </div>
+<div id="ref-jargowsky2005measure" class="csl-entry" role="doc-biblioentry">
+Jargowsky, Paul A, and Jeongdai Kim. 2005. <span>“A Measure of Spatial Segregation: The Generalized Neighborhood Sorting Index.”</span> <em>University of Texas, Dallas</em>.
+</div>
 <div id="ref-nielsen2020elementary" class="csl-entry" role="doc-biblioentry">
 Nielsen, Frank. 2020. <span>“An Elementary Introduction to Information Geometry.”</span> <em>Entropy</em> 22 (10): 1100.
+</div>
+<div id="ref-reardon2009measures" class="csl-entry" role="doc-biblioentry">
+Reardon, Sean F. 2009. <span>“Measures of Ordinal Segregation.”</span> In <em>Occupational and Residential Segregation</em>. Emerald Group Publishing Limited.
+</div>
+<div id="ref-reardon2004measures" class="csl-entry" role="doc-biblioentry">
+Reardon, Sean F, and David O’Sullivan. 2004. <span>“Measures of Spatial Segregation.”</span> <em>Sociological Methodology</em> 34 (1): 121–62.
+</div>
+<div id="ref-theil1971note" class="csl-entry" role="doc-biblioentry">
+Thiel, Henri, and Anthony Finezza. 1971. <span>“A Note on the Measurement of Racial Integration of Schools by Means of Informational Concepts.”</span> <em>Journal of Mathematical Sociology</em> 1: 187–94.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
