@@ -9,17 +9,19 @@ toc: true
 These are some of the people whose teaching techniques and insights have had major impacts on my own practice. 
 
 - [Rose Morris-Wright](https://www.rosemorriswright.com) (Department of Mathematics, Middlebury College)
-<!-- -  Heather Zinn Brooks (Department of Mathematics, Harvey Mudd) -->
 - [Shanna Shaked](https://www.ioes.ucla.edu/person/shanna-shaked/) (Institute of the Environment and Sustainability and Center for Excellence, Innovation, and Learning in the Sciences, UCLA). 
+- [Heather Zinn Brooks](https://math.hmc.edu/hzinnbrooks/) (Department of Mathematics, Harvey Mudd)
+- [Jamie Haddock](https://jamiehaddock.com) (Department of Mathematics, Harvey Mudd)
+- [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu) (Department of Computer Science, Grinnell College)
+    - Nicole is also the inspiration for my [online reading list](reading.qmd). 
 - Don Chodrow (Department of Physics, James Madison University)
 - Bill Terry (Staunton High School)
 - Don Laliberty-sensei (Aikido Tekkojuku of Boston)
 - [Dolita Cathcart](https://wheatoncollege.edu/academics/faculty-directory/dolita-cathcart/)-sensei (Harvard Aikikai, Wheaton College)
 - Rick Berry-sensei (Wilmington Aikido)
-- [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu) (Department of Computer Science, Grinnell College)
 
 ### Credits and Tools
 
-This site is driven by the [Quarto](https://quarto.org) publishing system. 
+This website is driven by the [Quarto](https://quarto.org) publishing system. 
 
 The image on the front page of this website was taken by Jason Zhu for the Daily Bruin at UCLA. It was originally used in [this article](https://dailybruin.com/2022/06/05/gallery-ucla-professors-offer-parting-words-advice-to-graduating-students). 

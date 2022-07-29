@@ -13,7 +13,6 @@ Here's what I've been reading recently.
 
 - [*A People's History of Computing in the United States*](https://bookshop.org/books/a-people-s-history-of-computing-in-the-united-states/9780674970977) by Joy Lisi Rankin
 - [*The Annotated Phantom Tollbooth*](https://bookshop.org/books/the-annotated-phantom-tollbooth/9780375857157) by Norton Juster and Jules Feiffer
-- [*The House in the Cerulean Sea*](https://bookshop.org/books/the-house-in-the-cerulean-sea/9781250217318) by TJ Klune
 
 
 ## 2022
@@ -28,9 +27,11 @@ Here's what I've been reading recently.
 
 ### &nbsp; Fiction
 
-- [*Far Sector*](https://www.dccomics.com/graphic-novels/far-sector) by N. K. Jemisin and Jamal Campbell.  
-- [*The Witness for the Dead*](https://bookshop.org/books/the-witness-for-the-dead/9780765387424) by Katherine Addison
+- [*Fevered Star*](https://bookshop.org/books/fevered-star-volume-2/9781534437739) by Rebecca Roanhorse
+- [*The House in the Cerulean Sea*](https://bookshop.org/books/the-house-in-the-cerulean-sea/9781250217318) by TJ Klune
+- [*Far Sector*](https://www.dccomics.com/graphic-novels/far-sector) by N. K. Jemisin and Jamal Campbell
 - [*The Murderbot Diaries*](https://bookshop.org/books/the-murderbot-diaries-all-systems-red-artificial-condition-rogue-protocol-exit-strategy/9781250784278) by Martha Wells
+- [*The Witness for the Dead*](https://bookshop.org/books/the-witness-for-the-dead/9780765387424) by Katherine Addison
 - [*The Goblin Emperor*](https://bookshop.org/books/the-goblin-emperor/9780765365682) by Katherine Addison
 - [*How Long 'til Black Future Month?*](https://bookshop.org/books/how-long-til-black-future-month-stories-9780316491372/9780316491372) by N. K. Jemisin
 
@@ -69,7 +70,7 @@ Here's what I've been reading recently.
 
 ### &nbsp; Nonfiction
 
-- [*Algorithms of Oppression*](https://bookshop.org/books/algorithms-of-oppression-how-search-engines-reinforce-racism/9781479837243) by Safiya Umoja Noble (here at UCLA!)
+- [*Algorithms of Oppression*](https://bookshop.org/books/algorithms-of-oppression-how-search-engines-reinforce-racism/9781479837243) by Safiya Umoja Noble
 - [*Automating Inequality*](https://bookshop.org/books/automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor/9781250215789) by Virginia Eubanks
 - [*Weapons of Math Destruction*](https://bookshop.org/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy/9780553418835) by Cathy O'Neil
 - [*Washington: A Life*](https://bookshop.org/books/washington-a-life-9780143119968/9780143119968) by Ron Chernow
