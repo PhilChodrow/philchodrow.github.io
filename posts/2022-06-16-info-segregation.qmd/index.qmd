@@ -11,6 +11,8 @@ toc: true
 callout-icon: false
 callout-appearance: simple
 cap-location: margin
+execute:
+  freeze: auto
 ---
 
 ***Editor's note****: this post and the following one are hastily revised blog posts from early in my graduate career. They reflect some simplistic thinking about questions of segregation and equity. I am working to do better, and I own all mistakes.* 

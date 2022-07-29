@@ -10,6 +10,8 @@ toc: true
 callout-icon: false
 callout-appearance: simple
 cap-location: margin
+execute:
+  freeze: auto
 ---
 
 In this short blog post, I'll illustrate how to acquire and visualize US Census data choropleths using R. Since the last time I worked on spatial data, the R ecosystem surrounding Census data and geospatial visualization has evolved considerably. As a result, while I make an effort here to show the use of the latest packages, I'm limited a bit in my knowledge of what's going on behind the scenes. 
