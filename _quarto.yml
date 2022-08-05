@@ -28,11 +28,11 @@ website:
           href: job_app.qmd
         - text: What I'm Reading
           href: reading.qmd
+        - text: CV
+          href: https://www.philchodrow.com/CV/cv.pdf
         - blog.qmd
-      - text: CV
-        href: https://www.philchodrow.com/CV/cv.pdf
       - acknowledgments.qmd
-    search: false 
+    search: true 
     pinned: true
   favicon: assets/img/favicon.png
   

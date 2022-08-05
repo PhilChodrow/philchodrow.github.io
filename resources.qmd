@@ -85,3 +85,7 @@ This page collects a variety of references, organizations, data repositories, li
 - Dirk Eddelbuettel (University of Illinois) hosts a [website](https://stat447.com) with a wide array of resources for his course Data Science Programming Methods.
 - [Sanjay Lall](http://lall.stanford.edu/) and [Stephen Boyd](http://web.stanford.edu/~boyd) are running an [interesting course](http://ee104.stanford.edu) on machine learning with the Julia programming language. 
 
+## Computing Pedagogy
+
+- [Evan Peck](https://evanpeck.github.io) maintains a [website with activities](https://ethicalcs.github.io) for responsible computing in introductory computer science. 
+- [When Twice as Good Isn't Enough: The Case for Cultural Competence in Computing](https://dl.acm.org/doi/abs/10.1145/3328778.3366792) by [Dr. Nicki Washington](https://nickiwashington.com). 

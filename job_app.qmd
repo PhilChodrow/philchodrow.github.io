@@ -17,6 +17,8 @@ A SLAC might not be for you if...
 - You prefer to teach as little as possible in order to focus on research. 
 - You are very eager to work with graduate students. 
 
+[Evan Peck](https://evanpeck.github.io) operates a [listing of job postings](https://cs-pui.github.io/#deadlines) in computer science at primarily-undergraduate institutions, including many SLACs. 
+
 ## Application Tips
 
 ### Before You Enter the Job Market
