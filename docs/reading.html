@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.583">
+<meta name="generator" content="quarto-1.0.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,7 +33,7 @@ ul.task-list{list-style: none;}
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -181,7 +181,7 @@ ul.task-list{list-style: none;}
 <section id="current" class="level2">
 <h2 class="anchored" data-anchor-id="current">Current</h2>
 <ul>
-<li><a href="https://bookshop.org/books/cloud-cuckoo-land-9781982168438/9781982168438"><em>Cloud Cuckoo Land</em></a> by Anthony Doerr</li>
+<li><a href="https://bookshop.org/books/lilith-s-brood/9780446676106"><em>Lilith’s Brood</em></a> by Octavia Butler</li>
 <li><a href="https://bookshop.org/books/a-people-s-history-of-computing-in-the-united-states/9780674970977"><em>A People’s History of Computing in the United States</em></a> by Joy Lisi Rankin</li>
 <li><a href="https://bookshop.org/books/the-annotated-phantom-tollbooth/9780375857157"><em>The Annotated Phantom Tollbooth</em></a> by Norton Juster and Jules Feiffer</li>
 </ul>
@@ -201,6 +201,7 @@ ul.task-list{list-style: none;}
 <section id="fiction" class="level3">
 <h3 class="anchored" data-anchor-id="fiction">&nbsp; Fiction</h3>
 <ul>
+<li><a href="https://bookshop.org/books/cloud-cuckoo-land-9781982168438/9781982168438"><em>Cloud Cuckoo Land</em></a> by Anthony Doerr</li>
 <li><a href="https://bookshop.org/books/the-sentence-9798200879878/9780062671127"><em>The Sentence</em></a> by Louise Erdrich</li>
 <li><a href="https://bookshop.org/books/fevered-star-volume-2/9781534437739"><em>Fevered Star</em></a> by Rebecca Roanhorse</li>
 <li><a href="https://bookshop.org/books/the-house-in-the-cerulean-sea/9781250217318"><em>The House in the Cerulean Sea</em></a> by TJ Klune</li>
@@ -277,6 +278,24 @@ ul.task-list{list-style: none;}
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
