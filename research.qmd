@@ -20,7 +20,7 @@ listing:
     template: ejs/publications.ejs
 ---
 
-My research addresses computational, mathematical, and statistical problems in the study of complex systems. My interests include network data science, dynamical models of social structures, and data science applications supporting equity and sustainability. 
+My research addresses computational, mathematical, and statistical problems in the study of complex systems. My interests include network data science, dynamical models of social structures, and data science applications supporting equity and sustainability.    
 
 ## Methods of Network Data Science
 

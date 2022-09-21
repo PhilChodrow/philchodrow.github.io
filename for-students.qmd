@@ -102,6 +102,20 @@ Please keep in mind that I can write stronger letters for students whom I see mo
 
 To request a letter, fill out [this request form](https://forms.gle/tL79wtFrfHC5Vspw7)! Please give me at least one month of advance notice when possible.
 
+
+##### When I Won't Write a Letter 
+
+As a matter of moral principle, I will not write letters of recommendation for programs or jobs involving any of the following:
+
+- Policing (including but not limited to predictive policing, development of algorithms that predict recidivism, etc.);
+- Military applications (such as internships at the Department of Defense or any of its international counterparts);
+- Weapons manufacturing, broadly construed;
+- Intelligence gathering (such as internships at the NSA, FBI, or any international counterpart).
+
+I am very happy to discuss this policy with any student who has questions. Conversations about when and how mathematics, data science, and programming should be used are lacking in our community. If you'd like to engage me in such a conversation, that would be great! However, this policy is non-negotiable. Therefore, if I refuse to write you a letter on these grounds, please know that it doesn't reflect on your ability to succeed in this course, your career potential, your worth as a person, or whether I like you. 
+
+The [Just Mathematics Collective](https://www.justmathematicscollective.net/) has compiled a list of resources for students on making ethical career decisions, which is available [here](https://justmathematicscollective.net/career_resources.html). The text of this section is lightly modified from their [suggested text](https://www.justmathematicscollective.net/letter_writing.html) on letter-writing. 
+
 #### I want to learn more about the intersection of computing, math, data science, and social justice. Where do I start? 
 
 That's a great question, Imaginary Student! Check the [Resources](resources.qmd#data-science-math-technology-and-social-justice) page for some of my favorite organizations and books related to this topic. 

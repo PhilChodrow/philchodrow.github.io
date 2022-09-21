@@ -4,7 +4,7 @@ page-layout: article
 toc: true
 ---
 
-I work at Middlebury College, an academically rigorous small liberal arts college (SLAC). I love the SLAC environment, and think it's a great place for many academics. Since these kinds of jobs are relatively less well-known, many folks may not know much about what these jobs are like or how to get them. Careers at SLACs offer distinctive advantages and disadvantages when compared to careers at research-intensive institutions. 
+I work at Middlebury College, a small liberal arts college (SLAC) that attracts academically high-achieving students. I love the SLAC environment, and think it's a great place for many academics. Since SLAC jobs are less visible in PhD-granting institutions than research-intensive jobs, many folks may not know much about what these jobs are like or how to get them. Careers at SLACs offer distinctive advantages and disadvantages when compared to careers at research-intensive institutions. 
 
 Consider SLACs if...
 

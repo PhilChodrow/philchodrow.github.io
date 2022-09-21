@@ -35,6 +35,7 @@ This page collects a variety of references, organizations, data repositories, li
 - [*High-Dimensional Probability*](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.pdf), a free book by [Roman Vershynin](https://www.math.uci.edu/~rvershyn/) at UC Irvine covering a range of topics on the probabilistic foundations of modern, high-dimensional statistics at an advanced level. 
 - [*Algebra, Topology, Differential Calculus, and Optimization Theory For Computer Science and Machine Learning*](https://www.cis.upenn.edu/~jean/math-deep.pdf) by [Jean Gallier](https://www.cis.upenn.edu/~jean/home.html) and Jocelyn Quaintance is a monumental, free online book covering a wide range of mathematical background useful in machine learning and data science. 
 - Need to brush up on your applied linear algebra? [Stephen Boyd](https://web.stanford.edu/~boyd/) and [Lieven Vandenberghe](http://www.seas.ucla.edu/~vandenbe/) have an excellent [introduction to the subject](https://web.stanford.edu/~boyd/vmls/vmls.pdf) from an applied perspective.
+- [A cheatsheet of useful inequalities](http://www.lkozma.net/inequalities_cheat_sheet/ineq.pdf), especially for probability, statistics, and computer science. It was compiled by László Kozma. 
 
 ## Data Sets
 
