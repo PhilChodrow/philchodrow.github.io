@@ -50,3 +50,9 @@
 - date: 2022-09-16
   text: |
     New preprint! "Emergence of polarization in a sigmoidal bounded-confidence model of opinion dynamics" is joint work with <a href="https://math.hmc.edu/hzinnbrooks/">Heather Zinn Brooks</a> (Harvey Mudd) and <a href="https://www.math.ucla.edu/~mason/">Mason Porter</a> (UCLA). In this manuscript, we study the mathematical structure of a differentiable model of opinion dynamics on graphs with zealots. Read the preprint <a href="https://arxiv.org/abs/2209.07004">here</a>! 
+- date: 2022-10-25
+  text: |
+    I give an invited online seminar on hypergraph community detection at the University of Oxford.  
+- date: 2023-01-05
+  text: |
+    I attend the <a href="https://www.jointmathematicsmeetings.org//jmm"> Joint Mathematics Meetings</a> in Boston, MA. There I speak on "Developments, Challenges, and Opportunities in Hypergraph Network Data Science."
