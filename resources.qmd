@@ -14,6 +14,19 @@ This page collects a variety of references, organizations, data repositories, li
 - [*Algorithms of Oppression: How Search Engines Reinforce Racism*](https://bookshop.org/books/algorithms-of-oppression-how-search-engines-reinforce-racism/9781479837243) by Safiya Umoja Noble.
 - [*Automating Inequality*](https://bookshop.org/books/automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor/9781250215789) by Virginia Eubanks.
 - [*Invisible Women: Data Bias in a World Designed for Men*](https://bookshop.org/books/invisible-women-data-bias-in-a-world-designed-for-men/9781419735219) by Caroline Criado Perez. 
+- [A People's Guide to Finding Algorithmic Bias](https://www.criticalracedigitalstudies.com/peoplesguide) by the [Center for Critical Race and Digital Studies](https://www.criticalracedigitalstudies.com) affiliated with [NYU's Institute of Human Development and Social Change](https://steinhardt.nyu.edu/ihdsc). 
+- The [Academic Wheel of Privilege](https://science.nasa.gov/files/science-pink/s3fs-public/styles/background_image_file_size/public/thumbnails/image/academic%20wheel%20of%20privilege.JPG?itok=Jp0QfgtW) by Dr. Flavio Azevedo as described in [this interview](https://science.nasa.gov/open-science/transform-to-open-science/stories/dr-flavio-azevedo). 
+- [Dr. Emma Pierson](https://www.cs.cornell.edu/~emmapierson/)'s [provisional schedule](https://docs.google.com/spreadsheets/d/1oppU-mYv3pvy2oGTkLZel03ydMjSgQ09Aa1L2fEC0v8/edit?usp=sharing) for her class on data science for social change. 
+- Assorted articles: 
+    - [The Exploited Labor Behind Artificial Intelligence](https://www.noemamag.com/the-exploited-labor-behind-artificial-intelligence/) by Adrienne Williams, Milagros Miceli and Timnit Gebru in *Noema*. 
+    - [Rent Going Up? One Company’s Algorithm Could Be Why.](https://www.propublica.org/article/yieldstar-rent-increase-realpage-rent) by Heather Vogell, Haru Coryne, and Ryan Little in *ProPublica*. 
+    - [Computer science has a racism problem: these researchers want to fix it](https://www.nature.com/articles/d41586-022-03251-0) by Melba Newsome in *Nature*. 
+- Landmark papers: 
+    - [Data sheets for data sets](https://arxiv.org/pdf/1803.09010.pdf) by Gebru et al. 
+    - [Model Cards for Model Reporting](https://arxiv.org/pdf/1810.03993.pdf) by Mitchell et al. 
+    - [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922) by Bender et al. 
+
+
 
 ## Feminism, Antiracism, and Anti-Colonialism More Broadly
 
@@ -28,6 +41,14 @@ This page collects a variety of references, organizations, data repositories, li
 - [Aaron Clauset](https://aaronclauset.github.io/) at CU Boulder maintains excellent lecture notes on [Network Analysis and Modeling](https://aaronclauset.github.io/courses/5352/) and [Biological Networks](https://aaronclauset.github.io/courses/3352/). 
 - [*Economic Networks: Theory and Computation*](https://arxiv.org/pdf/2203.11972.pdf) by John Stachurski and Thomas J. Sargent. I haven’t personally read this one, but I'd like to soon! 
 - [*The Atlas for the Aspiring Network Scientist*](https://arxiv.org/pdf/2101.00863.pdf) by Michele Coscia contains brief discussion of a very large cross section of the math, models, and ideas of network science. 
+- [A short course in network science](https://net-science.github.io) at the University of Utrecht Summer School by [Javier Garcia-Bernardo](https://javier.science/), [Leto Peel](https://piratepeel.github.io/), [Mahdi Shafiee Kamalabad](https://www.uu.nl/medewerkers/MShafieeKamalabad), [Jiamin Ou](https://www.uu.nl/medewerkers/JOu), and [Vincent Buskens](https://www.uu.nl/medewerkers/vbuskens). 
+
+## Machine Learning 
+
+- [Applied Machine Learning](https://github.com/kuleshov/cornell-cs5785-2020-applied-ml) is a collection of well-annotated Jupyter notebooks from Cornell Tech's course CS5785, Applied Machine Learning as taught by [Volodymyr Kuleshov](https://www.cs.cornell.edu/~kuleshov/). 
+- [Patterns, Predictions, and Actions](https://mlstory.org/pdf/patterns.pdf) by Moritz Hardt and Benjamin Recht is a useful text for advanced undergraduates or early graduate students on several fundamental technical stories in machine learning. 
+- [MLU-Explain](https://mlu-explain.github.io) includes high visual articles of a number of core topics in machine learning. 
+- [Pen and Paper Exercises in Machine Learning](https://arxiv.org/pdf/2206.13446.pdf) is a series of mathematical exercises in machine learning for those with some background in linear algebra and probability. 
 
 ## Useful Math
 
@@ -80,13 +101,24 @@ This page collects a variety of references, organizations, data repositories, li
 *](https://ucidatascienceinitiative.github.io/IntroToJulia/) by [Chris Rackauckas](https://www.stochasticlifestyle.com) offers an advanced introduction to Julia that is most suitable for folks with prior programming experience. There are several interesting problems and case studies included. 
 - The book [*Julia Data Science*](https://juliadatascience.io) by Storopoli, Huijzer, and Alonso covers Julia basics, data manipulation, and visualization. 
 
+### Other
+
+- [The Missing Semester](https://missing.csail.mit.edu/2020/) is an MIT course that aims to train you in fundamental tools for practical computer science that you may not have encountered in other classes. These include shell scripting, text editing, version control, profiling, and much more. Detailed lecture notes and high-quality lecture videos are available on their website. 
+
 
 ## Other Data Science Technical Resources 
 
 - Dirk Eddelbuettel (University of Illinois) hosts a [website](https://stat447.com) with a wide array of resources for his course Data Science Programming Methods.
 - [Sanjay Lall](http://lall.stanford.edu/) and [Stephen Boyd](http://web.stanford.edu/~boyd) are running an [interesting course](http://ee104.stanford.edu) on machine learning with the Julia programming language. 
+- [Programming for Data Science](https://rhodyprog4ds.github.io/BrownFall22/index.html) is a course in the nuts and bolts of writing code for data analysis using R. One thing I especially like about this course is that it introduces machine learning through the topic of algorithm evaluation and auditing. The course is taught by [Dr. Sarah Brown](http://sarahmbrown.org) at the University of Rhode Island. 
 
-## Computing Pedagogy
+## Pedagogy
 
 - [Evan Peck](https://evanpeck.github.io) maintains a [website with activities](https://ethicalcs.github.io) for responsible computing in introductory computer science. 
 - [When Twice as Good Isn't Enough: The Case for Cultural Competence in Computing](https://dl.acm.org/doi/abs/10.1145/3328778.3366792) by [Dr. Nicki Washington](https://nickiwashington.com). 
+- [Ungrading: A Bibliography](https://www.jessestommel.com/ungrading-a-bibliography/) compiled by [Jesse Stommel](https://www.jessestommel.com). 
+- [The (Un)grading Spectrum](https://docs.google.com/document/d/13ZJF7dleHWC16GqTA2EXr0ntmitkVKRc/edit?usp=sharing&ouid=102430959936189066293&rtpof=true&sd=true) by Chris Sarkonak. 
+
+## Humor
+
+- [Many mathematics memes](https://docs.google.com/presentation/d/1YtvIZhDWrvwQAK4d3PwahlvYKMNfSI1Fez7kLnyG6ug/edit?usp=sharing) collected by Wyatt Deimel and Sam Willoughby, with contributions from Julia Engholm and Bella Rieder. 

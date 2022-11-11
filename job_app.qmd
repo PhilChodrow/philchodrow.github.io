@@ -4,7 +4,7 @@ page-layout: article
 toc: true
 ---
 
-I work at Middlebury College, a small liberal arts college (SLAC) that attracts academically high-achieving students. I love the SLAC environment, and think it's a great place for many academics. Since SLAC jobs are less visible in PhD-granting institutions than research-intensive jobs, many folks may not know much about what these jobs are like or how to get them. Careers at SLACs offer distinctive advantages and disadvantages when compared to careers at research-intensive institutions. 
+I work at Middlebury College, a small liberal arts college (SLAC) with a balanced teaching load that attracts academically high-achieving students. I love the SLAC environment, and think it's a great place for many academics. Since SLAC jobs are less visible in PhD-granting institutions than research-intensive jobs, many folks may not know much about what these jobs are like or how to get them. Careers at SLACs offer distinctive advantages and disadvantages when compared to careers at research-intensive institutions. 
 
 Consider SLACs if...
 
@@ -17,7 +17,13 @@ A SLAC might not be for you if...
 - You prefer to teach as little as possible in order to focus on research. 
 - You are very eager to work with graduate students. 
 
-[Evan Peck](https://evanpeck.github.io) operates a [listing of job postings](https://cs-pui.github.io/#deadlines) in computer science at primarily-undergraduate institutions, including many SLACs. 
+## Resouces
+
+- [Dr. Evan Peck](https://evanpeck.github.io) operates a [listing of job postings](https://cs-pui.github.io/#deadlines) in computer science at primarily-undergraduate institutions, including many SLACs. 
+- [Dr. Iris Howley](https://www.cs.williams.edu/~iris/) at Williams College provides [a document with many links](https://docs.google.com/document/d/1JGyp7_NJKDAjCpsm8Z5_lty0P76jk3bhPPMdQJaF0nw/edit?usp=sharing) related to navigating the job market for CS jobs at primarily-undergraduate institutions. 
+- [Dr. Amanda Stent](https://amandastent.net) at Colby College has written on [academic CS careers at liberal arts colleges](https://medium.com/@ajstent/academic-cs-careers-at-liberal-arts-colleges-917b0d3e82ab). 
+
+
 
 ## Application Tips
 
