@@ -10,7 +10,13 @@ My students have said some [nice things](student-nice-things.qmd) about my teach
 
 ## Current Courses
 
-In Fall 2022, I am teaching **CSCI 0145: Introduction to Computing**. 
+In Spring 2023, I am teaching **CSCI 0451: Machine Learning**. 
+
+## Previous Courses at Middlebury
+
+Fall 2022: 
+
+- [CSCI 0145: Introduction to Computing](https://www.philchodrow.com/CSCI-0145/)
 
 ## Courses at UCLA
 

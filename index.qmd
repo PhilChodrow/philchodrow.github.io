@@ -25,7 +25,7 @@ You can email me at `pchodrow@middlebury.edu` or stop by my office, Room 218 in 
 
 ### Teaching
 
-In Fall 2022, I am teaching **CSCI 0145: Introduction to Computing**. 
+In Spring 2023, I am teaching **CSCI 0451: Machine Learning**. 
 
 I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Students might want to take a look at my [FAQs](for-students.qmd). 
 
