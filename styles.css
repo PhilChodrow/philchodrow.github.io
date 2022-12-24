@@ -32,6 +32,10 @@
     height: auto;
     }
 
+.smaller {
+  font-size: 0.8rem;
+}
+
 
 .quarto-sidebar-header { 
     margin-top: 1em;

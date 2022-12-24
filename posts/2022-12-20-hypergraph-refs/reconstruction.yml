@@ -1,0 +1,18 @@
+- title: Hypergraph reconstruction from network data
+  year: 2021
+  authors: [Jean-Gabriel Young, Giovanni Petri, Tiago Peixoto ]
+  url: https://www.nature.com/articles/s42005-021-00637-w
+  venue: |
+    Nature Communications Physics
+  tag: [reconstruction]
+  note: |
+    An inferential approach to the hypergraph reconstruction problem. 
+- title: Supervised hypergraph reconstruction
+  year: 2021
+  authors: [Yanbang Wang, Jon Kleinberg]
+  url: https://arxiv.org/abs/2211.13343
+  venue: |
+    arXiv: 2211.13343
+  tag: [reconstruction]
+  note: |
+    An optimization-based approach to the hypergraph reconstruction problem. 

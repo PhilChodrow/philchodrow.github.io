@@ -1,0 +1,34 @@
+
+```{=html}
+<table style="width:100%">
+<% items.sort(function(a,b){return b.year - a.year }) %>
+<% for (const item of items) { %>
+    <tr>
+        <td>
+            <div class="compress">
+                <a href="<%- item.url %>"><%= item.title %></a>
+                <br> 
+                <% for (var i = 0; i < item.authors.length; i++) { %>
+                    <% if (i < item.authors.length-2) { %>
+                        <% var sep = "," %>
+                    <% } else if (i == item.authors.length-2) {%>
+                        <% if (item.authors.length == 2) { %>
+                            <% var sep = " and" %>
+                        <% } else {%>
+                        <%  var sep = ", and"%>
+                        <% } %>
+                    <% } else { %>
+                        <% var sep = "" %>
+                    <% } %>
+                    <%=item.authors[i]%><%- sep %>
+                <% } %>
+                <br> 
+                <i><%- item.venue %></i> (<%- item.year %>)<br> 
+                <div class="smaller"><i><%- item.note %> </i></div>
+            </div>
+            <br><br>
+        </td>
+    </tr>
+<% } %>
+</table>
+```

@@ -35,7 +35,7 @@ I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Student
 
 :::{#news}
 :::
-
+   
 
 ([*Older news*](news_archive.qmd))
 

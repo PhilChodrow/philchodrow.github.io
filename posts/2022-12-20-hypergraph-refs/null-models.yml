@@ -1,0 +1,9 @@
+- title: Configuration models of random hypergraphs
+  year: 2020
+  authors: [Phil Chodrow]
+  url: https://academic.oup.com/comnet/article/8/3/cnaa018/5879929
+  venue: |
+    Journal of Complex Networks
+  tag: [null models]
+  note: |
+    Two configuration models for null-hypothesis testing in hypergraphs, with implications for triadic closure, edge correlations, and other topics. 
