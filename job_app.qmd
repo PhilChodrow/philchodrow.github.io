@@ -4,9 +4,9 @@ page-layout: article
 toc: true
 ---
 
-I work at Middlebury College, a small liberal arts college (SLAC) with a balanced teaching load that attracts academically high-achieving students. I love the SLAC environment, and think it's a great place for many academics. Since SLAC jobs are less visible in PhD-granting institutions than research-intensive jobs, many folks may not know much about what these jobs are like or how to get them. Careers at SLACs offer distinctive advantages and disadvantages when compared to careers at research-intensive institutions. 
+I work at Middlebury College, a small liberal arts college (SLAC) with a balanced teaching load that attracts academically high-achieving students. I love the SLAC environment, and think it's a great place for many academics. Since SLAC jobs are less visible in PhD-granting institutions than research-intensive jobs, many folks may not know much about what these jobs are like or how to get them. Careers at SLACs offer distinctive advantages and disadvantages when compared to careers at research-intensive institutions. The purpose of this page is to give some basic information about my CS position at Middlebury (which I believe is not unrepresentative of many CS SLAC positions), and to share some tips from my recent experience as both an applicant and a hiring committee member. 
 
-Consider SLACs if...
+## Consider SLACs if...
 
 - You love **both** research and teaching, and you want to be incentivized for excellence in each. 
 - You would like to continue your academic career without needing to regularly write grant proposals. 
@@ -17,13 +17,20 @@ A SLAC might not be for you if...
 - You prefer to teach as little as possible in order to focus on research. 
 - You are very eager to work with graduate students. 
 
-## Resouces
+## My Position
 
-- [Dr. Evan Peck](https://evanpeck.github.io) operates a [listing of job postings](https://cs-pui.github.io/#deadlines) in computer science at primarily-undergraduate institutions, including many SLACs. 
-- [Dr. Iris Howley](https://www.cs.williams.edu/~iris/) at Williams College provides [a document with many links](https://docs.google.com/document/d/1JGyp7_NJKDAjCpsm8Z5_lty0P76jk3bhPPMdQJaF0nw/edit?usp=sharing) related to navigating the job market for CS jobs at primarily-undergraduate institutions. 
-- [Dr. Amanda Stent](https://amandastent.net) at Colby College has written on [academic CS careers at liberal arts colleges](https://medium.com/@ajstent/academic-cs-careers-at-liberal-arts-colleges-917b0d3e82ab). 
+I started as a tenure-track assistant professor at Middlebury in fall of 2022, so I'm still learning the ropes. Here are the rough contours of my position:
 
-
+- My **teaching portfolio** includes introductory CS and machine learning. I am likely to add teaching in math foundations (discrete math) and network science in the near term. 
+- My **teaching load** is five 12-week courses per year. Usually at least two of these courses are simultaneous sections of the same offering, so I am only ever preparing for two distinct classes at once. 
+- My **service expectations** involve contributing to the mission of the department and potentially serving on one committee that serves the broader College. I am largely exempt from service expectations in my first year. I have chosen voluntarily to take up a small role in building our department's Responsible Computing program. 
+- My **salary** is relatively low among CS positions at top liberal arts schools, but there was enough to draw me here regardless. 
+- I am currently funded by roughly $50K of **startup**. My startup package is primarily related to advanced computing needs and additional research travel. I worked out this package with our Dean of Faculty during contract negotiations. 
+- After my startup expires, I will have regular access to $4K/year of **ongoing research funds**. I can apply for grants if I need more funding. 
+- I have not yet taken **research students**, but Middlebury will usually fund 2-3 summer students. I can also take research students for academic credit during the school year. 
+- I will have a full-year **sabbatical** in my fifth year, and then every six years thereafter. 
+- I will be **reviewed** in my third year and again (for tenure and promotion) in my seventh year. For tenure, I am expected to demonstrate excellence in teaching and a reputation for significant research in the broader scientific community. There have been no unsuccessful tenure cases in my department. 
+- Some **perks** include very comfortable, subsidized faculty housing; discounts at the College-owned ski areas; and some very nice built-in support networks through the College. 
 
 ## Application Tips
 
@@ -50,10 +57,16 @@ More generally, find ways to connect the job posting to your interests, and shar
 
 ## My Application Materials
 
-Most applications to SLAC positions include statements on research, teaching, and equity, diversity, and inclusion (EDI). I include the statements that brought me to Middlebury in the hopes that they might be useful to future SLAC job-seekers. 
+Most applications to SLAC positions include statements on research, teaching, and equity, diversity, and inclusion (EDI). I include the statements that brought me to Middlebury in the hopes that they might be useful to future SLAC job-seekers. These statements were **not** tailored to individual schools -- my cover letters addressed specific courses I could teach and how I would fit into individual departments. 
 
 - [Statement on research](assets/pdf/research-cs.pdf).
 - [Statement on teaching](assets/pdf/teaching-cs.pdf).
 - [Statement on equity, diversity, and inclusion (EDI)](assets/pdf/EDI.pdf).
 
 A complete application usually also includes a cover letter addressing specific reasons why the candidate is an excellent fit for the specific institution, and 3-4 letters of reference. Usually, at least one of these letters should focus on teaching. 
+
+## Additional Resouces
+
+- [Dr. Evan Peck](https://evanpeck.github.io) operates a [listing of job postings](https://cs-pui.github.io/#deadlines) in computer science at primarily-undergraduate institutions, including many SLACs. 
+- [Dr. Iris Howley](https://www.cs.williams.edu/~iris/) at Williams College provides [a document with many links](https://docs.google.com/document/d/1JGyp7_NJKDAjCpsm8Z5_lty0P76jk3bhPPMdQJaF0nw/edit?usp=sharing) related to navigating the job market for CS jobs at primarily-undergraduate institutions. 
+- [Dr. Amanda Stent](https://amandastent.net) at Colby College has written on [academic CS careers at liberal arts colleges](https://medium.com/@ajstent/academic-cs-careers-at-liberal-arts-colleges-917b0d3e82ab). 
