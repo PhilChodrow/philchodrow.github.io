@@ -59,3 +59,6 @@
 - date: 2022-11-30
   text: |
     "<a href="https://arxiv.org/abs/2204.13586">Nonbacktracking spectral clustering of nonuniform hypergraphs</a>" with  <a href="https://eikmeier.sites.grinnell.edu">Nicole Eikmeier</a> (Grinnell College) and <a href="https://jamiehaddock.com">Jamie Haddock</a> (Harvey Mudd College) is accepted for publication at the <a href="https://www.siam.org/publications/journals/siam-journal-on-mathematics-of-data-science-simods"><i>SIAM Journal on Mathematics of Data Science</i></a>. 
+- date: 2023-01-24
+  text: |
+    I give an invited talk on generative hypergraph clustering in the Applied and Computational Mathematics Seminar at Dartmouth University. <a href="https://www.philchodrow.com/talks/2023-dartmouth-ACMS">Slides</a>.
