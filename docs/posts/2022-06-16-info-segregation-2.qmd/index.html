@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.0.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,15 +13,10 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
-  vertical-align: middle;
-}
 </style>
 
 
@@ -73,24 +68,19 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../index.html">
+      <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title"><span class="display-name"> Dr.&nbsp;<b>Phil Chodrow</b></span> <span class="hidden" data-render-id="quarto-int-navbar:Research">Research</span> <span class="hidden" data-render-id="quarto-int-navbar:For Students">For Students</span> <span class="hidden" data-render-id="quarto-int-navbar:Teaching">Teaching</span> <span class="hidden" data-render-id="quarto-int-navbar:FAQs">FAQs</span> <span class="hidden" data-render-id="quarto-int-navbar:Mission">Mission</span> <span class="hidden" data-render-id="quarto-int-navbar:Resources">Resources</span> <span class="hidden" data-render-id="quarto-int-navbar:About">About</span> <span class="hidden" data-render-id="quarto-int-navbar:Me">Me</span> <span class="hidden" data-render-id="quarto-int-navbar:Jobs at SLACs">Jobs at SLACs</span> <span class="hidden" data-render-id="quarto-int-navbar:What I'm Reading">What I’m Reading</span> <span class="hidden" data-render-id="quarto-int-navbar:CV">CV</span> <span class="hidden" data-render-id="quarto-int-navbar:Blog">Blog</span> <span class="hidden" data-render-id="quarto-int-navbar:Gratitude">Gratitude</span></span>
-    </a>
-  </div>
+  </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link" href="../../research.html">Research</a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-for-students" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">For Students</span>
-    </a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-for-students" role="button" data-bs-toggle="dropdown" aria-expanded="false">For Students</a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-for-students">    
         <li>
     <a class="dropdown-item" href="../../teaching.html">
@@ -103,17 +93,13 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../mission.html">
- <span class="menu-text">Mission</span></a>
+    <a class="nav-link" href="../../mission.html">Mission</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html">
- <span class="menu-text">Resources</span></a>
+    <a class="nav-link" href="../../resources.html">Resources</a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">About</span>
-    </a>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
     <a class="dropdown-item" href="../../journey.html">
@@ -138,8 +124,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../acknowledgments.html">
- <span class="menu-text">Gratitude</span></a>
+    <a class="nav-link" href="../../acknowledgments.html">Gratitude</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -152,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+        <nav id="TOC" role="doc-toc">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -198,7 +183,6 @@ ul.task-list li input[type="checkbox"] {
       <p class="date">June 16, 2022</p>
     </div>
   </div>
-  
     
   </div>
   
@@ -410,17 +394,17 @@ H(Y) &amp;= H(Y|X) + I(Z,Y) + I(X,Y|Z) \\
 </section>
 
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>Theil, H., &amp; Finezza, A. J. (1971). A note on the measurement of racial integration of schools by means of informational concepts. Taylor and Francis.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Reardon, S. F. (2008). Measures of Ordinal Segregation. In Y. Flückiger, S. F. Reardon, &amp; J. Silber (Eds.), Occupational and Residential Segregation (Research on Economic Inequality, Volume 17) (pp.&nbsp;129–155).<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Reardon, S. F., &amp; O’Sullivan, D. (2004). Measures of Spatial Segregation. Sociological Methodology, 34(1), 121–162. http://doi.org/10.1111/j.0081-1750.2004.00150.x<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>Reardon, S. F., &amp; Firebaugh, G. (2002). Measures of multigroup segregation. Sociological Methodology, 32, 33–67. http://doi.org/10.1111/1467-9531.00110<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn5"><p>Jargowsky, P. A., &amp; Kim, J. (2005). A measure of spatial segregation: The generalized neighborhood sorting index. National Poverty Center Working Paper Series. Retrieved from http://nationalpovertycenter.net/publications/workingpaper05/paper03/jargowsky_kim_21mar2005.pdf<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6"><p>Roberto, E. (2015). Measuring Inequality and Segregation. arXiv.org, 1–26. Retrieved from http://arxiv.org/abs/1508.01167<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn7"><p>Roberto, E. (2016). The Spatial Context of Residential Segregation. arXiv.org, 1–27.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn8"><p>Chodrow, P. (2017). Structure and Information in Spatial Segregation. <em>Proceedings of the National Academy of Sciences</em>.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1" role="doc-endnote"><p>Theil, H., &amp; Finezza, A. J. (1971). A note on the measurement of racial integration of schools by means of informational concepts. Taylor and Francis.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Reardon, S. F. (2008). Measures of Ordinal Segregation. In Y. Flückiger, S. F. Reardon, &amp; J. Silber (Eds.), Occupational and Residential Segregation (Research on Economic Inequality, Volume 17) (pp.&nbsp;129–155).<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>Reardon, S. F., &amp; O’Sullivan, D. (2004). Measures of Spatial Segregation. Sociological Methodology, 34(1), 121–162. http://doi.org/10.1111/j.0081-1750.2004.00150.x<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>Reardon, S. F., &amp; Firebaugh, G. (2002). Measures of multigroup segregation. Sociological Methodology, 32, 33–67. http://doi.org/10.1111/1467-9531.00110<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>Jargowsky, P. A., &amp; Kim, J. (2005). A measure of spatial segregation: The generalized neighborhood sorting index. National Poverty Center Working Paper Series. Retrieved from http://nationalpovertycenter.net/publications/workingpaper05/paper03/jargowsky_kim_21mar2005.pdf<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>Roberto, E. (2015). Measuring Inequality and Segregation. arXiv.org, 1–26. Retrieved from http://arxiv.org/abs/1508.01167<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p>Roberto, E. (2016). The Spatial Context of Residential Segregation. arXiv.org, 1–27.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p>Chodrow, P. (2017). Structure and Information in Spatial Segregation. <em>Proceedings of the National Academy of Sciences</em>.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -464,24 +448,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -509,50 +476,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      let href = ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>

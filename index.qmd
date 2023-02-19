@@ -25,7 +25,7 @@ You can email me at `pchodrow@middlebury.edu` or stop by my office, Room 218 in 
 
 ### Teaching
 
-In Spring 2023, I am teaching **CSCI 0451: Machine Learning**. 
+In Spring 2023, I am teaching **[CSCI 0451: Machine Learning](https://middlebury-csci-0451.github.io/CSCI-0451/syllabus.html)**. 
 
 I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Students might want to take a look at my [FAQs](for-students.qmd). 
 
