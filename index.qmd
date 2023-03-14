@@ -17,7 +17,7 @@ listing:
 
 I'm Dr. Phil Chodrow, an assistant professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/#story645114). My pronouns are *he/him/his*. 
 
-You can email me at `pchodrow@middlebury.edu` or stop by my office, Room 218 in 75 Shannon St. 
+You can email me at `pchodrow@middlebury.edu` or stop by my office, Room 218 in 75 Shannon St.  
 
 ### Research
 

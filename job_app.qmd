@@ -21,8 +21,8 @@ A SLAC might not be for you if...
 
 I started as a tenure-track assistant professor at Middlebury in fall of 2022, so I'm still learning the ropes. Here are the rough contours of my position:
 
-- My **teaching portfolio** includes introductory CS and machine learning. I am likely to add teaching in math foundations (discrete math) and network science in the near term. 
-- My **teaching load** is five 12-week courses per year. Usually at least two of these courses are simultaneous sections of the same offering, so I am only ever preparing for two distinct classes at once. 
+- My **teaching portfolio** includes introductory CS, machine learning, math foundations of computing (discrete math) and thesis supervision. I will be developing a course on network science in the near future. 
+- My **teaching load** is four 12-week courses per year. Usually these courses are doubled sections of the same course in at least one semester. 
 - My **service expectations** involve contributing to the mission of the department and potentially serving on one committee that serves the broader College. I am largely exempt from service expectations in my first year. I have chosen voluntarily to take up a small role in building our department's Responsible Computing program. 
 - My **salary** is relatively low among CS positions at top liberal arts schools, but there was enough to draw me here regardless. 
 - I am currently funded by roughly $50K of **startup**. My startup package is primarily related to advanced computing needs and additional research travel. I worked out this package with our Dean of Faculty during contract negotiations. 

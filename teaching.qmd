@@ -6,12 +6,10 @@ toc: true
 
 My goal as an educator is to make computing, quantitative reasoning, and data science accessible to **all** students. I approach this goal through actively inclusive teaching practices and evidence-based pedagogy. My courses often involve include flipped classrooms, project-based learning, structured group work, writing assignments, and alternative grading. 
 
-My students have said some [nice things](student-nice-things.qmd) about my teaching. 
-
 ## Current Courses
 
-In Spring 2023, I am teaching **CSCI 0451: Machine Learning**. 
-
+In Spring 2023, I am teaching **[CSCI 0451: Machine Learning](https://middlebury-csci-0451.github.io/CSCI-0451/syllabus.html)**. 
+ 
 ## Previous Courses at Middlebury
 
 Fall 2022: 
