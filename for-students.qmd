@@ -134,7 +134,6 @@ I spend a lot of time on my laptop, and I've given some thought to the tools tha
 - **Launcher**: [Alfred](https://www.alfredapp.com/). Pressing a simple keyboard shortcut spawns a search bar when I can open apps, search for files, etc. 
 - **Browser**: [Vivaldi](https://vivaldi.com). A customizable browser compatible with Chrome plugins. 
 
-
 #### Is programming language A better than programming language B?
 
 Probably not! Most programming languages have certain strengths in which they excel. You don't need "the best" programming language -- you need the one that's right for your task. For example, R and Python have different strengths for data science, and most practicing data scientists know both. Here are my thoughts on the languages I know and use. 

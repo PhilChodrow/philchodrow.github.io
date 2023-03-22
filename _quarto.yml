@@ -4,7 +4,6 @@ project:
   resources: 
     - "assets/css/custom.scss"
     - "assets/css/layouts.css"
-    - "assets/pdf/ds4sj-resources.pdf"
 
 website:
   title: "Dr. Phil Chodrow"

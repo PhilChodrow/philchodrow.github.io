@@ -1,0 +1,10 @@
+---
+title: "Data for social justice in the mathematics community"
+authors: [Quindel Jones, Andrés R. Vindas Meléndez, Ariana Mendible, Manuchehr Aminian, Heather Zinn Brooks, Nathan Alexander, Carrie Diaz Eaton, PSC]
+categories: 
+image: "handshake.png"
+venue: "arXiv:2303.09282"
+year: "2023"
+url: "https://arxiv.org/abs/2303.09282"
+page-layout: article
+---

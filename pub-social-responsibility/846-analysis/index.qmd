@@ -1,5 +1,5 @@
 ---
-title: " Persons charged with violations of 21 U.S.C.
+title: "Persons charged with violations of 21 U.S.C.
 §846: Poverty, unemployment, education, and sentences."
 authors: [PSC, Manuchehr Aminian, Carlos Paniagua, Jude Higdon]
 categories: [news, code, analysis]
