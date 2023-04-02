@@ -35,7 +35,8 @@ website:
     search: true 
     pinned: true
   favicon: assets/img/favicon.png
-  
+  google-analytics: "UA-92231849-2"
+
 format:
   html:
     theme: [cosmo, custom.scss]
