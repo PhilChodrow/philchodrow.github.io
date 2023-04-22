@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.3.309">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-categories','listing-image','listing-venue','listing-year','listing-priority','listing-url','listing-page-layout','listing-path','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-authors','listing-categories','listing-image','listing-venue','listing-year','listing-priority','listing-url','listing-page-layout','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-title","listing-authors","listing-categories","listing-image","listing-venue","listing-year","listing-priority","listing-url","listing-page-layout","listing-path","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-authors","listing-categories","listing-image","listing-venue","listing-year","listing-priority","listing-url","listing-page-layout","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -98,9 +98,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-freeze','listing-title-block-banner','listing-title','listing-authors','listing-categories','listing-image','listing-venue','listing-year','listing-url','listing-page-layout','listing-priority','listing-extra','listing-path','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-freeze','listing-title-block-banner','listing-title','listing-authors','listing-categories','listing-image','listing-venue','listing-year','listing-url','listing-page-layout','listing-priority','listing-extra','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-freeze","listing-title-block-banner","listing-title","listing-authors","listing-categories","listing-image","listing-venue","listing-year","listing-url","listing-page-layout","listing-priority","listing-extra","listing-path","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-freeze","listing-title-block-banner","listing-title","listing-authors","listing-categories","listing-image","listing-venue","listing-year","listing-url","listing-page-layout","listing-priority","listing-extra","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -126,9 +126,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-authors','listing-image','listing-venue','listing-year','listing-url','listing-page-layout','listing-path','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-categories','listing-extra',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-authors','listing-image','listing-venue','listing-year','listing-url','listing-page-layout','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-categories','listing-extra',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-title","listing-authors","listing-image","listing-venue","listing-year","listing-url","listing-page-layout","listing-path","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-categories","listing-extra"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-authors","listing-image","listing-venue","listing-year","listing-url","listing-page-layout","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-categories","listing-extra"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -156,6 +156,7 @@ gtag('config', 'G-0PJKK3D50S', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
@@ -169,74 +170,76 @@ gtag('config', 'G-0PJKK3D50S', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><span class="display-name"> Dr.&nbsp;<b>Phil Chodrow</b></span> <span class="hidden" data-render-id="quarto-int-navbar:Research">Research</span> <span class="hidden" data-render-id="quarto-int-navbar:For Students">For Students</span> <span class="hidden" data-render-id="quarto-int-navbar:Teaching">Teaching</span> <span class="hidden" data-render-id="quarto-int-navbar:FAQs">FAQs</span> <span class="hidden" data-render-id="quarto-int-navbar:Mission">Mission</span> <span class="hidden" data-render-id="quarto-int-navbar:Resources">Resources</span> <span class="hidden" data-render-id="quarto-int-navbar:About">About</span> <span class="hidden" data-render-id="quarto-int-navbar:Me">Me</span> <span class="hidden" data-render-id="quarto-int-navbar:Jobs at SLACs">Jobs at SLACs</span> <span class="hidden" data-render-id="quarto-int-navbar:What I'm Reading">What I’m Reading</span> <span class="hidden" data-render-id="quarto-int-navbar:CV">CV</span> <span class="hidden" data-render-id="quarto-int-navbar:Blog">Blog</span> <span class="hidden" data-render-id="quarto-int-navbar:Gratitude">Gratitude</span></span>
+    <span class="navbar-title"><span class="display-name"> Dr.&nbsp;<b>Phil Chodrow</b></span> <span class="hidden" data-render-id="quarto-int-navbar:Research">Research</span> <span class="hidden" data-render-id="quarto-int-navbar:/research.html">/research.html</span> <span class="hidden" data-render-id="quarto-int-navbar:For Students">For Students</span> <span class="hidden" data-render-id="quarto-int-navbar:Teaching">Teaching</span> <span class="hidden" data-render-id="quarto-int-navbar:/teaching.html">/teaching.html</span> <span class="hidden" data-render-id="quarto-int-navbar:FAQs">FAQs</span> <span class="hidden" data-render-id="quarto-int-navbar:/for-students.html">/for-students.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Mission">Mission</span> <span class="hidden" data-render-id="quarto-int-navbar:/mission.html">/mission.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Resources">Resources</span> <span class="hidden" data-render-id="quarto-int-navbar:/resources.html">/resources.html</span> <span class="hidden" data-render-id="quarto-int-navbar:About">About</span> <span class="hidden" data-render-id="quarto-int-navbar:Me">Me</span> <span class="hidden" data-render-id="quarto-int-navbar:/journey.html">/journey.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Jobs at SLACs">Jobs at SLACs</span> <span class="hidden" data-render-id="quarto-int-navbar:/job_app.html">/job_app.html</span> <span class="hidden" data-render-id="quarto-int-navbar:What I'm Reading">What I’m Reading</span> <span class="hidden" data-render-id="quarto-int-navbar:/reading.html">/reading.html</span> <span class="hidden" data-render-id="quarto-int-navbar:CV">CV</span> <span class="hidden" data-render-id="quarto-int-navbar:https://www.philchodrow.com/CV/cv.pdf">https://www.philchodrow.com/CV/cv.pdf</span> <span class="hidden" data-render-id="quarto-int-navbar:Blog">Blog</span> <span class="hidden" data-render-id="quarto-int-navbar:/blog.html">/blog.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Gratitude">Gratitude</span> <span class="hidden" data-render-id="quarto-int-navbar:/acknowledgments.html">/acknowledgments.html</span></span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page">
+    <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-for-students" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-for-students" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">For Students</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-for-students">    
         <li>
-    <a class="dropdown-item" href="./teaching.html">
+    <a class="dropdown-item" href="./teaching.html" rel="" target="">
  <span class="dropdown-text">Teaching</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./for-students.html">
+    <a class="dropdown-item" href="./for-students.html" rel="" target="">
  <span class="dropdown-text">FAQs</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./mission.html">
+    <a class="nav-link" href="./mission.html" rel="" target="">
  <span class="menu-text">Mission</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html">
+    <a class="nav-link" href="./resources.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./journey.html">
+    <a class="dropdown-item" href="./journey.html" rel="" target="">
  <span class="dropdown-text">Me</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./job_app.html">
+    <a class="dropdown-item" href="./job_app.html" rel="" target="">
  <span class="dropdown-text">Jobs at SLACs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./reading.html">
+    <a class="dropdown-item" href="./reading.html" rel="" target="">
  <span class="dropdown-text">What I’m Reading</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.philchodrow.com/CV/cv.pdf">
+    <a class="dropdown-item" href="https://www.philchodrow.com/CV/cv.pdf" rel="" target="">
  <span class="dropdown-text">CV</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./blog.html">
+    <a class="dropdown-item" href="./blog.html" rel="" target="">
  <span class="dropdown-text">Blog</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./acknowledgments.html">
+    <a class="nav-link" href="./acknowledgments.html" rel="" target="">
  <span class="menu-text">Gratitude</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -284,89 +287,83 @@ gtag('config', 'G-0PJKK3D50S', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="methods-of-network-data-science">Methods of Network Data Science</h2>
 <p>How do we analyze and learn from network data? I build mathematical foundations for network data science algorithms, with recent focus on networks of higher-order interactions. Much of my work is devoted to developing novel random graph models and applying them in algorithms. Doing so often requires tools from probability, optimization, combinatorics, and random matrix theory.</p>
 <div id="listing-research-1" class="quarto-listing quarto-listing-container-custom">
+<table data-quarto-postprocess="true" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><div class="thumbnail">
+<img src="./pub-network-data-science/spectral-clustering-hypergraphs/img.png" class="img-fluid" width="70">
+</div>
+<div class="compress">
+<a href="https://arxiv.org/abs/2204.13586#">Nonbacktracking spectral clustering of nonuniform hypergraphs</a><br>
+<strong>PSC</strong>, Nicole Eikmeier, and Jamie Haddock<br>
+<em>arXiv:2204.13586</em> (2022)<br>
 
-<table style="width:100%">
-    <tbody><tr>
-        <td>
-            <div class="thumbnail">
-                <img src="./pub-network-data-science/spectral-clustering-hypergraphs/img.png" width="70">
-            </div>
-            <div class="compress">
-                <a href="https://arxiv.org/abs/2204.13586#">Nonbacktracking spectral clustering of nonuniform hypergraphs</a>
-                <br> 
-                        <b>PSC</b>,
-                        Nicole Eikmeier, and
-                        Jamie Haddock
-                <br> 
-                <i>arXiv:2204.13586</i> (2022)<br> 
-            </div>
-            <br><br>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="thumbnail">
-                <img src="./pub-network-data-science/hypergraph-modularity/img.png" width="70">
-            </div>
-            <div class="compress">
-                <a href="https://www.science.org/doi/full/10.1126/sciadv.abh1303">Generative hypergraph clustering: from blockmodels to modularity</a>
-                <br> 
-                        <b>PSC</b>,
-                        Nate Veldt, and
-                        Austin Benson
-                <br> 
-                <i>Science Advances</i> (2021)<br> 
-            </div>
-            <br><br>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="thumbnail">
-                <img src="./pub-network-data-science/configuration-hypergraphs/img.png" width="70">
-            </div>
-            <div class="compress">
-                <a href="https://academic.oup.com/comnet/article/8/3/cnaa018/5879929?login=true">Configuration models of random hypergraphs</a>
-                <br> 
-                        <b>PSC</b>
-                <br> 
-                <i>Journal of Complex Networks</i> (2020)<br> 
-            </div>
-            <br><br>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="thumbnail">
-                <img src="./pub-network-data-science/multigraph-moments/img.png" width="70">
-            </div>
-            <div class="compress">
-                <a href="https://epubs.siam.org/doi/abs/10.1137/18M1232346">Moments of uniformly random multigraphs with fixed degree sequences</a>
-                <br> 
-                        <b>PSC</b>
-                <br> 
-                <i>SIAM Journal on Mathematics of Data Science</i> (2020)<br> 
-            </div>
-            <br><br>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="thumbnail">
-                <img src="./pub-network-data-science/annotated-hypergraphs/img.png" width="70">
-            </div>
-            <div class="compress">
-                <a href="https://link.springer.com/article/10.1007/s41109-020-0252-y">Annotated hypergraphs: models and applications</a>
-                <br> 
-                        <b>PSC</b> and
-                        Andrew Mellor
-                <br> 
-                <i>Applied Network Science</i> (2020)<br> 
-            </div>
-            <br><br>
-        </td>
-    </tr>
-</tbody></table>
+</div>
+<br>
+<br>
+</td>
+</tr>
+<tr class="even">
+<td><div class="thumbnail">
+<img src="./pub-network-data-science/hypergraph-modularity/img.png" class="img-fluid" width="70">
+</div>
+<div class="compress">
+<a href="https://www.science.org/doi/full/10.1126/sciadv.abh1303">Generative hypergraph clustering: from blockmodels to modularity</a><br>
+<strong>PSC</strong>, Nate Veldt, and Austin Benson<br>
+<em>Science Advances</em> (2021)<br>
+
+</div>
+<br>
+<br>
+</td>
+</tr>
+<tr class="odd">
+<td><div class="thumbnail">
+<img src="./pub-network-data-science/configuration-hypergraphs/img.png" class="img-fluid" width="70">
+</div>
+<div class="compress">
+<a href="https://academic.oup.com/comnet/article/8/3/cnaa018/5879929?login=true">Configuration models of random hypergraphs</a><br>
+<strong>PSC</strong><br>
+<em>Journal of Complex Networks</em> (2020)<br>
+
+</div>
+<br>
+<br>
+</td>
+</tr>
+<tr class="even">
+<td><div class="thumbnail">
+<img src="./pub-network-data-science/multigraph-moments/img.png" class="img-fluid" width="70">
+</div>
+<div class="compress">
+<a href="https://epubs.siam.org/doi/abs/10.1137/18M1232346">Moments of uniformly random multigraphs with fixed degree sequences</a><br>
+<strong>PSC</strong><br>
+<em>SIAM Journal on Mathematics of Data Science</em> (2020)<br>
+
+</div>
+<br>
+<br>
+</td>
+</tr>
+<tr class="odd">
+<td><div class="thumbnail">
+<img src="./pub-network-data-science/annotated-hypergraphs/img.png" class="img-fluid" width="70">
+</div>
+<div class="compress">
+<a href="https://link.springer.com/article/10.1007/s41109-020-0252-y">Annotated hypergraphs: models and applications</a><br>
+<strong>PSC</strong> and Andrew Mellor<br>
+<em>Applied Network Science</em> (2020)<br>
+
+</div>
+<br>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -377,62 +374,57 @@ No matching items
 <p>Human and animal societies are structured by persistent hierarchies, inequalities, and divisions. Dynamical and statistical models can help us understand the extent of these structures, how they form, and under what conditions they persist. I am especially interested in the role of social feedback loops in reinforcing these structures.</p>
 <div class="list">
 <div id="listing-research-2" class="quarto-listing quarto-listing-container-custom">
+<table data-quarto-postprocess="true" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><div class="thumbnail">
+<img src="./pub-models-of-social-systems/SBCM/img.png" class="img-fluid" width="70">
+</div>
+<div class="compress">
+<a href="https://arxiv.org/abs/2209.07004">Emergence of polarization in a sigmoidal bounded-confidence model of opinion dynamics</a><br>
+Heather Zinn Brooks, <strong>PSC</strong>, and Mason Porter<br>
+<em>arXiv</em> (2022)<br>
 
-<table style="width:100%">
-    <tbody><tr>
-        <td>
-            <div class="thumbnail">
-                <img src="./pub-models-of-social-systems/SBCM/img.png" width="70">
-            </div>
-            <div class="compress">
-                <a href="https://arxiv.org/abs/2209.07004">Emergence of polarization in a sigmoidal bounded-confidence model of opinion dynamics</a>
-                <br> 
-                        Heather Zinn Brooks,
-                        <b>PSC</b>, and
-                        Mason Porter
-                <br> 
-                <i>arXiv</i> (2022)<br> 
-            </div>
-            <br><br>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="thumbnail">
-                <img src="./pub-models-of-social-systems/emergence-of-hierarchy/img.png" width="70">
-            </div>
-            <div class="compress">
-                <a href="https://www.pnas.org/doi/10.1073/pnas.2015188118">Emergence of hierarchy in networked endorsement dynamics</a>
-                <br> 
-                        Mari Kawakatsu,
-                        <b>PSC</b>,
-                        Nicole Eikmeier, and
-                        Dan Larremore
-                <br> 
-                <i>Proceedings of the National Academy of Sciences</i> (2021)<br> 
-                <li> <a href="https://www.pnas.org/content/118/21/e2106186118">Commentary</a> by Simon DeDeo and Elizabeth Hobson</li>
-<li> <a href="https://sinews.siam.org/Details-Page/networks-dynamics-and-prestige-how-hierarchies-emerge-from-individual-choices">Explainer post</a> on SIAM News blog</li>
-            </div>
-            <br><br>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="thumbnail">
-                <img src="./pub-models-of-social-systems/adaptive-voter-models/img.png" width="70">
-            </div>
-            <div class="compress">
-                <a href="https://epubs.siam.org/doi/abs/10.1137/18M1232346">Local symmetry and global structure in adaptive voter models</a>
-                <br> 
-                        <b>PSC</b> and
-                        Peter Mucha
-                <br> 
-                <i>SIAM Journal on Applied Mathematics</i> (2021)<br> 
-            </div>
-            <br><br>
-        </td>
-    </tr>
-</tbody></table>
+</div>
+<br>
+<br>
+</td>
+</tr>
+<tr class="even">
+<td><div class="thumbnail">
+<img src="./pub-models-of-social-systems/emergence-of-hierarchy/img.png" class="img-fluid" width="70">
+</div>
+<div class="compress">
+<a href="https://www.pnas.org/doi/10.1073/pnas.2015188118">Emergence of hierarchy in networked endorsement dynamics</a><br>
+Mari Kawakatsu, <strong>PSC</strong>, Nicole Eikmeier, and Dan Larremore<br>
+<em>Proceedings of the National Academy of Sciences</em> (2021)<br>
+
+<a href="https://www.pnas.org/content/118/21/e2106186118">Commentary</a> by Simon DeDeo and Elizabeth Hobson
+<a href="https://sinews.siam.org/Details-Page/networks-dynamics-and-prestige-how-hierarchies-emerge-from-individual-choices">Explainer post</a> on SIAM News blog
+</div>
+<br>
+<br>
+</td>
+</tr>
+<tr class="odd">
+<td><div class="thumbnail">
+<img src="./pub-models-of-social-systems/adaptive-voter-models/img.png" class="img-fluid" width="70">
+</div>
+<div class="compress">
+<a href="https://epubs.siam.org/doi/abs/10.1137/18M1232346">Local symmetry and global structure in adaptive voter models</a><br>
+<strong>PSC</strong> and Peter Mucha<br>
+<em>SIAM Journal on Applied Mathematics</em> (2021)<br>
+
+</div>
+<br>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -444,85 +436,70 @@ No matching items
 <p>I also use my skills and resources in the service of equity, sustainability, and justice. My efforts here includes both the development of novel methods for social data analysis and work on activist data science projects. I pursue some of this work as a Partner at <a href="https://qsideinstitute.org/">QSIDE</a>, the Institute for the Quantitative Study of Inclusion, Diversity, and Equity.</p>
 <div class="list">
 <div id="listing-research-3" class="quarto-listing quarto-listing-container-custom">
+<table data-quarto-postprocess="true" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><div class="thumbnail">
+<img src="./pub-social-responsibility/ds4sj/handshake.png" class="img-fluid" width="70">
+</div>
+<div class="compress">
+<a href="https://arxiv.org/abs/2303.09282">Data for social justice in the mathematics community</a><br>
+Quindel Jones, Andrés R. Vindas Meléndez, Ariana Mendible, Manuchehr Aminian, Heather Zinn Brooks, Nathan Alexander, Carrie Diaz Eaton, and <strong>PSC</strong><br>
+<em>arXiv:2303.09282</em> (2023)<br>
 
-<table style="width:100%">
-    <tbody><tr>
-        <td>
-            <div class="thumbnail">
-                <img src="./pub-social-responsibility/ds4sj/handshake.png" width="70">
-            </div>
-            <div class="compress">
-                <a href="https://arxiv.org/abs/2303.09282">Data for social justice in the mathematics community</a>
-                <br> 
-                        Quindel Jones,
-                        Andrés R. Vindas Meléndez,
-                        Ariana Mendible,
-                        Manuchehr Aminian,
-                        Heather Zinn Brooks,
-                        Nathan Alexander,
-                        Carrie Diaz Eaton, and
-                        <b>PSC</b>
-                <br> 
-                <i>arXiv:2303.09282</i> (2023)<br> 
-            </div>
-            <br><br>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="thumbnail">
-                <img src="./pub-social-responsibility/846-analysis/blank.png" width="70">
-            </div>
-            <div class="compress">
-                <a href="">Persons charged with violations of 21 U.S.C. §846: Poverty, unemployment, education, and sentences.</a>
-                <br> 
-                        <b>PSC</b>,
-                        Manuchehr Aminian,
-                        Carlos Paniagua, and
-                        Jude Higdon
-                <br> 
-                <i>Part of an amicus brief in Rodriguez-Rivera v. United States, U.S. Supreme Court case 21-143</i> (2021)<br> 
-            </div>
-            <br><br>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="thumbnail">
-                <img src="./pub-social-responsibility/space-based/img.png" width="70">
-            </div>
-            <div class="compress">
-                <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GL094333">Space-based observational constraints on NO₂ air pollution inequality from diesel traffic in major U.S. cities</a>
-                <br> 
-                        Mary Angelique Demetillo,
-                        Colin Harkins,
-                        Brian McDonald,
-                        <b>PSC</b>,
-                        Kang Sun, and
-                        Sally Pusede
-                <br> 
-                <i>Geophysics Review Letters</i> (2021)<br> 
-                <li> <a href="https://cen.acs.org/environment/pollution/Satellite-data-reveal-diesel-trucking/99/i32"> Writeup </a> in <i>Chemical and Engineering News</i></li>
-            </div>
-            <br><br>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div class="thumbnail">
-                <img src="./pub-social-responsibility/structure-info-race/img.png" width="70">
-            </div>
-            <div class="compress">
-                <a href="https://www.pnas.org/content/pnas/114/44/11591.full.pdf">Structure and information in spatial segregation</a>
-                <br> 
-                        <b>PSC</b>
-                <br> 
-                <i>Proceedings of the National Academy of Sciences</i> (2017)<br> 
-            </div>
-            <br><br>
-        </td>
-    </tr>
-</tbody></table>
+</div>
+<br>
+<br>
+</td>
+</tr>
+<tr class="even">
+<td><div class="thumbnail">
+<img src="./pub-social-responsibility/846-analysis/blank.png" class="img-fluid" width="70">
+</div>
+<div class="compress">
+<a href="">Persons charged with violations of 21 U.S.C. §846: Poverty, unemployment, education, and sentences.</a><br>
+<strong>PSC</strong>, Manuchehr Aminian, Carlos Paniagua, and Jude Higdon<br>
+<em>Part of an amicus brief in Rodriguez-Rivera v. United States, U.S. Supreme Court case 21-143</em> (2021)<br>
+
+</div>
+<br>
+<br>
+</td>
+</tr>
+<tr class="odd">
+<td><div class="thumbnail">
+<img src="./pub-social-responsibility/space-based/img.png" class="img-fluid" width="70">
+</div>
+<div class="compress">
+<a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GL094333">Space-based observational constraints on NO₂ air pollution inequality from diesel traffic in major U.S. cities</a><br>
+Mary Angelique Demetillo, Colin Harkins, Brian McDonald, <strong>PSC</strong>, Kang Sun, and Sally Pusede<br>
+<em>Geophysics Review Letters</em> (2021)<br>
+
+<a href="https://cen.acs.org/environment/pollution/Satellite-data-reveal-diesel-trucking/99/i32">Writeup</a> in <em>Chemical and Engineering News</em>
+</div>
+<br>
+<br>
+</td>
+</tr>
+<tr class="even">
+<td><div class="thumbnail">
+<img src="./pub-social-responsibility/structure-info-race/img.png" class="img-fluid" width="70">
+</div>
+<div class="compress">
+<a href="https://www.pnas.org/content/pnas/114/44/11591.full.pdf">Structure and information in spatial segregation</a><br>
+<strong>PSC</strong><br>
+<em>Proceedings of the National Academy of Sciences</em> (2017)<br>
+
+</div>
+<br>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -590,9 +567,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -657,6 +648,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {

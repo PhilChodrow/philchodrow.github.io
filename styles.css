@@ -94,6 +94,8 @@
   vertical-align: top;
   padding-right: 1em;
   text-align: right;
+  max-width: 10em;
+  min-width: 5em;
 }
 
 .news-item { 
@@ -129,4 +131,18 @@
   }
 }
 
+.table>:not(caption)>*>* {
+  border-bottom-width: 0px;
+}
 
+
+.table>:not(caption)>*:not(:last-child)>* {
+  border-bottom-color: #ffffff;
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+}
+
+table {
+  border-collapse: separate;
+  table-layout: auto;
+}

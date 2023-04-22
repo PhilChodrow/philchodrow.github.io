@@ -5,6 +5,11 @@
 <% var currentMonth = 0 %>
 <% var currentYear = 0 %>
 <table>
+    <colgroup>
+        <col span="1" style="width: 10%;"> 
+        <col span="1" style="width: 90%;">
+    </colgroup>
+    <tbody>
 <% for (const item of items) { %>
     <% var itemDate = new Date(item.date) %>
     <% var itemMonth = itemDate.toLocaleString("en-US", { month: "long" }) %>
@@ -19,5 +24,6 @@
     <td class="news-item"> <%= item.text %> </td>
     </tr>
 <% } %>
+    </tbody>
 </table>
 ```
