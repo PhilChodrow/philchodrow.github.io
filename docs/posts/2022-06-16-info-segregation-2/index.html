@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.309">
+<meta name="generator" content="quarto-1.3.313">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -390,11 +390,9 @@ H(Y) &amp;= H(Y|X) + I(X,Y) \\
 </div>
 </div>
 </div>
-<p>This figure divides the city of Detroit, MI into six regions. If <span class="math inline">\(X\)</span> is a census tract, we can think of <span class="math inline">\(f:X\mapsto X\)</span> as the function that assigns to each <span class="math inline">\(X\)</span> the region in which that tract is located. Now, mathematically, a quick argument shows that we can write</p>
-<p><span class="math display">\[
+<p>This figure divides the city of Detroit, MI into six regions. If <span class="math inline">\(X\)</span> is a census tract, we can think of <span class="math inline">\(f:X\mapsto X\)</span> as the function that assigns to each <span class="math inline">\(X\)</span> the region in which that tract is located. Now, mathematically, a quick argument shows that we can write <span class="math display">\[
 I(X,Y) = I(Z,Y) + I(X,Y|Z)\;,
-\]</span></p>
-<p>where <span class="math inline">\(I(X,Y|Z)\)</span> is the mean mutual information within each of the regions. We can again interpret these terms: <span class="math inline">\(I(Z,Y)\)</span> is the amount of segregation accounted for by the division into regions, while <span class="math inline">\(I(X,Y|Z)\)</span> is the amount of segregation “left over” because it lies <em>within</em> regions. Substituting back into <a href="#eq-fundamental">Equation&nbsp;1</a>, we have</p>
+\]</span> where <span class="math inline">\(I(X,Y|Z)\)</span> is the mean mutual information within each of the regions. We can again interpret these terms: <span class="math inline">\(I(Z,Y)\)</span> is the amount of segregation accounted for by the division into regions, while <span class="math inline">\(I(X,Y|Z)\)</span> is the amount of segregation “left over” because it lies <em>within</em> regions. Substituting back into <a href="#eq-fundamental">Equation&nbsp;1</a>, we have</p>
 <p><span class="math display">\[
 \begin{aligned}
 H(Y) &amp;= H(Y|X) + I(Z,Y) + I(X,Y|Z) \\

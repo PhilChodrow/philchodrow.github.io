@@ -26,6 +26,19 @@ This page collects a variety of references, organizations, data repositories, li
     - [Model Cards for Model Reporting](https://arxiv.org/pdf/1810.03993.pdf) by Mitchell et al. 
     - [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922) by Bender et al. 
 
+### Case Studies
+
+These case studies describe specific uses of technology that I have used or may use in the future in my pedagogy. 
+
+- COMPAS: Recidivism Prediction
+    - "[Machine Bias](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)" by Julia Angwin et al. for ProPublica
+    - [Fair prediction with disparate impact](https://arxiv.org/pdf/1703.00056.pdf) by Alexandra Chouldechova 
+    - [Inherent trade-offs in the fair determination of risk scores](https://arxiv.org/pdf/1609.05807,) by Jon Kleinberg et al.
+    - [The Limits of the Quantitative Approach to Discrimination](https://www.cs.princeton.edu/~arvindn/talks/baldwin-discrimination/baldwin-discrimination-transcript.pdf), speech by Arvind Narayanan. 
+- Wisconsin DEWS
+    - ["False Alarm: How Wisconsin Uses Race and Income to Label Students 'High Risk'"](https://themarkup.org/machine-learning/2023/04/27/false-alarm-how-wisconsin-uses-race-and-income-to-label-students-high-risk) by Todd Feathers at *The Markup*. 
+    - [Difficult Lessons on Social Prediction from Wisconsin Public Schools](https://arxiv.org/abs/2304.06205) by Juan Perdomo et al. "*Our findings indicate that we should carefully evaluate the decision to fund early warning systems without also devoting resources to interventions tackling structural barriers.*"
+
 
 
 ## Feminism, Antiracism, and Anti-Colonialism More Broadly
