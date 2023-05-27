@@ -39,7 +39,9 @@ These case studies describe specific uses of technology that I have used or may 
     - ["False Alarm: How Wisconsin Uses Race and Income to Label Students 'High Risk'"](https://themarkup.org/machine-learning/2023/04/27/false-alarm-how-wisconsin-uses-race-and-income-to-label-students-high-risk) by Todd Feathers at *The Markup*. 
     - [Difficult Lessons on Social Prediction from Wisconsin Public Schools](https://arxiv.org/abs/2304.06205) by Juan Perdomo et al. "*Our findings indicate that we should carefully evaluate the decision to fund early warning systems without also devoting resources to interventions tackling structural barriers.*"
 
+### Critical Writing
 
+- [Will A.I. Become the New McKinsey?](https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey) by Ted Chiang. 
 
 ## Feminism, Antiracism, and Anti-Colonialism More Broadly
 
