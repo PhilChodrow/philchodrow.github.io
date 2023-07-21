@@ -35,7 +35,6 @@ website:
     search: true 
     pinned: true
   favicon: assets/img/favicon.png
-  google-analytics: "G-0PJKK3D50S"
 
 format:
   html:

@@ -6,7 +6,6 @@ toc: true
 
 This page collects my answers to a wide range of frequent student questions. 
 
-
 ## My Profession
 
 #### What are you? Are you a computer scientist, a mathematician, or a data scientist?
@@ -53,8 +52,6 @@ Due in part to my own privileged identity, I have had an overall pleasant experi
 
 ## Classes
 
-
-
 #### How should I address you? 
 
 It's fine to call me "Phil," "Prof. Phil," "Prof. Chodrow," or "Dr. Chodrow." Those are in rough order of preference (e.g. I like "Prof. Phil" more than "Dr. Chodrow"), but it's fine for you to use any of these that make you comfortable. 
@@ -83,7 +80,6 @@ Additionally, I prefer to work with students as **long-term** collaborators. Thi
 
 First, I'm sure you're awesome! If several of the points above describe you, then I expect we could work successfully together. Second, there are many students with research interest. Due to limitations on my time and funding resources, I sadly don't expect to be able to accept all of them. 
 
-
 ## Advice and Recommendation Letters 
 
 #### Can I talk to you about future courses/grad school/jobs/internships? 
@@ -99,7 +95,6 @@ If you have completed a course with me or are currently enrolled, you are welcom
 Please keep in mind that I can write stronger letters for students whom I see more frequently, such as in lecture or office hours. If you’d like a letter, talking to me in these contexts, or scheduling another meeting time, is highly recommended.
 
 To request a letter, fill out [this request form](https://forms.gle/tL79wtFrfHC5Vspw7)! Please give me at least one month of advance notice when possible.
-
 
 ##### When I Won't Write a Letter 
 
