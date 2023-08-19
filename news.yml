@@ -98,9 +98,12 @@
 - date: 2023-04-01
   text: |
     I am a mentor in the <a href="https://sites.google.com/view/womeninnetworkscience/home?authuser=0">Women in Network Science Society</a> <a href="https://sites.google.com/view/womeninnetworkscience/virtual-programs/mentoring?authuser=0">mentorship program</a>.
+- date: 2023-08-15
+  text: |
+    I participate in the second <a href="https://ccss-conference.github.io/">workshop on Contagion on Complex Social Systems</a> at the University of Vermont.  
 - date: 2023-08-21
   text: |
-    I speak on "Critical Perspectives on Large Language Models" as part of the <a href="https://dlinq.middcreate.net/sdtl/">Summer Digital Teaching and Learning series</a> hosted by Middlebury's <a href="https://dlinq.middcreate.net/">Office of Digital Learning and Inquiry</a>.
+    I speak on "Critical Perspectives on Large Language Models" as part of the <a href="https://dlinq.middcreate.net/sdtl/">Summer Digital Teaching and Learning series</a> hosted by Middlebury's <a href="https://dlinq.middcreate.net/">Office of Digital Learning and Inquiry</a>. (<a href="https://www.philchodrow.prof/talks/2023-middlebury-dlinq/index.html#/title-slide">Slides</a>)
 - date: 2023-07-01
   text: |
     I join the Steering Committee of <a href="https://www.middlebury.edu/midddata">midd.data</a>, Middlebury's initiative around data science and data literacy. 
@@ -110,3 +113,6 @@
 - date: 2023-09-01
   text: |
     I am teaching CSCI 0200: Mathematical Foundations of Computing in Fall 2023. 
+- date: 2024-01-01
+  text: |
+    I am a member of Cohort 4 of the <a href="https://identity.cs.duke.edu/fellows.html">Cultural Competence in Computing Fellowship Program.</a>  
