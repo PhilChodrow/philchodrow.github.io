@@ -24,6 +24,8 @@ website:
         menu: 
         - text: Me
           href: journey.qmd
+        - text: My Math Autobiography
+          href: math-autobiography.qmd
         - text: Jobs at SLACs
           href: job_app.qmd
         - text: What I'm Reading
