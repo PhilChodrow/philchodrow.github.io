@@ -8,6 +8,10 @@ My goal as an educator is to make computing, quantitative reasoning, and data sc
  
 ## Courses at Middlebury
 
+**Fall 2023**
+
+- [CSCI 0200: Math Foundations of Computing](https://www.philchodrow.prof/CSCI-0200)
+
 **Spring 2023**
 
 - [CSCI 0451: Machine Learning](https://middlebury-csci-0451.github.io/CSCI-0451/syllabus.html)
