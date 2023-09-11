@@ -17,19 +17,23 @@ listing:
       
 I'm Dr. Phil Chodrow, an assistant professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/#story645114). My pronouns are *he/him/his*. 
 
-You can email me at `pchodrow@middlebury.edu` or stop by my office, Room 218 in 75 Shannon St.  
-
 ### Research
 
 [My research](research.qmd) focuses on [network science](https://en.wikipedia.org/wiki/Network_science), the study of connected systems in society and nature. I draw on methods from applied mathematics, machine learning, statistics, and physics. I also work on data science projects to promote equity and sustainability. I have [awesome collaborators](research.qmd#key-collaborators). 
 
 ### Teaching
 
-In Fall 2023, I am teaching **[CSCI 0200: Mathematical Foundations of Computing](https://www.philchodrow.prof/CSCI-0200)**.
+In Fall 2023, I am teaching **[CSCI 0200: Math Foundations of Computing](https://www.philchodrow.prof/CSCI-0200)**. My office hours are: 
+
+**Mondays**, 2pm-4pm <br> 
+**Thursdays**, 3pm-4pm
+
+
+
+<div class="no-wrap">
 
 I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Students might want to take a look at my [FAQs](for-students.qmd). 
 
-<div class="no-wrap">
 
 ## News
 
