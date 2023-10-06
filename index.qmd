@@ -36,7 +36,7 @@ I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Student
 
 
 ## News
-
+    
 :::{#news}
 :::
    
