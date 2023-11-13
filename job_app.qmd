@@ -4,7 +4,9 @@ page-layout: article
 toc: true
 ---
 
-I work at Middlebury College, a small liberal arts college (SLAC) with a balanced teaching load that attracts academically high-achieving students. I love the SLAC environment and think it's a great place for many academics. Since SLAC jobs are less visible in PhD-granting institutions than research-intensive jobs, many folks may not know much about what these jobs are like or how to get them. Careers at SLACs offer distinctive advantages and disadvantages when compared to careers at research-intensive institutions. The purpose of this page is to give some basic information about my CS position at Middlebury (which I believe is not atypical of many CS SLAC positions), and to share some tips from my recent experience as both an applicant and a hiring committee member. 
+I work at Middlebury College, a small liberal arts college (SLAC) with a balanced teaching load that attracts academically high-achieving students. I love the SLAC environment and think it's a great place for many academics. 
+Careers at SLACs offer distinctive advantages and disadvantages when compared to careers at research-intensive institutions.
+Since SLAC jobs are less visible in PhD-granting institutions than research-intensive jobs, many folks may not know much about what these jobs are like or how to get them.  The purpose of this page is to give some basic information about my CS position at Middlebury (which I believe is not atypical of many CS SLAC positions), and to share some tips from my recent experience as both an applicant and a hiring committee member. 
 
 ## Consider SLACs if...
 
@@ -32,7 +34,10 @@ I started as a tenure-track assistant professor at Middlebury in fall of 2022. H
 - I will be **reviewed** in my third year and again (for tenure and promotion) in my seventh year. For tenure, I am expected to demonstrate excellence in teaching and a reputation for significant research in the broader scientific community. There have been no unsuccessful tenure cases in my department. 
 - Some **perks** include very comfortable, subsidized faculty housing; discounts at the College-owned ski areas; and some very nice built-in support networks through the College. 
 
+[Although my primary experience is in CS departments, I suspect that the following tips will also be useful for folks in math and statistics as well.]{.aside}
+
 ## Application Tips
+
 
 ### Before You Enter the Job Market
 
@@ -55,9 +60,33 @@ More generally, find ways to connect the job posting to your interests, and shar
 - My interest in collaborating on data science initiatives, which I knew from the job ad and the Middlebury website to be an area of institutional focus. 
 - My teaching interests and how I felt these would align with the department's mission. 
 
+[I am intending this advice specifically for jobs at SLACs; I claim no insight on what is best to do at larger schools.]{.aside}
+
+### When Should I Diclose an Academic Partner? 
+
+
+
+If you and your partner are both academics and seeking jobs at the same institution, then you face the question of when to disclose this situation to the hiring committee and the administration. There are a lot of different points of view on this question, with two extremes: 
+
+1. Disclose immediately, usually on your cover letter. 
+2. Disclose only after you have received a written offer from the school. 
+
+There are also in-between possibilities, like disclosing after you have completed a first- or second-round interview. 
+
+
+Because SLACs are very small and new positions can be scarce, my personal recommendation is to disclose as early as you feel comfortable. In many cases, it is possible for schools to make arrangements for partner hires, but this usually takes time and multiple layers of administrative decision-making. Disclosing early helps make this possible. 
+
+It's true that disclosing early may cause you not to get interviews that you might otherwise have gotten. That said, these are probably interviews that would not have led to a successful partner hire, so this may not be a loss. 
+
+#### Will My Partner Also Be Hired Tenure-Track? 
+
+In my experience, you should expect that a partner-hire situation at a SLAC will **not** result in both partners being immediately hired into tenure-track roles. Tenure lines at SLACs are *very* difficult to create on short notice. You should expect the school to be invested in the long-term success of both you and your partner, but you may have to be flexible about the details of that journey. 
+
+
+
 ## My Application Materials
 
-Most applications to SLAC positions include statements on research, teaching, and equity, diversity, and inclusion (EDI). I include the statements that brought me to Middlebury in the hopes that they might be useful to future SLAC job-seekers. These statements were **not** tailored to individual schools -- my cover letters addressed specific courses I could teach and how I would fit into individual departments. 
+Most applications to SLAC positions include statements on research, teaching, and equity, diversity, and inclusion (EDI). I include the statements that brought me to Middlebury in the hopes that they might be useful to future SLAC job-seekers. These statements were **not** tailored to individual schools. My only tailoring was in my cover letter, where I addressed specific courses I could teach and how I would fit into individual departments. 
 
 - [Statement on research](assets/pdf/research-cs.pdf).
 - [Statement on teaching](assets/pdf/teaching-cs.pdf).

@@ -40,7 +40,9 @@ This work---data science for social justice---doesn't belong to me, and I didn't
 
 ## The Light of Truth
 
-The theme of this event is "Truth **and** Dare." Not "**or**"---"**and**." When I first heard this phrase, I immediately thought back to a famous line from the civil rights activist and reformer Ida B. Wells: [![](https://cdn.britannica.com/33/5033-050-6D606D3D/Ida-Bell-Wells-Barnett-1930.jpg) Ida B. Wells (1862-1931)]{.aside}
+The theme of this event is "Truth **and** Dare." Not "**or**"---"**and**." When I first heard this phrase, I immediately thought back to a famous line from the civil rights activist and reformer Ida B. Wells: 
+
+<!-- [![](https://cdn.britannica.com/33/5033-050-6D606D3D/Ida-Bell-Wells-Barnett-1930.jpg) Ida B. Wells (1862-1931)]{.aside} -->
 
 > The way to right wrongs is to turn the light of truth upon them. 
 
@@ -59,7 +61,7 @@ These visualizations are all hand-drawn representations of the reality for Afric
 <!-- This first plot shows the total value of property owned by African Americans in Georgia, trending over time. The line starts in 1870 and begins to trend up, before trending down due to both an overall economic downturn and violence from the Klu Klux Klan and related white supremicist organizations. Collective wealth grows again with the growth of industrial capital in the Gilded Age, before again trailing off amidst financial panic, lynching, and the rapid implementation of Jim Crow laws. 
 
 -->
-[![](https://tile.loc.gov/storage-services/service/pnp/ppmsca/33800/33871r.jpg)]{.aside}
+<!-- [![](https://tile.loc.gov/storage-services/service/pnp/ppmsca/33800/33871r.jpg)]{.aside} -->
 
 Others are much starker descriptions of the impact of violence and systemic oppression. For example, here is a description of the ages of African Americans in Georgia as compared to Black residents of France. Each bar represents the proportion in an age group -- for example, the top black bar says that 30.1% of African Americans in Georgia were under 10 years old, compared to 17.5% of Black residents of France in the yellow bar. If you see the black bar shrinking down much faster than the yellow bar as we move down the page, that is telling you a grizzly story -- African Americans in Georgia were much less likely to grow to old age when compared to Black residents of France, due to violence, systemic discrimination, and disparity. We can see echoes of this plot in the US to this day, where Black Americans still have lower life expectancies due to systemic disparities in healthcare, educational access, and economic opportunity.  
 

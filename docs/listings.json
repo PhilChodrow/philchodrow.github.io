@@ -13,31 +13,6 @@
     ]
   },
   {
-    "listing": "/news_archive.html",
-    "items": []
-  },
-  {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
-    "listing": "/posts/2022-12-20-hypergraph-refs/index.html",
-    "items": []
-  },
-  {
-    "listing": "/list.html",
-    "items": [
-      "/posts/2023-10-15-tedx-talk/index.html",
-      "/posts/2023-04-25-CSCI-0451-reflections/index.html",
-      "/posts/2023-09-01-CSCI-0200-reflections/index.html",
-      "/posts/2022-12-20-hypergraph-refs/index.html",
-      "/posts/2022-06-24-bregman/index.html",
-      "/posts/2022-6-19-census-data/index.html",
-      "/posts/2022-06-16-info-segregation-2/index.html",
-      "/posts/2022-06-16-info-segregation/index.html"
-    ]
-  },
-  {
     "listing": "/research.html",
     "items": [
       "/pub-network-data-science/annotated-hypergraphs/index.html",
@@ -53,5 +28,30 @@
       "/pub-social-responsibility/space-based/index.html",
       "/pub-social-responsibility/structure-info-race/index.html"
     ]
+  },
+  {
+    "listing": "/list.html",
+    "items": [
+      "/posts/2023-10-15-tedx-talk/index.html",
+      "/posts/2023-04-25-CSCI-0451-reflections/index.html",
+      "/posts/2023-09-01-CSCI-0200-reflections/index.html",
+      "/posts/2022-12-20-hypergraph-refs/index.html",
+      "/posts/2022-06-24-bregman/index.html",
+      "/posts/2022-6-19-census-data/index.html",
+      "/posts/2022-06-16-info-segregation-2/index.html",
+      "/posts/2022-06-16-info-segregation/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/2022-12-20-hypergraph-refs/index.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/news_archive.html",
+    "items": []
   }
 ]

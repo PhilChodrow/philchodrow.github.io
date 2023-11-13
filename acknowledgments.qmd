@@ -23,5 +23,3 @@ These are some of the people whose teaching techniques and insights have had maj
 ### Credits and Tools
 
 This website is built by the [Quarto](https://quarto.org) publishing system and hosted on [GitHub](https://github.com). 
-
-The image on the front page of this website was taken by Jason Zhu for the Daily Bruin at UCLA. It was originally used in [this article](https://dailybruin.com/2022/06/05/gallery-ucla-professors-offer-parting-words-advice-to-graduating-students). 

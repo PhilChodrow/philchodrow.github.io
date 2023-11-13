@@ -11,9 +11,9 @@ listing:
     template: ejs/news.ejs
 ---
 
-<img src="assets/img/sitting.png" class="img-responsive img-profile" alt="Phil Chodrow seated on a bench, smiling leaning towards the viewer.">
+<img src="assets/img/portrait-forest.jpeg" class="img-responsive img-profile" alt="Phil Chodrow seated on a bench, smiling leaning towards the viewer.">
 
-# Welcome! 
+### Welcome! 
       
 I'm Dr. Phil Chodrow, an assistant professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/#story645114). My pronouns are *he/him/his*. 
 
@@ -30,9 +30,11 @@ In Fall 2023, I am teaching **[CSCI 0200: Math Foundations of Computing](https:/
 
 
 
-<div class="no-wrap">
 
 I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Students might want to take a look at my [FAQs](for-students.qmd). 
+
+<div class="no-wrap">
+
 
 
 ## News
