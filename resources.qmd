@@ -42,6 +42,7 @@ These case studies describe specific uses of technology that I have used or may 
 ### Critical Writing
 
 - [Will A.I. Become the New McKinsey?](https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey) by Ted Chiang. 
+- [More than calculators: Why large language models threaten learning, teaching, and education](https://medium.com/bits-and-behavior/more-than-calculators-why-large-language-models-threaten-public-education-480dd5300939) by Amy J. Ko. 
 
 ## Feminism, Antiracism, and Anti-Colonialism More Broadly
 

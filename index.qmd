@@ -11,7 +11,7 @@ listing:
     template: ejs/news.ejs
 ---
 
-<img src="assets/img/portrait-forest.jpeg" class="img-responsive img-profile" alt="Phil Chodrow seated on a bench, smiling leaning towards the viewer.">
+<img src="assets/img/portrait-forest.jpeg" class="img-responsive img-profile" alt="Portrait of Phil Chodrow, slightly smiling directly at the camera with autumn trees in the background.">
 
 ### Welcome! 
       
@@ -23,20 +23,12 @@ I'm Dr. Phil Chodrow, an assistant professor in the [Department of Computer Scie
 
 ### Teaching
 
-In Fall 2023, I am teaching **[CSCI 0200: Math Foundations of Computing](https://www.philchodrow.prof/CSCI-0200)**. My office hours are: 
-
-**Mondays**, 2pm-4pm <br> 
-**Thursdays**, 3pm-4pm
-
-
-
+In Winter '24', I am teaching **[CSCI 0702: Senior Thesis](https://www.philchodrow.prof/csci-702-ws24/)**. 
 
 I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Students might want to take a look at my [FAQs](for-students.qmd). 
 
 <div class="no-wrap">
-
-
-
+    
 ## News
     
 :::{#news}
