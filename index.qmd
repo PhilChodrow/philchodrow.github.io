@@ -23,9 +23,9 @@ I'm Dr. Phil Chodrow, an assistant professor in the [Department of Computer Scie
 
 ### Teaching
 
-In Winter '24', I am teaching **[CSCI 0702: Senior Thesis](https://www.philchodrow.prof/csci-702-ws24/)**. 
+In Spring '24 I am teaching **[CSCI 0451: Machine Learning](https://middlebury-csci-0451.github.io/CSCI-0451-s24/)** and **[CSCI 0702: Senior Thesis](https://www.philchodrow.prof/csci-702-ws24/)**. 
 
-I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Students might want to take a look at my [FAQs](for-students.qmd). 
+I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Students might want to take a look at my [FAQs](for-students.qmd). I also have [FAQs for prospective research students](student-research.qmd). 
 
 <div class="no-wrap">
     
