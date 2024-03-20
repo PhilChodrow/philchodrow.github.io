@@ -4,7 +4,7 @@ page-layout: article
 toc: true
 ---
 
-This page collects my answers to a wide range of frequent student questions. 
+This page collects my answers to a wide range of frequent questions. 
 
 ## My Profession
 
@@ -138,3 +138,11 @@ I love suggestions!
 Perhaps like you, the growing presence of screens in my life has detracted from my reading. I'm trying to fix that! To keep myself on track, I'm keeping a [list](reading.qmd) of the things I've been reading lately.
 
 (In case you're wondering, I do read a lot of computer science and math stuff, but most of it is in scholarly articles rather than books.) 
+
+#### Do you have a speaker bio?
+
+Yes! 
+
+*Phil Chodrow is an applied mathematician who studies networked models of social and biological systems. His methodological interests lie at the intersection of mechanistic modeling and statistical inference. His current work includes graph and hypergraph formation; opinion dynamics on social networks; and gender inequalities in academia. His research has been supported by the NSF Graduate Research Fellowship and the Fulbright Research Scholarship.*
+
+*Phil is an assistant professor in the Department of Computer Science at Middlebury College in Middlebury, Vermont. His teaching specialties at Middlebury include machine learning, network science, and discrete mathematics. Before joining Middlebury, Phil spent two years as a visiting assistant professor in the Department of Mathematics at the University of California, Los Angeles. He received his PhD from the Massachusetts Institute of Technology and his BA from Swarthmore College.*

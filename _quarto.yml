@@ -32,7 +32,7 @@ website:
         - text: What I'm Reading
           href: reading.qmd
         - text: CV
-          href: https://www.philchodrow.com/CV/cv.pdf
+          href: https://www.philchodrow.prof/CV/cv.pdf
         - blog.qmd
       - acknowledgments.qmd
     search: true 

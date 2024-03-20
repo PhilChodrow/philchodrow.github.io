@@ -7,4 +7,4 @@ toc-depth: 4
 
 This page collects slides from miscellaneous talks for easy access and reference. 
 
-- [Project Pitch: Dynamics of Female Gender Representation in Mathematical Subfields](https://www.philchodrow.com/talks/mgp-gender/pitch/#/title-slide) (ICERM, June 27th 2022)
+- [Project Pitch: Dynamics of Female Gender Representation in Mathematical Subfields](https://www.philchodrow.prof/talks/mgp-gender/pitch/#/title-slide) (ICERM, June 27th 2022)

@@ -37,7 +37,7 @@ In general, the minimal requirements for working with me on research are:
 The following items are very helpful and increase the likelihood that I will accept you as a research student: 
 
 - Additional advanced coursework in mathematics and statistics, *especially* including MATH/STAT 310 (Probability). 
-- Any elective course taken with me, *especially* CSCI/MATH 4xx (Network Science). [4xx exact course number to be determined, offered starting in '24-'25.]{.aside}
+- Any elective course taken with me, *especially* CSCI/MATH 441 (Network Science). [441 offered starting in '24-'25.]{.aside}
 
 ## Logistics
 
