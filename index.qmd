@@ -10,10 +10,10 @@ listing:
     filter-ui: false
     template: ejs/news.ejs
 ---
+ 
+<img src="assets/img/avatar-bg-trimmed.png" class="img-responsive img-profile" alt="Portrait of Phil Chodrow, slightly smiling directly at the camera with autumn trees in the background."> 
 
-<img src="assets/img/portrait-forest.jpeg" class="img-responsive img-profile" alt="Portrait of Phil Chodrow, slightly smiling directly at the camera with autumn trees in the background.">
-
-### Welcome! 
+### Welcome!  
       
 I'm Dr. Phil Chodrow, an assistant professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/#story645114). My pronouns are *he/him/his*. 
 
@@ -25,6 +25,8 @@ I'm Dr. Phil Chodrow, an assistant professor in the [Department of Computer Scie
 
 In Spring '24 I am teaching **[CSCI 0451: Machine Learning](https://middlebury-csci-0451.github.io/CSCI-0451-s24/)** and **[CSCI 0702: Senior Thesis](https://www.philchodrow.prof/csci-702-ws24/)**. 
 
+
+   
 I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Students might want to take a look at my [FAQs](for-students.qmd). I also have [FAQs for prospective research students](student-research.qmd). 
 
 <div class="no-wrap">
