@@ -13,6 +13,10 @@
     ]
   },
   {
+    "listing": "/news_archive.html",
+    "items": []
+  },
+  {
     "listing": "/research.html",
     "items": [
       "/pub-network-data-science/annotated-hypergraphs/index.html",
@@ -48,10 +52,6 @@
   },
   {
     "listing": "/index.html",
-    "items": []
-  },
-  {
-    "listing": "/news_archive.html",
     "items": []
   }
 ]

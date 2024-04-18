@@ -18,7 +18,7 @@ website:
         menu: 
         - teaching.qmd
         - for-students.qmd
-        - student-research.qmd
+        - midd-student-faqs.qmd
       - mission.qmd
       - resources.qmd
       - text: "About"

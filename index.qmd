@@ -27,7 +27,7 @@ In Spring '24 I am teaching **[CSCI 0451: Machine Learning](https://middlebury-c
 
 
    
-I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Students might want to take a look at my [FAQs](for-students.qmd). I also have [FAQs for prospective research students](student-research.qmd). 
+I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Middlebury students might want to take a look at my [FAQs](midd-student-faqs.qmd). 
 
 <div class="no-wrap">
     
