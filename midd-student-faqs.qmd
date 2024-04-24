@@ -10,9 +10,9 @@ toc: true
 
 Maybe! At this time, I have a full load of advisees and am only accepting new advisees who have interests (at the intersection of math, CS, and data science) that align closely with my expertise. Once some of my advisees graduate, I'll start taking many more. 
 
-### What will I do for advising?
+### If you won't be me advisor, whom should I ask?
 
-You can ask any CS faculty member to be your advisor! Usually the role of the advisor is limited to helping you plan your classes, and any of us can do this effectively! Ultimately, it doesn't matter too much who your advisor is. 
+You can ask any CS faculty member to be your advisor! Usually the role of the advisor is limited to helping you plan your classes, and any of us can do this effectively! Ultimately, it doesn't matter too much who your advisor is. You're always welcome to come chat with me about your interests in courses, careers, and research. 
 
 ## Letters of Recommendation
 
@@ -67,18 +67,17 @@ You might like this class if several (but not necessarily all) of the following 
 - You have several semesters of experience coding. 
 - You have experience analyzing data in R or Python. 
 
-
 ### What programming experience is required for this class?
 
 We'll use Python for all our computational experiments and data analysis in this class. Prior experience coding with Python is strongly recommended. If you do not have experience with Python and also do not have coursework beyond the 200-level in either math or theoretical CS (e.g. CSCI 0301 and 0302), you are likely in for a bad time. 
 
 ### Does this course count towards the mathematics or statistics majors? 
 
-Majors in mathematics and statistics are warmly welcome to enroll in this course. However, the course does not towards this majors. It does count as college credit, a DED requirement, and an elective torwards the computer science major. 
+Majors in mathematics and statistics are warmly welcome to enroll in this course. However, the course does not towards these majors. It does count as college credit, a DED requirement, and an elective torwards the computer science major. 
 
 ### How often is this course offered?
 
-Roughly once every two years. 
+*Roughly* once every two years. 
 
 ### If I take this course, can I do research with Phil over the summer or as a thesis?
 
@@ -90,7 +89,6 @@ There will be one midterm exam and a final project, as well as regular problem s
 
 ## CSCI 0702: Senior Thesis
 
-
 ### Will you be my thesis advisor? 
 
 Maybe! To write a thesis with me, you usually need to either: 
@@ -98,14 +96,9 @@ Maybe! To write a thesis with me, you usually need to either:
 a. Have advanced mathematical background sufficient to work on some of my existing research activities or 
 b. Have an idea of your own that I find very exciting. 
 
-### Can I do a machine learning thesis with you? 
+### Can I do a machine learning thesis with you? {#sec-ml}
 
 Usually no. Machine learning is not my research area and applied projects in machine learning usually don't have enough scholarly depth to be appropriate for senior theses. If you have a specific idea related to machine learning that goes over and above "I am going to analyze a data set," then I'm happy to consider your pitch. 
-
-### What courses should I take in order to be ready to do a thesis with you? 
-
-This [list applies](#sec-prep) for students who are interested in both theses and summer research opportunities. 
-
 
 ### What courses should I take in order to be ready to do research with you? {#sec-prep}
 
@@ -138,13 +131,14 @@ No, there are far more students who want to do research than I am able to accomm
 
 This [list applies](#sec-prep) for students who are interested in both theses and summer research opportunities. 
 
+### Can I do machine learning research with you?
 
+[Probably not](#sec-ml). 
 
 ## Independent Study (CSCI 0500)
 
 I *very* rarely accept students for independent study during the school year, and usually only as continuation of prior research work from summer or a senior thesis. 
 [*The reason I am so picky about independent studies is that it is extra work for which neither I nor any other faculty are paid*.]{.aside}
-
 
 ## My Research
 
@@ -154,13 +148,9 @@ These days (mid-2024), I am thinking about models of how networked systems (like
 
 I also work on mathematical models of collective social behavior, network data analysis, and selected projects in data science and applied statistics. Here's [a description of my areas of recent research](research.qmd). 
 
-### Would I like working with you on that? 
+### Would I like working with you on some of those things? 
 
 Maybe! You are most likely to enjoy this kind of work if you are interested in the intersection between math, data science, computation, and the science of complex systems. 
-
-### Can I do machine learning research with you?
-
-Probably not, no. Although [I teach machine learning](teaching.qmd), it is not my primary research interest. If you ask me to offer you a research project to you related to machine learning, I am likely to decline. **If you already have an idea related to ML that I find unusually interesting or promising**, then I may still agree to work with you. 
 
 ### Can I talk to you about my research interests and how they might fit into my time at Middlebury? 
 
