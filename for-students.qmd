@@ -1,10 +1,10 @@
 ---
-title: "FAQs"
+title: "General FAQs"
 page-layout: article
 toc: true
 ---
 
-This page collects my answers to a wide range of frequent questions. 
+This page collects my answers to a wide range of frequent questions about me and my profession. If you're a Middlebury student wondering about advising, letters of recommendation, or research opportunities, please check out my [specific FAQs](midd-student-faqs.qmd) for students.
 
 ## My Profession
 
@@ -49,51 +49,6 @@ Here's my personal list of the pros and cons about being a professor. This list 
 No. Academic science is not yet an equitable community, and many parts of it replicate systemic misogyny, racism, ableism, and classism. Certain people, departments, and institutions are not safe or nurturing spaces for members of certain groups. For example, a [recent article](https://www.scientificamerican.com/article/modern-mathematics-confronts-its-white-patriarchal-past/) in *Scientific American* highlighted the intersection of racism and misogyny in modern mathematics. 
 
 Due in part to my own privileged identity, I have had an overall pleasant experience in academic science which makes me want to stay here. If you do aspire to become an academic computer scientist, mathematician, data scientist, or scholar of any kind---and especially if you benefit from intersecting privilege---then part of your responsibility is to reflect on what work you will do to make our profession a more equitable and just place. The [Mission](mission.qmd) page expresses how I think about this responsibility, and the [Resources](resources.qmd) page contains some links that might help you get started. 
-
-## Classes
-
-#### How should I address you? 
-
-It's fine to call me "Prof. Phil," "Phil," "Prof. Chodrow," or "Dr. Chodrow." Those are in rough order of preference (e.g. I like "Prof. Phil" more than "Dr. Chodrow"), but it's fine for you to use any of these that make you comfortable. 
-
-Please remember to address all your professors respectfully and according to their preferences. As argued in a [recent study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6048538/pdf/pnas.201805284.pdf), many of us have harmful, gendered biases about when we use earned titles like “Dr.” or “Professor." A small, simple thing you can do to make academia a more equitable place is to check your own potential biases. If you’re not sure, “Professor X” or “Dr. X” is always a safe choice — but even better is to just ask what your instructor prefers! My own personal preference is related to [this short poem](https://pressfolios-production.s3.amazonaws.com/uploads/story/story_pdf/254906/2549061489249557.pdf) by Susan Harlan.
-
-### Can I do research with you? 
-
-I love doing research with students! You should check that you are interested in [what I am interested](research.qmd) in and then take a look at [my FAQs for prospective student collaborators](student-research.qmd). 
-
-## Advice and Recommendation Letters 
-
-#### Can I talk to you about future courses/grad school/jobs/internships? 
-
-Definitely! Shoot me an email and we'll set up a meeting. Just to set expectations, I know a lot more about courses and academic careers than I do about jobs and internships. 
-
-#### Will you write me a letter of recommendation?
-
-You may need a letter of recommendation from a faculty member for applications to graduate school, jobs, or internships.  
-
-If you have completed a course with me or are currently enrolled, you are welcome to request a letter from me. I will only refuse if you are requesting support for an application for jobs or internships involving surveillance, policing, or military applications. If I feel that I am not able to write you a strong letter, I will tell you -- but if you still want a letter from me, I will still write it.
-
-Please keep in mind that I can write stronger letters for students whom I see more frequently, such as in lecture or office hours. If you’d like a letter, talking to me in these contexts, or scheduling another meeting time, is highly recommended.
-
-To request a letter, fill out [this request form](https://forms.gle/tL79wtFrfHC5Vspw7)! Please give me at least one month of advance notice when possible.
-
-##### When I Won't Write a Letter 
-
-As a matter of moral principle, I will not write letters of recommendation for programs or jobs involving any of the following:
-
-- Policing (including but not limited to predictive policing, development of algorithms that predict recidivism, etc.);
-- Military applications (such as internships at the Department of Defense or any of its international counterparts);
-- Weapons manufacturing, broadly construed;
-- Intelligence gathering (such as internships at the NSA, FBI, or any international counterpart).
-
-I am very happy to discuss this policy with any student who has questions. Conversations about when and how mathematics, data science, and programming should be used are lacking in our community. If you'd like to engage me in such a conversation, that would be great! However, this policy is non-negotiable. Therefore, if I refuse to write you a letter on these grounds, please know that it doesn't reflect on your ability to succeed in this course, your career potential, your worth as a person, or whether I like you. 
-
-The [Just Mathematics Collective](https://www.justmathematicscollective.net/) has compiled a list of resources for students on making ethical career decisions, which is available [here](https://justmathematicscollective.net/career_resources.html). The text of this section is lightly modified from their [suggested text](https://www.justmathematicscollective.net/letter_writing.html) on letter-writing. 
-
-#### I want to learn more about the intersection of computing, math, data science, and social justice. Where do I start? 
-
-That's a great question, Imaginary Student! Check the [Resources](resources.qmd#data-science-math-technology-and-social-justice) page for some of my favorite organizations and books related to this topic. 
 
 ## Thoughts on Software 
 

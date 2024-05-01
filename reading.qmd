@@ -5,15 +5,16 @@ toc: true
 ---
 
 
-One of my personal goals is to read more. Some kinds of books I like to read are scifi and fantasy novels; U.S. and modern world history; feminism and antiracism; and, yes, the occasional book on math, network science, or computing. 
+One of my personal goals is to read more. Some kinds of books I like to read are sci-fi and fantasy novels; U.S. and modern world history; feminism and antiracism; and, yes, the occasional book on math, network science, or computing. 
 
 Here's what I've been reading recently. 
 
 ## Current 
 
-- [*A People's History of Computing in the United States*](https://bookshop.org/books/a-people-s-history-of-computing-in-the-united-states/9780674970977) by Joy Lisi Rankin
-- [*The Annotated Phantom Tollbooth*](https://bookshop.org/books/the-annotated-phantom-tollbooth/9780375857157) by Norton Juster and Jules Feiffer
 - [*Devotions*](https://bookshop.org/p/books/devotions-the-selected-poems-of-mary-oliver-mary-oliver/11360214?ean=9780399563263) by Mary Oliver. 
+- [*Tress of the Emerald Sea*](https://bookshop.org/p/books/winter-2023-tor-title-to-be-announced-announced/19018157?ean=9781250899651) by Brandon Sanderson
+- [*Provenance*](https://bookshop.org/p/books/provenance-ann-leckie/112518?ean=9780316565202) by Ann Leckie
+- [*Slow Productivity*](https://bookshop.org/p/books/slow-productivity-the-lost-art-of-accomplishment-without-burnout-cal-newport/20143790?ean=9780593544853) by Cal Newport
 
 ## 2024
 
@@ -22,22 +23,20 @@ Here's what I've been reading recently.
 - [*Unmasking Autism: Discovering the New Faces of Neurodiversity*](https://bookshop.org/p/books/unmasking-autism-discovering-the-new-faces-of-neurodiversity-devon-price/17622818?ean=9780593235232) by Devon Price
 - [*Modeling Social Behavior*](https://bookshop.org/p/books/modeling-social-behavior-mathematical-and-agent-based-models-of-social-dynamics-and-cultural-evolution-paul-e-smaldino/19607128?ean=9780691224145) by Paul Smaldino
 
-
-
 ### &nbsp; Fiction
 
-
+- [*Ancillary Mercy*](https://bookshop.org/p/books/ancillary-mercy-ann-leckie/110894?ean=9780316565189) by Ann Leckie 
+- [*Ancillary Sword*](https://bookshop.org/p/books/ancillary-sword-ann-leckie/110869?ean=9780316565196) by Ann Leckie
+- [*Ancillary Justice*](https://bookshop.org/p/books/ancillary-justice-ann-leckie/110863?ean=9780316246620) by Ann Leckie
 - [*Dune*](https://bookshop.org/p/books/dune-frank-herbert/7502701?ean=9780441172719) by Frank Herbert   
 - [*In the Lives of Puppets*](https://bookshop.org/p/books/in-the-lives-of-puppets-tj-klune/18484876?ean=9781250217448) by T. J. Klune
 - [*Piranesi*](https://bookshop.org/p/books/piranesi-susanna-clarke/15861178?ean=9781635577808) by Susanna Clarke
 - [*A Desolation Called Peace*](https://bookshop.org/books/a-desolation-called-peace-9781250186478/9781250186478) by Arkady Martine (reread)
 
-
 ## 2023
 
 ### &nbsp; Nonfiction
 
-- [*Unmasking Autism: Discovering the New Faces of Neurodiversity*](https://bookshop.org/p/books/unmasking-autism-discovering-the-new-faces-of-neurodiversity-devon-price/17622818?ean=9780593235232) by Devon Price
 - [*Teaching to Transgress: Education as the Practice of Freedom*](https://bookshop.org/p/books/teaching-to-transgress-education-as-the-practice-of-freedom-bell-hooks/8995273?ean=9780415908085) by bell hooks
 - [*Nice White Ladies: The Truth about White Supremacy, Our Role in It, and How We Can Help Dismantle It*](https://bookshop.org/p/books/nice-white-ladies-the-truth-about-white-supremacy-our-role-in-it-and-how-we-can-help-dismantle-it-jessie-daniels/16434616?ean=9781541675865) by Jessie Daniels 
 - [*The Privileged Poor: How Elite Colleges Are Failing Disadvantaged Students*](https://bookshop.org/p/books/the-privileged-poor-how-elite-colleges-are-failing-disadvantaged-students-anthony-abraham-jack/14948153?ean=9780674248243) by Anthony Abraham Jack

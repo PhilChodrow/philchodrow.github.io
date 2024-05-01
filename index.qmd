@@ -11,7 +11,7 @@ listing:
     template: ejs/news.ejs
 ---
  
-<img src="assets/img/avatar-bg-trimmed.png" class="img-responsive img-profile" alt="Portrait of Phil Chodrow, slightly smiling directly at the camera with autumn trees in the background."> 
+<img src="assets/img/avatar-bg-trimmed.png" class="img-responsive img-profile" alt="Cartoon picture of Phil Chodrow with a background containing mathematical symbols."> 
 
 ### Welcome!  
       
@@ -31,7 +31,7 @@ I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Middleb
 
 <div class="no-wrap">
     
-## News
+### News
     
 :::{#news}
 :::
