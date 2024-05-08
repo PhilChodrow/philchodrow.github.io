@@ -46,6 +46,35 @@ I am very happy to discuss this policy with any student who has questions. Conve
 
 The [Just Mathematics Collective](https://www.justmathematicscollective.net/) has compiled a list of resources for students on making ethical career decisions, which is available [here](https://justmathematicscollective.net/career_resources.html). The text of this section is lightly modified from their [suggested text](https://www.justmathematicscollective.net/letter_writing.html) on letter-writing. 
 
+## CSCI 0451: Machine Learning
+
+### When can I take this class?
+
+This course is *usually* offered at least once each academic year. Recently, I've been teaching it in the spring semester. The department is not able to guarantee that the course will be offered every year, but this has been the recent trend. 
+
+In some years, only one section of CSCI 0451 is offered. In such years, there are typically only enough spots for seniors. In other years, two sections of CSCI 0451 are taught. In these years, there are usually enough spots for everyone who wants to enroll. 
+
+
+### Do I have to be a CSCI major or minor to take this class?
+
+If you have considerable mathematics background (up to the level of MATH 0223: Multivariable Calculus) and if you have taken several courses involving data analysis and programming, you may be able to be successful in this course even if you are not a CSCI major. You can contact me about the possibility of a waiver to allow you to take the course. I treat such requests on a case-by-case basis. 
+
+### Do I need to have experience in Python programming to take this class?
+
+Comfort programming in Python is *strongly* recommended in order to succeed in this class. In some cases I'll waive in a student who has *extensive?* experience programming in another language (e.g. R or Matlab) and who demonstrates ability to self-teach Python at a rapid pace. 
+
+### Do I *really* need to take MATH 0200: Linear Algebra before I take this class? 
+
+Yes. 
+
+### Does this course overlap with CSCI 0311: Artificial Intelligence or CSCI 0457: Natural Language Processing?
+
+There is some overlap, although I have tried to minimize this to the extent reasonably possible. 
+
+### Will this course teach me the latest, cutting-edge tools in machine learning and generative AI?
+
+No, the focus of this course is on theoretical fundamentals and their implementation in efficient code. The aim is to give you a foundation from which to explore more complex techniques ify ou choose. 
+
 ## CSCI 0441: Network Science
 
 ### What is this class about? 
