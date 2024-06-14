@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.4.330">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,13 +47,12 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 50,
+  "limit": 20,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -62,7 +61,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -73,33 +71,6 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
@@ -107,7 +78,7 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
@@ -247,7 +218,6 @@ window.Quarto = {
 
 </header>
 
-
 <p><strong><em>Editor’s note</em></strong><em>: this post and the following one are hastily revised blog posts from early in my graduate career. They reflect some simplistic thinking about questions of segregation and equity. I am working to do better, and I own all mistakes.</em></p>
 <p>This post is about mathematical methods for studying diversity and spatial segregation using information theory. I’d like to stipulate at the outset:</p>
 <div class="callout callout-style-simple callout-note no-icon">
@@ -294,18 +264,18 @@ window.Quarto = {
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="288"></p>
-<figcaption class="margin-caption">My favorite cafe back home.</figcaption>
+<figcaption class="figure-caption margin-caption">My favorite cafe back home.</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<div class="page-columns page-full"><p>Let’s say the cafe serves just three beverages, all of them different kinds of tea: <strong><font color="#543005">black</font></strong>, <strong><font color="#D73027">red</font></strong>, and <strong><font color="#A1D76A">green</font></strong>.  This being a popular establishment, on any given day, the rooms are full of folks drinking tea. On three different days last week, the shop looked like this:</p><div class="no-row-height column-margin column-container"><span class="margin-aside">With apologies to all white and oolong drinkers. Chamomile, tough.</span></div></div>
+<div class="page-columns page-full"><p>Let’s say the cafe serves just three beverages, all of them different kinds of tea: <strong><font color="#543005">black</font></strong>, <strong><font color="#D73027">red</font></strong>, and <strong><font color="#A1D76A">green</font></strong>.  This being a popular establishment, on any given day, the rooms are full of folks drinking tea. On three different days last week, the shop looked like this:</p><div class="no-row-height column-margin column-container"><span class="">With apologies to all white and oolong drinkers. Chamomile, tough.</span></div></div>
 <div class="cell page-columns page-full">
 <div class="cell-output-display page-columns page-full">
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption class="margin-caption">Tea drinkers in the cafe on three different days. Colors encode the kinds of tea they are drinking.</figcaption>
+<figcaption class="figure-caption margin-caption">Tea drinkers in the cafe on three different days. Colors encode the kinds of tea they are drinking.</figcaption>
 </figure>
 </div>
 </div>
@@ -325,7 +295,7 @@ window.Quarto = {
 <h1>The Guessing Game</h1>
 <p>You are the manager of the cafe, and I am your assistant. Unfortunately, we ran out of tea today, but I have just enough time to run to our local supplier to restock. I assume that we serve 36 customers in a day, so the only question is how much of each tea I should buy. This shop has a bonus scheme in which I can earn a bonus to my base pay depending on how well the proportions of tea I bought match the customer’s preferences. Before I run out, I scan the room to see who our customers are: based on what they’ve ordered before, I know that the proportions of tea drinkers are <span class="math inline">\(P_\mathrm{black} = p_1\)</span>, <span class="math inline">\(P_\mathrm{green} = p_2\)</span>, and <span class="math inline">\(P_\mathrm{red} = p_3\)</span>. For example, of all the customers, <span class="math inline">\(100 \times p_2\)</span> percent of them prefer green tea. Assuming we don’t sell any other kinds of tea, it must hold that <span class="math inline">\(p_1 + p_2 + p_3 = 1\)</span>, and further that <span class="math inline">\(p_i \geq 0\)</span> for each <span class="math inline">\(i = 1,\ldots,3\)</span>.</p>
 <p>I need to buy some tea, in proportions <span class="math inline">\(\hat{p}_1\)</span>, <span class="math inline">\(\hat{p}_2\)</span>, and <span class="math inline">\(\hat{p}_3\)</span>. What are the best proportions I should choose? It’s tempting to say that I should choose <span class="math inline">\(\hat{p} = p\)</span>. That is, I should choose the proportions of tea I buy to perfectly reflect our customer preferences That’s not wrong, but it’s important to understand why. And, as in all things, the reason why hinges on how you, my performance-based manager, are paying me.</p>
-<div class="page-columns page-full"><p>Since the shop is paying me based on my performance in matching, my pay is a function <span class="math inline">\(f\)</span> of <span class="math inline">\(p\)</span> – the actual state of the world – and <span class="math inline">\(\hat{p}\)</span> – my action. That is, if the true proportions of customers are given by <span class="math inline">\(p\)</span> and I come back with <span class="math inline">\(\hat{p}\)</span> proportions of black, red, and green teas, then my bonus is <span class="math inline">\(f(p, \hat{p})\)</span>. Somewhat surprisingly, it turns out that there’s only one payment function that encourages me to both (a) act on my best guess about what our customers will most enjoy and (b) rewards me based only on how well my action matched the customers we actually had, not the customers we “might have had.”  This is the <em>cross-entropy</em>:  <span class="math display">\[ f(p, \hat{p}) \triangleq -\sum_i p_i \log \hat{p}_i\;.\]</span></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Technically, these conditions are that the reward function is <em>proper</em> and <em>local.</em> For further discussion about these ideas, you can check out <a href="https://arxiv.org/pdf/1101.5011.pdf">this paper</a>, which also anticipates some elements of our further discussion in the context of scoring with Bregman divergences.</span><span class="margin-aside">You might notice that <span class="math inline">\(f(p, \hat{p}) \leq 0\)</span> for all <span class="math inline">\(p\)</span> and <span class="math inline">\(\hat{p}\)</span>; that is, I’m talking about being paid negative dollars. If this makes you uncomfortable, imagine instead that you are docking my bonus by <span class="math inline">\(-f(p, \hat{p})\)</span>, so that I am docked less the more accurate I am.</span></div></div>
+<div class="page-columns page-full"><p>Since the shop is paying me based on my performance in matching, my pay is a function <span class="math inline">\(f\)</span> of <span class="math inline">\(p\)</span> – the actual state of the world – and <span class="math inline">\(\hat{p}\)</span> – my action. That is, if the true proportions of customers are given by <span class="math inline">\(p\)</span> and I come back with <span class="math inline">\(\hat{p}\)</span> proportions of black, red, and green teas, then my bonus is <span class="math inline">\(f(p, \hat{p})\)</span>. Somewhat surprisingly, it turns out that there’s only one payment function that encourages me to both (a) act on my best guess about what our customers will most enjoy and (b) rewards me based only on how well my action matched the customers we actually had, not the customers we “might have had.”  This is the <em>cross-entropy</em>:  <span class="math display">\[ f(p, \hat{p}) \triangleq -\sum_i p_i \log \hat{p}_i\;.\]</span></p><div class="no-row-height column-margin column-container"><span class="">Technically, these conditions are that the reward function is <em>proper</em> and <em>local.</em> For further discussion about these ideas, you can check out <a href="https://arxiv.org/pdf/1101.5011.pdf">this paper</a>, which also anticipates some elements of our further discussion in the context of scoring with Bregman divergences.</span><span class="">You might notice that <span class="math inline">\(f(p, \hat{p}) \leq 0\)</span> for all <span class="math inline">\(p\)</span> and <span class="math inline">\(\hat{p}\)</span>; that is, I’m talking about being paid negative dollars. If this makes you uncomfortable, imagine instead that you are docking my bonus by <span class="math inline">\(-f(p, \hat{p})\)</span>, so that I am docked less the more accurate I am.</span></div></div>
 <p>Earlier, we had an intuition that the best thing for me to do was to pick proportions that match our customer preferences, that is, pick <span class="math inline">\(\hat{p} = p\)</span>. This turns out to be correct:</p>
 <div class="callout callout-style-simple callout-caution no-icon">
 <div class="callout-body d-flex">
@@ -334,7 +304,7 @@ window.Quarto = {
 </div>
 <div class="callout-body-container">
 <div id="thm-reward" class="theorem">
-<p><span class="theorem-title"><strong>Theorem 1 (Optimality of Empirical Distributions)</strong></span> <em>The true customer proportions maximize the negative cross entropy reward function. Formally,</em></p>
+<p><span class="theorem-title"><strong>Theorem 1 (Optimality of Empirical Distributions) </strong></span><em>The true customer proportions maximize the negative cross entropy reward function. Formally,</em></p>
 <p><span class="math display">\[p = \text{argmax}_{\hat{p}} f(p, \hat{p})\;.\]</span></p>
 </div>
 </div>
@@ -360,7 +330,7 @@ window.Quarto = {
 <p>An important consequence of our result is that we can define the <em>optimal reward function</em> in terms of <span class="math inline">\(p\)</span> alone. This function is so important that it has a name: it’s Shannon <em>entropy</em> <span class="math inline">\(H\)</span>, defined as</p>
 <p><span class="math display">\[ H(p) \triangleq - \max_\hat{p} f(p, \hat{p}) = - \sum_i p_i \log p_i \;.\]</span></p>
 <p>Intuitively, the entropy measures how “hard” the guessing game is: when <span class="math inline">\(H(p)\)</span> is high, my reward in the guessing game is low, <em>even when I make the best possible choice <span class="math inline">\(\hat{p} = p\)</span>.</em></p>
-<div class="page-columns page-full"><p>Now, what makes the guessing game hard? The answer is: diversity! To see this, let’s check on a few properties of <span class="math inline">\(H(p)\)</span>. First, suppose that <span class="math inline">\(p = (1,0,0,\ldots)\)</span>, that is, there’s only one type of tea drinker in the cafe. Then, take a moment to convince yourself that <span class="math inline">\(H(p) = 0\)</span>.  It’s easy to see that <span class="math inline">\(H(p)\)</span> is nonnegative for any <span class="math inline">\(p\)</span>, so the single-tea-type cafe is an entropy minimizer. What distribution over tea types is an entropy maximizer? It’s a good exercise to do a Lagrange multiplier analysis similar to the one above to prove the following theorem:</p><div class="no-row-height column-margin column-container"><span class="margin-aside">We are using the convention that <span class="math inline">\(0 \times \log 0 = 0\)</span>.</span></div></div>
+<div class="page-columns page-full"><p>Now, what makes the guessing game hard? The answer is: diversity! To see this, let’s check on a few properties of <span class="math inline">\(H(p)\)</span>. First, suppose that <span class="math inline">\(p = (1,0,0,\ldots)\)</span>, that is, there’s only one type of tea drinker in the cafe. Then, take a moment to convince yourself that <span class="math inline">\(H(p) = 0\)</span>.  It’s easy to see that <span class="math inline">\(H(p)\)</span> is nonnegative for any <span class="math inline">\(p\)</span>, so the single-tea-type cafe is an entropy minimizer. What distribution over tea types is an entropy maximizer? It’s a good exercise to do a Lagrange multiplier analysis similar to the one above to prove the following theorem:</p><div class="no-row-height column-margin column-container"><span class="">We are using the convention that <span class="math inline">\(0 \times \log 0 = 0\)</span>.</span></div></div>
 <div class="callout callout-style-simple callout-caution no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -368,7 +338,7 @@ window.Quarto = {
 </div>
 <div class="callout-body-container">
 <div id="thm-entropy-optimality" class="theorem">
-<p><span class="theorem-title"><strong>Theorem 2 (Optimality of Entropy)</strong></span> The entropy is maximized by the uniform distribution. Formally, <span class="math inline">\(u = \text{argmax}_p H(p)\)</span>, where <span class="math inline">\(u\)</span> is the uniform distribution on <span class="math inline">\(n\)</span> categories: <span class="math inline">\(u = \left( \frac{1}{n},\cdots,\frac{1}{n} \right)\)</span>.</p>
+<p><span class="theorem-title"><strong>Theorem 2 (Optimality of Entropy) </strong></span>The entropy is maximized by the uniform distribution. Formally, <span class="math inline">\(u = \text{argmax}_p H(p)\)</span>, where <span class="math inline">\(u\)</span> is the uniform distribution on <span class="math inline">\(n\)</span> categories: <span class="math inline">\(u = \left( \frac{1}{n},\cdots,\frac{1}{n} \right)\)</span>.</p>
 </div>
 </div>
 </div>
@@ -380,7 +350,7 @@ window.Quarto = {
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="index_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
-<figcaption class="margin-caption">Tea drinkers in the cafe on three different days. Colors encode the kinds of tea they are drinking.</figcaption>
+<figcaption class="figure-caption margin-caption">Tea drinkers in the cafe on three different days. Colors encode the kinds of tea they are drinking.</figcaption>
 </figure>
 </div>
 </div>
@@ -479,24 +449,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -531,11 +483,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -550,28 +498,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
+    if (id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
         }
         return container.innerHTML
       } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
         return note.innerHTML;
       }
     } else {
@@ -580,15 +515,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
+      return note.innerHTML;
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -630,29 +557,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
       }
     }, function(instance) {
     });
@@ -728,6 +632,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
+        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

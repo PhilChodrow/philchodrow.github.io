@@ -129,10 +129,10 @@
   text: I attend the Joint Mathematics Meetings in San Francisco. 
 - date: 2024-01-11
   text: |
-    In Winter '24, I am teaching <a href="https://www.philchodrow.prof/csci-702-ws24/">CSCI 0702: Senior Thesis</a>. This is a course for senior CS majors to undertake long-term independent research projects in collaboration with a faculty member. 
+    In Winter '24, I taught <a href="https://www.philchodrow.prof/csci-702-ws24/">CSCI 0702: Senior Thesis</a>. This is a course for senior CS majors to undertake long-term independent research projects in collaboration with a faculty member. 
 - date: 2024-02-15
   text: |
-    In Spring '24, I am teaching <a href="https://middlebury-csci-0451.github.io/CSCI-0451-s24">CSCI 0451: Machine Learning</a> and <a href="https://www.philchodrow.prof/csci-702-ws24/">CSCI 0702: Senior Thesis</a>.  
+    In Spring '24, I taught <a href="https://middlebury-csci-0451.github.io/CSCI-0451-s24">CSCI 0451: Machine Learning</a> and <a href="https://www.philchodrow.prof/csci-702-ws24/">CSCI 0702: Senior Thesis</a>.  
 - date: 2024-04-10
   text: |
     I give an invited (remote) seminar talk on models of gender disparity in professional mathematics at Toronto Metropolitan University.
@@ -144,7 +144,7 @@
     I give an invited talk on modeling gender disparities in academic mathematics for the <a href="https://disc.tufts.edu/news-events/events/disc-forum">DISC Forum</a> at Tufts University.
 - date: 2024-06-19
   text: |
-    I give an invited talk on network science education at the Conference on Network Science in Quebec City, Canada. I also speak in a contributed session on models of edge-correlated growing hypergraphs. 
+    I give an invited talk on network science education at the Conference on Network Science in Quebec City, Canada. I also speak in a contributed session on models of edge-correlated growing hypergraphs (<a href="">slides</a>). 
 - date: 2024-03-23
   text: | 
     New paper! <a href="https://www.nature.com/articles/s41598-024-55934-5">Community detection in hypergraphs via mutual information maximization</a> is now published in <i>Scientific Reports</i>. This is joint work with Jürgen Kritschgau, Daniel Kaiser, Oliver Alvarado Rodriguez, Ilya Amburg, Jessalyn Bolkema, Thomas Grubb, Fangfei Lan, Sepideh Maleki, and Bill Kay. This work was born at the 2022 AMS Mathematics Research Community on "Models and Methods for Sparse (Hyper)Network Science."

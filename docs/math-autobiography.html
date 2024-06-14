@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.4.330">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -45,13 +45,12 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 50,
+  "limit": 20,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -60,7 +59,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -71,33 +69,6 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
 <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -105,7 +76,7 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
@@ -219,11 +190,10 @@ window.Quarto = {
 
 </header>
 
-
 <p><em>This is my math autobiography, which I wrote as an illustration for students writing their on math autobiographies in CSCI 0200: Math Foundations of Computing.</em></p>
 <p>My first vivid memory with mathematics is a bad one. I was in 4th grade, and I was starting at a “C” on my report card. I was a Smart Kid. I was Good At Math. I Did Not Get Cs. What happened? Well, my teacher explained, I wasn’t writing down any of my steps. I was trying to work out answers in my head, to skip things and get to the end faster. So, predictably, I was getting stuff wrong.</p>
-<div class="page-columns page-full"><p>I learned to show my work, but I never loved my math classes. I was always pretty good at them, and usually “felt smart” while I was working on problems. But I didn’t really see much point, and struggled to feel interested in my classes. </p><div class="no-row-height column-margin column-container"><span class="margin-aside">In case you’re wondering, I resolved in high school that I was going to grow up to be a philosopher.</span></div></div>
-<div class="page-columns page-full"><p>This changed for me late in high school, when I noticed a pattern that interested me in certain sums of powers of integers.  The freedom to actually explore something for myself, to discover something interesting about mathematics, changed my entire outlook. I eventually put together a science fair project about the patterns I found. By the time I got to college, I was motivated to pursue and complete a math major. Along the way, I really benefited from the opportunity to explore the math, especially in how it was applied to modeling stuff in the real world. I think my best teachers in high school and college found ways to keep me excited about that journey, and allowed me to go a bit off of the path that they might have planned for me.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">I was looking into formulas for things like: <span class="math inline">\(\sum_{i = 1}^n i = \frac{n(n-1)}{2}\)</span>. We learn how to prove formulas like these in classes like CSCI 0200.</span></div></div>
+<div class="page-columns page-full"><p>I learned to show my work, but I never loved my math classes. I was always pretty good at them, and usually “felt smart” while I was working on problems. But I didn’t really see much point, and struggled to feel interested in my classes. </p><div class="no-row-height column-margin column-container"><span class="">In case you’re wondering, I resolved in high school that I was going to grow up to be a philosopher.</span></div></div>
+<div class="page-columns page-full"><p>This changed for me late in high school, when I noticed a pattern that interested me in certain sums of powers of integers.  The freedom to actually explore something for myself, to discover something interesting about mathematics, changed my entire outlook. I eventually put together a science fair project about the patterns I found. By the time I got to college, I was motivated to pursue and complete a math major. Along the way, I really benefited from the opportunity to explore the math, especially in how it was applied to modeling stuff in the real world. I think my best teachers in high school and college found ways to keep me excited about that journey, and allowed me to go a bit off of the path that they might have planned for me.</p><div class="no-row-height column-margin column-container"><span class="">I was looking into formulas for things like: <span class="math inline">\(\sum_{i = 1}^n i = \frac{n(n-1)}{2}\)</span>. We learn how to prove formulas like these in classes like CSCI 0200.</span></div></div>
 <p>I spent some time working as a data analyst at a healthcare nonprofit. This was a pretty transformative experience for me in a lot of ways, and one of them was the interest it gave me in data and data science. When I decided it was time for me to go to grad school, I focused on programs that would allow me to explore the mathematics of data science. Once I got there, I really appreciated the control I had over which classes I took, what I spent my time thinking about, and what I got to learn. It was perfect for me! I learned the best when I could approach a new topic with motivation from my research. I want to do <span class="math inline">\(X\)</span>, so I’d better learn how to use <span class="math inline">\(Y\)</span> to do it. It was great. This is a spirit that I still try to bring to my research, and in certain ways I also try to channel it in the classes I teach.</p>
 <p>For me, what feels good about math is the feeling of achieving something correct, powerful, and interesting. I like the results! I think a lot of mathematicians will tell you that they love the process of working through problems, puzzling it out, etc. I’m not so much like that. In the process of working on problems, I can be stressed, grouchy, frustrated, or even a little bit angry at myself for not having gotten it yet. But when I eventually do get it – possibly after quite a while – I feel relieved, powerful, and motivated by what I’ve achieved. Maybe this isn’t the healthiest relationship to have to the practice of mathematics, but it’s the one I have. I overall love my life and identity as an applied mathematician, even if the going is tough sometimes.</p>
 <p>Going back to that C on my report card in 4th grade, there was an important lesson for me in that experience, although it took me a while to fully understand it:</p>
@@ -314,24 +284,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -366,11 +318,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -385,28 +333,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
+    if (id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
         }
         return container.innerHTML
       } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
         return note.innerHTML;
       }
     } else {
@@ -415,15 +350,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
+      return note.innerHTML;
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -465,29 +392,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
       }
     }, function(instance) {
     });
@@ -563,6 +467,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
+        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);

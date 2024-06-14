@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.4.330">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,13 +47,12 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 50,
+  "limit": 20,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -62,7 +61,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -78,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
@@ -235,7 +233,6 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
 <p>In Spring ’23, I taught two sections of Middlebury’s course CSCI 0451, Machine Learning. This is an elective in our computer science department which has been taught a handful of times before I arrived. The prerequisites are data structures, discrete math (which we call <em>Math Foundations of Computing</em>), and linear algebra. [The data structures prerequisite is primarily about computational maturity – we don’t use so much content from this course.] The formal course description, which I contributed to revising, is:</p>
 <blockquote class="blockquote">
 <p>Machine learning algorithms detect patterns in data and use these patterns to make decisions. This course introduces the theory and practice of machine learning. Tasks considered may include classification, regression, clustering, dimensionality reduction, text embedding, and reinforcement learning. Applications may include predictive analytics, data visualization, pattern recognition, and strategic game-playing. Students will also discuss the social implications of automated decision systems.</p>
@@ -269,7 +266,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Implementation</h1>
 <section id="a-typical-day" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="a-typical-day">A Typical Day</h2>
-<div class="page-columns page-full"><p>The standard “cycle” for the course had four steps: </p><div class="no-row-height column-margin column-container"><span class="margin-aside">I had aspirations for more active work in each class period, but ultimately didn’t manage to get it going. This is a possible area of improvement for next time.</span></div></div>
+<div class="page-columns page-full"><p>The standard “cycle” for the course had four steps: </p><div class="no-row-height column-margin column-container"><span class="">I had aspirations for more active work in each class period, but ultimately didn’t manage to get it going. This is a possible area of improvement for next time.</span></div></div>
 <ol type="1">
 <li>Students completed readings.</li>
 <li>Based on the readings, students completed a short <em>warmup assignment</em>.</li>
@@ -321,7 +318,7 @@ ul.task-list li input[type="checkbox"] {
 <li>92% of students agreed that “<em>The process of writing blog posts (in addition to implementing algorithms and doing experiments) supported my learning.</em>”</li>
 <li>97% of students agreed that “<em>I understand what Phil expects from me and how my final letter grade will be determined.</em>”</li>
 </ul>
-<div class="page-columns page-full"><p> 67% of students reported spending 8-12 hours per week on the course, which is roughly my target area. 22% spent 4-8 hours.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">I made a mistake in designing this question by not clarifying whether this included time spent in class or not.</span></div></div>
+<div class="page-columns page-full"><p> 67% of students reported spending 8-12 hours per week on the course, which is roughly my target area. 22% spent 4-8 hours.</p><div class="no-row-height column-margin column-container"><span class="">I made a mistake in designing this question by not clarifying whether this included time spent in class or not.</span></div></div>
 <p>55% of students felt that the pace of the course was <em>about right</em>, with 33% finding it “a little too fast” and 11% finding it “a little too slow.”</p>
 <p>Blog posts came up as something that worked well for students. When asked what worked well for them, students said:</p>
 <blockquote class="blockquote">
@@ -527,24 +524,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -579,11 +558,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
+      return note.innerHTML;
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -598,28 +573,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
+    if (id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
         }
         return container.innerHTML
       } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
         return note.innerHTML;
       }
     } else {
@@ -628,15 +590,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
+      return note.innerHTML;
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -678,29 +632,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
       }
     }, function(instance) {
     });
@@ -776,6 +707,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener(
       "resize",
       throttle(() => {
+        console.log("RESIZE");
         elRect = undefined;
         if (selectedAnnoteEl) {
           selectCodeLines(selectedAnnoteEl);
