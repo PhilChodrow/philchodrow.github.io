@@ -17,17 +17,19 @@ listing:
       
 I'm Dr. Phil Chodrow, an assistant professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/#story645114). My pronouns are *he/him/his*. 
 
+You can email me at `pchodrow@middlebury.edu` or stop by my office, Room 218 in 75 Shannon Street. 
+
 ### Research
 
-[My research](research.qmd) focuses on [network science](https://en.wikipedia.org/wiki/Network_science), the study of connected systems in society and nature. I draw on methods from applied mathematics, machine learning, statistics, and physics. I also work on data science projects to promote equity and sustainability. I have [awesome collaborators](research.qmd#key-collaborators). 
+[My research](research.qmd) focuses on [network science](https://en.wikipedia.org/wiki/Network_science), the study of connected systems in society and nature. I draw on methods from applied mathematics, machine learning, statistics, and physics. Recent topics include models of random hypergraphs, community detection in hypergraphs, opinion dynamics on networks, and gender representation in academic science. My work is supported by the National Science Foundation. I have [awesome collaborators](research.qmd#key-collaborators). 
+
+I take a small number of undergraduate research students, primarily for summer research and CSCI 0702: Senior Thesis projects. Students who are interested in doing research with me should take a look at my [FAQs](#summer-research) for prospective research students.
 
 ### Teaching
 
-In Spring '24 I am teaching **[CSCI 0451: Machine Learning](https://middlebury-csci-0451.github.io/CSCI-0451-s24/)** and **[CSCI 0702: Senior Thesis](https://www.philchodrow.prof/csci-702-ws24/)**. 
+In Fall '24 I am teaching **CSCI 0200: Math Foundations of Computing**. 
 
-
-   
-I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Middlebury students might want to take a look at my [FAQs](midd-student-faqs.qmd). 
+I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Middlebury students might want to take a look at my general [FAQs](midd-student-faqs.qmd).  
 
 <div class="no-wrap">
     

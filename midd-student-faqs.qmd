@@ -75,7 +75,7 @@ There is some overlap, although I have tried to minimize this to the extent reas
 
 No, the focus of this course is on theoretical fundamentals and their implementation in efficient code. The aim is to give you a foundation from which to explore more complex techniques ify ou choose. 
 
-## CSCI 0441: Network Science
+## CSCI 0442: Network Science
 
 ### What is this class about? 
 
@@ -117,7 +117,7 @@ Majors in mathematics and statistics are warmly welcome to enroll in this course
 
 ### If I take this course, can I do research with Phil over the summer or as a thesis?
 
-Doing well in CSCI 0441 does not guarantee that I will accept you as a summer research student or thesis student. It definitely helps though! 
+Doing well in CSCI 0442 does not guarantee that I will accept you as a summer research student or thesis student. It definitely helps though! 
 
 ### Will there be exams?
 
@@ -147,7 +147,7 @@ In general, the *minimal* requirements for working with me on research topics ar
 The following items are very helpful and increase the likelihood that I will accept you as a research student: 
 
 - Additional advanced coursework in mathematics and statistics, *especially* including MATH/STAT 310 (Probability). 
-- Any elective course taken with me, *especially* CSCI/MATH 441 (Network Science). 
+- Any elective course taken with me, *especially* CSCI 0442 (Network Science). 
 
 ### Am I guaranteed to be able to do a thesis with you if I have a lot of relevant coursework?
 

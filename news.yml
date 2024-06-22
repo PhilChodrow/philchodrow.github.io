@@ -148,3 +148,6 @@
 - date: 2024-03-23
   text: | 
     New paper! <a href="https://www.nature.com/articles/s41598-024-55934-5">Community detection in hypergraphs via mutual information maximization</a> is now published in <i>Scientific Reports</i>. This is joint work with Jürgen Kritschgau, Daniel Kaiser, Oliver Alvarado Rodriguez, Ilya Amburg, Jessalyn Bolkema, Thomas Grubb, Fangfei Lan, Sepideh Maleki, and Bill Kay. This work was born at the 2022 AMS Mathematics Research Community on "Models and Methods for Sparse (Hyper)Network Science."
+- date: 2024-07-01
+  text: |
+    The Division of Mathematical Sciences of the National Science Foundation (NSF) will support my stream of research in network growth, latent-variable models, dynamics, and social hierarchies through award DMS-2407058. This grant supports my research, including work with undergraduate students, for the years 2024-2027. 
