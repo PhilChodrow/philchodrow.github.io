@@ -129,10 +129,10 @@
   text: I attend the Joint Mathematics Meetings in San Francisco. 
 - date: 2024-01-11
   text: |
-    In Winter '24, I taught <a href="https://www.philchodrow.prof/csci-702-ws24/">CSCI 0702: Senior Thesis</a>. This is a course for senior CS majors to undertake long-term independent research projects in collaboration with a faculty member. 
+    In Winter '24, I teach <a href="https://www.philchodrow.prof/csci-702-ws24/">CSCI 0702: Senior Thesis</a>. This is a course for senior CS majors to undertake long-term independent research projects in collaboration with a faculty member. 
 - date: 2024-02-15
   text: |
-    In Spring '24, I taught <a href="https://middlebury-csci-0451.github.io/CSCI-0451-s24">CSCI 0451: Machine Learning</a> and <a href="https://www.philchodrow.prof/csci-702-ws24/">CSCI 0702: Senior Thesis</a>.  
+    In Spring '24, I teach <a href="https://middlebury-csci-0451.github.io/CSCI-0451-s24">CSCI 0451: Machine Learning</a> and <a href="https://www.philchodrow.prof/csci-702-ws24/">CSCI 0702: Senior Thesis</a>.  
 - date: 2024-04-10
   text: |
     I give an invited (remote) seminar talk on models of gender disparity in professional mathematics at Toronto Metropolitan University.
@@ -151,3 +151,9 @@
 - date: 2024-07-01
   text: |
     The Division of Mathematical Sciences of the National Science Foundation (NSF) will support my stream of research in network growth, latent-variable models, dynamics, and social hierarchies through award DMS-2407058. This grant supports my research, including work with undergraduate students, for the years 2024-2027. 
+- date: 2024-06-01
+  text: |
+    New article! <a href="https://epubs.siam.org/doi/abs/10.1137/22M1527258">Emergence of Polarization in a Sigmoidal Bounded-Confidence Model of Opinion Dynamics</a> (joint with Heather Zinn Brooks and Mason A. Porter) is published in the <i>SIAM Journal on Applied Dynamical Systems</i>. 
+- date: 2024-09-01
+  text: |
+    In F'24 I am teaching CSCI 0200: Math Foundations of Computing. 

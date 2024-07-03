@@ -23,21 +23,22 @@ A SLAC might not be for you if...
 
 I started as a tenure-track assistant professor at Middlebury in fall of 2022. Here are the rough contours of my position:
 
-- My **teaching portfolio** includes introductory CS, machine learning, math foundations of computing (discrete math) and thesis supervision. I will be developing a course on network science in the near future. 
+- My **teaching portfolio** includes introductory CS, machine learning, network science, math foundations of computing (discrete math) and thesis supervision. 
 - My **teaching load** is four 12-week courses per year. Usually these courses are doubled sections of the same course in at least one semester. 
-- My **service expectations** involve contributing to the mission of the department and potentially serving on one committee that serves the broader College. I was exempt from service expectations in my first year, but chose to take up a small role in building our department's Responsible Computing program. I am currently on the steering committee of midd.data, Middlebury's initiative around data science and data literacy. 
-- My **salary** is relatively low among CS positions at top liberal arts schools, but there was enough to draw me here regardless. 
-- I am currently funded by roughly $50K of **startup**. My startup package is primarily related to advanced computing needs and additional research travel. I worked out this package with our Dean of Faculty during contract negotiations. 
-- After my startup expires, I will have regular access to $4K/year of **ongoing research funds**. I can apply for grants if I need more funding. 
-- I have not yet taken **research students**, but Middlebury will usually fund 2-3 summer students. I can also take research students for academic credit during the school year. 
+- My **service expectations** involve contributing to the mission of the department and potentially serving on one committee that serves the broader College. I was exempt from service expectations in my first year, but chose to take up a small role in building our department's Responsible Computing program. I am currently on the steering committee of midd.data, Middlebury's initiative around data science and data literacy, as well as a committee tasked with proposing a revision to our curricular distribution requirements. 
+- My **salary** is relatively low among CS positions at top liberal arts schools, but there was enough to draw me here regardless. I have given myself a "raise" via a successful grant application that pays me summer salary. I receive regular cost-of-living adjustments each year. In the last two years, COL adjustments at Middlebury have been in the neighborhood of 4%. I will receive larger raises for passing my third-year review and my promotion reviews (for tenure/associate professor and for full professor). 
+- I am currently funded by roughly $50K of **startup** as well as a grant from the National Science Foundation. Both of these funds primarily support advanced computing needs, student research, and research travel. I negotiated my startup package with our Dean of Faculty during contract negotiations, and applied for the NSF grant in the fall of my second year on the job. 
+- After my startup and grant expire, I will have regular access to $4K/year of **ongoing research funds**. I can apply for more grants if I need more funding. 
+- Middlebury will usually fund 2-3 summer research students, and I can take more with grant support. I can also take research students for academic credit during the school year, especially for thesis work. 
 - I will have a full-year **sabbatical** in my fifth year, and then every sixth year thereafter. 
 - I will be **reviewed** in my third year and again (for tenure and promotion) in my seventh year. For tenure, I am expected to demonstrate excellence in teaching and a reputation for significant research in the broader scientific community. There have been no unsuccessful tenure cases in my department. 
 - Some **perks** include very comfortable, subsidized faculty housing; discounts at the College-owned ski areas; and some very nice built-in support networks through the College. 
 
-[Although my primary experience is in CS departments, I suspect that the following tips will also be useful for folks in math and statistics as well.]{.aside}
+
 
 ## Application Tips
 
+*Although my primary experience is in CS departments, I suspect that the following tips will also be useful for folks in math and statistics as well.*
 
 ### Before You Enter the Job Market
 
@@ -62,7 +63,7 @@ More generally, find ways to connect the job posting to your interests, and shar
 
 [I am intending this advice specifically for jobs at SLACs; I claim no insight on what is best to do at larger schools.]{.aside}
 
-### When Should I Diclose an Academic Partner? 
+### When Should I Disclose an Academic Partner? 
 
 If you and your partner are both academics and seeking jobs at the same institution, then you face the question of when to disclose this situation to the hiring committee and the administration. There are a lot of different points of view on this question, with two extremes: 
 
@@ -71,20 +72,23 @@ If you and your partner are both academics and seeking jobs at the same institut
 
 There are also in-between possibilities, like disclosing after you have completed a first- or second-round interview. 
 
-
 Because SLACs are very small and new positions can be scarce, my personal recommendation is to disclose as early as you feel comfortable. In many cases, it is possible for schools to make arrangements for partner hires, but this usually takes time and multiple layers of administrative decision-making. Disclosing early helps make this possible. 
 
 It's true that disclosing early may cause you not to get interviews that you might otherwise have gotten. That said, these are probably interviews that would not have led to a successful partner hire, so this may not be a loss. 
 
 #### Will My Partner Also Be Hired Tenure-Track? 
 
-In my experience, you should expect that a partner-hire situation at a SLAC will **not** result in both partners being immediately hired into tenure-track roles. Tenure lines at SLACs are *very* difficult to create on short notice. You should expect the school to be invested in the long-term success of both you and your partner, but you may have to be flexible about the details of that journey. 
+In my experience, you should expect that a partner-hire situation at a SLAC will **not** result in both partners being immediately hired into tenure-track roles. Tenure lines at SLACs are *very* difficult to create on short notice. You should expect the school to be invested in the long-term success of both you and your partner, and if they do not show evidence of such investment then you should look elsewhere. However, you may have to be flexible and open-minded about the timeline and steps that lead to your desired result. Some relevant questions to ask yourself and others: 
 
-
+1. Is your partner's prospective department excited about them?
+2. Is there reason to believe that a tenure line in that department will open in the near future? 
+3. Is there a process by which departments can conduct expedited or limited searches when considering a faculty partner? 
+4. What temporary opportunities are available for the partner in the meantime? How long do these positions last? 
+5. Can you speak to some faculty members who have successfully navigated the partner hire situation at the institution? 
 
 ## My Application Materials
 
-Most applications to SLAC positions include statements on research, teaching, and equity, diversity, and inclusion (EDI). I include the statements that brought me to Middlebury in the hopes that they might be useful to future SLAC job-seekers. These statements were **not** tailored to individual schools. My only tailoring was in my cover letter, where I addressed specific courses I could teach and how I would fit into individual departments. 
+Most applications to SLAC positions include statements on research, teaching, and equity, diversity, and inclusion (EDI). I include the statements that brought me to Middlebury in the hopes that they might be useful to future SLAC job-seekers. These statements were **not** tailored to individual schools. My only tailoring was in my cover letter, where I addressed specific courses I could teach and how I would fit into individual departments. [There are a few typos and other things that I would phrase differently with the benefit of hindsight, but apparently these were not dealbreakers.]{.aside}
 
 - [Statement on research](assets/pdf/research-cs.pdf).
 - [Statement on teaching](assets/pdf/teaching-cs.pdf).

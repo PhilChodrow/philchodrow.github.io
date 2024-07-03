@@ -16,20 +16,13 @@ listing:
 ### Welcome!  
       
 I'm Dr. Phil Chodrow, an assistant professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/#story645114). My pronouns are *he/him/his*. 
-
 You can email me at `pchodrow@middlebury.edu` or stop by my office, Room 218 in 75 Shannon Street. 
-
-### Research
 
 [My research](research.qmd) focuses on [network science](https://en.wikipedia.org/wiki/Network_science), the study of connected systems in society and nature. I draw on methods from applied mathematics, machine learning, statistics, and physics. Recent topics include models of random hypergraphs, community detection in hypergraphs, opinion dynamics on networks, and gender representation in academic science. My work is supported by the National Science Foundation. I have [awesome collaborators](research.qmd#key-collaborators). 
 
-I take a small number of undergraduate research students, primarily for summer research and CSCI 0702: Senior Thesis projects. Students who are interested in doing research with me should take a look at my [FAQs](#summer-research) for prospective research students.
+I have a [CV](https://www.philchodrow.prof/cv/cv.pdf). I  [teach courses](teaching.qmd) in math, data science, computation, and network science. Middlebury students might want to take a look at my [FAQs](midd-student-faqs.qmd) about classes and student research, or my [general FAQs](for-students.qmd) about me and my job. I am on a [mission](mission.qmd). I have [thoughts about jobs](job_app.qmd) at liberal arts colleges. I [read](reading.qmd).
 
-### Teaching
 
-In Fall '24 I am teaching **CSCI 0200: Math Foundations of Computing**. 
-
-I am on a [mission](mission.qmd). I teach [other courses](teaching.qmd). Middlebury students might want to take a look at my general [FAQs](midd-student-faqs.qmd).  
 
 <div class="no-wrap">
     
