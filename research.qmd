@@ -19,6 +19,8 @@ listing:
     filter-ui: false
     template: ejs/publications.ejs
 ---
+ 
+![Illustration by [Izabel Aguiar](https://izabelpaguiar.com).](assets/img/izabel-portrait.png)
 
 My research addresses computational, mathematical, and statistical problems in the study of complex systems. My interests include network data science, dynamical models of social structures, and data science applications supporting equity and sustainability.     
 
