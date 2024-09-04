@@ -10,6 +10,14 @@ My goal as an educator is to make computing, quantitative reasoning, and data sc
 
 **Spring 2024**
 
+- [CSCI 0442: Network Science](https://network-science-notes.github.io/)
+
+**Fall 2024**
+
+- [CSCI 0200: Math Foundations of Computing](https://middcs.github.io/csci-0200/syllabus.html)
+
+**Spring 2024**
+
 - [CSCI 0451: Machine Learning](https://middlebury-csci-0451.github.io/CSCI-0451-s24/)
 - [CSCI 0702: Senior Thesis](https://www.philchodrow.prof/csci-702-ws24/)
 
