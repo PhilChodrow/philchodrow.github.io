@@ -1,0 +1,17 @@
+- title: Configuring Random Graph Models with Fixed Degree Sequences
+  year: 2020
+  authors: [Bailey Fosdick, Daniel Larremore, Joel Nishimura, Johan Ugander]
+  url: https://epubs.siam.org/doi/10.1137/16M1087175
+  venue: |
+    SIAM Review
+  tag: [networks]
+  note: |
+    A foundational paper for constructing null models for networks and their generalizations. 
+- title: The ground truth about metadata and community detection in networks
+  year: 2017
+  authors: [Leto Peel, Dan Larremore, Aaron Clauset]
+  url: https://www.science.org/doi/10.1126/sciadv.1602548
+  venue: Science Advances
+  tag: [community detection]
+  note: |
+    Required reading for anyone who works in community detection or other unsupervised tasks in networks. 

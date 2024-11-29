@@ -1,0 +1,103 @@
+---
+title: "CS Jobs at Small Liberal Arts Colleges"
+page-layout: article
+toc: true
+---
+
+I work at Middlebury College, a small liberal arts college (SLAC) with a balanced teaching load that attracts academically high-achieving students. I love the SLAC environment and think it's a great place for many academics. 
+Careers at SLACs offer distinctive advantages and disadvantages when compared to careers at research-intensive institutions.
+Since SLAC jobs are less visible in PhD-granting institutions than research-intensive jobs, many folks may not know much about what these jobs are like or how to get them.  The purpose of this page is to give some basic information about my CS position at Middlebury (which I believe is not atypical of many CS SLAC positions), and to share some tips from my recent experience as both an applicant and a hiring committee member. 
+
+## Consider SLACs if...
+
+- You love **both** research and teaching, and you want to be incentivized for excellence in each. 
+- You would like to continue your academic career without needing to regularly write grant proposals. 
+- You enjoy mentoring and collaborating with undergraduate students. 
+
+A SLAC might not be for you if...
+
+- You prefer to teach as little as possible in order to focus on research. 
+- You are very eager to work with graduate students. 
+
+## My Position
+
+I started as a tenure-track assistant professor at Middlebury in fall of 2022. Here are the rough contours of my position:
+
+- My **teaching portfolio** includes introductory CS, machine learning, network science, math foundations of computing (discrete math) and thesis supervision. 
+- My **teaching load** is four 12-week courses per year. Usually these courses are doubled sections of the same course in at least one semester. 
+- My **service expectations** involve contributing to the mission of the department and potentially serving on one committee that serves the broader College. I was exempt from service expectations in my first year, but chose to take up a small role in building our department's Responsible Computing program. I am currently on the steering committee of midd.data, Middlebury's initiative around data science and data literacy, as well as a committee tasked with proposing a revision to our curricular distribution requirements. 
+- My **salary** is relatively low among CS positions at top liberal arts schools, but there was enough to draw me here regardless. I have given myself a "raise" via a successful grant application that pays me summer salary. I receive regular cost-of-living adjustments each year. In the last two years, COL adjustments at Middlebury have been in the neighborhood of 4%. I will receive larger raises for passing my third-year review and my promotion reviews (for tenure/associate professor and for full professor). 
+- I am currently funded by roughly $50K of **startup** as well as a grant from the National Science Foundation. Both of these funds primarily support advanced computing needs, student research, and research travel. I negotiated my startup package with our Dean of Faculty during contract negotiations, and applied for the NSF grant in the fall of my second year on the job. 
+- After my startup and grant expire, I will have regular access to $4K/year of **ongoing research funds**. I can apply for more grants if I need more funding. 
+- Middlebury will usually fund 2-3 summer research students, and I can take more with grant support. I can also take research students for academic credit during the school year, especially for thesis work. 
+- I will have a full-year **sabbatical** in my fifth year, and then every sixth year thereafter. 
+- I will be **reviewed** in my third year and again (for tenure and promotion) in my seventh year. For tenure, I am expected to demonstrate excellence in teaching and a reputation for significant research in the broader scientific community. There have been no unsuccessful tenure cases in my department. 
+- Some **perks** include very comfortable, subsidized faculty housing; discounts at the College-owned ski areas; and some very nice built-in support networks through the College. 
+
+
+
+## Application Tips
+
+*Although my primary experience is in CS departments, I suspect that the following tips will also be useful for folks in math and statistics as well.*
+
+### Before You Enter the Job Market
+
+Consider how you are going to demonstrate both excellence as a researcher and promise as an instructor. Hiring committees understand that not all candidates will have had opportunities to serve as instructors of record at the time they apply. You should, however, give us evidence that you will grow into an outstanding instructor. Some good kinds of evidence include: 
+
+- Student evaluations of teaching (SET) ratings and selected comments. 
+- Materials that you created as an instructor or teaching assistant. 
+- Participation in professional development activities related to teaching. 
+
+It's usually expected that at least one of your letters of recommendation will speak to your teaching potential. With this in mind, you should plan early: *who will write your teaching letter, and what information will they have?* It's a good idea to ask your prospective writer well in advance. Their letter may be stronger if you can give them materials from previous courses, a draft of your teaching statement, or an opportunity to observe one of your classes. 
+
+### In Your Cover Letter
+
+First and foremost, **carefully read the job ad** in order to avoid silly mistakes.  If your cover letter highlights your interest in mentoring graduate students, and the institution doesn't have graduate students, then the committee is unlikely to move forward on your application. 
+
+More generally, find ways to connect the job posting to your interests, and share them in your cover letter. My cover letter to Middlebury expressed:
+
+- My overall interest in the school and the department.
+- My excitement about the location, including the presence of many collaborators at nearby institutions. 
+- My interest in collaborating on data science initiatives, which I knew from the job ad and the Middlebury website to be an area of institutional focus. 
+- My teaching interests and how I felt these would align with the department's mission. 
+
+[I am intending this advice specifically for jobs at SLACs; I claim no insight on what is best to do at larger schools.]{.aside}
+
+### When Should I Disclose an Academic Partner? 
+
+If you and your partner are both academics and seeking jobs at the same institution, then you face the question of when to disclose this situation to the hiring committee and the administration. There are a lot of different points of view on this question, with two extremes: 
+
+1. Disclose immediately, usually on your cover letter. 
+2. Disclose only after you have received a written offer from the school. 
+
+There are also in-between possibilities, like disclosing after you have completed a first- or second-round interview. 
+
+Because SLACs are very small and new positions can be scarce, my personal recommendation is to disclose as early as you feel comfortable. In many cases, it is possible for schools to make arrangements for partner hires, but this usually takes time and multiple layers of administrative decision-making. Disclosing early helps make this possible. 
+
+It's true that disclosing early may cause you not to get interviews that you might otherwise have gotten. That said, these are probably interviews that would not have led to a successful partner hire, so this may not be a loss. 
+
+#### Will My Partner Also Be Hired Tenure-Track? 
+
+In my experience, you should expect that a partner-hire situation at a SLAC will **not** result in both partners being immediately hired into tenure-track roles. Tenure lines at SLACs are *very* difficult to create on short notice. You should expect the school to be invested in the long-term success of both you and your partner, and if they do not show evidence of such investment then you should look elsewhere. However, you may have to be flexible and open-minded about the timeline and steps that lead to your desired result. Some relevant questions to ask yourself and others: 
+
+1. Is your partner's prospective department excited about them?
+2. Is there reason to believe that a tenure line in that department will open in the near future? 
+3. Is there a process by which departments can conduct expedited or limited searches when considering a faculty partner? 
+4. What temporary opportunities are available for the partner in the meantime? How long do these positions last? 
+5. Can you speak to some faculty members who have successfully navigated the partner hire situation at the institution? 
+
+## My Application Materials
+
+Most applications to SLAC positions include statements on research, teaching, and equity, diversity, and inclusion (EDI). I include the statements that brought me to Middlebury in the hopes that they might be useful to future SLAC job-seekers. These statements were **not** tailored to individual schools. My only tailoring was in my cover letter, where I addressed specific courses I could teach and how I would fit into individual departments. [There are a few typos and other things that I would phrase differently with the benefit of hindsight, but apparently these were not dealbreakers.]{.aside}
+
+- [Statement on research](assets/pdf/research-cs.pdf).
+- [Statement on teaching](assets/pdf/teaching-cs.pdf).
+- [Statement on equity, diversity, and inclusion (EDI)](assets/pdf/EDI.pdf).
+
+A complete application usually also includes a cover letter addressing specific reasons why the candidate is an excellent fit for the specific institution, and 3-4 letters of reference. Usually, at least one of these letters should focus on teaching. 
+
+## Additional Resouces
+
+- There is a [listing of job postings](https://cs-pui.github.io/#deadlines) in computer science at primarily-undergraduate institutions with balanced teaching and research responsibilities, including many SLACs. 
+- [Dr. Iris Howley](https://www.cs.williams.edu/~iris/) at Williams College provides [a document with many links](https://docs.google.com/document/d/1JGyp7_NJKDAjCpsm8Z5_lty0P76jk3bhPPMdQJaF0nw/edit?usp=sharing) related to navigating the job market for CS jobs at primarily-undergraduate institutions. 
+- [Dr. Amanda Stent](https://amandastent.net) at Colby College has written on [academic CS careers at liberal arts colleges](https://medium.com/@ajstent/academic-cs-careers-at-liberal-arts-colleges-917b0d3e82ab). 

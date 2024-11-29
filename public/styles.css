@@ -1,0 +1,100 @@
+/* css styles */
+.circular--square { 
+  border-radius: 50%;  
+  /* margin: auto; */
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 12em;
+}
+
+.footer-logo { 
+  width: auto;
+  max-width: 100%;
+  max-height: 7em;
+}
+
+.thumbnail {
+    display:inline-block;
+    vertical-align:top;
+  }
+
+.compress {
+    padding: 0;
+    padding-left: 10px;
+    display:inline-block;
+    width: 80%;
+  }
+
+.fit-to-column img {
+    max-width: 700px;
+    height: auto;
+    }
+
+
+.quarto-sidebar-header { 
+    margin-top: 1em;
+    padding-bottom: 0em;
+    padding-left: .5em;
+    padding-right: .5em;
+  }
+  
+  .content{
+    padding-top: 2em !important; 
+}
+  
+  .sidebar.margin-sidebar {
+      margin-top:2em !important;
+  }
+
+
+  h1, h2, h3, h4 {
+    font-weight: bold;
+  }
+
+  body {
+    background-image: url("assets/img/background-network.png"); 
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+   }
+
+  @media only screen and (max-device-width: 1366px) {
+    body {
+      background-attachment: scroll;
+    }
+  }
+
+.quarto-listing { 
+  padding-bottom: 0em;
+}
+
+.job-title { 
+  padding-bottom: 0em;
+  line-height: 0em;
+  font-size: 0.8rem;
+  /* color: #51514f; */
+}
+
+.display-name {
+  line-height: 1.6rem;
+}
+
+.sidebar-title{
+  line-height: 1rem;
+}
+
+.month { 
+  vertical-align: top;
+  padding-right: 1em;
+  text-align: right;
+}
+
+.news-item { 
+  padding-bottom: 1em;
+}

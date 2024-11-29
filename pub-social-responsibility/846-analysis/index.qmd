@@ -1,0 +1,12 @@
+---
+title: "Persons charged with violations of 21 U.S.C.
+§846: Poverty, unemployment, education, and sentences."
+authors: [PSC, Manuchehr Aminian, Carlos Paniagua, Jude Higdon]
+categories: [news, code, analysis]
+image: "blank.png"
+venue: "Part of an amicus brief in Rodriguez-Rivera v. United
+States, U.S. Supreme Court case 21-143"
+year: "2021"
+url: ""
+page-layout: article
+---

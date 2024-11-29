@@ -1,0 +1,38 @@
+---
+# title: "Welcome!"
+page-layout: article
+toc: false
+listing:
+  - id: news
+    contents: 
+      - news.yml
+    sort-ui: false
+    filter-ui: false
+    template: ejs/news.ejs
+---
+ 
+<img src="assets/img/avatar-bg-trimmed.png" class="img-responsive img-profile" alt="Cartoon picture of Phil Chodrow with a background containing mathematical symbols."> 
+
+
+### Welcome!  
+      
+I'm Dr. Phil Chodrow, an assistant professor in the [Department of Computer Science](https://www.middlebury.edu/academics/cs) at [Middlebury College](https://www.middlebury.edu/#story645114). My pronouns are *he/him/his*. 
+You can email me at `pchodrow@middlebury.edu` or stop by my office, Room 218 in 75 Shannon Street. 
+
+[My research](research.qmd) focuses on [network science](https://en.wikipedia.org/wiki/Network_science), the study of connected systems in society and nature. I draw on methods from applied mathematics, machine learning, statistics, and physics. Recent topics include models of random hypergraphs, community detection in hypergraphs, opinion dynamics on networks, and gender representation in academic science. My work is supported by the National Science Foundation. I have [awesome collaborators](research.qmd#key-collaborators). 
+
+I have a [CV](https://www.philchodrow.prof/cv/cv.pdf). I  [teach courses](teaching.qmd) in math, data science, computation, and network science. Middlebury students might want to take a look at my [FAQs](faqs.qmd#middlebury-student-faqs.qmd) about classes and student research. I have [thoughts about jobs](job_app.qmd) at liberal arts colleges. I [read](reading.qmd).
+
+
+
+<div class="no-wrap">
+    
+### News
+    
+:::{#news}
+:::
+   
+
+([*Older news*](news_archive.qmd))
+
+</div>

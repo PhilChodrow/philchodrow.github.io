@@ -1,0 +1,79 @@
+---
+title: "Research"
+page-layout: article
+toc: true
+listing:
+  - id: research-1
+    contents: pub-network-data-science
+    sort-ui: false
+    filter-ui: false
+    template: ejs/publications.ejs
+  - id: research-2
+    contents: pub-models-of-social-systems
+    sort-ui: false
+    filter-ui: false
+    template: ejs/publications.ejs
+  - id: research-3
+    contents: pub-social-responsibility
+    sort-ui: false
+    filter-ui: false
+    template: ejs/publications.ejs
+---
+ 
+<!-- ![](assets/img/izabel-portrait.png) -->
+
+<img src="assets/img/izabel-portrait.png" class="img-responsive-larger img-profile-right" alt="Cartoon picture of Phil Chodrow with a background containing mathematical symbols."> 
+My research addresses computational, mathematical, and statistical problems in the study of complex systems, especially social systems. My interests include  models of evolving networks; network data science; models with polyadic (higher-order) interactions; methods for quantifying segregation and polarization; and identity representation in academic science. I am especially interested in the interplay between mechanistic dynamical modeling and messy data sets. My research is currently supported by the National Science Foundation grant "RUI: Network Evolution with Unobserved Mechanisms." For my complete research record, see my [Google Scholar page](https://scholar.google.com/citations?user=dgWoch0AAAAJ&hl=en).
+
+[Illustration by [Izabel Aguiar](https://izabelpaguiar.com).]{.aside}
+
+## Methods of Network Data Science
+
+How do we analyze and learn from network data? I build mathematical foundations for network data science algorithms, with recent focus on networks of higher-order interactions. Much of my work is devoted to developing novel random graph models and applying them in algorithms. Doing so often requires tools from probability, optimization, combinatorics, and random matrix theory. 
+
+:::{#research-1}
+:::
+
+## Models of Polarization, Hierarchy, and Inequality
+
+Human and animal societies are structured by persistent hierarchies, inequalities, and divisions. Dynamical and statistical models can help us understand the extent of these structures, how they form, and under what conditions they persist. I am especially interested in the role of social feedback loops in reinforcing these structures. 
+
+
+:::{#research-2}
+:::
+
+## Data Science and Social Responsibility
+
+I also use my skills and resources in the service of equity, sustainability, and justice. My efforts here includes both the development of novel methods for social data analysis and work on activist data science projects.  I pursue some of this work as a Partner at [QSIDE](https://qsideinstitute.org/), the Institute for the Quantitative Study of Inclusion, Diversity, and Equity. 
+
+
+:::{#research-3}
+:::
+
+## Key Collaborators
+
+
+- [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/) (Computer Science, Grinnell)
+- [Jamie Haddock](https://www.math.ucla.edu/~jhaddock/index.html) (Mathematics, Harvey Mudd)
+- [Heather Zinn Brooks](https://www.hmc.edu/mathematics/people/faculty/heather-zinn-brooks/) (Mathematics, Harvey Mudd)
+- [Kelly Finn](https://pbs.dartmouth.edu/people/kelly-r-finn) (Psychology and Brain Sciences, Dartmouth)
+- [Mason Porter](https://www.math.ucla.edu/~mason/) (Mathematics, UCLA)
+- [Alice Schwarze](https://aliceschwarze.gitlab.io/) (Mathematics, Dartmouth)
+- [Nate Veldt](https://people.cam.cornell.edu/lnv22/) (Computer Science, Texas A&M)
+- [Austin Benson](https://www.cs.cornell.edu/~arb/) (Computer Science, Cornell)
+- [Mari Kawakatsu](https://www.marikawakatsu.com/) (Applied and Computational Mathematics, Princeton)
+- [Dan Larremore](https://www.colorado.edu/cs/daniel-larremore) (Computer Science, CU Boulder)
+- [Peter Mucha](https://mucha.web.unc.edu/) (Mathematics, Dartmouth)
+- [Marta González](https://ced.berkeley.edu/ced/faculty-staff/marta-gonzalez) (City and Regional Planning, UC Berkeley)
+- [Andrew Mellor](https://andrewmellor.co.uk/) (Oxford, OxFORD Asset Management)
+- [Shan Jiang](https://as.tufts.edu/uep/people/faculty/shan-jiang) (Urban and Environmental Policy and Planning, Tufts)
+- [Mary Angelique Demetillo](https://maryangelique.com/) (Environmental Science, UVA)
+- [Sally Pusede](https://evsc.as.virginia.edu/people/profile/sep6a) (Environmental Science, UVA). 
+
+
+## Student Research
+
+If you are a Middlebury student interested in working with me as a research collaborator, I have [a whole list of FAQs](faqs.qmd#research-with-students) just for you! 
+
+
+

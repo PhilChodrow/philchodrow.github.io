@@ -1,0 +1,31 @@
+---
+title: "Research Students"
+listing:
+  id: students
+  contents: 
+    - research-students.yaml
+  sort: "date desc"
+  type: grid
+  image-height: 250px
+  grid-columns: 4
+  fields: [image, title, subtitle, description]
+---
+
+:::{#students}
+:::
+
+
+ 
+
+     
+
+
+
+
+
+ 
+
+
+
+
+

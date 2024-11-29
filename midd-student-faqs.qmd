@@ -1,0 +1,194 @@
+---
+title: "FAQs for Middlebury Students"
+page-layout: article
+toc: true
+---
+
+
+## How should I address you? 
+
+It's fine to call me "Prof. Phil," "Phil," "Prof. Chodrow," or "Dr. Chodrow." Those are in rough order of preference (e.g. I like "Prof. Phil" more than "Dr. Chodrow"), but it's fine for you to use any of these that make you comfortable. 
+
+Please remember to address all your professors respectfully and according to their preferences. As argued in a [recent study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6048538/pdf/pnas.201805284.pdf), many of us have harmful, gendered biases about when we use earned titles like “Dr.” or “Professor." A small, simple thing you can do to make academia a more equitable place is to check your own potential biases. If you’re not sure, “Professor X” or “Dr. X” is always a safe choice — but even better is to just ask what your instructor prefers! My own personal preference is related to [this short poem](https://pressfolios-production.s3.amazonaws.com/uploads/story/story_pdf/254906/2549061489249557.pdf) by Susan Harlan.
+
+## Advising
+
+### Will you be my advisor?
+
+Maybe! At this time, I have a full load of advisees and am only accepting new advisees who have interests (at the intersection of math, CS, and data science) that align closely with my expertise. Once some of my advisees graduate, I'll start taking many more. 
+
+### If you won't be me advisor, whom should I ask?
+
+You can ask any CS faculty member to be your advisor! Usually the role of the advisor is limited to helping you plan your classes, and any of us can do this effectively! Ultimately, it doesn't matter too much who your advisor is. You're always welcome to come chat with me about your interests in courses, careers, and research. 
+
+## Letters of Recommendation
+
+### Will you write me a letter of recommendation?
+
+You may need a letter of recommendation from a faculty member for applications to graduate school, jobs, or internships.  
+
+If you have completed a course with me or are currently enrolled, you are welcome to request a letter from me. I will only refuse if you are requesting support for an application for jobs or internships involving surveillance, policing, or military applications. If I feel that I am not able to write you a strong letter, I will tell you -- but if you still want a letter from me, I will still write it.
+
+Please keep in mind that I can write stronger letters for students whom I see more frequently, such as in lecture or office hours. If you’d like a letter, talking to me in these contexts, or scheduling another meeting time, is highly recommended.
+
+To request a letter, fill out [this request form](https://forms.gle/tL79wtFrfHC5Vspw7)! Please give me at least one month of advance notice when possible.
+
+### Will you write me a letter of recommendation for jobs and internships related to surveillance, policing, or military applications?
+
+As a matter of moral principle, I will not write letters of recommendation for programs or jobs involving any of the following:
+
+- Policing (including but not limited to predictive policing, development of algorithms that predict recidivism, etc.);
+- Military applications (such as internships at the Department of Defense or any of its international counterparts);
+- Weapons manufacturing, broadly construed;
+- Intelligence gathering (such as internships at the NSA, FBI, or any international counterpart).
+
+I am very happy to discuss this policy with any student who has questions. Conversations about when and how mathematics, data science, and programming should be used are lacking in our community. If you'd like to engage me in such a conversation, that would be great! However, this policy is non-negotiable. Therefore, if I refuse to write you a letter on these grounds, please know that it doesn't reflect on your ability to succeed in this course, your career potential, your worth as a person, or whether I like you. 
+
+The [Just Mathematics Collective](https://www.justmathematicscollective.net/) has compiled a list of resources for students on making ethical career decisions, which is available [here](https://justmathematicscollective.net/career_resources.html). The text of this section is lightly modified from their [suggested text](https://www.justmathematicscollective.net/letter_writing.html) on letter-writing. 
+
+## CSCI 0451: Machine Learning
+
+### When can I take this class?
+
+This course is *usually* offered at least once each academic year. Recently, I've been teaching it in the spring semester. The department is not able to guarantee that the course will be offered every year, but this has been the recent trend. 
+
+In some years, only one section of CSCI 0451 is offered. In such years, there are typically only enough spots for seniors. In other years, two sections of CSCI 0451 are taught. In these years, there are usually enough spots for everyone who wants to enroll. 
+
+
+### Do I have to be a CSCI major or minor to take this class?
+
+If you have considerable mathematics background (up to the level of MATH 0223: Multivariable Calculus) and if you have taken several courses involving data analysis and programming, you may be able to be successful in this course even if you are not a CSCI major. You can contact me about the possibility of a waiver to allow you to take the course. I treat such requests on a case-by-case basis. 
+
+### Do I need to have experience in Python programming to take this class?
+
+Comfort programming in Python is *strongly* recommended in order to succeed in this class. In some cases I'll waive in a student who has *extensive?* experience programming in another language (e.g. R or Matlab) and who demonstrates ability to self-teach Python at a rapid pace. 
+
+### Do I *really* need to take MATH 0200: Linear Algebra before I take this class? 
+
+Yes. 
+
+### Does this course overlap with CSCI 0311: Artificial Intelligence or CSCI 0457: Natural Language Processing?
+
+There is some overlap, although I have tried to minimize this to the extent reasonably possible. 
+
+### Will this course teach me the latest, cutting-edge tools in machine learning and generative AI?
+
+No, the focus of this course is on theoretical fundamentals and their implementation in efficient code. The aim is to give you a foundation from which to explore more complex techniques ify ou choose. 
+
+## CSCI 0442: Network Science
+
+### What is this class about? 
+
+This is a course in my research area! Lots of the systems around us are composed of small, interconnected pieces. Your social network; ecological food webs; the financial system; and the physical infrastructure of the internet are all examples of real-world networked systems. 
+
+In this class, we'll use math and computation to study the structure and dynamics of networked systems. Some of the questions we'll ask include: 
+
+- How should we measure the structure of networked systems? 
+- How do the networked systems we see in the world around us evolve to be the way they are? How can we model this with mathematics?
+- How can we use algorithms to extract insights from large network data? 
+- How does the structure of a network constrain or enable interactions on that network, like information exchange or disease spread? 
+
+### Will this class help me get a job in software development?
+
+No. 
+
+### Will I like this class?
+
+You might like this class if several (but not necessarily all) of the following items describe you: 
+
+- You like mathematics and statistics enough to enjoy doing calculations by hand and writing mathematical proofs. 
+    - Although the only official mathematical prerequisite is linear algebra, students who have taken a course in probability (e.g. MATH/STAT 0310) or theoretical computer science (CSCI 0301 and 0302) are likely to find this course more engaging. 
+- You like thinking about how mathematical or computational models relate to our complex social and technological worlds. 
+- You have experience in physics, especially statistical physics. 
+- You have several semesters of experience coding. 
+- You have experience analyzing data in R or Python. 
+
+### What programming experience is required for this class?
+
+We'll use Python for all our computational experiments and data analysis in this class. Prior experience coding with Python is strongly recommended. If you do not have experience with Python and also do not have coursework beyond the 200-level in either math or theoretical CS (e.g. CSCI 0301 and 0302), you are likely in for a bad time. 
+
+### Does this course count towards the mathematics or statistics majors? 
+
+Majors in mathematics and statistics are warmly welcome to enroll in this course. However, the course does not towards these majors. It does count as college credit, a DED requirement, and an elective torwards the computer science major. 
+
+### How often is this course offered?
+
+*Roughly* once every two years. 
+
+### If I take this course, can I do research with Phil over the summer or as a thesis?
+
+Doing well in CSCI 0442 does not guarantee that I will accept you as a summer research student or thesis student. It definitely helps though! 
+
+### Will there be exams?
+
+There will be one midterm exam and a final project, as well as regular problem sets. Problem sets will include both math problems and computational experiments. 
+
+## CSCI 0702: Senior Thesis
+
+### Will you be my thesis advisor? 
+
+Maybe! To write a thesis with me, you usually need to either: 
+
+a. Have advanced mathematical background sufficient to work on some of my existing research activities or 
+b. Have an idea of your own that I find very exciting. 
+
+### Can I do a machine learning thesis with you? {#sec-ml}
+
+Usually no. Machine learning is not my research area and applied projects in machine learning usually don't have enough scholarly depth to be appropriate for senior theses. If you have a specific idea related to machine learning that goes over and above "I am going to analyze a data set," then I'm happy to consider your pitch. 
+
+### What courses should I take in order to be ready to do research with you? {#sec-prep}
+
+In general, the *minimal* requirements for working with me on research topics are: 
+
+- MATH 0200 (Linear Algebra)
+- At least one advanced elective in CS that significantly uses mathematical content, especially those which have MATH 0200 as a prerequisite. 
+- Comfort reading and writing mathematical descriptions of models and programs. 
+
+The following items are very helpful and increase the likelihood that I will accept you as a research student: 
+
+- Additional advanced coursework in mathematics and statistics, *especially* including MATH/STAT 310 (Probability). 
+- Any elective course taken with me, *especially* CSCI 0442 (Network Science). 
+
+### Am I guaranteed to be able to do a thesis with you if I have a lot of relevant coursework?
+
+No. I reserve the right to limit the number of students I advise on theses. 
+
+## Summer Research 
+
+### Do you supervise research students over the summer? 
+
+Sometimes! It depends on my other commitments and priorities for the summer, as well as my ability to secure funding. 
+
+### Am I guaranteed a spot in your research group?
+
+No, there are far more students who want to do research than I am able to accommodate. I don't expect to accept more than 2-3 students in most summers. 
+
+### What courses should I take in order to be ready to do summer research with you? 
+
+This [list applies](#sec-prep) for students who are interested in both theses and summer research opportunities. 
+
+### Can I do machine learning research with you?
+
+[Probably not](#sec-ml). 
+
+## Independent Study (CSCI 0500)
+
+I *very* rarely accept students for independent study during the school year, and usually only as continuation of prior research work from summer or a senior thesis. 
+[*The reason I am so picky about independent studies is that it is extra work for which neither I nor any other faculty are paid*.]{.aside}
+
+## My Research
+
+### What kinds of things are you working on? 
+
+These days (mid-2024), I am thinking about models of how networked systems (like social or biological networks) evolve over time. This involves creating mathematical descriptions of new models, mathematical analysis, and the development of statistical inference algorithms for fitting these models to real-world data. 
+
+I also work on mathematical models of collective social behavior, network data analysis, and selected projects in data science and applied statistics. Here's [a description of my areas of recent research](research.qmd). 
+
+### Would I like working with you on some of those things? 
+
+Maybe! You are most likely to enjoy this kind of work if you are interested in the intersection between math, data science, computation, and the science of complex systems. 
+
+### Can I talk to you about my research interests and how they might fit into my time at Middlebury? 
+
+Yes, absolutely! Send me an email and we'll set up a time to meet. 
+

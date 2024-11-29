@@ -1,0 +1,23 @@
+---
+title: "Contact Me"
+page-layout: article
+toc: true
+---
+
+### Reach Me
+
+The most reliable way is by email: pchodrow@middlebury.edu.
+
+I am often in my office, Room 218 in 75 Shannon Street. Say hi whenever the door is open! 
+
+I do not normally take calls to my office phone. 
+
+### Meet with Me
+
+To set up a meeting with me, please send me an email. I am likely to share with you a Calendly link that you can use to schedule a time. 
+
+### Other
+
+- Most of the code I write can be found [on GitHub](https://GitHub.com/PhilChodrow).
+- My [ORCID](https://orcid.org/0000-0001-5667-490X) is 0000-0001-5667-490X. 
+- I am on [Twitter](https://twitter.com/philchodrow), though not very active.  

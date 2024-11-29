@@ -1,0 +1,141 @@
+---
+title: "Resources"
+page-layout: article
+toc: true
+---
+
+
+This page collects a variety of references, organizations, data repositories, links, and books that I find useful or motivating. In all cases, the lists are highly partial, in reflection of my own experience and limitations. If you have a suggestion for an addition, please let me know! 
+
+## Data Science, Math, Technology, and Social Justice
+
+- The 2021 [MSRI Workshop on Mathematics and Racial Justice](https://www.msri.org/workshops/1012) collected a [list of resources](https://docs.google.com/document/d/1-40eCiJdlOIxDWnALv-kqO5-0c5NH1M857-_kTj-GeE/edit?usp=sharing) on mathematics and racial justice, including books, journal articles, organizations, and data sets.
+- [*Weapons of Math Destruction*](https://bookshop.org/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy/9780553418835) by Cathy O'Neil.
+- [*Algorithms of Oppression: How Search Engines Reinforce Racism*](https://bookshop.org/books/algorithms-of-oppression-how-search-engines-reinforce-racism/9781479837243) by Safiya Umoja Noble.
+- [*Automating Inequality*](https://bookshop.org/books/automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor/9781250215789) by Virginia Eubanks.
+- [*Invisible Women: Data Bias in a World Designed for Men*](https://bookshop.org/books/invisible-women-data-bias-in-a-world-designed-for-men/9781419735219) by Caroline Criado Perez. 
+- [A People's Guide to Finding Algorithmic Bias](https://www.criticalracedigitalstudies.com/peoplesguide) by the [Center for Critical Race and Digital Studies](https://www.criticalracedigitalstudies.com) affiliated with [NYU's Institute of Human Development and Social Change](https://steinhardt.nyu.edu/ihdsc). 
+- The [Academic Wheel of Privilege](https://science.nasa.gov/files/science-pink/s3fs-public/styles/background_image_file_size/public/thumbnails/image/academic%20wheel%20of%20privilege.JPG?itok=Jp0QfgtW) by Dr. Flavio Azevedo as described in [this interview](https://science.nasa.gov/open-science/transform-to-open-science/stories/dr-flavio-azevedo). 
+- [Dr. Emma Pierson](https://www.cs.cornell.edu/~emmapierson/)'s [provisional schedule](https://docs.google.com/spreadsheets/d/1oppU-mYv3pvy2oGTkLZel03ydMjSgQ09Aa1L2fEC0v8/edit?usp=sharing) for her class on data science for social change. 
+- Assorted articles: 
+    - [The Exploited Labor Behind Artificial Intelligence](https://www.noemamag.com/the-exploited-labor-behind-artificial-intelligence/) by Adrienne Williams, Milagros Miceli and Timnit Gebru in *Noema*. 
+    - [Rent Going Up? One Company’s Algorithm Could Be Why.](https://www.propublica.org/article/yieldstar-rent-increase-realpage-rent) by Heather Vogell, Haru Coryne, and Ryan Little in *ProPublica*. 
+    - [Computer science has a racism problem: these researchers want to fix it](https://www.nature.com/articles/d41586-022-03251-0) by Melba Newsome in *Nature*. 
+- Landmark papers: 
+    - [Data sheets for data sets](https://arxiv.org/pdf/1803.09010.pdf) by Gebru et al. 
+    - [Model Cards for Model Reporting](https://arxiv.org/pdf/1810.03993.pdf) by Mitchell et al. 
+    - [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922) by Bender et al. 
+
+### Case Studies
+
+These case studies describe specific uses of technology that I have used or may use in the future in my pedagogy. 
+
+- COMPAS: Recidivism Prediction
+    - "[Machine Bias](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)" by Julia Angwin et al. for ProPublica
+    - [Fair prediction with disparate impact](https://arxiv.org/pdf/1703.00056.pdf) by Alexandra Chouldechova 
+    - [Inherent trade-offs in the fair determination of risk scores](https://arxiv.org/pdf/1609.05807,) by Jon Kleinberg et al.
+    - [The Limits of the Quantitative Approach to Discrimination](https://www.cs.princeton.edu/~arvindn/talks/baldwin-discrimination/baldwin-discrimination-transcript.pdf), speech by Arvind Narayanan. 
+- Wisconsin DEWS
+    - ["False Alarm: How Wisconsin Uses Race and Income to Label Students 'High Risk'"](https://themarkup.org/machine-learning/2023/04/27/false-alarm-how-wisconsin-uses-race-and-income-to-label-students-high-risk) by Todd Feathers at *The Markup*. 
+    - [Difficult Lessons on Social Prediction from Wisconsin Public Schools](https://arxiv.org/abs/2304.06205) by Juan Perdomo et al. "*Our findings indicate that we should carefully evaluate the decision to fund early warning systems without also devoting resources to interventions tackling structural barriers.*"
+
+### Critical Writing
+
+- [Will A.I. Become the New McKinsey?](https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey) by Ted Chiang. 
+- [More than calculators: Why large language models threaten learning, teaching, and education](https://medium.com/bits-and-behavior/more-than-calculators-why-large-language-models-threaten-public-education-480dd5300939) by Amy J. Ko. 
+
+## Feminism, Antiracism, and Anti-Colonialism More Broadly
+
+- [*Entitled: How Male Privilege Hurts Women*](https://bookshop.org/books/entitled-how-male-privilege-hurts-women/9781984826558) by Kate Manne. 
+- [*How to be an Antiracist*](https://bookshop.org/books/how-to-be-an-antiracist/9780525509288) by Ibram X. Kendi. 
+- [*Stamped From the Beginning: The Definitive History of Racist Ideas in America*](https://bookshop.org/books/stamped-from-the-beginning-the-definitive-history-of-racist-ideas-in-america-9781568585987/9781568585987) by Ibram X. Kendi.
+- [*An Indigenous People's History of the United States*](https://bookshop.org/books/an-indigenous-peoples-history-of-the-united-states/9780807057834) by Roxanne Dunbar-Ortiz. 
+
+## Network Theory
+
+- [*Lectures on Network Systems*](http://motion.me.ucsb.edu/book-lns/), a free book by [Francesco Bullo](http://motion.me.ucsb.edu/) at UC Santa Barbara covering a range of important topics related to dynamical systems on networks. The development of the linear algebra toolbox for approaching network problems is clear and of high general utility.   
+- [Aaron Clauset](https://aaronclauset.github.io/) at CU Boulder maintains excellent lecture notes on [Network Analysis and Modeling](https://aaronclauset.github.io/courses/5352/) and [Biological Networks](https://aaronclauset.github.io/courses/3352/). 
+- [*Economic Networks: Theory and Computation*](https://arxiv.org/pdf/2203.11972.pdf) by John Stachurski and Thomas J. Sargent. I haven’t personally read this one, but I'd like to soon! 
+- [*The Atlas for the Aspiring Network Scientist*](https://arxiv.org/pdf/2101.00863.pdf) by Michele Coscia contains brief discussion of a very large cross section of the math, models, and ideas of network science. 
+- [A short course in network science](https://net-science.github.io) at the University of Utrecht Summer School by [Javier Garcia-Bernardo](https://javier.science/), [Leto Peel](https://piratepeel.github.io/), [Mahdi Shafiee Kamalabad](https://www.uu.nl/medewerkers/MShafieeKamalabad), [Jiamin Ou](https://www.uu.nl/medewerkers/JOu), and [Vincent Buskens](https://www.uu.nl/medewerkers/vbuskens). 
+
+## Machine Learning 
+
+- [Applied Machine Learning](https://github.com/kuleshov/cornell-cs5785-2020-applied-ml) is a collection of well-annotated Jupyter notebooks from Cornell Tech's course CS5785, Applied Machine Learning as taught by [Volodymyr Kuleshov](https://www.cs.cornell.edu/~kuleshov/). 
+- [Patterns, Predictions, and Actions](https://mlstory.org/pdf/patterns.pdf) by Moritz Hardt and Benjamin Recht is a useful text for advanced undergraduates or early graduate students on several fundamental technical stories in machine learning. 
+- [MLU-Explain](https://mlu-explain.github.io) includes high visual articles of a number of core topics in machine learning. 
+- [Pen and Paper Exercises in Machine Learning](https://arxiv.org/pdf/2206.13446.pdf) is a series of mathematical exercises in machine learning for those with some background in linear algebra and probability. 
+
+## Useful Math
+
+- [*Introduction to Probability for Data Science*](https://probability4datascience.com/?source=techstories.org), a free book by [Stanley Chan](https://engineering.purdue.edu/ChanGroup/stanleychan.html) at Purdue covering some of the elementary theory of probability as it relates to statistics and machine learning. 
+- [*High-Dimensional Probability*](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.pdf), a free book by [Roman Vershynin](https://www.math.uci.edu/~rvershyn/) at UC Irvine covering a range of topics on the probabilistic foundations of modern, high-dimensional statistics at an advanced level. 
+- [*Algebra, Topology, Differential Calculus, and Optimization Theory For Computer Science and Machine Learning*](https://www.cis.upenn.edu/~jean/math-deep.pdf) by [Jean Gallier](https://www.cis.upenn.edu/~jean/home.html) and Jocelyn Quaintance is a monumental, free online book covering a wide range of mathematical background useful in machine learning and data science. 
+- Need to brush up on your applied linear algebra? [Stephen Boyd](https://web.stanford.edu/~boyd/) and [Lieven Vandenberghe](http://www.seas.ucla.edu/~vandenbe/) have an excellent [introduction to the subject](https://web.stanford.edu/~boyd/vmls/vmls.pdf) from an applied perspective.
+- [A cheatsheet of useful inequalities](http://www.lkozma.net/inequalities_cheat_sheet/ineq.pdf), especially for probability, statistics, and computer science. It was compiled by László Kozma. 
+- [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf) by Marc Peter Deisenroth, A. Aldo Faisal, and Cheng Soon Ong covers a wide range of mathematical fundamentals for understanding machine learning algorithms. It's a great resource for undergraduates looking to get started in the theory of ML. 
+
+## Data Sets
+
+- Tidy Tuesday is an initiative organized by the R For Data Science online learning community. Each week, they pose a different data analysis problem in which people can practice their programming and data science skills. The collection of [data sets](https://github.com/rfordatascience/tidytuesday) is particularly nice. 
+- The machine learning competition website Kaggle hosts a [large variety of data sets](https://www.kaggle.com/datasets) suitable for various data science tasks.  
+- Data sets for network science: 
+    - The [Colorado Index of Complex Networks](https://icon.colorado.edu/#!/) (ICON) hosts a large variety of network data sets spanning a large variety of research fields. ICON is curated by the [group of Aaron Clauset](https://aaronclauset.github.io) at CU Boulder. 
+    - The [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/) (SNAP) hosts a wide range of network data sets. SNAP is curated by Jure Leskovec and Andrej Krevl at Stanford University. 
+    - [Austin Benson](https://www.cs.cornell.edu/~arb/) at Cornell hosts [a collection of data sets](https://www.cs.cornell.edu/~arb/data/) for a range of problems related to graphs and hypergraphs. 
+    - The Data Science For Good Lab, led by [Michael Fire](https://data4goodlab.github.io/MichaelFire/) at Ben-Gurion University of the Negev, hosts a number of [very interesting data sets](https://data4goodlab.github.io/dataset.html). Many of these have network structure. 
+    - UCLA students Christine Gu, Yu-Hsin Huang, and Shaodian Wang assembled a data set of Reddit submissions and comments related to the COVID-19 vaccine. You are welcome to [access the data](https://github.com/christinegu27/reddit_covidvaccine_data) and use it in projects. Please acknowledge Christine, Yu-Hsin, and Shaodian in any published work that uses this data. 
+- [Congress In Data](https://www.congressindata.com) collects a wide range of data sets, including many with network structure, on the US Senate and House of Representatives. 
+
+## Organizations
+
+- *"The society of [Women in Network Science](https://www.networkscienceinstitute.org/wins) (WiNS) connects **women, trans and non-binary gender** network scientists from different races, socioeconomic backgrounds, and nations. The society aims to recognize the work, perspectives and expertise of its members to create bridges between academia, government, and private industry related to network science."* 
+- I am a Partner at [QSIDE](https://qsideinstitute.org/), the Institute for the Quantitative Study of Inclusion, Diversity, and Equity. QSIDE has a number of ongoing projects and welcomes collaborators. 
+- QSIDE recently released their [Data4Justice Curriculum](https://qsideinstitute.org/qside-data4justice-curriculum-outline/), which contains sample lesson plans, code, readings, and data sets. 
+- The [Just Mathematics Collective](https://www.justmathematicscollective.net/) is an international collective of mathematicians whose goal is to "to shift the global mathematics community towards justice, via genuine anti-racism, anti-militarism, and solidarity with the Global South."
+
+## Programming
+
+### Python
+
+- CS For All, a [website](https://www.cs.hmc.edu/twiki/bin/view/CSforAll) and [book](https://www.cs.hmc.edu/twiki/bin/view/CSforAll) developed for brand-new programming learners by the Department of Computer Science at Harvey Mudd College. 
+- [Lecture notes and videos](https://philchodrow.github.io/PIC16A/schedule/) from PIC16A, my course on core skills in Python programming and data science. 
+- [*A Whirlwind Tour of Python*](https://jakevdp.github.io/WhirlwindTourOfPython/) by Jake VanderPlas is an excellent, rapid overview of fundamental Python skills. It is suitable for those who have experience in several other programming languages, or for those who previously learned Python and just need a brush-up.  
+- [Lecture notes](https://philchodrow.github.io/PIC16B/schedule/) from PIC16B, my course on advanced computational and data science in Python.  
+- [*The Python Data Science Handbook*](https://jakevdp.github.io/PythonDataScienceHandbook/) by Jake VanderPlas is an excellent and freely-available online resource for practical data science in Python. 
+
+### R
+
+- [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund is my favorite “0 to data analysis” text. Great chapters on data wrangling, visualization, modeling, and communication.
+- Folks with a bit of prior programming experience might like reading Jenny Bryan’s [STAT 545](https://stat545.com/), which covers many of the same topics but also addresses workflow considerations like version control, automation, and interactivity.
+- Advanced programmers who want to develop their own R packages should consult [R Packages](https://r-pkgs.org) by Hadley Wickham and Jenny Bryan.  
+
+
+### Julia
+
+- [*ThinkJulia: How to Think Like a Computer Scientist*](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html) by Ben Lauwens and Allen Downey is an introduction to computer science principles through the Julia programming language. 
+- [*A Deep Introduction to Julia for Data Science and Scientific Computing
+*](https://ucidatascienceinitiative.github.io/IntroToJulia/) by [Chris Rackauckas](https://www.stochasticlifestyle.com) offers an advanced introduction to Julia that is most suitable for folks with prior programming experience. There are several interesting problems and case studies included. 
+- The book [*Julia Data Science*](https://juliadatascience.io) by Storopoli, Huijzer, and Alonso covers Julia basics, data manipulation, and visualization. 
+
+### Other
+
+- [The Missing Semester](https://missing.csail.mit.edu/2020/) is an MIT course that aims to train you in fundamental tools for practical computer science that you may not have encountered in other classes. These include shell scripting, text editing, version control, profiling, and much more. Detailed lecture notes and high-quality lecture videos are available on their website. 
+
+
+## Other Data Science Technical Resources 
+
+- Dirk Eddelbuettel (University of Illinois) hosts a [website](https://stat447.com) with a wide array of resources for his course Data Science Programming Methods.
+- [Sanjay Lall](http://lall.stanford.edu/) and [Stephen Boyd](http://web.stanford.edu/~boyd) are running an [interesting course](http://ee104.stanford.edu) on machine learning with the Julia programming language. 
+- [Programming for Data Science](https://rhodyprog4ds.github.io/BrownFall22/index.html) is a course in the nuts and bolts of writing code for data analysis using R. One thing I especially like about this course is that it introduces machine learning through the topic of algorithm evaluation and auditing. The course is taught by [Dr. Sarah Brown](http://sarahmbrown.org) at the University of Rhode Island. 
+
+## Pedagogy
+
+- [Evan Peck](https://evanpeck.github.io) maintains a [website with activities](https://ethicalcs.github.io) for responsible computing in introductory computer science. 
+- [When Twice as Good Isn't Enough: The Case for Cultural Competence in Computing](https://dl.acm.org/doi/abs/10.1145/3328778.3366792) by [Dr. Nicki Washington](https://nickiwashington.com). 
+- [Ungrading: A Bibliography](https://www.jessestommel.com/ungrading-a-bibliography/) compiled by [Jesse Stommel](https://www.jessestommel.com). 
+- [The (Un)grading Spectrum](https://docs.google.com/document/d/13ZJF7dleHWC16GqTA2EXr0ntmitkVKRc/edit?usp=sharing&ouid=102430959936189066293&rtpof=true&sd=true) by Chris Sarkonak. 
+
+## Humor
+
+- [Many mathematics memes](https://docs.google.com/presentation/d/1YtvIZhDWrvwQAK4d3PwahlvYKMNfSI1Fez7kLnyG6ug/edit?usp=sharing) collected by Wyatt Deimel and Sam Willoughby, with contributions from Julia Engholm and Bella Rieder. 

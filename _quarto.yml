@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: docs
+  resources: 
+    - "assets/css/custom.scss"
+    - "assets/css/layouts.css"
+
+website:
+  title: "Dr. Phil Chodrow"
+  navbar:
+    title: | 
+      <span class="display-name"> Dr. <b>Phil Chodrow</b>
+    style: "floating"
+    collapse-level: 1	
+    left: 
+      - research.qmd
+      - teaching.qmd
+      - faqs.qmd
+      - text: Group
+        href: research-students.qmd
+      - text: CV
+        href: https://www.philchodrow.prof/cv/cv.pdf
+      - resources.qmd
+      - acknowledgments.qmd
+      - text: "Other..."
+        menu: 
+        - text: My Math Autobiography
+          href: math-autobiography.qmd
+        - text: Jobs at SLACs
+          href: job_app.qmd
+        - text: What I'm Reading
+          href: reading.qmd
+        - blog.qmd
+    search: true 
+    pinned: true
+  favicon: assets/img/favicon.png
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    css: styles.css
+    toc-title: ""
+    padding-top: "2em"
+    smooth-scroll: true	
+
+  
+
+

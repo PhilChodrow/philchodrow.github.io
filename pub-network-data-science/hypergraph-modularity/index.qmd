@@ -1,0 +1,11 @@
+---
+title: "Generative hypergraph clustering: from blockmodels to modularity"
+authors: [PSC, Nate Veldt, Austin Benson]
+categories: [news, code, analysis]
+image: "img.png"
+venue: "Science Advances"
+year: "2021"
+priority: 1
+url: "https://www.science.org/doi/full/10.1126/sciadv.abh1303"
+page-layout: article
+---

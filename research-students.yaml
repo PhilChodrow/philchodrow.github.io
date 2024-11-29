@@ -1,0 +1,14 @@
+- title: "Bell Luo '24"
+  image: "assets/img/student-pictures/bell-luo.jpg"
+  subtitle: <br><i>Fast sampling from configuration-model hypergraphs</i> 
+  description: <br><b>Now at</b> M.S. in CS, Yale University
+- title: "Jamie Hackney '24"
+  image: "assets/img/student-pictures/jamie-hackney.jpg"
+  subtitle: <i>Opinion dynamics and ranked-choice voting</i>
+  description: <br><b>Now at</b> Data Science Internship, United Nation
+- title: "Justin Corke '25"
+  image: "assets/img/student-pictures/justin-corke.png"
+  subtitle: <br><i>Assortativity bounds on union graphs</i>
+- title: "Violet Ross '25"
+  image: "assets/img/student-pictures/violet-ross.jpg"
+  subtitle: <br><i>Edge-Copying Growing Hypergraphs with Node Traits</i>

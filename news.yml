@@ -1,0 +1,164 @@
+- date: 2022-09-15
+  display_date: September, 2022
+  text: |
+    I am a guest editor in a <a href="https://iopscience.iop.org/journal/2632-072X/page/focus-on-learning-and-reasoning-in-generalized-graphs"> focus issue </a> of the <i>Journal of Physics: Complexity</i> on "Learning and Reasoning in Generalized Graphs." The deadline for submissions is September 30th, 2022!
+- date: 2022-09-30
+  display_date: September 26th-30th, 2022
+  text: | 
+    I attend the <a href="https://www.siam.org/conferences/cm/conference/mds22"> SIAM Conference on Mathematics of Data Science </a> in San Diego, CA. There, <a href="https://math.hmc.edu/hzinnbrooks/">Heather Zinn Brooks</a> (Harvey Mudd) and I co-lead a Guided Affinity Group on network science as part of the Sustainable Horizon Institute's <a href="https://shinstitute.org/be-mds-2022/"> Broader Engagement Program</a>. I also speak on <a href="https://arxiv.org/abs/2204.13586">nonbacktracking spectral hypergraph clustering</a> (<a href="https://www.philchodrow.prof/talks/SIAM-MDS-2022">slides</a>) and organize a session with <a href="https://jamiehaddock.com"> Jamie Haddock </a> (Harvey Mudd) on "Tensor Methods for Network Data Science."
+- date: 2022-07-01
+  text: |
+    I join Middlebury College as an assistant professor of computer science! I'm excited to continue my scholarship and teaching in this wonderful community. 
+- date: 2022-06-15
+  display_date: June-July, 2022
+  text: |
+    I am an invited Fellow at the <a href="https://icerm.brown.edu/programs/ep-22-dssj/"> Social Justice and Data Science Summer Research Program </a> at ICERM. I also serve as a project group leader in a weeklong workshop on <a href="https://icerm.brown.edu/programs/ep-22-dssj/w1/"> Interdisciplinary Network Analysis Methods for Analyzing Social Systems</a>.
+- date: 2022-06-05
+  display_date: June 5th-11th, 2022
+  text: |
+    I am a participant and assistant to the organizers at the AMS <a href="https://www.ams.org/programs/research-communities/2022MRC-HyperNet"> Mathematics Research Community</a> on "Models and Methods for Sparse (Hyper)Network Science." 
+- date: 2022-05-21
+  text: | 
+    I am a co-organizer of the <a href="https://www.socams.org"> Southern California Applied Mathematics Symposium </a>  (SOCAMS) at Harvey Mudd College. 
+- date: 2022-05-18
+  text: | 
+    I speak on a panel on "Data Science and the Social Sciences" hosted by the UCLA Data Science Union.
+- date: 2022-03-19
+  text: |
+    Invited talk on “Smoothly Nonlinear Opinion Dynamics” at the AMS Eastern Sectional Meeting in a Special Session on Structured Populations. Excited to share this joint work with <a href="https://math.hmc.edu/hzinnbrooks/">Heather Zinn Brooks</a> and <a href="https://www.math.ucla.edu/~mason/"> Mason Porter</a>!
+- date: 2022-04-28
+  text: |
+    <a href="https://sites.google.com/view/bradleylewisburdick"> Bradley Burdick </a> (Hanover College) and I organize a freestanding online workshop on "Projects Across the Mathematics Curriculum" as part of MAA Project NExT. 
+- date: 2022-04-27
+  text: |
+    New preprint! I am thrilled to share "<a href="https://arxiv.org/abs/2204.13586">Nonbacktracking spectral clustering of nonuniform hypergraphs</a>." This is joint work with <a href="https://eikmeier.sites.grinnell.edu">Nicole Eikmeier</a> (Grinnell College) and <a href="https://jamiehaddock.com">Jamie Haddock</a> (Harvey Mudd College). 
+- date: 2022-06-02
+  text: |
+    I am a 2022 Liggett Distinguished Faculty Instructor! This award recognizes excellence in undergraduate teaching in the UCLA Department of Mathematics. 
+- date: 2022-07-29
+  text: |
+    I serve on an invited panel about academic job interviews at the <a href="https://pages.pomona.edu/~ehga2017/prime.html">PRiME REU and learning community</a>. 
+- date: 2022-08-16
+  text: |
+    I move to Middlebury, Vermont. Hi everyone! 
+- date: 2022-08-17
+  text: |
+    I receive a SIAM Early-Career Travel Award towards my participation at the SIAM Conference on Mathematics of Data Science in San Diego. 
+- date: 2022-09-13
+  text: |
+    I speak on <a href="https://arxiv.org/abs/2204.13586">nonbacktracking spectral hypergraph clustering</a> at the virtual <a href="http://dyn.phys.northwestern.edu/ns22.html"> SIAM Workshop on Network Science</a>, September 13th-15th. 
+- date: 2022-09-16
+  text: |
+    New preprint! "Emergence of polarization in a sigmoidal bounded-confidence model of opinion dynamics" is joint work with <a href="https://math.hmc.edu/hzinnbrooks/">Heather Zinn Brooks</a> (Harvey Mudd) and <a href="https://www.math.ucla.edu/~mason/">Mason Porter</a> (UCLA). In this manuscript, we study the mathematical structure of a differentiable model of opinion dynamics on graphs with zealots. Read the preprint <a href="https://arxiv.org/abs/2209.07004">here</a>! 
+- date: 2022-10-25
+  text: |
+    I give an invited online seminar on hypergraph community detection at the University of Oxford. <a href="https://www.philchodrow.prof/talks/2022-oxford">Slides</a>. 
+- date: 2023-01-05
+  text: |
+    I attend the <a href="https://www.jointmathematicsmeetings.org//jmm"> Joint Mathematics Meetings</a> in Boston, MA. There I speak on "Developments, Challenges, and Opportunities in Hypergraph Network Data Science" (<a href="https://www.philchodrow.prof/talks/2023-JMM/">slides</a>). I've prepared a <a href=posts/2022-12-20-hypergraph-refs/index.html>short bibliography</a> of papers that I find especially useful in hypergraph data science. 
+- date: 2022-11-30
+  text: |
+    "<a href="https://arxiv.org/abs/2204.13586">Nonbacktracking spectral clustering of nonuniform hypergraphs</a>" with  <a href="https://eikmeier.sites.grinnell.edu">Nicole Eikmeier</a> (Grinnell College) and <a href="https://jamiehaddock.com">Jamie Haddock</a> (Harvey Mudd College) is accepted for publication at the <a href="https://www.siam.org/publications/journals/siam-journal-on-mathematics-of-data-science-simods"><i>SIAM Journal on Mathematics of Data Science</i></a>. 
+- date: 2023-01-24
+  text: |
+    I give an invited talk on generative hypergraph clustering in the Applied and Computational Mathematics Seminar at Dartmouth University. <a href="https://www.philchodrow.prof/talks/2023-dartmouth-ACMS">Slides</a>.
+- date: 2023-01-30
+  text: |
+    Physicist Katherine Wright, the Deputy Editor of <i>Physics Magazine</i>, publishes an article on <a href="https://physics.aps.org/articles/v16/15"> The Uneven Spread of Citations</a> in academic science. I am quoted in this article regarding my experience writing Citation Diversity Statements (CDSs) in <a href="http://128.84.4.34/abs/2007.04448">two</a> <a href="https://arxiv.org/abs/2204.13586">papers</a>. 
+- date: 2023-03-14
+  text: |
+    New preprint! I led a team of mathematicians in writing an <a href="https://arxiv.org/abs/2303.09282">overview article</a> on "Data science and social justice in the mathematics community." The team is <a href="https://quindeldjones.wixsite.com/quindelj">Quindel Jones</a>, <a href="https://math.berkeley.edu/~vindas/">Andrés R. Vindas Meléndez</a>, <a href="https://www.arianamendible.com/">Ariana Mendible</a>, <a href="https://maminian.github.io/">Manuchehr Aminian</a>, <a href="https://sites.google.com/g.hmc.edu/hzinnbrooks">Heather Zinn Brooks</a>, <a href="https://www.professornaite.com/">Nathan Alexander</a>, <a href="https://inquire.catapult.bates.edu/">Carrie Diaz Eaton</a>, and myself. We are all thrilled to see this work out in the world! 
+- date: 2023-04-06
+  text: |
+    I give an invited seminar at Smith College on math models of social hierarchies. I also speak to the math department's professional development seminar about grad school and academic careers. (<a href="https://www.philchodrow.prof/talks/2023-smith">Slides</a>)
+- date: 2023-04-24
+  text: |
+    Dr. <a href="https://www.linkedin.com/in/timnit-gebru-7b3b407">Timnit Gebru</a> does a Q&A with my machine learning course and gives a talk to the Middlebury community on <i>Eugenics and the Promise of Utopia through Artificial Intelligence</i>
+- date: 2023-02-12
+  text: |
+    This semester, I am teaching <a href="https://middlebury-csci-0451.github.io/CSCI-0451/">CSCI 0451: Machine Learning</a>. This is the very first course in the Middlebury Department of Computer Science to meet our new Responsible Computing requirement. 
+- date: 2023-04-26
+  text: |
+    <a href="https://epubs.siam.org/doi/abs/10.1137/22M1494713">Nonbacktracking Spectral Clustering of Nonuniform Hypergraphs</a> is published in the <a href="https://epubs.siam.org/journal/sjmdaq">SIAM Journal on Mathematics of Data Science</a>. 
+- date: 2023-05-02
+  text: |
+    I give an invited seminar on nonbacktracking hypergraph clustering in the <a href="https://joint-lab.github.io/">Joint Lab</a> of the <a href="https://vermontcomplexsystems.org/">Vermont Complex Systems Center</a> at the University of Vermont. (<a href="https://www.philchodrow.prof/talks/2023-UVM/#1">Slides</a>)
+- date: 2023-06-18
+  text: |
+    I am a participant and assistant to the organizers in the <a href="https://www.ams.org/programs/research-communities/2023MRC-SocialSystems">AMS Mathematics Research Community on Complex Social Systems</a>.
+- date: 2023-06-29
+  text: |
+    I am a participant in the <a href="https://icerm.brown.edu/programs/ep-23-dssj/">Data Science for Social Justice: Networks, Policy, and Education</a> program at the <a href="https://icerm.brown.edu/">Institute for Computational and Experimental Research in Mathematics</a> (ICERM). 
+- date: 2023-05-30
+  text: |
+    I give an invited seminar on hypergraph spectral clustering at the University of Glasgow. (<a href="https://www.philchodrow.prof/talks/2023-U-Glasgow/#1">Slides</a>)
+- date: 2023-06-06
+  text: |
+    I give an invited seminar on hypergraph spectral clustering at the University of Edinburgh. (<a href="https://www.philchodrow.prof/talks/2023-U-Edinburgh/#1">Slides</a>, <a href="https://youtu.be/BIykTEHwB3g">recording</a>)
+- date: 2023-04-01
+  text: |
+    I am a mentor in the <a href="https://sites.google.com/view/womeninnetworkscience/home?authuser=0">Women in Network Science Society</a> <a href="https://sites.google.com/view/womeninnetworkscience/virtual-programs/mentoring?authuser=0">mentorship program</a>.
+- date: 2023-08-15
+  text: |
+    I participate in the second <a href="https://ccss-conference.github.io/">workshop on Contagion on Complex Social Systems</a> at the University of Vermont.  
+- date: 2023-08-21
+  text: |
+    I speak on "Critical Perspectives on Large Language Models" as part of the <a href="https://dlinq.middcreate.net/sdtl/">Summer Digital Teaching and Learning series</a> hosted by Middlebury's <a href="https://dlinq.middcreate.net/">Office of Digital Learning and Inquiry</a>. (<a href="https://www.philchodrow.prof/talks/2023-middlebury-dlinq/index.html#/title-slide">Slides</a>)
+- date: 2023-07-01
+  text: |
+    I join the Steering Committee of <a href="https://www.middlebury.edu/midddata">midd.data</a>, Middlebury's initiative around data science and data literacy. 
+- date: 2023-11-28
+  text: |
+    I speak on "Critical Perspectives on Large Language Models" as part of Middlebury's <a href="https://www.middlebury.edu/provost/faculty-home">Faculty at Home series</a>. (<a href="https://www.middlebury.edu/provost/faculty-home/fall-2023-recorded-series">Recording</a> and <a href="https://www.philchodrow.prof/talks/2023-middlebury-faculty-at-home/index.html#/title-slide">slides</a>)
+- date: 2023-09-01
+  text: |
+    I am teaching <a href="https://www.philchodrow.prof/CSCI-0200">CSCI 0200: Mathematical Foundations of Computing</a> in Fall 2023. 
+- date: 2023-09-28
+  text: |
+    I give an invited keynote address at the <a href="https://vermontcomplexsystems.org/events/vermont-kias/"> Vermont-KIAS Workshop on Group Interactions in Network Science</a>. (<a href="https://www.philchodrow.prof/talks/2023-vermont-kias/index.html#/title-slide">Slides</a>)
+- date: 2023-09-30
+  text: |
+    New article! "<a href='https://www.ams.org/journals/notices/202309/202309FullIssue.pdf#page=105'>Data Science and Social Justice in the Mathematics Community</a>" is published in the <i>Notices of the American Mathematical Society</i>.
+- date: 2023-11-11
+  text: |
+    I am an invited speaker at TEDx Middlebury. I'll be speaking on data science and social justice (<a href='posts/2023-10-15-tedx-talk/index.html'>text of speech</a>).
+- date: 2024-01-01
+  text: |
+    I am a member of Cohort 4 of the <a href="https://identity.cs.duke.edu/fellows.html">Cultural Competence in Computing Fellowship Program.</a>  
+- date: 2024-01-04
+  text: I attend the Joint Mathematics Meetings in San Francisco. 
+- date: 2024-01-11
+  text: |
+    In Winter '24, I teach <a href="https://www.philchodrow.prof/csci-702-ws24/">CSCI 0702: Senior Thesis</a>. This is a course for senior CS majors to undertake long-term independent research projects in collaboration with a faculty member. 
+- date: 2024-02-15
+  text: |
+    In Spring '24, I teach <a href="https://middlebury-csci-0451.github.io/CSCI-0451-s24">CSCI 0451: Machine Learning</a> and <a href="https://www.philchodrow.prof/csci-702-ws24/">CSCI 0702: Senior Thesis</a>.  
+- date: 2024-04-10
+  text: |
+    I give an invited (remote) seminar talk on models of gender disparity in professional mathematics at Toronto Metropolitan University.
+- date: 2024-05-08
+  text: |
+    I give an invited (remote) talk on nonbacktracking spectral clustering as part of the workshop on "Modeling and Mining Complex Networks as Hypergraphs" hosted by Toronto Metropolitan University. (<a href="https://www.philchodrow.prof/talks/2024-toronto/index.html">Slides</a>)
+- date: 2024-04-19
+  text: |
+    I give an invited talk on modeling gender disparities in academic mathematics for the <a href="https://disc.tufts.edu/news-events/events/disc-forum">DISC Forum</a> at Tufts University.
+- date: 2024-06-19
+  text: |
+    I give an invited talk on network science education at the Conference on Network Science in Quebec City, Canada. I also speak in a contributed session on models of edge-correlated growing hypergraphs (<a href="https://www.philchodrow.prof/talks/2024-netsci-satellite/index.html#/title-slide">slides</a>). 
+- date: 2024-03-23
+  text: | 
+    New paper! <a href="https://www.nature.com/articles/s41598-024-55934-5">Community detection in hypergraphs via mutual information maximization</a> is now published in <i>Scientific Reports</i>. This is joint work with Jürgen Kritschgau, Daniel Kaiser, Oliver Alvarado Rodriguez, Ilya Amburg, Jessalyn Bolkema, Thomas Grubb, Fangfei Lan, Sepideh Maleki, and Bill Kay. This work was born at the 2022 AMS Mathematics Research Community on "Models and Methods for Sparse (Hyper)Network Science."
+- date: 2024-07-01
+  text: |
+    The Division of Mathematical Sciences of the National Science Foundation (NSF) will support my stream of research in network growth, latent-variable models, dynamics, and social hierarchies through award DMS-2407058. This grant supports my research, including work with undergraduate students, for the years 2024-2027. 
+- date: 2024-06-01
+  text: |
+    New article! <a href="https://epubs.siam.org/doi/abs/10.1137/22M1527258">Emergence of Polarization in a Sigmoidal Bounded-Confidence Model of Opinion Dynamics</a> (joint with Heather Zinn Brooks and Mason A. Porter) is published in the <i>SIAM Journal on Applied Dynamical Systems</i>. 
+- date: 2024-09-01
+  text: |
+    In F'24 I am teaching <a href="https://middcs.github.io/csci-0200/syllabus.html">CSCI 0200: Math Foundations of Computing</a> and CSCI 0702: Senior Thesis.
+- date: 2024-10-03
+  text: |
+    Invited remote seminar on growing hypergraphs in the BRAINS series ("Bridging AI, Networks, and Hypergraphs") at the Learning Planet Institute. (<a href="https://www.philchodrow.prof/talks/2024-paris-BRAINS/#/title-slide">Slides</a>)
+
+
