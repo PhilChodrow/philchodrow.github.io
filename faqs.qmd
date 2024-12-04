@@ -4,7 +4,9 @@ page-layout: article
 toc: true
 ---
 
-This page collects my answers to a wide range of frequent questions about me and my profession. If you're a Middlebury student wondering about advising, letters of recommendation, or research opportunities, please check out my [specific FAQs](midd-student-faqs.qmd) for students.
+This page collects my answers to a wide range of frequent questions about me and my profession. If you're a Middlebury student wondering about advising, letters of recommendation, or research opportunities, you might want to skip down to my dedicated [FAQs for students](#middlebury-student-faqs).
+
+
 
 ## My Profession
 
@@ -107,7 +109,7 @@ Yes!
 
 ## How should I address you? 
 
-It's fine to c all me "Prof. Phil," "Phil," "Prof. Chodrow," or "Dr. Chodrow." Those are in rough order of preference (e.g. I like "Prof. Phil" more than "Dr. Chodrow"), but it's fine for you to use any of these that make you comfortable. 
+It's fine to call me "Prof. Phil," "Phil," "Prof. Chodrow," or "Dr. Chodrow." Those are in rough order of preference (e.g. I like "Prof. Phil" more than "Dr. Chodrow"), but it's fine for you to use any of these that make you comfortable. 
 
 Please remember to address all your professors respectfully and according to their preferences. As argued in a [recent study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6048538/pdf/pnas.201805284.pdf), many of us have harmful, gendered biases about when we use earned titles like “Dr.” or “Professor." A small, simple thing you can do to make academia a more equitable place is to check your own potential biases. If you’re not sure, “Professor X” or “Dr. X” is always a safe choice — but even better is to just ask what your instructor prefers! My own personal preference is related to [this short poem](https://pressfolios-production.s3.amazonaws.com/uploads/story/story_pdf/254906/2549061489249557.pdf) by Susan Harlan.
 

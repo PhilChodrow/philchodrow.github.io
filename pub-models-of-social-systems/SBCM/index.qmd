@@ -3,7 +3,7 @@ title: "Emergence of polarization in a sigmoidal bounded-confidence model of opi
 authors: [Heather Zinn Brooks, PSC, Mason Porter]
 categories: [news, code, analysis]
 image: "img.png"
-venue: "SIAM Journal on Applicatied of Dynamical Systems"
+venue: "SIAM Journal on Applied of Dynamical Systems"
 year: "2024"
 priority: 1
 url: "https://epubs.siam.org/doi/abs/10.1137/22M1527258"
