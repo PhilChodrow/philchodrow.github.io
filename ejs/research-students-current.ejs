@@ -1,0 +1,32 @@
+
+```{=html}
+<table class="table-no-border">
+<colgroup>
+    <col span="1" style="width: 10%;"> 
+    <col span="1" style="width: 90%;">
+</colgroup>
+<% items.sort(function(a,b){return b.year - a.year}) %>
+<% for (const item of items) { %>
+
+    <% if (item.status == "current") { %>
+    <tr>
+        <td width="10px;">
+            <div class="research-student-portrait">
+                <img src="<%- item.image %>">
+            </div>
+        </td>
+        <td style="max-width:99%;">
+                <h3 style="margin:0px;"><%- item.name %></h3>
+                <%- item.title %>
+                <br> <br> 
+                <i><%- item.abstract %></i>
+                <br> <br> 
+                <% if (item.next) { %>
+                    <b>Next:</b> <%- item.next %>
+                <% } %>
+        </td>
+    </tr>
+<% } %>
+<% } %>
+</table>
+```

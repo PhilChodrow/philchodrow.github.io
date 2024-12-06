@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research Students – Dr.&nbsp;Phil Chodrow</title>
+<title>Research Group – Dr.&nbsp;Phil Chodrow</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,20 +71,48 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-students .list');
+    const listingTargetEl = window.document.querySelector('#listing-current-students .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-name','listing-image','listing-title','listing-abstract','listing-next','listing-year','listing-status',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-image","listing-subtitle","listing-description"],
+      searchColumns: ["listing-name","listing-image","listing-title","listing-abstract","listing-next","listing-year","listing-status"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-students'] = new List('listing-students', options);
+    window['quarto-listings']['listing-current-students'] = new List('listing-current-students', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-alums .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-image','listing-title','listing-abstract','listing-next','listing-year','listing-status',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-image","listing-title","listing-abstract","listing-next","listing-year","listing-status"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-alums'] = new List('listing-alums', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -140,7 +168,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title"><span class="display-name"> Dr.&nbsp;<b>Phil Chodrow</b></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Research">Research</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/research.html">/research.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Teaching">Teaching</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/teaching.html">/teaching.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:FAQs">FAQs</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/faqs.html">/faqs.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:CV">CV</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:https://www.philchodrow.prof/cv/cv.pdf">https://www.philchodrow.prof/cv/cv.pdf</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Resources">Resources</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/resources.html">/resources.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Gratitude">Gratitude</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/acknowledgments.html">/acknowledgments.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Other...">Other…</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:My Math Autobiography">My Math Autobiography</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/math-autobiography.html">/math-autobiography.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Jobs at SLACs">Jobs at SLACs</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/job_app.html">/job_app.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:What I'm Reading">What I’m Reading</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/reading.html">/reading.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Blog">Blog</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/blog.html">/blog.html</span></span>
+    <span class="navbar-title"><span class="display-name"> Dr.&nbsp;<b>Phil Chodrow</b></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Research">Research</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/research.html">/research.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Teaching">Teaching</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/teaching.html">/teaching.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:FAQs">FAQs</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/faqs.html">/faqs.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Group">Group</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/research-students.html">/research-students.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:CV">CV</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:https://www.philchodrow.prof/cv/cv.pdf">https://www.philchodrow.prof/cv/cv.pdf</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Resources">Resources</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/resources.html">/resources.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Gratitude">Gratitude</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/acknowledgments.html">/acknowledgments.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Other...">Other…</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:My Math Autobiography">My Math Autobiography</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/math-autobiography.html">/math-autobiography.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Jobs at SLACs">Jobs at SLACs</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/job_app.html">/job_app.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:What I'm Reading">What I’m Reading</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/reading.html">/reading.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Blog">Blog</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/blog.html">/blog.html</span></span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -160,6 +188,10 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link" href="./faqs.html"> 
 <span class="menu-text">FAQs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./research-students.html" aria-current="page"> 
+<span class="menu-text">Group</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://www.philchodrow.prof/cv/cv.pdf"> 
@@ -213,7 +245,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research Students</h1>
+<h1 class="title">Research Group</h1>
 </div>
 
 
@@ -230,83 +262,55 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-students" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-4">
-<div class="g-col-1" data-index="0">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/img/student-pictures/bell-luo.jpg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bell Luo ’24
-</h5>
-<div class="card-subtitle listing-subtitle">
-<br><i>Fast sampling from configuration-model hypergraphs</i>
-</div>
-<div class="card-text listing-description">
-<br><b>Now at</b> M.S. in CS, Yale University
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/img/student-pictures/jamie-hackney.jpg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Jamie Hackney ’24
-</h5>
-<div class="card-subtitle listing-subtitle">
-<i>Opinion dynamics and ranked-choice voting</i>
-</div>
-<div class="card-text listing-description">
-<br><b>Now at</b> Data Science Internship, United Nation
+<section id="current" class="level2">
+<h2 class="anchored" data-anchor-id="current">Current</h2>
+<div id="listing-current-students" class="quarto-listing quarto-listing-container-custom">
+<table class="table-no-border caption-top table" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td width="10px;"><div class="research-student-portrait">
+<img src="assets/img/student-pictures/violet-ross.jpg" class="img-fluid">
+</div></td>
+<td style="max-width: 99%"><h3 id="violet-ross-25" style="margin:0px;" class="anchored">Violet Ross '25</h3>
+Noisy Edge-Copying Hypergraphs with Node Attributes<br>
+<br>
+<em></em><br>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
 </div>
 </div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/img/student-pictures/justin-corke.png" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Justin Corke ’25
-</h5>
-<div class="card-subtitle listing-subtitle">
-<br><i>Assortativity bounds on union graphs</i>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3">
-<a href="" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="assets/img/student-pictures/violet-ross.jpg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Violet Ross ’25
-</h5>
-<div class="card-subtitle listing-subtitle">
-<br><i>Edge-Copying Growing Hypergraphs with Node Traits</i>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
+</section>
+<section id="alums" class="level2">
+<h2 class="anchored" data-anchor-id="alums">Alums</h2>
+<div id="listing-alums" class="quarto-listing quarto-listing-container-custom">
+<table class="table-no-border caption-top table" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 90%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td width="10px;"><div class="research-student-portrait">
+<img src="assets/img/student-pictures/jamie-hackney.jpg" class="img-fluid">
+</div></td>
+<td style="max-width: 99%"><h3 id="jamie-hackney-24" style="margin:0px;" class="anchored">Jamie Hackney '24</h3>
+Opinion dynamics and ranked-choice voting<br>
+<br>
+<em>Ideological polarization affects the ability of democratic governments to function. Levels of ideological polarization have been rising globally in recent years. Many theories have been put forward about potential causes, but the connection between the election system used and the degree of ideological polarization has been less studied. We present an agent based model to simulate plurality and instant-runoff ranked choice election systems based on Bounded Confidence and Attraction-Repulsion opinion updates. We analyze the long term behavior of these models and quantify the degree of ideological polarization as the variance among agent opinions. We provide a set of parameters that cause plurality election systems with Attraction-Repulsion opinion updates to end with high variance while ranked choice election systems end with near-zero variance. We conduct sweeps between four pairs of model parameters and discuss the phase transitions in variance they produce.</em><br>
+<br>
+<strong>Next:</strong> Data Science Internship, United Nations</td>
+</tr>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -314,6 +318,7 @@ No matching items
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

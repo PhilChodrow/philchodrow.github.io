@@ -107,6 +107,10 @@
   padding-bottom: 1em;
 }
 
+.underline {
+  border-bottom: 1px solid #ddd;
+}
+
 .no-wrap { 
   clear: left;
 }
@@ -159,4 +163,27 @@
 table {
   border-collapse: separate;
   table-layout: auto;
+}
+
+.research-student-portrait {
+  width: 8em;
+  height: 8em;
+  max-width: 8em;
+  max-height: 8em;
+  border-radius: 50%;
+  overflow: hidden;
+  display:inline-block;
+  vertical-align:top;
+  background-color: black;
+  border:solid #000 1px; 
+} 
+
+.fill {
+  min-width: 100px;
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-no-border {
+  border: none;
 }

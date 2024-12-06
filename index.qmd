@@ -26,9 +26,13 @@ I have a [CV](https://www.philchodrow.prof/cv/cv.pdf). I  [teach courses](teachi
 
 
 <div class="no-wrap">
+
+<h3 class="underline">News</h3>
+
+
     
-### News
-    
+
+
 :::{#news}
 :::
    

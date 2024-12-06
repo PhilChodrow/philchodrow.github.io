@@ -1,31 +1,30 @@
 ---
-title: "Research Students"
+title: "Research Group"
 listing:
-  id: students
-  contents: 
-    - research-students.yaml
-  sort: "date desc"
-  type: grid
-  image-height: 250px
-  grid-columns: 4
-  fields: [image, title, subtitle, description]
+  - id: current-students
+    contents: 
+      - research-students.yaml
+    template: ejs/research-students-current.ejs
+  - id: alums
+    contents: 
+      - research-students.yaml
+    template: ejs/research-students-alums.ejs
 ---
 
-:::{#students}
+
+
+
+
+## Current
+
+ 
+:::{#current-students}
 :::
 
 
- 
 
-     
+## Alums
 
-
-
-
-
- 
-
-
-
-
+:::{#alums}
+:::
 

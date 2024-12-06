@@ -16,6 +16,8 @@ website:
       - research.qmd
       - teaching.qmd
       - faqs.qmd
+      - text: Group
+        href: research-students.qmd
       - text: CV
         href: https://www.philchodrow.prof/cv/cv.pdf
       - resources.qmd

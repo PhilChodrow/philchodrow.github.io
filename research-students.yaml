@@ -1,14 +1,21 @@
-- title: "Bell Luo '24"
-  image: "assets/img/student-pictures/bell-luo.jpg"
-  subtitle: <br><i>Fast sampling from configuration-model hypergraphs</i> 
-  description: <br><b>Now at</b> M.S. in CS, Yale University
-- title: "Jamie Hackney '24"
+# - name: "Bell Luo '24"
+#   image: "assets/img/student-pictures/bell-luo.jpg"
+#   title: Fast sampling from configuration-model hypergraphs 
+#   abstract: Fast sampling from configuration-model hypergraphs Fast sampling from configuration-model hypergraphs Fast sampling from configuration-model hypergraphs Fast sampling from configuration-model hypergraphs Fast sampling from configuration-model hypergraphs Fast sampling from configuration-model hypergraphs Fast sampling from configuration-model hypergraphs Fast sampling from configuration-model hypergraphs
+#   next: M.S. in CS, Yale University
+#   year: 2024
+- name: "Jamie Hackney '24"
   image: "assets/img/student-pictures/jamie-hackney.jpg"
-  subtitle: <i>Opinion dynamics and ranked-choice voting</i>
-  description: <br><b>Now at</b> Data Science Internship, United Nation
-- title: "Justin Corke '25"
-  image: "assets/img/student-pictures/justin-corke.png"
-  subtitle: <br><i>Assortativity bounds on union graphs</i>
-- title: "Violet Ross '25"
+  title: Opinion dynamics and ranked-choice voting
+  abstract: Ideological polarization affects the ability of democratic governments to function. Levels of ideological polarization have been rising globally in recent years. Many theories have been put forward about potential causes, but the connection between the election system used and the degree of ideological polarization has been less studied. We present an agent based model to simulate plurality and instant-runoff ranked choice election systems based on Bounded Confidence and Attraction-Repulsion opinion updates. We analyze the long term behavior of these models and quantify the degree of ideological polarization as the variance among agent opinions. We provide a set of parameters that cause plurality election systems with Attraction-Repulsion opinion updates to end with high variance while ranked choice election systems end with near-zero variance. We conduct sweeps between four pairs of model parameters and discuss the phase transitions in variance they produce.
+  next: Data Science Internship, United Nations
+  year: 2024
+  status: alum
+# - name: "Justin Corke '25"
+#   image: "assets/img/student-pictures/justin-corke.png"
+#   title: Assortativity bounds on union graphs
+- name: "Violet Ross '25"
   image: "assets/img/student-pictures/violet-ross.jpg"
-  subtitle: <br><i>Edge-Copying Growing Hypergraphs with Node Traits</i>
+  title: Noisy Edge-Copying Hypergraphs with Node Attributes
+  year: 2025
+  status: current
