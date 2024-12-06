@@ -12,9 +12,11 @@
   next: Data Science Internship, United Nations
   year: 2024
   status: alum
-# - name: "Justin Corke '25"
-#   image: "assets/img/student-pictures/justin-corke.png"
-#   title: Assortativity bounds on union graphs
+- name: "Justin Corke '25"
+  image: "assets/img/student-pictures/justin-corke.png"
+  title: Assortativity bounds on union graphs
+  status: current
+  year: 2024
 - name: "Violet Ross '25"
   image: "assets/img/student-pictures/violet-ross.jpg"
   title: Noisy edge-copying hypergraphs with node attributes
