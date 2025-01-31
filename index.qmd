@@ -21,7 +21,13 @@ You can email me at `pchodrow@middlebury.edu` or stop by my office, Room 218 in 
 
 [My research](research.qmd) focuses on [network science](https://en.wikipedia.org/wiki/Network_science), the study of connected systems in society and nature. I draw on methods from applied mathematics, machine learning, statistics, and physics. Recent topics include models of random hypergraphs, community detection in hypergraphs, opinion dynamics on networks, and gender representation in academic science. My work is supported by the National Science Foundation. I have [awesome collaborators](research.qmd#key-collaborators). 
 
-I have a [CV](https://www.philchodrow.prof/cv/cv.pdf). I  [teach courses](teaching.qmd) in math, data science, computation, and network science. Middlebury students might want to take a look at my [FAQs](faqs.qmd#middlebury-student-faqs.qmd) about classes and student research. I have [thoughts about jobs](job_app.qmd) at liberal arts colleges. I [read](reading.qmd).
+I have a [CV](https://www.philchodrow.prof/cv/cv.pdf). I  [teach courses](teaching.qmd) in math, data science, computation, and network science. Middlebury students might want to take a look at my [FAQs](faqs.qmd#middlebury-student-faqs.qmd) about classes and student research. I have [thoughts about jobs](job_app.qmd) at liberal arts colleges. 
+When I'm not working, I'm probably drinking tea, practicing aikido, running, [reading](reading.qmd), or playing board games. 
+
+
+
+
+
 
 
 
@@ -40,3 +46,5 @@ I have a [CV](https://www.philchodrow.prof/cv/cv.pdf). I  [teach courses](teachi
 ([*Older news*](news_archive.qmd))
 
 </div>
+
+

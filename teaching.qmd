@@ -14,9 +14,14 @@ Many of the courses below link to recent public course websites on which you can
 
 ## Courses at Middlebury
 
-**Spring 2024**
+**Spring 2025**
 
 - [CSCI 0442: Network Science](https://network-science-notes.github.io/)
+- [CSCI 0451: Machine Learning](https://middcs.github.io/csci-0451-s25/)
+
+**Winter 2025**: 
+
+- CSCI 0702: Senior Thesis
 
 **Fall 2024**
 
