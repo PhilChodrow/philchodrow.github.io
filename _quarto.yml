@@ -30,7 +30,6 @@ website:
           href: job_app.qmd
         - text: What I'm Reading
           href: reading.qmd
-        - blog.qmd
     search: true 
     pinned: true
   favicon: assets/img/favicon.png

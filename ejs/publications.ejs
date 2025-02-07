@@ -3,7 +3,7 @@
 <table style="width:100%" class="table-no-border">
 <% items.sort(function(a,b){return b.year - a.year + 0.1*(a.priority - b.priority)}) %>
 <% for (const item of items) { %>
-    <tr>
+    <tr class="publication-entry">
         <td>
             <div class="thumbnail">
                 <img src="<%- item.image %>" width=70>

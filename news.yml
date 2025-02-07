@@ -178,4 +178,9 @@
 - date: 2025-01-30
   text: |
     Congratulations to student Violet Ross '25! Violet defended her thesis on growing hypergraphs with node attributes, which built on work she started with me in Summer '24 and continued through Fall '24 and Winter '25. 
-
+- date: 2025-02-01
+  text: |
+    <a href="https://arxiv.org/abs/2502.02386">New preprint!</a> I'm very pleased to share "Hyperlink Prediction via Hyperedge Copying," the fruits of two years of wonderful collaboration with <a href="https://www.linkedin.com/in/xie-he-22248013b">Xie He</a> (Microsoft Research) and <a href="https://mucha.host.dartmouth.edu/">Peter Mucha</a> (Dartmouth). This paper poses a simple, low-dimensional mechanistic model of the formation of hypergraphs. We find that this model admits both analytic tractability and predictive performance competitive with several high-dimensional neural network approaches. It's been wonderful to take this journey together with Xie and Peter. 
+- date: 2025-05-12
+  text: |
+    <a href="https://izabelpaguiar.com/about/?theme=pub/assembler">Izabel Aguiar</a> (SFI) and I are coorganizing a <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=82634">minisymposium</a> on data, inference, and dynamics at the SIAM Conference on Applications of Dynamical Systems in Denver, CO.
