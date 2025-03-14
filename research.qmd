@@ -50,26 +50,6 @@ I also use my skills and resources in the service of equity, sustainability, and
 :::{#research-3}
 :::
 
-## Key Collaborators
-
-
-- [Nicole Eikmeier](https://eikmeier.sites.grinnell.edu/) (Computer Science, Grinnell)
-- [Jamie Haddock](https://www.math.ucla.edu/~jhaddock/index.html) (Mathematics, Harvey Mudd)
-- [Heather Zinn Brooks](https://www.hmc.edu/mathematics/people/faculty/heather-zinn-brooks/) (Mathematics, Harvey Mudd)
-- [Kelly Finn](https://pbs.dartmouth.edu/people/kelly-r-finn) (Psychology and Brain Sciences, Dartmouth)
-- [Mason Porter](https://www.math.ucla.edu/~mason/) (Mathematics, UCLA)
-- [Alice Schwarze](https://aliceschwarze.gitlab.io/) (Mathematics, Dartmouth)
-- [Nate Veldt](https://people.cam.cornell.edu/lnv22/) (Computer Science, Texas A&M)
-- [Austin Benson](https://www.cs.cornell.edu/~arb/) (Computer Science, Cornell)
-- [Mari Kawakatsu](https://www.marikawakatsu.com/) (Applied and Computational Mathematics, Princeton)
-- [Dan Larremore](https://www.colorado.edu/cs/daniel-larremore) (Computer Science, CU Boulder)
-- [Peter Mucha](https://mucha.web.unc.edu/) (Mathematics, Dartmouth)
-- [Marta González](https://ced.berkeley.edu/ced/faculty-staff/marta-gonzalez) (City and Regional Planning, UC Berkeley)
-- [Andrew Mellor](https://andrewmellor.co.uk/) (Oxford, OxFORD Asset Management)
-- [Shan Jiang](https://as.tufts.edu/uep/people/faculty/shan-jiang) (Urban and Environmental Policy and Planning, Tufts)
-- [Mary Angelique Demetillo](https://maryangelique.com/) (Environmental Science, UVA)
-- [Sally Pusede](https://evsc.as.virginia.edu/people/profile/sep6a) (Environmental Science, UVA). 
-
 
 ## Student Research
 
