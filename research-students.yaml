@@ -15,10 +15,19 @@
 - name: "Justin Corke '25"
   image: "assets/img/student-pictures/justin-corke.png"
   title: Assortativity bounds on union graphs
-  status: current
+  status: alum
+  next: Assistant, Middlebury Quantitative Center
   year: 2024
+  abstract: Many graphs are constructed as unions of component subgraphs. We study the relationships of the degree-assortativity of the component subgraphs to the degree-assortativity of the union graphs. We present analytic estimates derived under mean-field assumptions for the generation of the components, and validate these estimates through simulation.   
 - name: "Violet Ross '25"
   image: "assets/img/student-pictures/violet-ross.jpg"
   title: Noisy edge-copying hypergraphs with node attributes
   year: 2025
+  status: alum
+  next: PhD in Computer Science, CU Boulder
+  abstract: Many complex systems are made up of a set of objects or individuals and the interactions between them. We can study certain aspects of these systems, such as their evolution over time, by leveraging their networked structure. A generalized network called a hypergraph allows for the modeling of complex systems using networks to be done with explicit representations of multi-way relationships. Homophily, the tendency of individuals to connect with others similar to them, is present in many real world systems. Though the preferences of the individuals in a network when forming connections clearly influences how the network evolves, current models of hypergraph growth do not account for homophily. We propose a hyperedge-copying growth model for hypergraphs with node labels that parametrizes the level of homophily. The model proceeds by iteratively sampling an edge from the hypergraph, selecting a node within the edge, and making a noisy copy of the sampled edge with some amount of preference (set by the parameters) for nodes with the same label as the selected node. We analyze the degree and edge size distributions of hypergraphs grown using our model, perform dynamical analysis on the mean number of nodes of each label within an edge, and derive and implement a Stochastic Expectation Maximization (SEM) algorithm to infer the model's parameters. We perform experiments on synthetic data to test the ability of the algorithm to recover true parameters and, finally, apply the SEM algorithm to the hypergraph of United States Senate bills.
+- name: "Frannie Cataldo '27"
+  image: "assets/img/student-pictures/frannie-cataldo.jpeg"
+  title: Edge-copy hypergraphs and community detection
+  year: 2026
   status: current
