@@ -183,7 +183,7 @@
     <a href="https://arxiv.org/abs/2502.02386">New preprint!</a> I'm very pleased to share "Hyperlink Prediction via Hyperedge Copying," the fruits of two years of wonderful collaboration with <a href="https://www.linkedin.com/in/xie-he-22248013b">Xie He</a> (Microsoft Research) and <a href="https://mucha.host.dartmouth.edu/">Peter Mucha</a> (Dartmouth). This paper poses a simple, low-dimensional mechanistic model of the formation of hypergraphs. We find that this model admits both analytic tractability and predictive performance competitive with several high-dimensional neural network approaches. It's been wonderful to take this journey together with Xie and Peter. 
 - date: 2025-05-12
   text: |
-    <a href="https://izabelpaguiar.com/about/?theme=pub/assembler">Izabel Aguiar</a> (SFI) and I are coorganizing a <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=82634">minisymposium</a> on data, inference, and dynamics in complex social systems at the SIAM Conference on Applications of Dynamical Systems in Denver, CO. (<a href="https://www.philchodrow.prof/talks/2025-denver/#/title-slide">Slides </a>)
+    <a href="https://izabelpaguiar.com/about/?theme=pub/assembler">Izabel Aguiar</a> (SFI) and I are coorganizing a <a href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=82634">minisymposium</a> on data, inference, and dynamics in complex social systems at the SIAM Conference on Applications of Dynamical Systems in Denver, CO. I also speak on gender repreresentation in academic mathematics. (<a href="https://www.philchodrow.prof/talks/2025-denver/#/title-slide">Slides </a>)
 - date: 2025-02-01
   text: |
     I am a nominee for Middlebury's "Inclusive Design for Learning Award," coordinated by the Center for Teaching, Learning, and Research (CTLR) and the Advisory Group on Disability Access and Inclusion (AGDAI). Congratulations to Olga Parshina, the deserving winner!  
@@ -192,4 +192,7 @@
     <a href="https://arxiv.org/abs/2502.14764">New preprint</a>: "The illusion of households as entities in social networks." <a href="https://izabelpaguiar.com/about/?theme=pub/assembler">Izabel Aguiar</a> (SFI) has led this project on how the concept of "households" can either clarify or distort the results of social network analysis. Very glad to have been on this intellectual journey with Izabel and senior coauthor <a href="https://stanford.edu/~jugander/">Johan Ugander</a>. 
 - date: 2025-05-09
   text: |
-    Contributed talk on growing hypergraphs at the <a href="https://symposia.cirrelt.ca/Complex/en">Montréal Network Science Workshop</a>. (<a href="https://www.philchodrow.prof/talks/2025-u-montreal/#/title-slide">Slides</a>)
+    Invited short talk on growing hypergraphs at the <a href="https://symposia.cirrelt.ca/Complex/en">Montréal Network Science Workshop</a>. (<a href="https://www.philchodrow.prof/talks/2025-u-montreal/#/title-slide">Slides</a>)
+- date: 2025-07-28 
+  text: |
+    <a href="https://sites.google.com/g.hmc.edu/hzinnbrooks">Heather Brooks</a>, <a href="https://nwlandry.com/">Nicholas Landry</a>, and I coorganize a minisymposium on mathematical methods in network science at the joint SIAM/CAIMS Annual Meeting in Montreal, Canada.

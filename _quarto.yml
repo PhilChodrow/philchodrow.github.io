@@ -7,6 +7,7 @@ project:
 
 website:
   title: "Dr. Phil Chodrow"
+  google-analytics: "G-0PJKK3D50S"
   navbar:
     title: | 
       <span class="display-name"> Dr. <b>Phil Chodrow</b>

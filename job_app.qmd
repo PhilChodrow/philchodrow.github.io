@@ -98,6 +98,6 @@ A complete application usually also includes a cover letter addressing specific 
 
 ## Additional Resouces
 
-- There is a [listing of job postings](https://cs-pui.github.io/#deadlines) in computer science at primarily-undergraduate institutions with balanced teaching and research responsibilities, including many SLACs. 
+- I contribute to the operation of a [listing of job postings](https://cs-pui.github.io/#deadlines) in computer science at primarily-undergraduate institutions with balanced teaching and research responsibilities, including many SLACs. 
 - [Dr. Iris Howley](https://www.cs.williams.edu/~iris/) at Williams College provides [a document with many links](https://docs.google.com/document/d/1JGyp7_NJKDAjCpsm8Z5_lty0P76jk3bhPPMdQJaF0nw/edit?usp=sharing) related to navigating the job market for CS jobs at primarily-undergraduate institutions. 
 - [Dr. Amanda Stent](https://amandastent.net) at Colby College has written on [academic CS careers at liberal arts colleges](https://medium.com/@ajstent/academic-cs-careers-at-liberal-arts-colleges-917b0d3e82ab). 
