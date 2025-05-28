@@ -67,14 +67,14 @@
     "href": "reading.html#current",
     "title": "What I’m Reading",
     "section": "Current",
-    "text": "Current\n\nElements of Mathematical Ecology by Mark Kot\nBraiding Sweetgrass by Robin Wall Kimmerer\nDevotions by Mary Oliver\nStories of Your Life and Others by Ted Chiang\nTranslation State by Ann Leckie\nThe Three Body Problem by Liu Cixin"
+    "text": "Current\n\nElements of Mathematical Ecology by Mark Kot\nBraiding Sweetgrass by Robin Wall Kimmerer\nDevotions by Mary Oliver\nStories of Your Life and Others by Ted Chiang\nTranslation State by Ann Leckie\nDeath’s End by Liu Cixin\nIf You Can’t Take the Heat by Geraldine DeRuiter"
   },
   {
     "objectID": "reading.html#section",
     "href": "reading.html#section",
     "title": "What I’m Reading",
     "section": "2025",
-    "text": "2025\n\n  Nonfiction\n\nAI Snake Oil by Arvind Narayanan and Sayash Kapoor\nThe Sabbath World by Judith Shulevitz\nThe Anxious Generation by Jonathan Haidt\n\n\n\n  Fiction\n\nIron Flame by Rebecca Yarros\nFourth Wing by Rebecca Yarros\nThe Sunlit Man by Brandon Sanderson\nWind and Truth by Brandon Sanderson"
+    "text": "2025\n\n  Nonfiction\n\nAbundance by Ezra Klein and Derek Thompson\nAI Snake Oil by Arvind Narayanan and Sayash Kapoor\nThe Sabbath World by Judith Shulevitz\nThe Anxious Generation by Jonathan Haidt\n\n\n\n  Fiction\n\nThe Dark Forest by Liu Cixin\nThe Three Body Problem by Liu Cixin\nIron Flame by Rebecca Yarros\nFourth Wing by Rebecca Yarros\nThe Sunlit Man by Brandon Sanderson\nWind and Truth by Brandon Sanderson"
   },
   {
     "objectID": "reading.html#section-1",
@@ -238,11 +238,39 @@
     "text": "Turning the Light of Truth: Data Science as a Practice of Resistance\n\n\n\n\n\n\n\n\n\n\n\nOct 15, 2023\n\n\nPhil Chodrow\n\n\n\n\n\n\n\n\n\n\n\n\nLearning in Public about Teaching Machine Learning\n\n\n\n\n\n\n\n\n\n\n\nApr 25, 2023\n\n\nPhil Chodrow\n\n\n\n\n\n\n\n\n\n\n\n\nLearning in Public about Teaching Discrete Math\n\n\n\n\n\n\n\n\n\n\n\nApr 25, 2023\n\n\nPhil Chodrow\n\n\n\n\n\n\n\n\n\n\n\n\nFavorite References for Hypergraph Data Science\n\n\n\n\n\n\n\n\n\n\n\nDec 20, 2022\n\n\nPhil Chodrow\n\n\n\n\n\n\n\n\n\n\n\n\nThe Short Story of Bregman Information for Measuring Segregation\n\n\n\n\n\n\n\n\n\n\n\nJun 24, 2022\n\n\nPhil Chodrow\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive Choropleths of Census Data with R\n\n\n\n\n\n\n\n\n\n\n\nJun 19, 2022\n\n\nPhil Chodrow\n\n\n\n\n\n\n\n\n\n\n\n\nInformation Measures Segregation\n\n\n\n\n\n\n\n\n\n\n\nJun 16, 2022\n\n\nPhil Chodrow\n\n\n\n\n\n\n\n\n\n\n\n\nEntropy Measures Diversity\n\n\n\n\n\n\n\n\n\n\n\nJun 16, 2022\n\n\nPhil Chodrow\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Me",
+    "section": "",
+    "text": "Reach Me\nThe most reliable way is by email: pchodrow@middlebury.edu.\nI am often in my office, Room 218 in 75 Shannon Street. Say hi whenever the door is open!\nI do not normally take calls to my office phone.\n\n\nMeet with Me\nTo set up a meeting with me, please send me an email. I am likely to share with you a Calendly link that you can use to schedule a time.\n\n\nOther\n\nMost of the code I write can be found on GitHub.\nMy ORCID is 0000-0001-5667-490X.\nI am on Twitter, though not very active."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "My goal as an educator is to make computing, applied mathematics, quantitative reasoning, and data science accessible to all students. I approach this goal through actively inclusive teaching practices and evidence-based pedagogy. My courses often involve include flipped classrooms, project-based learning, structured group work, writing assignments, and alternative grading.\nMany of the courses below link to recent public course websites on which you can find lecture notes, assignments, code, and other resources."
+  },
+  {
+    "objectID": "teaching.html#courses-at-middlebury",
+    "href": "teaching.html#courses-at-middlebury",
+    "title": "Teaching",
+    "section": "Courses at Middlebury",
+    "text": "Courses at Middlebury\nSpring 2025\n\nCSCI 0442: Network Science\nCSCI 0451: Machine Learning\n\nWinter 2025:\n\nCSCI 0702: Senior Thesis\n\nFall 2024\n\nCSCI 0200: Math Foundations of Computing\nCSCI 0702: Senior Thesis\n\nSpring 2024\n\nCSCI 0451: Machine Learning\nCSCI 0702: Senior Thesis\n\nWinter 2024\n\nCSCI 0702: Senior Thesis\n\nFall 2023\n\nCSCI 0200: Math Foundations of Computing\n\nSpring 2023\n\nCSCI 0451: Machine Learning\n\nFall 2022\n\nCSCI 0145: Introduction to Computing"
+  },
+  {
+    "objectID": "teaching.html#courses-at-ucla",
+    "href": "teaching.html#courses-at-ucla",
+    "title": "Teaching",
+    "section": "Courses at UCLA",
+    "text": "Courses at UCLA\nThe pages below contain lecture notes and other resources for previous courses that I taught at UCLA. You may find these sites useful, but please note that they are no longer maintained.\n\nPIC 16A: Python with Applications I. A flipped-classroom, team-based course focusing on Python basics and technical computing. Special emphasis on data science, machine learning, and algorithmic bias.\nPIC 16B: Python with Applications II. A project-based course in advanced technical computing and data science with Python. Topics include data analysis and acquisition; numerical programming; machine learning via TensorFlow; natural language processing; and network science.\nMATH 168: Introduction to Networks. An upper division course in the mathematics of network science. Topics including measuring networks, random graph models, data science with graph data, and dynamical systems on networks."
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "My research addresses computational, mathematical, and statistical problems in the study of complex systems, especially social systems. My interests include models of evolving networks; network data science; models with polyadic (higher-order) interactions; methods for quantifying segregation and polarization; and identity representation in academic science. I am especially interested in the interplay between mechanistic dynamical modeling and messy data sets. My research is currently supported by the National Science Foundation grant “RUI: Network Evolution with Unobserved Mechanisms.” For my complete research record, see my Google Scholar page."
+    "text": "My research addresses computational, mathematical, and statistical problems in the study of complex systems, especially social systems. My interests include models of evolving networks; network data science; models with polyadic (higher-order) interactions; methods for quantifying segregation and polarization; and identity representation in academic science. I am especially interested in the interplay between mechanistic dynamical modeling and messy data sets. My research is currently supported by the National Science Foundation grant “RUI: Network Evolution with Unobserved Mechanisms.” For my complete research record, see my Google Scholar page.\nI do research with students, typically taking 1-2 students each summer and academic year. I’ve also written down some thoughts on what research students can expect from me and what I expect from them."
   },
   {
     "objectID": "research.html#methods-of-network-data-science",
@@ -273,32 +301,46 @@
     "text": "Student Research\nIf you are a Middlebury student interested in working with me as a research collaborator, I have a whole list of FAQs just for you!"
   },
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
+    "objectID": "research-starter-pack.html",
+    "href": "research-starter-pack.html",
+    "title": "Research Student Starter Pack",
     "section": "",
-    "text": "My goal as an educator is to make computing, applied mathematics, quantitative reasoning, and data science accessible to all students. I approach this goal through actively inclusive teaching practices and evidence-based pedagogy. My courses often involve include flipped classrooms, project-based learning, structured group work, writing assignments, and alternative grading.\nMany of the courses below link to recent public course websites on which you can find lecture notes, assignments, code, and other resources."
+    "text": "I wrote this short page for students who are starting research projects with me, or who think they might like to do so soon. It contains my expectations for students, the software I use, and some general considerations on how I work."
   },
   {
-    "objectID": "teaching.html#courses-at-middlebury",
-    "href": "teaching.html#courses-at-middlebury",
-    "title": "Teaching",
-    "section": "Courses at Middlebury",
-    "text": "Courses at Middlebury\nSpring 2025\n\nCSCI 0442: Network Science\nCSCI 0451: Machine Learning\n\nWinter 2025:\n\nCSCI 0702: Senior Thesis\n\nFall 2024\n\nCSCI 0200: Math Foundations of Computing\nCSCI 0702: Senior Thesis\n\nSpring 2024\n\nCSCI 0451: Machine Learning\nCSCI 0702: Senior Thesis\n\nWinter 2024\n\nCSCI 0702: Senior Thesis\n\nFall 2023\n\nCSCI 0200: Math Foundations of Computing\n\nSpring 2023\n\nCSCI 0451: Machine Learning\n\nFall 2022\n\nCSCI 0145: Introduction to Computing"
-  },
-  {
-    "objectID": "teaching.html#courses-at-ucla",
-    "href": "teaching.html#courses-at-ucla",
-    "title": "Teaching",
-    "section": "Courses at UCLA",
-    "text": "Courses at UCLA\nThe pages below contain lecture notes and other resources for previous courses that I taught at UCLA. You may find these sites useful, but please note that they are no longer maintained.\n\nPIC 16A: Python with Applications I. A flipped-classroom, team-based course focusing on Python basics and technical computing. Special emphasis on data science, machine learning, and algorithmic bias.\nPIC 16B: Python with Applications II. A project-based course in advanced technical computing and data science with Python. Topics include data analysis and acquisition; numerical programming; machine learning via TensorFlow; natural language processing; and network science.\nMATH 168: Introduction to Networks. An upper division course in the mathematics of network science. Topics including measuring networks, random graph models, data science with graph data, and dynamical systems on networks."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Me",
+    "objectID": "research-starter-pack.html#welcome",
+    "href": "research-starter-pack.html#welcome",
+    "title": "Research Student Starter Pack",
     "section": "",
-    "text": "Reach Me\nThe most reliable way is by email: pchodrow@middlebury.edu.\nI am often in my office, Room 218 in 75 Shannon Street. Say hi whenever the door is open!\nI do not normally take calls to my office phone.\n\n\nMeet with Me\nTo set up a meeting with me, please send me an email. I am likely to share with you a Calendly link that you can use to schedule a time.\n\n\nOther\n\nMost of the code I write can be found on GitHub.\nMy ORCID is 0000-0001-5667-490X.\nI am on Twitter, though not very active."
+    "text": "I wrote this short page for students who are starting research projects with me, or who think they might like to do so soon. It contains my expectations for students, the software I use, and some general considerations on how I work."
+  },
+  {
+    "objectID": "research-starter-pack.html#your-expectations-of-me",
+    "href": "research-starter-pack.html#your-expectations-of-me",
+    "title": "Research Student Starter Pack",
+    "section": "Your Expectations of Me",
+    "text": "Your Expectations of Me\nAs your research mentor, I commit to:\n\nAdvocating for your professional development as a scholar. You can talk to me about any aspect of your academic journey, including course selection, grad school applications, and other research opportunities.\nWriting you a letter of recommendation for graduate school or other scholarly opportunities. \nBeing available to you to answer questions and generate ideas, either virtually or in person.\nProviding you with candid, helpful feedback on your work.\nHelping you develop your skills as as scholar, including learning new mathematics and computer science, developing writing skills, and practicing how to communicate your work to others.\n\nThe strength of my letter will depend in part on how our time together goes; provided that you meet my expectations below, your letter is likely to be strong."
+  },
+  {
+    "objectID": "research-starter-pack.html#my-expectations-of-you",
+    "href": "research-starter-pack.html#my-expectations-of-you",
+    "title": "Research Student Starter Pack",
+    "section": "My Expectations of You",
+    "text": "My Expectations of You\n\nThe Balance: Help-Seeking and Independence\nPart of my goal in working with research students is to help train them towards intellectual independence in scholarly work. I’m not expecting you to show independence immediately; that’s part of the journey, not the starting point.\n\n\nMeetings\nWhen you meet with me, come prepared to discuss where you are on your work. It is ok if you do not have a solution to the current problem you’re working on, or even if you are feeling stuck. That’s fine, it happens! If you are feeling stuck, the main thing you need to do in our meeting is to tell me:\n\nWhat’s blocking you?\nWhat have you tried to do to get past that block?\nWhat ideas do you have about it that you haven’t tried yet?\nWhat questions do you have about the problem?\n\nThat’s it! If you can come to our meeting with me ready to discuss those questions, you’ll meet my expectations every time.\n\n\nEffort\nFor summer work and work in winter term (e.g. thesis work), I expect students to put approximately 40 hours per week of directed effort into research projects. For work in Fall and Spring semesters, I expect approximately 10 hours per week.\n\n\nResearch Progress\nI do not have expectations about how much progress you make on your research during your work with me. Research is a deeply nonlinear process and not every good idea pans out. My goal is to work with you to make something that we’re both proud of, but it’s very likely that we’ll need to adjust our expectations for what we can do several times along our journey.\nMy general approach to picking problems to do with students is that I choose problems which I think are both (a) reasonably solvable and (b) have some probability of becoming publishable scholarly work in the event that our work is successful. When students are especially successful, I make reasonably efforts to polish up the work and submit it to a scholarly journal."
+  },
+  {
+    "objectID": "research-starter-pack.html#logistics",
+    "href": "research-starter-pack.html#logistics",
+    "title": "Research Student Starter Pack",
+    "section": "Logistics",
+    "text": "Logistics\n\nSummer Research\nAn important reality of academic summers is that I am often traveling. Much of my travel is related to work (conferences, collaboration visits, etc.), while some of it is personal (family visits, the occasional vacation, etc.). I’ll do my best to communicate with you promptly about when I’m expecting to be in Middlebury and when I’m expecting to be away.\nIn weeks when I am present in Middlebury, we will typically have 2-3 meetings a week in person, usually between 30 minutes and an hour. Our time is likely to involve brainstorming, mathematical work at the board, feedback on your writing and computations, etc.\nIn weeks when I am away, we’ll typically have several short meetings a week via Zoom. These meetings will typically be 15-30 minutes long. In these meetings, the emphasis will be more on you presenting your work and getting feedback from me, since it’s just logistically harder to do brainstorming and math work over Zoom.\nIn all our research meetings, my primary goal is to make sure that you’re not “stuck:” I want you to always have a productive next step that allows you continue exploring in the direction of your interests.\n\n\nAcademic Year Research\nDuring the academic year, we’ll typically do meetings similar to those described above, but less frequently. I usually meet with academic-year students for either 1 hour once a week or 30 minutes twice a week."
+  },
+  {
+    "objectID": "research-starter-pack.html#software-and-computation",
+    "href": "research-starter-pack.html#software-and-computation",
+    "title": "Research Student Starter Pack",
+    "section": "Software and Computation",
+    "text": "Software and Computation\nCommunication: Slack. I use a Slack workspace for organizing my research group and collaborations. I don’t require research students to always have Slack open, but I expect you to check it at least a few times a day. I am usually pretty responsive by Slack and am more likely to reply quickly over Slack than over email.\nOperating system: I use and strongly recommend MacOS for students who are making a choice about buying a new computer. Linux laptops (for power users) are also great for students who are very comfortable with them. I don’t mind working with students who use Windows, but there’s a lot that I won’t be able to help troubleshoot with things like software installation.\nVersion control: Git and GitHub. Alternatives such as GitLab or BitBucket are also ok.\nSoftware: Python, R, or Julia. My preference for new projects is Julia, but most students are more likely to come in comfortable with Python or R and that’s fine. Most of my recent student projects have been in Python.\nEditor: VSCode. Alternatives are not a problem when students are much more comfortable with a different general-purpose code editor.\nWriting: \\(\\LaTeX\\) via OverLeaf or GitHub. I expect students to log their work regularly in typed form and to place those logs in places where I can read them and give feedback. Students who are already very comfortable with \\(\\LaTeX\\) may prefer to use \\(\\LaTeX\\) in a local editor (there are VSCode extensions), place their writing under version control, and push to a GitHub repo.  Students who are learning \\(\\LaTeX\\) for the first time may find it easier to use OverLeaf.Personally I dislike Overleaf and find it much more comfortable to work in \\(\\LaTeX\\) locally, but I have also spent a lot of time writing \\(\\LaTeX\\) papers…\nReference management: Zotero. Reading research papers is a fundamental aspect of scholarly work, and keeping those papers organized is a tricky task. I use Zotero to organize my papers. There are two major tasks that Zotero makes much easier:\n\nReading papers is easy in Zotero, especially if you have a tablet. You just need to import the paper into Zotero in one of several fashions, open it up, and start reading. Zotero also has support for simple annotations which sync across devices.\nCiting papers is streamlined through the Better BibTeX plugin, which allows you to export subsets of your your Zotero library in the .bib format used by \\(\\LaTeX\\) for reference management.\n\nComputer: I’m expecting that most research students will have a laptop with a processor from the last 4 years which they can use for their work, including writing, coding, and computation. If you don’t have a laptop, the College has some avenues for loaning laptops, and the CS department also maintains a set of loaner Windows machines."
   },
   {
     "objectID": "posts/2022-06-16-info-segregation-2/index.html",

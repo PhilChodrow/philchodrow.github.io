@@ -1,0 +1,88 @@
+---
+toc: true
+title: "Research Student Starter Pack"
+---
+
+## Welcome! 
+
+I wrote this short page for students who are starting research projects with me, or who think they might like to do so soon. It contains my expectations for students, the software I use, and some general considerations on how I work. 
+
+## Your Expectations of Me
+
+As your research mentor, I commit to: 
+
+1. Advocating for your professional development as a scholar. You can talk to me about any aspect of your academic journey, including course selection, grad school applications, and other research opportunities. 
+2. Writing you a letter of recommendation for graduate school or other scholarly opportunities. [The strength of my letter will depend in part on how our time together goes; provided that you meet my expectations below, your letter is likely to be strong.]{.aside}
+3. Being available to you to answer questions and generate ideas, either virtually or in person. 
+4. Providing you with candid, helpful feedback on your work. 
+5. Helping you develop your skills as as scholar, including learning new mathematics and computer science, developing writing skills, and practicing how to communicate your work to others.
+
+
+## My Expectations of You
+
+### The Balance: Help-Seeking and Independence
+
+Part of my goal in working with research students is to help train them towards intellectual independence in scholarly work. ***I'm not expecting you to show independence immediately***; that's part of the journey, not the starting point. 
+
+
+### Meetings
+
+When you meet with me, come prepared to discuss where you are on your work. ***It is ok if you do not have a solution to the current problem you're working on***, or even if you are feeling stuck. That's fine, it happens! If you are feeling stuck, the main thing you need to do in our meeting is to tell me: 
+
+- What's blocking you? 
+- What have you tried to do to get past that block? 
+- What ideas do you have about it that you haven't tried yet? 
+- What questions do you have about the problem?
+
+That's it! If you can come to our meeting with me ready to discuss those questions, you'll meet my expectations every time. 
+
+### Effort
+
+For summer work and work in winter term (e.g. thesis work), I expect students to put approximately 40 hours per week of directed effort into research projects. For work in Fall and Spring semesters, I expect approximately 10 hours per week. 
+
+### Research Progress
+
+**I do not have expectations about how much progress you make on your research during your work with me.** Research is a deeply nonlinear process and not every good idea pans out. My goal is to work with you to make something that we're both proud of, but it's very likely that we'll need to adjust our expectations for what we can do several times along our journey. 
+
+My general approach to picking problems to do with students is that I choose problems which I *think* are both (a) reasonably solvable and (b) have some probability of becoming publishable scholarly work in the event that our work is successful. When students are especially successful, I make reasonably efforts to polish up the work and submit it to a scholarly journal. 
+
+## Logistics
+
+### Summer Research 
+
+An important reality of academic summers is that ***I am often traveling***. Much of my travel is related to work (conferences, collaboration visits, etc.), while some of it is personal (family visits, the occasional vacation, etc.).  I'll do my best to communicate with you promptly about when I'm expecting to be in Middlebury and when I'm expecting to be away. 
+
+***In weeks when I am present in Middlebury***, we will typically have 2-3 meetings a week in person, usually between 30 minutes and an hour. Our time is likely to involve brainstorming, mathematical work at the board, feedback on your writing and computations, etc. 
+
+***In weeks when I am away***, we'll typically have several short meetings a week via Zoom. These meetings will typically be 15-30 minutes long. In these meetings, the emphasis will be more on you presenting your work and getting feedback from me, since it's just logistically harder to do brainstorming and math work over Zoom.  
+
+In all our research meetings, my primary goal is to make sure that you're not "stuck:" I want you to always have a productive next step that allows you continue exploring in the direction of your interests. 
+
+### Academic Year Research
+
+During the academic year, we'll typically do meetings similar to those described above, but less frequently. I usually meet with academic-year students for either 1 hour once a week or 30 minutes twice a week.
+
+
+
+## Software and Computation
+
+**Communication**: Slack. I use a Slack workspace for organizing my research group and collaborations. I don't require research students to always have Slack open, but I expect you to check it at least a few times a day. I am  usually pretty responsive by Slack and am more likely to reply quickly over Slack than over email.
+
+**Operating system**: I use and strongly recommend MacOS for students who are making a choice about buying a new computer. Linux laptops (for power users) are also great for students who are very comfortable with them. I don't mind working with students who use Windows, but there's a lot that I won't be able to help troubleshoot with things like software installation. 
+
+**Version control**: Git and GitHub. Alternatives such as GitLab or BitBucket are also ok. 
+
+**Software**: Python, R, or Julia. My preference for new projects is Julia, but most students are more likely to come in comfortable with Python or R and that's fine. Most of my recent student projects have been in Python. 
+
+**Editor**: [VSCode](https://code.visualstudio.com/). Alternatives are not a problem when students are much more comfortable with a different general-purpose code editor. 
+
+**Writing**: $\LaTeX$ via OverLeaf or GitHub. I expect students to log their work regularly in typed form and to place those logs in places where I can read them and give feedback. Students who are already very comfortable with $\LaTeX$ may prefer to use $\LaTeX$ in a local editor (there are VSCode extensions), place their writing under version control, and push to a GitHub repo. [Personally I dislike Overleaf and find it much more comfortable to work in $\LaTeX$ locally, but I have also spent a *lot* of time writing $\LaTeX$ papers...]{.aside} Students who are learning $\LaTeX$ for the first time may find it easier to use OverLeaf. 
+
+**Reference management**: [Zotero](https://www.zotero.org/). Reading research papers is a fundamental aspect of scholarly work, and keeping those papers *organized* is a tricky task. I use Zotero to organize my papers. There are two major tasks that Zotero makes much easier: 
+
+- *Reading papers* is easy in Zotero, especially if you have a tablet. You just need to import the paper into Zotero in one of several fashions, open it up, and start reading. Zotero also has support for simple annotations which sync across devices. 
+- *Citing papers* is streamlined through the Better BibTeX plugin, which allows you to export subsets of your your Zotero library in the `.bib` format used by $\LaTeX$ for reference management. 
+
+**Computer**: I'm expecting that most research students will have a laptop with a processor from the last 4 years which they can use for their work, including writing, coding, and computation. If you don't have a laptop, the College has some avenues for loaning laptops, and the CS department also maintains a set of loaner Windows machines. 
+
+

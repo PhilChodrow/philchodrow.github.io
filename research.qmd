@@ -25,6 +25,8 @@ listing:
 <img src="assets/img/izabel-portrait.png" class="img-responsive-larger img-profile-right" alt="Cartoon picture of Phil Chodrow with a background containing mathematical symbols."> 
 My research addresses computational, mathematical, and statistical problems in the study of complex systems, especially social systems. My interests include  models of evolving networks; network data science; models with polyadic (higher-order) interactions; methods for quantifying segregation and polarization; and identity representation in academic science. I am especially interested in the interplay between mechanistic dynamical modeling and messy data sets. My research is currently supported by the National Science Foundation grant "RUI: Network Evolution with Unobserved Mechanisms." For my complete research record, see my [Google Scholar page](https://scholar.google.com/citations?user=dgWoch0AAAAJ&hl=en).
 
+I do [research with students](research-students.qmd), typically taking 1-2 students each summer and academic year. I've also written down some [thoughts](research-starter-pack.qmd) on what research students can expect from me and what I expect from them. 
+
 [Illustration by [Izabel Aguiar](https://izabelpaguiar.com).]{.aside}
 
 ## Methods of Network Data Science
