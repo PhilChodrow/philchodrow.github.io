@@ -1,0 +1,146 @@
+- title: "Annotated hypergraphs: models and applications"
+  authors: [PSC, Andrew Mellor]
+  categories: [hypergraphs, markov chains, network analysis]
+  image: "annotated-hypergraphs.png"
+  venue: "Applied Network Science"
+  year: "2020"
+  priority: 10
+  url: "https://link.springer.com/article/10.1007/s41109-020-0252-y"
+  page-layout: article
+- title: "Configuration models of random hypergraphs"
+  authors: [PSC]
+  categories: [hypergraphs, markov chains, network analysis]
+  image: "configuration-models.png"
+  venue: "Journal of Complex Networks"
+  year: "2020"
+  priority: 1
+  url: "https://academic.oup.com/comnet/article/8/3/cnaa018/5879929?login=true"
+  page-layout: article
+- title: "Emergence of hierarchy in networked endorsement dynamics"
+  authors: [Mari Kawakatsu, PSC, Nicole Eikmeier, Dan Larremore]
+  categories: [dynamical systems, agent-based models, social hierarchy]
+  image: "emergence-of-hierarchy.png"
+  venue: "Proceedings of the National Academy of Sciences"
+  year: "2021"
+  url: "https://www.pnas.org/doi/10.1073/pnas.2015188118"
+  page-layout: article
+  priority: 1
+  extra: |
+    <li> <a href="https://www.pnas.org/content/118/21/e2106186118">Commentary</a> by Simon DeDeo and Elizabeth Hobson</li>
+    <li> <a href="https://sinews.siam.org/Details-Page/networks-dynamics-and-prestige-how-hierarchies-emerge-from-individual-choices">Explainer post</a> on SIAM News blog</li>
+- title: "Local symmetry and global structure in adaptive voter models"
+  authors: [PSC, Peter J. Mucha]
+  categories: [agent-based models, dynamical systems, markov chains, opinion dynamics]
+  image: "avm.png"
+  venue: "SIAM Journal on Applied Mathematics"
+  year: "2021"
+  url: "https://epubs.siam.org/doi/abs/10.1137/18M1232346"
+  page-layout: article
+  priority: 1
+- title: "Emergence of polarization in a sigmoidal bounded-confidence model of opinion dynamics"
+  authors: [Heather Zinn Brooks, PSC, Mason Porter]
+  categories: [dynamical systems, agent-based models, opinion dynamics, network analysis]
+  image: "sbcm.png"
+  venue: "SIAM Journal on Applied of Dynamical Systems"
+  year: "2024"
+  priority: 1
+  url: "https://epubs.siam.org/doi/abs/10.1137/22M1527258"
+  page-layout: article 
+- title: "Generative hypergraph clustering: from blockmodels to modularity"
+  authors: [PSC, Nate Veldt, Austin Benson]
+  categories: [hypergraphs, network algorithms, clustering]
+  image: "hmod.png"
+  venue: "Science Advances"
+  year: "2021"
+  priority: 1
+  url: "https://www.science.org/doi/full/10.1126/sciadv.abh1303"
+  page-layout: article
+- title: "Community detection in hypergraphs via mutual information maximization"
+  authors: [Jürgen Kritschgau, Daniel Kaiser, Oliver Alvarado Rodriguez, Ilya Amburg, Jessalyn Bolkema, Thomas Grubb, Fangfei Lan, Sepideh Maleki, PSC, Bill Kay]
+  categories: [hypergraphs, network algorithms, clustering]
+  image: "information-hypergraph.png"
+  venue: "Scientific Reports"
+  year: "2024"
+  priority: 1
+  url: "https://www.nature.com/articles/s41598-024-55934-5"
+  page-layout: article
+- title: "Moments of uniformly random multigraphs with fixed degree sequences"
+  authors: [PSC]
+  categories: [network algorithms, clustering, markov chains]
+  image: "multigraph-moments.png"
+  venue: "SIAM Journal on Mathematics of Data Science"
+  year: "2020"
+  priority: 2
+  url: "https://epubs.siam.org/doi/abs/10.1137/18M1232346"
+  page-layout: article
+- title: "Nonbacktracking spectral clustering of nonuniform hypergraphs"
+  authors: [PSC, Nicole Eikmeier, Jamie Haddock]
+  categories: [hypergraphs, network algorithms, clustering]
+  image: "spectral-clustering.png"
+  venue: "SIAM Journal on Mathematics of Data Science"
+  year: "2023"
+  priority: 1
+  url: "https://epubs.siam.org/doi/abs/10.1137/22M1494713"
+  page-layout: article
+- title: "Data science and social justice in the mathematics community"
+  authors: [Quindel Jones, Andrés R. Vindas Meléndez, Ariana Mendible, Manuchehr Aminian, Heather Zinn Brooks, Nathan Alexander, Carrie Diaz Eaton, PSC]
+  categories: [data science, social justice, mathematics community]
+  image: "handshake.png"
+  venue: "Notices of the American Mathematical Society"
+  year: "2023"
+  url: "https://www.ams.org/journals/notices/202309/202309FullIssue.pdf#page=105"
+  page-layout: article
+  priority: 1
+- title: "Space-based observational constraints on NO₂ air pollution inequality from diesel traffic in major U.S. cities"
+  authors: [Mary Angelique Demetillo, Colin Harkins, Brian McDonald, PSC, Kang Sun, Sally Pusede]
+  categories: [data science, social justice, environmental science]
+  image: "no2.png"
+  venue: "Geophysics Review Letters"
+  year: "2021"
+  url: "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021GL094333"
+  page-layout: article
+  priority: 1
+  extra: |
+      <li> <a href="https://cen.acs.org/environment/pollution/Satellite-data-reveal-diesel-trucking/99/i32"> Writeup </a> in <i>Chemical and Engineering News</i></li>
+- title: "Structure and information in spatial segregation"
+  authors: [PSC]
+  categories: [data science, social justice, mathematical sociology, information theory]
+  image: "structure-and-information.png"
+  venue: "Proceedings of the National Academy of Sciences"
+  year: "2017"
+  url: "https://www.pnas.org/content/pnas/114/44/11591.full.pdf"
+  page-layout: article
+- title: "Equivalence of Informations Characterizes Bregman Divergences"
+  authors: [PSC]
+  categories: [information theory]
+  venue: Entropy
+  image: "information-equivalence.png"
+  year: "2025"
+  page-layout: article
+  priority: 1
+  url: "https://www.mdpi.com/1099-4300/27/7/766"
+- title: "Hypergraph link prediction via hyperedge copying"
+  authors: [Xie He, PSC, Peter J. Mucha]
+  categories: [hypergraphs, network algorithms, link prediction]
+  image: "hcm.png"
+  venue: "arXiv preprint arXiv:2502.02386"
+  year: "2025"
+  priority: 1
+  url: "https://arxiv.org/abs/2502.02386"
+- title: "The illusion of households as entities in social networks"
+  authors: [Izabel Aguiar, PSC, Johan Ugander]
+  categories: [network analysis, mathematical sociology]
+  image: "household-graph.png"
+  venue: "arXiv preprint arXiv:2502.14764"
+  year: "2025"
+  priority: 1
+  url: "https://arxiv.org/abs/2502.14764"
+- title: "Active learning for reducing gender gaps in undergraduate computing and data science"
+  authors: [PSC, Harlin Lee, Natalie Lao, Vince Monardo]
+  categories: [data science, pedagogy, computing education]
+  image: "data-sci-ed.png"
+  url: "https://link.springer.com/book/9783031878039"
+  venue: "Advances in Data Science: Women in Data Science and Mathematics (WiSDM) 2023"
+  year: "2025"
+  priority: 1
+  page-layout: article

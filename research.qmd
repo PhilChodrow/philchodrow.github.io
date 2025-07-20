@@ -3,21 +3,13 @@ title: "Research"
 page-layout: article
 toc: true
 listing:
-  - id: research-1
-    contents: pub-network-data-science
-    sort-ui: false
-    filter-ui: false
+  - id: research
+    contents: pubs/pubs.yml
+    # sort-ui: true
+    # filter-ui: true
     template: ejs/publications.ejs
-  - id: research-2
-    contents: pub-models-of-social-systems
-    sort-ui: false
-    filter-ui: false
-    template: ejs/publications.ejs
-  - id: research-3
-    contents: pub-social-responsibility
-    sort-ui: false
-    filter-ui: false
-    template: ejs/publications.ejs
+    categories: true
+    max-items: 500
 ---
  
 <!-- ![](assets/img/izabel-portrait.png) -->
@@ -27,35 +19,12 @@ My research addresses computational, mathematical, and statistical problems in t
 
 I do [research with students](research-students.qmd), typically taking 1-2 students each summer and academic year. I've also written down some [thoughts](research-starter-pack.qmd) on what research students can expect from me and what I expect from them. 
 
-[Illustration by [Izabel Aguiar](https://izabelpaguiar.com).]{.aside}
+*The illustration above is by friend and collaborator [Izabel Aguiar](https://izabelpaguiar.com).*
 
-## Methods of Network Data Science
-
-How do we analyze and learn from network data? I build mathematical foundations for network data science algorithms, with recent focus on networks of higher-order interactions. Much of my work is devoted to developing novel random graph models and applying them in algorithms. Doing so often requires tools from probability, optimization, combinatorics, and random matrix theory. 
-
-:::{#research-1}
-:::
-
-## Models of Polarization, Hierarchy, and Inequality
-
-Human and animal societies are structured by persistent hierarchies, inequalities, and divisions. Dynamical and statistical models can help us understand the extent of these structures, how they form, and under what conditions they persist. I am especially interested in the role of social feedback loops in reinforcing these structures. 
-
-
-:::{#research-2}
-:::
-
-## Data Science and Social Responsibility
-
-I also use my skills and resources in the service of equity, sustainability, and justice. My efforts here includes both the development of novel methods for social data analysis and work on activist data science projects.  I pursue some of this work as a Partner at [QSIDE](https://qsideinstitute.org/), the Institute for the Quantitative Study of Inclusion, Diversity, and Equity. 
-
-
-:::{#research-3}
+:::{#research}
 :::
 
 
-## Student Research
-
-If you are a Middlebury student interested in working with me as a research collaborator, I have [a whole list of FAQs](faqs.qmd#research-with-students) just for you! 
 
 
 

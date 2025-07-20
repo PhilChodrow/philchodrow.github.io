@@ -5,7 +5,6 @@
       "/posts/2022-06-16-info-segregation/index.html",
       "/posts/2022-12-20-hypergraph-refs/index.html",
       "/posts/2022-06-16-info-segregation-2/index.html",
-      "/posts/2022-6-19-census-data/index.html",
       "/posts/2023-09-01-CSCI-0200-reflections/index.html",
       "/posts/2023-04-25-CSCI-0451-reflections/index.html",
       "/posts/2022-06-24-bregman/index.html",
@@ -21,6 +20,10 @@
     "items": []
   },
   {
+    "listing": "/research-students.html",
+    "items": []
+  },
+  {
     "listing": "/posts/2022-12-20-hypergraph-refs/index.html",
     "items": []
   },
@@ -32,31 +35,12 @@
       "/posts/2023-09-01-CSCI-0200-reflections/index.html",
       "/posts/2022-12-20-hypergraph-refs/index.html",
       "/posts/2022-06-24-bregman/index.html",
-      "/posts/2022-6-19-census-data/index.html",
       "/posts/2022-06-16-info-segregation-2/index.html",
       "/posts/2022-06-16-info-segregation/index.html"
     ]
   },
   {
     "listing": "/research.html",
-    "items": [
-      "/pub-network-data-science/annotated-hypergraphs/index.html",
-      "/pub-network-data-science/information-theoretic-clustering/index.html",
-      "/pub-network-data-science/configuration-hypergraphs/index.html",
-      "/pub-network-data-science/hypergraph-modularity/index.html",
-      "/pub-network-data-science/multigraph-moments/index.html",
-      "/pub-network-data-science/spectral-clustering-hypergraphs/index.html",
-      "/pub-models-of-social-systems/emergence-of-hierarchy/index.html",
-      "/pub-models-of-social-systems/SBCM/index.html",
-      "/pub-models-of-social-systems/adaptive-voter-models/index.html",
-      "/pub-social-responsibility/ds4sj/index.html",
-      "/pub-social-responsibility/846-analysis/index.html",
-      "/pub-social-responsibility/space-based/index.html",
-      "/pub-social-responsibility/structure-info-race/index.html"
-    ]
-  },
-  {
-    "listing": "/research-students.html",
     "items": []
   }
 ]

@@ -1,0 +1,33 @@
+```{=html}
+<div class="list pub-list">
+    <% for (const pub of items) { %>
+    
+
+    <div class="quarto-post" <%= metadataAttrs(pub) %>>
+        <div class="body">
+            <a href="<%- pub.path %>">
+            <h3 class="no-anchor listing-title"><%= pub.title %></h3>
+            </a>
+        </div>
+    </div>
+    
+<% } %>
+</div>
+```
+
+<!-- ```{=html}
+<div class="list pub-list">
+    <% for (const pub of items) { %>
+    
+
+    <div class="quarto-post" <%= metadataAttrs(pub) %>>
+        <div class="body">
+            <a href="<%- pub.path %>">
+            <h3 class="no-anchor listing-title"><%= pub.title %></h3>
+            </a>
+        </div>
+    </div>
+    
+<% } %>
+</div>
+``` -->

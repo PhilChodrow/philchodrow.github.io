@@ -1,21 +1,27 @@
-
 ```{=html}
-<table style="width:100%" class="table-no-border">
 <% items.sort(function(a,b){return b.year - a.year + 0.1*(a.priority - b.priority)}) %>
-<% for (const item of items) { %>
-    <tr class="publication-entry">
-        <td>
-            <div class="thumbnail">
-                <img src="<%- item.image %>" width=70>
+<% var currentYear = 0 %>
+<div class="list pub-list">
+    <% for (const pub of items) { %>
+    
+    <% var pubYear = pub.year %>
+    <% if (pubYear != currentYear) { %>
+            <% currentYear = pubYear %> 
+            <h2><%= currentYear %></h2>
+    <% } %>  
+    <div class="pub" <%= metadataAttrs(pub) %>> 
+        <div class="thumbnail">
+            <img src="pubs/<%= pub.image %>" alt="<%= pub.title %>" title="<%= pub.title %>" />
         </div>
-            <div class="compress">
-                <a href="<%- item.url %>"><%= item.title %></a>
-                <br> 
-                <% for (var i = 0; i < item.authors.length; i++) { %>
-                    <% if (i < item.authors.length-2) { %>
+        <div class="body">
+            <a href="<%- pub.url %>"><%= pub.title %></a>
+            <br>
+            <span class="listing-authors">
+                <% for (var i = 0; i < pub.authors.length; i++) { %>
+                    <% if (i < pub.authors.length-2) { %>
                         <% var sep = "," %>
-                    <% } else if (i == item.authors.length-2) {%>
-                        <% if (item.authors.length == 2) { %>
+                    <% } else if (i == pub.authors.length-2) {%>
+                        <% if (pub.authors.length == 2) { %>
                             <% var sep = " and" %>
                         <% } else {%>
                         <%  var sep = ", and"%>
@@ -24,19 +30,32 @@
                         <% var sep = "" %>
                     <% } %>
 
-                    <% if (item.authors[i] == "PSC") {%>
+                    <% if (pub.authors[i] == "PSC") {%>
                         <b>PSC</b><%- sep %>
                     <% } else {%>
-                        <%=item.authors[i]%><%- sep %>
+                        <%=pub.authors[i]%><%- sep %>
                     <% } %>
                 <% } %>
-                <br> 
-                <i><%- item.venue %></i> (<%- item.year %>)<br> 
-                <%= item.extra %>
+            </span>
+            <br>
+            <span class ="venue listing-venue"><%= pub.venue %></span> <span class="listing-year">(<%= pub.year %>)</span>
+            <br>
+            <p class="extra"><%= pub.extra %></p> 
+            <% if (pub.categories) { %>
+            <div class="pub-categories listing-categories">
+                <% for (const category of pub.categories) { %>
+                <div class="pub-category listing-category">
+                    <%= category %>
+                </div>
+                <% } %>
             </div>
-            <br><br>
-        </td>
-    </tr>
-<% } %>
-</table>
+            <% } %>
+        </div>
+    <br>
+    </div>
+    <% } %>
+</div>
+
+
+
 ```

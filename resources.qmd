@@ -7,6 +7,10 @@ toc: true
 
 This page collects a variety of references, organizations, data repositories, links, and books that I find useful or motivating. In all cases, the lists are highly partial, in reflection of my own experience and limitations. If you have a suggestion for an addition, please let me know! 
 
+## Complex Systems Community
+
+- [CORE](https://complexity-core.github.io/): *Complexity and Networks COmmunity and REsources (CORE) is an umbrella organization that aims to gather resources and events directed to the Complexity and Network Science community.*
+
 ## Data Science, Math, Technology, and Social Justice
 
 - The 2021 [MSRI Workshop on Mathematics and Racial Justice](https://www.msri.org/workshops/1012) collected a [list of resources](https://docs.google.com/document/d/1-40eCiJdlOIxDWnALv-kqO5-0c5NH1M857-_kTj-GeE/edit?usp=sharing) on mathematics and racial justice, including books, journal articles, organizations, and data sets.

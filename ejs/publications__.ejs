@@ -1,0 +1,45 @@
+
+```{=html}
+<table style="width:100%" class="table-no-border">
+<% items.sort(function(a,b){return b.year - a.year + 0.1*(a.priority - b.priority)}) %>
+<% for (const item of items) { %>
+
+    <h3><%= item.year %></h3>
+
+    <tr class="publication-entry">
+        <td>
+            <div class="thumbnail">
+                <img src="<%- item.image %>" width=70>
+        </div>
+            <div class="compress">
+                <a href="<%- item.url %>"><%= item.title %></a>
+                <br> 
+                <% for (var i = 0; i < item.authors.length; i++) { %>
+                    <% if (i < item.authors.length-2) { %>
+                        <% var sep = "," %>
+                    <% } else if (i == item.authors.length-2) {%>
+                        <% if (item.authors.length == 2) { %>
+                            <% var sep = " and" %>
+                        <% } else {%>
+                        <%  var sep = ", and"%>
+                        <% } %>
+                    <% } else { %>
+                        <% var sep = "" %>
+                    <% } %>
+
+                    <% if (item.authors[i] == "PSC") {%>
+                        <b>PSC</b><%- sep %>
+                    <% } else {%>
+                        <%=item.authors[i]%><%- sep %>
+                    <% } %>
+                <% } %>
+                <br> 
+                <i><%- item.venue %></i> (<%- item.year %>)<br> 
+                <%= item.extra %>
+            </div>
+            <br><br>
+        </td>
+    </tr>
+<% } %>
+</table>
+```

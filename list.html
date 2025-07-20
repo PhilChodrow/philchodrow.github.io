@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Phil Chodrow">
-<meta name="dcterms.date" content="2022-12-20">
 
-<title>Favorite References for Hypergraph Data Science – Dr.&nbsp;Phil Chodrow</title>
+<title>test-website – Dr.&nbsp;Phil Chodrow</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../assets/img/favicon.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f8c727b50162c5017a81aaedad2b4752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./assets/img/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-f8c727b50162c5017a81aaedad2b4752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,188 +72,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-centrality-ranking-core-periphery .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-year','listing-authors','listing-url','listing-venue','listing-tag','listing-note',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-year","listing-authors","listing-url","listing-venue","listing-tag","listing-note"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-centrality-ranking-core-periphery'] = new List('listing-centrality-ranking-core-periphery', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-community-detection .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-year','listing-authors','listing-url','listing-venue','listing-tag','listing-note',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-year","listing-authors","listing-url","listing-venue","listing-tag","listing-note"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-community-detection'] = new List('listing-community-detection', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-link-prediction .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-year','listing-authors','listing-url','listing-venue','listing-tag','listing-note',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-year","listing-authors","listing-url","listing-venue","listing-tag","listing-note"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-link-prediction'] = new List('listing-link-prediction', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-reconstruction .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-year','listing-authors','listing-url','listing-venue','listing-tag','listing-note',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-year","listing-authors","listing-url","listing-venue","listing-tag","listing-note"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-reconstruction'] = new List('listing-reconstruction', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-general .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-year','listing-authors','listing-url','listing-venue','listing-tag','listing-note',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-year","listing-authors","listing-url","listing-venue","listing-tag","listing-note"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-general'] = new List('listing-general', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-null-models .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-year','listing-authors','listing-url','listing-venue','listing-tag','listing-note',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-year","listing-authors","listing-url","listing-venue","listing-tag","listing-note"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-null-models'] = new List('listing-null-models', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-networks .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-year','listing-authors','listing-url','listing-venue','listing-tag','listing-note',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-year","listing-authors","listing-url","listing-venue","listing-tag","listing-note"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-networks'] = new List('listing-networks', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -309,17 +139,17 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title"><span class="display-name"> Dr.&nbsp;<b>Phil Chodrow</b></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6UmVzZWFyY2g=">Research</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Jlc2VhcmNoLmh0bWw=">/research.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6VGVhY2hpbmc=">Teaching</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3RlYWNoaW5nLmh0bWw=">/teaching.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6R3JvdXA=">Group</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Jlc2VhcmNoLXN0dWRlbnRzLmh0bWw=">/research-students.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6Q1Y=">CV</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly93d3cucGhpbGNob2Ryb3cucHJvZi9jdi9jdi5wZGY=">https://www.philchodrow.prof/cv/cv.pdf</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6RkFRcw==">FAQs</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2ZhcXMuaHRtbA==">/faqs.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6UmVzb3VyY2Vz">Resources</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Jlc291cmNlcy5odG1s">/resources.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6R3JhdGl0dWRl">Gratitude</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2Fja25vd2xlZGdtZW50cy5odG1s">/acknowledgments.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6T3RoZXIuLi4=">Other…</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6TXkgTWF0aCBBdXRvYmlvZ3JhcGh5">My Math Autobiography</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L21hdGgtYXV0b2Jpb2dyYXBoeS5odG1s">/math-autobiography.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6Sm9icyBhdCBTTEFDcw==">Jobs at SLACs</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2pvYl9hcHAuaHRtbA==">/job_app.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6V2hhdCBJJ20gUmVhZGluZw==">What I’m Reading</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3JlYWRpbmcuaHRtbA==">/reading.html</span></span>
     </a>
   </div>
@@ -330,15 +160,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html"> 
+    <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching.html"> 
+    <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research-students.html"> 
+    <a class="nav-link" href="./research-students.html"> 
 <span class="menu-text">Group</span></a>
   </li>  
   <li class="nav-item">
@@ -346,15 +176,15 @@ window.Quarto = {
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../faqs.html"> 
+    <a class="nav-link" href="./faqs.html"> 
 <span class="menu-text">FAQs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html"> 
+    <a class="nav-link" href="./resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../acknowledgments.html"> 
+    <a class="nav-link" href="./acknowledgments.html"> 
 <span class="menu-text">Gratitude</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -363,15 +193,15 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-other...">    
         <li>
-    <a class="dropdown-item" href="../../math-autobiography.html">
+    <a class="dropdown-item" href="./math-autobiography.html">
  <span class="dropdown-text">My Math Autobiography</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../job_app.html">
+    <a class="dropdown-item" href="./job_app.html">
  <span class="dropdown-text">Jobs at SLACs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../reading.html">
+    <a class="dropdown-item" href="./reading.html">
  <span class="dropdown-text">What I’m Reading</span></a>
   </li>  
     </ul>
@@ -384,394 +214,242 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">test-website</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#the-importance-of-higher-order-structure" id="toc-the-importance-of-higher-order-structure" class="nav-link active" data-scroll-target="#the-importance-of-higher-order-structure">The Importance of Higher-Order Structure</a></li>
-  <li><a href="#community-detection" id="toc-community-detection" class="nav-link" data-scroll-target="#community-detection">Community Detection</a></li>
-  <li><a href="#centrality-ranking-and-core-periphery" id="toc-centrality-ranking-and-core-periphery" class="nav-link" data-scroll-target="#centrality-ranking-and-core-periphery">Centrality, Ranking, and Core-Periphery</a></li>
-  <li><a href="#link-prediction-and-edge-correlations" id="toc-link-prediction-and-edge-correlations" class="nav-link" data-scroll-target="#link-prediction-and-edge-correlations">Link Prediction and Edge Correlations</a></li>
-  <li><a href="#hypergraph-reconstruction" id="toc-hypergraph-reconstruction" class="nav-link" data-scroll-target="#hypergraph-reconstruction">Hypergraph Reconstruction</a></li>
-  <li><a href="#null-models" id="toc-null-models" class="nav-link" data-scroll-target="#null-models">Null Models</a></li>
-  <li><a href="#general-network-data-science" id="toc-general-network-data-science" class="nav-link" data-scroll-target="#general-network-data-science">General Network Data Science</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Favorite References for Hypergraph Data Science</h1>
-</div>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Phil Chodrow </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">December 20, 2022</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>This bibliography is a selection of some of the papers that influence (or express) my ways of thinking about the challenges and opportunities in hypergraph network data science. It is extremely partial and includes an immodest emphasis on my own work.</p>
-<p>I tend to cite or refer to papers on this list quite frequently.</p>
-<section id="the-importance-of-higher-order-structure" class="level3">
-<h3 class="anchored" data-anchor-id="the-importance-of-higher-order-structure">The Importance of Higher-Order Structure</h3>
-<div class="list">
-<div id="listing-general" class="quarto-listing quarto-listing-container-custom">
-<table data-quarto-postprocess="true" class="table">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="compress">
-<a href="https://arxiv.org/abs/2104.11329">What are higher-order networks?</a><br>
-Christian Bick, Elizabeth Gross, Heather Harrington, and Michael T. Schaub<br>
-<em>arXiv: 2104.11329</em> (2022)<br>
-
-<div class="smaller">
-<em>A review of the landscape of polyadic data structures, including hypergraphs, emphasizing a mathematical perspective.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-<tr class="even">
-<td><div class="compress">
-<a href="https://epubs.siam.org/doi/10.1137/20M1355896">The why, how, and when of representations for complex systems</a><br>
-Leo Torres, Ann S. Blevins, Danielle Bassett, and Tina Eliassi-Rad<br>
-<em>SIAM Review</em> (2021)<br>
-
-<div class="smaller">
-<em>A conceptual exploration of modeling considerations for complex interconnected systems.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-<tr class="odd">
-<td><div class="compress">
-<a href="https://www.sciencedirect.com/science/article/pii/S0370157320302489">Networks beyond pairwise interactions: Structure and dynamics</a><br>
-Federico Battiston, Giulia Cencetti, Iacopo Iacopini, Vito Latora, Maxime Lucas, Alice Patania Jean-Gabriel Young, and Giovanni Petri<br>
-<em>Physics Reports</em> (2020)<br>
-
-<div class="smaller">
-<em>A review of the landscape of polyadic data structures, including hypergraphs, emphasizing a physics perspective.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-</section>
-<section id="community-detection" class="level3">
-<h3 class="anchored" data-anchor-id="community-detection">Community Detection</h3>
-<div class="list">
-<div id="listing-community-detection" class="quarto-listing quarto-listing-container-custom">
-<table data-quarto-postprocess="true" class="table">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="compress">
-<a href="https://arxiv.org/abs/2204.13586">Nonbacktracking spectral clustering of nonuniform hypergraphs</a><br>
-Phil Chodrow, Nicole Eikmeier, and Jamie Haddock<br>
-<em>Forthcoming in the SIAM Journal on Mathematics of Data Science</em> (2022)<br>
-
-<div class="smaller">
-<em>Developing eigenvector algorithms that explore the fundamental limits of hypergraph community detection.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-<tr class="even">
-<td><div class="compress">
-<a href="https://epubs.siam.org/doi/abs/10.1137/20M1321048?journalCode=siread">Hypergraph cuts with general splitting functions</a><br>
-Nate Veldt, Austin Benson, and Jon Kleinberg<br>
-<em>SIAM Review</em> (2022)<br>
-
-<div class="smaller">
-<em>A study of the s-t cut problem in hypergraphs that helpfully illustrates the considerable flexibility associated with scoring edges in community detection and partitioning tasks.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-<tr class="odd">
-<td><div class="compress">
-<a href="https://www.science.org/doi/full/10.1126/sciadv.abh1303">Generative hypergraph clustering: from blockmodels to modularity</a><br>
-Phil Chodrow, Nate Veldt, and Austin Benson<br>
-<em>Science Advances</em> (2021)<br>
-
-<div class="smaller">
-<em>A fast modularity heuristic for hypergraph community detection.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-<tr class="even">
-<td><div class="compress">
-<a href="https://www.nature.com/articles/s42005-021-00634-z">How choosing random-walk model and network representation matters for flow-based community detection in hypergraphs</a><br>
-Anton Eriksson, Daniel Edler, Alexis Rojas, Manlio de Domenico, and Martin Rosvall<br>
-<em>Nature Communications Physics</em> (2021)<br>
-
-<div class="smaller">
-<em>A nice illustration of the considerable modeling choices that go into designing hypergraph community detection methods.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-</section>
-<section id="centrality-ranking-and-core-periphery" class="level3">
-<h3 class="anchored" data-anchor-id="centrality-ranking-and-core-periphery">Centrality, Ranking, and Core-Periphery</h3>
-<div class="list">
-<div id="listing-centrality-ranking-core-periphery" class="quarto-listing quarto-listing-container-custom">
-<table data-quarto-postprocess="true" class="table">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="compress">
-<a href="https://arxiv.org/abs/2202.12769">Core-periphery detection in hypergraphs</a><br>
-Francesco Tudisco and Desmond J. Higham<br>
-<em>arXiv: 2202.12769</em> (2022)<br>
-
-<div class="smaller">
-<em>A convex optimization approach to computing core-periphery scores in general hypergraphs.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-<tr class="even">
-<td><div class="compress">
-<a href="https://epubs.siam.org/doi/abs/10.1137/18M1203031?journalCode=sjmdaq">Three hypergraph eigenvector centralities</a><br>
-Austin Benson<br>
-<em>SIAM Journal on Mathematics of Data Science</em> (2019)<br>
-
-<div class="smaller">
-<em>Tensor eigenvector approaches to centrality in uniform hypergraphs.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-</section>
-<section id="link-prediction-and-edge-correlations" class="level3">
-<h3 class="anchored" data-anchor-id="link-prediction-and-edge-correlations">Link Prediction and Edge Correlations</h3>
-<div class="list">
-<div id="listing-link-prediction" class="quarto-listing quarto-listing-container-custom">
-<table data-quarto-postprocess="true" class="table">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="compress">
-<a href="https://www.pnas.org/doi/10.1073/pnas.1800683115">Simplicial closure and higher-order link prediction</a><br>
-Austin Benson, Rediet Abebe, Michael Schaub, and Jon Kleinberg<br>
-<em>Proceedings of the National Academy of Sciences</em> (2018)<br>
-
-<div class="smaller">
-<em>A systematic exploration of the idea that the presence of hyperedges makes future hyperedges more likely, generalizing triadic closure mechanisms.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-<tr class="even">
-<td><div class="compress">
-<a href="https://www.pnas.org/doi/10.1073/pnas.1800683115">Sequences of sets</a><br>
-Austin Benson, Ravi Kumar, and Andrew Tomkins<br>
-<em>Proceedings of the National Academy of Sciences</em> (2018)<br>
-
-<div class="smaller">
-<em>A generative model for hypergraph data with edge correlations. This model admits clean inference at the cost of some restrictive assumptions.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-</section>
-<section id="hypergraph-reconstruction" class="level3">
-<h3 class="anchored" data-anchor-id="hypergraph-reconstruction">Hypergraph Reconstruction</h3>
-<div class="list">
-<div id="listing-reconstruction" class="quarto-listing quarto-listing-container-custom">
-<table data-quarto-postprocess="true" class="table">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="compress">
-<a href="https://www.nature.com/articles/s42005-021-00637-w">Hypergraph reconstruction from network data</a><br>
-Jean-Gabriel Young, Giovanni Petri, and Tiago Peixoto<br>
-<em>Nature Communications Physics</em> (2021)<br>
-
-<div class="smaller">
-<em>An inferential approach to the hypergraph reconstruction problem.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-<tr class="even">
-<td><div class="compress">
-<a href="https://arxiv.org/abs/2211.13343">Supervised hypergraph reconstruction</a><br>
-Yanbang Wang and Jon Kleinberg<br>
-<em>arXiv: 2211.13343</em> (2021)<br>
-
-<div class="smaller">
-<em>An optimization-based approach to the hypergraph reconstruction problem.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-</section>
-<section id="null-models" class="level3">
-<h3 class="anchored" data-anchor-id="null-models">Null Models</h3>
-<div class="list">
-<div id="listing-null-models" class="quarto-listing quarto-listing-container-custom">
-<table data-quarto-postprocess="true" class="table">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="compress">
-<a href="https://academic.oup.com/comnet/article/8/3/cnaa018/5879929">Configuration models of random hypergraphs</a><br>
-Phil Chodrow<br>
-<em>Journal of Complex Networks</em> (2020)<br>
-
-<div class="smaller">
-<em>Two configuration models for null-hypothesis testing in hypergraphs, with implications for triadic closure, edge correlations, and other topics.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</div>
-</section>
-<section id="general-network-data-science" class="level3">
-<h3 class="anchored" data-anchor-id="general-network-data-science">General Network Data Science</h3>
-<div class="list">
-<div id="network-data-science">
-
-</div>
-</div>
 
 
 
-</section>
 
-<div class="quarto-listing quarto-listing-container-custom" id="listing-networks">
-<table data-quarto-postprocess="true" class="table">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="compress">
-<a href="https://epubs.siam.org/doi/10.1137/16M1087175">Configuring Random Graph Models with Fixed Degree Sequences</a><br>
-Bailey Fosdick, Daniel Larremore, Joel Nishimura, and Johan Ugander<br>
-<em>SIAM Review</em> (2020)<br>
 
-<div class="smaller">
-<em>A foundational paper for constructing null models for networks and their generalizations.</em>
-</div>
-</div>
-<br>
-<br>
-</td>
-</tr>
-<tr class="even">
-<td><div class="compress">
-<a href="https://www.science.org/doi/10.1126/sciadv.1602548">The ground truth about metadata and community detection in networks</a><br>
-Leto Peel, Dan Larremore, and Aaron Clauset<br>
-<em>Science Advances</em> (2017)<br>
 
-<div class="smaller">
-<em>Required reading for anyone who works in community detection or other unsupervised tasks in networks.</em>
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1697342400000" data-listing-file-modified-sort="1699707591000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2791">
+<div class="thumbnail"><a href="./posts/2023-10-15-tedx-talk/index.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:posts/2023-10-15-tedx-talk/index.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-10-15-tedx-talk/index.html" class="no-external">Turning the Light of Truth: Data Science as a Practice of Resistance</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/2023-10-15-tedx-talk/index.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:posts/2023-10-15-tedx-talk/index.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2023-10-15-tedx-talk/index.html" class="no-external">
+<div class="listing-date">
+Oct 15, 2023
+</div>
+<div class="listing-author">
+Phil Chodrow
+</div>
+</a>
 </div>
 </div>
-<br>
-<br>
-</td>
-</tr>
-</tbody>
-</table>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1682395200000" data-listing-file-modified-sort="1684350164000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2670">
+<div class="thumbnail"><a href="./posts/2023-04-25-CSCI-0451-reflections/index.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:posts/2023-04-25-CSCI-0451-reflections/index.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-04-25-CSCI-0451-reflections/index.html" class="no-external">Learning in Public about Teaching Machine Learning</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/2023-04-25-CSCI-0451-reflections/index.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:posts/2023-04-25-CSCI-0451-reflections/index.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2023-04-25-CSCI-0451-reflections/index.html" class="no-external">
+<div class="listing-date">
+Apr 25, 2023
+</div>
+<div class="listing-author">
+Phil Chodrow
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1682395200000" data-listing-file-modified-sort="1699537589000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+<div class="thumbnail"><a href="./posts/2023-09-01-CSCI-0200-reflections/index.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:posts/2023-09-01-CSCI-0200-reflections/index.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2023-09-01-CSCI-0200-reflections/index.html" class="no-external">Learning in Public about Teaching Discrete Math</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/2023-09-01-CSCI-0200-reflections/index.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:posts/2023-09-01-CSCI-0200-reflections/index.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2023-09-01-CSCI-0200-reflections/index.html" class="no-external">
+<div class="listing-date">
+Apr 25, 2023
+</div>
+<div class="listing-author">
+Phil Chodrow
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1671512400000" data-listing-file-modified-sort="1671891948000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
+<div class="thumbnail"><a href="./posts/2022-12-20-hypergraph-refs/index.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:posts/2022-12-20-hypergraph-refs/index.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-12-20-hypergraph-refs/index.html" class="no-external">Favorite References for Hypergraph Data Science</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/2022-12-20-hypergraph-refs/index.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:posts/2022-12-20-hypergraph-refs/index.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-12-20-hypergraph-refs/index.html" class="no-external">
+<div class="listing-date">
+Dec 20, 2022
+</div>
+<div class="listing-author">
+Phil Chodrow
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-listing-date-sort="1656043200000" data-listing-file-modified-sort="1656291884000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2551">
+<div class="thumbnail"><a href="./posts/2022-06-24-bregman/index.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:posts/2022-06-24-bregman/index.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-06-24-bregman/index.html" class="no-external">The Short Story of Bregman Information for Measuring Segregation</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/2022-06-24-bregman/index.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:posts/2022-06-24-bregman/index.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-06-24-bregman/index.html" class="no-external">
+<div class="listing-date">
+Jun 24, 2022
+</div>
+<div class="listing-author">
+Phil Chodrow
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-listing-date-sort="1655611200000" data-listing-file-modified-sort="1659107773000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="815">
+<div class="thumbnail"><a href="./posts/2022-6-19-census-data/index.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:posts/2022-6-19-census-data/index.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-6-19-census-data/index.html" class="no-external">Interactive Choropleths of Census Data with R</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/2022-6-19-census-data/index.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:posts/2022-6-19-census-data/index.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-6-19-census-data/index.html" class="no-external">
+<div class="listing-date">
+Jun 19, 2022
+</div>
+<div class="listing-author">
+Phil Chodrow
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1655352000000" data-listing-file-modified-sort="1659107790000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2619">
+<div class="thumbnail"><a href="./posts/2022-06-16-info-segregation-2/index.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:posts/2022-06-16-info-segregation-2/index.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-06-16-info-segregation-2/index.html" class="no-external">Information Measures Segregation</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/2022-06-16-info-segregation-2/index.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:posts/2022-06-16-info-segregation-2/index.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-06-16-info-segregation-2/index.html" class="no-external">
+<div class="listing-date">
+Jun 16, 2022
+</div>
+<div class="listing-author">
+Phil Chodrow
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-listing-date-sort="1655352000000" data-listing-file-modified-sort="1659107785000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2575">
+<div class="thumbnail"><a href="./posts/2022-06-16-info-segregation/index.html" class="no-external">
+
+<!-- img(9CEB782EFEE6)[progressive=false, height=]:listing:posts/2022-06-16-info-segregation/index.html -->
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-06-16-info-segregation/index.html" class="no-external">Entropy Measures Diversity</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/2022-06-16-info-segregation/index.html" class="no-external">
+<!-- desc(5A0113B34292)[max=175]:posts/2022-06-16-info-segregation/index.html -->
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-06-16-info-segregation/index.html" class="no-external">
+<div class="listing-date">
+Jun 16, 2022
+</div>
+<div class="listing-author">
+Phil Chodrow
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1178,5 +856,5 @@ Leto Peel, Dan Larremore, and Aaron Clauset<br>
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

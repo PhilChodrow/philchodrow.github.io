@@ -55,3 +55,137 @@ $link-underline-color: #dee2e6;
 $font-family-serif: system-ui, -apple-system, "Source Sans Pro", "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 
 $font-family-sans-serif: system-ui, -apple-system, "Source Sans Pro", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+// Publication list
+// lots of this code taken from Andrew Heiss's theme
+// https://github.com/andrewheiss/ath-quarto/blob/main/html/ath.scss
+
+.pub-list {
+ 
+
+    .pub {
+        display: flex;
+        flex-direction: row;
+        line-height: 1.3;
+        margin-bottom: 1.5em;
+        column-gap: 1em;
+
+        .thumbnail {
+            flex: 0 0 15%;
+            align: center;
+            img {
+                // width: 100%;
+                object-fit: cover;
+                max-width: 100px; 
+                align-self: center;
+            }
+        }
+
+        .body {
+            flex: 1 1 auto;
+        }
+
+        .title {
+            font-weight: 500;
+            font-size: 1.3em;
+            margin-bottom: 0.2em;
+            line-height: 1.2;
+        }
+
+        .description {
+            font-weight: 300;
+            font-size: 1em;
+            margin-bottom: 0.3em;
+        }
+
+        .pub-categories {
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 0.4em;
+            column-gap: 0.4em;
+            margin: 0.5em 0;
+
+
+            .pub-category {
+                color: $gray-600;
+                border: 1px solid $gray-500;
+                border-radius: 0.25rem;
+                // text-transform: uppercase;
+                font-size: 0.65em;
+                padding: 0.15em 0.5em;
+                // cursor: pointer;
+            }
+        }
+
+
+        .venue {
+            font-weight: 400;
+            font-size: 0.9em;
+            margin-bottom: 0.2em;
+            font-style: italic;
+        }
+
+    }
+}
+
+// Blog categories
+#quarto-margin-sidebar {
+    .quarto-listing-category-title {
+        margin-left: 0.5em;
+    }
+
+    .quarto-listing-category {
+        // font-family: $toc-font-family;
+        font-weight: 300;
+        font-size: 1em;
+        line-height: 1.1;
+        padding-left: 0.6rem;
+        margin-left: 0.5em;
+        // border-left: 1px solid $gray-200;
+
+        .category {
+            padding-bottom: 0.5rem;
+        }
+
+        .active {
+            font-weight: 700;
+            color: $base-color;
+        }
+
+
+        .quarto-category-count {
+            font-weight: 200;
+            font-size: 0.8em;
+            color: $gray-600;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
