@@ -1,0 +1,15 @@
+{
+  "hash": "b68952500ec6ee130d28e2af8074d7f2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Personal\"\npage-layout: article\ntoc: true\n---\n\nI'm Phil Chodrow, assistant professor of computer science here at Middlebury. My pronouns are *he/him/his*. I love data science, math, *Star Trek: Deep Space Nine*, cooking, tea, Studio Ghibli movies, traditional martial arts, and effective pedagogy. A few miscellaneous facts about me: \n\n- I love aikido, a Japanese martial art focused on controlling conflict through locating personal strength and blending with the opponent.  I have served as a junior aikido instructor at Harvard Aikikai, New England Aikikai, and Aikido Tekkojuku of Boston. \n- I am a founder of NinjaGram at Swarthmore College. NinjaGram is a comic Valentine's Day card delivery service / charity that persists at Swarthmore to this day.\n- I ran into [Magnus Carlsen](https://en.wikipedia.org/wiki/Magnus_Carlsen), the current world champion of chess, on a boat near Stavanger, Norway. I have his autograph!   \n- While I lived in Norway, I did just a bit of skiing (cross-country and downhill). I'm eager to get back into skiing now that I again live in a beautiful snowy place! \n\n\n### Professional Journey\n\nBefore coming to Middlebury, I was a visiting assistant professor in the Department of Mathematics at UCLA, mentored by [Mason Porter](https://www.math.ucla.edu/~mason/). \nI did my PhD at MIT's [Operations Research Center](https://www.mit.edu/~orc/) under the mentorship of [Marta González](https://ced.berkeley.edu/ced/faculty-staff/marta-gonzalez) and [Patrick Jaillet](http://web.mit.edu/jaillet/www/). My research at MIT was supported by the NSF Graduate Research Fellowship. Prior to MIT, I was an undergraduate at Swarthmore College and a Fulbright Research Scholar at the University of Oslo, Norway. Here's a visual representation of my journey (excluding Norway, which doesn't fit well on the map): \n\n\n::: {.cell}\n::: {.cell-output-display}\n![](assets/img/geo-intro-light-bg.png){fig-alt='A map of the contiguous US with the following locations joined by sequential arrows: Staunton VA, Swarthmore PA, Boston MA, Los Angeles CA, and Middlebury VT.' width=788}\n:::\n:::\n\n \n\n#\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
