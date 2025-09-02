@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Phil Chodrow">
+<meta name="dcterms.date" content="2023-10-15">
+
+<title>Turning the Light of Truth: Data Science as a Practice of Resistance – Dr.&nbsp;Phil Chodrow</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/img/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-f8c727b50162c5017a81aaedad2b4752.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-0PJKK3D50S"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-0PJKK3D50S', { 'anonymize_ip': true});
+</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title"><span class="display-name"> Dr.&nbsp;<b>Phil Chodrow</b></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6UmVzZWFyY2g=">Research</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Jlc2VhcmNoLmh0bWw=">/research.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6VGVhY2hpbmc=">Teaching</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3RlYWNoaW5nLmh0bWw=">/teaching.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6R3JvdXA=">Group</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Jlc2VhcmNoLXN0dWRlbnRzLmh0bWw=">/research-students.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6Q1Y=">CV</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly93d3cucGhpbGNob2Ryb3cucHJvZi9jdi9jdi5wZGY=">https://www.philchodrow.prof/cv/cv.pdf</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6RkFRcw==">FAQs</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2ZhcXMuaHRtbA==">/faqs.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6UmVzb3VyY2Vz">Resources</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Jlc291cmNlcy5odG1s">/resources.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6R3JhdGl0dWRl">Gratitude</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2Fja25vd2xlZGdtZW50cy5odG1s">/acknowledgments.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6T3RoZXIuLi4=">Other…</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6TXkgTWF0aCBBdXRvYmlvZ3JhcGh5">My Math Autobiography</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L21hdGgtYXV0b2Jpb2dyYXBoeS5odG1s">/math-autobiography.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6Sm9icyBhdCBTTEFDcw==">Jobs at SLACs</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2pvYl9hcHAuaHRtbA==">/job_app.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6V2hhdCBJJ20gUmVhZGluZw==">What I’m Reading</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3JlYWRpbmcuaHRtbA==">/reading.html</span></span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html"> 
+<span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research-students.html"> 
+<span class="menu-text">Group</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.philchodrow.prof/cv/cv.pdf"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../faqs.html"> 
+<span class="menu-text">FAQs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../resources.html"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../acknowledgments.html"> 
+<span class="menu-text">Gratitude</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other..." role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Other…</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-other...">    
+        <li>
+    <a class="dropdown-item" href="../../math-autobiography.html">
+ <span class="dropdown-text">My Math Autobiography</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../job_app.html">
+ <span class="dropdown-text">Jobs at SLACs</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../reading.html">
+ <span class="dropdown-text">What I’m Reading</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a>
+  <ul class="collapse">
+  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
+  </ul></li>
+  <li><a href="#draft-text" id="toc-draft-text" class="nav-link" data-scroll-target="#draft-text">Draft Text</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#the-light-of-truth" id="toc-the-light-of-truth" class="nav-link" data-scroll-target="#the-light-of-truth">The Light of Truth</a></li>
+  <li><a href="#our-present" id="toc-our-present" class="nav-link" data-scroll-target="#our-present">Our Present</a>
+  <ul class="collapse">
+  <li><a href="#critical-perspectives-on-data-science-technologies" id="toc-critical-perspectives-on-data-science-technologies" class="nav-link" data-scroll-target="#critical-perspectives-on-data-science-technologies">Critical Perspectives on Data Science Technologies</a></li>
+  <li><a href="#data-activism-today" id="toc-data-activism-today" class="nav-link" data-scroll-target="#data-activism-today">Data Activism Today</a></li>
+  </ul></li>
+  <li><a href="#my-challenges-for-you" id="toc-my-challenges-for-you" class="nav-link" data-scroll-target="#my-challenges-for-you">My challenges for you</a>
+  <ul class="collapse">
+  <li><a href="#if-you-are-already-powerful-in-data-science" id="toc-if-you-are-already-powerful-in-data-science" class="nav-link" data-scroll-target="#if-you-are-already-powerful-in-data-science">If you are already powerful in data science…</a></li>
+  <li><a href="#if-you-are-an-activist" id="toc-if-you-are-an-activist" class="nav-link" data-scroll-target="#if-you-are-an-activist">If you are an activist…</a></li>
+  <li><a href="#wrapping-up" id="toc-wrapping-up" class="nav-link" data-scroll-target="#wrapping-up">Wrapping up</a></li>
+  </ul></li>
+  <li><a href="#sources-and-inspirations" id="toc-sources-and-inspirations" class="nav-link" data-scroll-target="#sources-and-inspirations">Sources and Inspirations</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Turning the Light of Truth: Data Science as a Practice of Resistance</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Phil Chodrow </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 15, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="about" class="level1">
+<h1>About</h1>
+<p><em>This is the draft of a speech I gave at Middlebury TEDx on the topic of data science and social justice on November 11th, 2023.</em></p>
+<section id="acknowledgments" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
+<p><em>Parts of this speech reflect the influence on my thinking of people like <a href="https://chadtopaz.com/">Chad Topaz</a> and <a href="https://www.professornaite.com/">Nathan Alexander</a>. I’ve attended several of their talks and adapted some of their ideas and insights into this speech. I’m grateful to have learned from them and appreciate the opportunity to pass on some of what I’ve learned to the TEDx audience.</em></p>
+</section>
+</section>
+<section id="draft-text" class="level1">
+<h1>Draft Text</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Hi everyone.</p>
+<p>Thanks for joining me today. My name is Phil Chodrow. I’m a professor of computer science here at Midd. Some of you may know me from classes in introductory computing, math foundations, or machine learning. If you’re in the room and we’ve met, it’s great to see you again. If not, I hope we’ll get the chance to meet in the future.</p>
+<p>In college, I had a love of abstract mathematics. I loved all the symbols and how they fit together; the way that when you solve a math problem you really <em>know</em> that you’ve gotten it. When I was doing math, I really felt like I had managed to touch something true, and that felt great. When I left college, I…flailed around a bit…and wound up as a data analyst at a healthcare nonprofit. This was a pretty transformative experience for me in a lot of ways. One of those ways was a new interest: I was excited about using data and data science in order to make the world around me a little better. This interest caught fire in me and eventually pushed me to grad school, where I kept working on problems at the intersection of math, data science, and our social world. These days, my research still includes a lot of fun math, but now it also includes data science for sustainability, equity, and justice.</p>
+<p>In the last couple years, I’ve developed new ways for measuring segregation and inequality; written an analysis of law enforcement data that was submitted to the Supreme Court; studied racial disparities in criminal sentencing in Virginia; and written an article on how folks in my scholarly community can contribute to justice causes. I’ve brought all this work here with me to Middlebury.</p>
+<p>This work—data science for social justice—doesn’t belong to me, and I didn’t invent it. There’s a long tradition of folks using data science to resist oppression and build a better world. I want to spend most of the rest of our time together sharing a bit about this tradition and about the role of data science in our present day. Then, since I’m a professor here, I’m going to finish up by leaving you with a little homework.</p>
+</section>
+<section id="the-light-of-truth" class="level2">
+<h2 class="anchored" data-anchor-id="the-light-of-truth">The Light of Truth</h2>
+<p>The theme of this event is “Truth <strong>and</strong> Dare.” Not “<strong>or</strong>”—“<strong>and</strong>.” When I first heard this phrase, I immediately thought back to a famous line from the civil rights activist and reformer Ida B. Wells:</p>
+<!-- [![](https://cdn.britannica.com/33/5033-050-6D606D3D/Ida-Bell-Wells-Barnett-1930.jpg) Ida B. Wells (1862-1931)]{.aside} -->
+<blockquote class="blockquote">
+<p>The way to right wrongs is to turn the light of truth upon them.</p>
+</blockquote>
+<p>Now, you can see our theme running all through this statement. If we <em>dare</em> to right the wrongs of the world, then we do so with the <em>light of truth</em>. We need to tell the world what is happening. For Wells, this looked like telling the world about escalating violence against African Americans—including lynching—in the America of the 1880s and 1890s. The <strong>truth</strong> in Wells’s work of this time is a combination of in-depth, investigative reporting and carefully compiled statistics describing the brutal extent of lynching and its impact on Black Americans. The <strong>dare</strong> of this was work was literally putting her safety on the line. After her anti-lynching advocacy began to make waves in both the American South and the North, Wells’s newspaper in Memphis was violently attacked. She herself continued her work in Harlem, New York and in Chicago, Illinois.</p>
+<!-- [![](https://www.gutenberg.org/files/14975/14975-h/images/cover.png)"Southern Horrors" (1892), one of several pamphlets written by Ida B. Wells on lynching in the American South.]{.aside} -->
+<p>There’s a rich history of African American civil rights advocates turning the light of truth on the wrongs of the world with statistics and data science. Here’s another famous example. Leading up to the 1900 World’s Fair, Dr.&nbsp;W. E. B. Du Bois and a team of students at Atlanta University created a series of vivid data visualizations describing the conditions of life for African Americans in Georgia and the greater United States. Du Bois described his vision for this exhibit:</p>
+<blockquote class="blockquote">
+<p>…An honest and straightforward exhibit of a small nation of people, picturing their life and development without apology or gloss, and above all made by themselves.</p>
+</blockquote>
+<!-- [![](https://tile.loc.gov/storage-services/service/pnp/ppmsca/33800/33883r.jpg)]{.aside} -->
+<p>These visualizations are all hand-drawn representations of the reality for African Americans. Not all of them have an explicit agenda. Some of them are just maps of how much land was owned by African Americans in the state of Georgia, or simple visualizations of who worked in what professions.</p>
+<!-- This first plot shows the total value of property owned by African Americans in Georgia, trending over time. The line starts in 1870 and begins to trend up, before trending down due to both an overall economic downturn and violence from the Klu Klux Klan and related white supremicist organizations. Collective wealth grows again with the growth of industrial capital in the Gilded Age, before again trailing off amidst financial panic, lynching, and the rapid implementation of Jim Crow laws. 
+
+-->
+<!-- [![](https://tile.loc.gov/storage-services/service/pnp/ppmsca/33800/33871r.jpg)]{.aside} -->
+<p>Others are much starker descriptions of the impact of violence and systemic oppression. For example, here is a description of the ages of African Americans in Georgia as compared to Black residents of France. Each bar represents the proportion in an age group – for example, the top black bar says that 30.1% of African Americans in Georgia were under 10 years old, compared to 17.5% of Black residents of France in the yellow bar. If you see the black bar shrinking down much faster than the yellow bar as we move down the page, that is telling you a grizzly story – African Americans in Georgia were much less likely to grow to old age when compared to Black residents of France, due to violence, systemic discrimination, and disparity. We can see echoes of this plot in the US to this day, where Black Americans still have lower life expectancies due to systemic disparities in healthcare, educational access, and economic opportunity.</p>
+<p>Now, they didn’t have this phrase 100 years ago, but these days we can recognize what Ida B. Wells and Dr.&nbsp;W. E. B. Du Bois were doing <em>data science</em>. Both of them were collecting rich, complicated data; analyzing it through the lenses of expertise and lived experience; and communicating their findings in careful, honest, and effective ways. They use data – representations of collective facts – to turn the light of truth on systemic injustice. Their data science was a practice of resistance.</p>
+</section>
+<section id="our-present" class="level2">
+<h2 class="anchored" data-anchor-id="our-present">Our Present</h2>
+<p>So now let’s turn to the present. These days, we’re seeing data and data science on unprecedented scales. If you have a laptop that holds 256 gigabytes of storage, like mine does, then you would need one billion (with a B) of those just to hold the data that we produce in a single day. Increasingly, corporations are thinking about how to make profit from all this data, and they are hiring people to do it. Job demand for data scientists exploded over the last decade, and <a href="https://www.bls.gov/ooh/math/data-scientists.htm#tab-6">is expected to continue to grow</a>.</p>
+<p>If you look at your day-to-day life, you are surrounded by data science. When you get a recommended post, or a targeted ad, or even just a spelling suggestion when you text, you are experiencing the work of millions of hours of data science at some of the world’s largest corporations. But here’s the thing. It’s not just the little stuff day-to-day. Data science is going to play a role in some of the biggest decisions of your life.</p>
+<ul>
+<li>Are you applying for a job? Your resume, or even your face, might get scanned and screened by machine learning systems.</li>
+<li>Are you trying to rent an apartment? You might be screened by a predictive algorithm that estimates your “willingness to pay” rent each month.</li>
+<li>Are you sick? Summaries of your visits to the doctor, recommendations for your care plan, and recommendations for what your insurance should cover may be informed by generative language models.</li>
+<li>Do you live in the jurisdiction of a police department that uses predictive analytics? You might be recommended for a watch-list based on aspects of your identity and residence, regardless of your prior history with the law enforcement system.</li>
+</ul>
+<p>So, data science technologies don’t just feed us content and ads – they are also with us for some of the biggest decisions about where we will work, where we will live, what care we will receive, and whether we will be free. And, as you might have seen or even studied, so many of these tools reinforce sexism, racism, and economic inequality. Now, this is not a new thing – data as a tool of oppression and control has a long, dark history. I just want to remind you that this history is not <em>just</em> history – it’s also our present.</p>
+<p>Now, this might feel a little different from the data science of Ida B. Wells and Dr.&nbsp;Du Bois, right? When we look to them, we see data science as an act of <strong>resistance</strong> against oppression and control. This liberatory kind of data science – data science as resistance, data science for social justice – is also in our present. To my mind, this work has taken two different directions into our present day. I want to highlight a little about each of those two directions before I finish off with a challenge.</p>
+<section id="critical-perspectives-on-data-science-technologies" class="level3">
+<h3 class="anchored" data-anchor-id="critical-perspectives-on-data-science-technologies">Critical Perspectives on Data Science Technologies</h3>
+<p>The first direction I want to highlight for you is <strong>critical perspective on data science technologies</strong>. When we take a critical perspective, we ask ourselves questions like:</p>
+<ul>
+<li>What are the <strong>actual, measurable impacts</strong> of data science technologies on human beings?</li>
+<li><strong>Who benefits</strong> from the spread of data science technologies? Who is <strong>harmed</strong>?</li>
+<li>How do benefits and harms of data science technologies align with historical and present racism, misogyny, classism, and other <strong>systems of oppression</strong>?</li>
+</ul>
+<!-- When you read research about racial bias in health recommendation systems, or about the impacts of predictive policing technologies on Black and brown communities, or about how modern generative language models perpetuate sexist and racist stereotypes, you are nurturing critical perspective on modern data technologies.  -->
+<p>Critical perspective most frequently comes from people who have identities or experiences that help them understand marginalization and oppression. With this in mind, I’d like to briefly point towards the work of many expert women of color who are bringing critical perspective on the role of data in our world today.</p>
+<p><strong>Dr.&nbsp;Safiya Umoja Noble</strong> is the author of the book <em>Algorithms of Oppression</em>, a deep dive into how search–the precursor of contemporary generative machine learning–can reinforce deeply harmful stereotypes related to race and gender. <strong>Dr.&nbsp;Joy Buolamwini</strong> is a computer scientist who played a leading role in uncovering intersectional gender and racial bias in widely-used computer vision systems. She collaborated in this work with <strong>Dr.&nbsp;Timnit Gebru</strong>, who has also written on the limitations of large language models and the ideological currents expressed by certain influential leaders in artificial general intelligence.</p>
+</section>
+<section id="data-activism-today" class="level3">
+<h3 class="anchored" data-anchor-id="data-activism-today">Data Activism Today</h3>
+<p>The partner of critical perspective is data activism – using data to make a difference. I started us off with early data activism in the work of Ida B. Wells and Dr.&nbsp;W. E. B. Du Bois. This work continues in our present. One national-scale example of modern data resistance comes from the <a href="https://mappingpoliceviolence.org/">Mapping Police Violence</a> project. The team behind this project collects data on every instance they can find in which law enforcement takes a life. In addition to publishing this data in raw form for anyone to use, they also publish the dashboard that I’ve highlighted here. An important feature of this project is the attention they pay to data quality: they use a <a href="https://mappingpoliceviolence.org/methodology">multi-step process</a> in order to gather reliable data. Then, they present it with a focus on the facts. Yes, there is an activist agenda here as well, but it’s separate – the purpose of this project is to produce the high-quality data projects that support activism and advocacy.</p>
+<p>Another example, closer to home, comes from folks working to combat homelessness here in Vermont. As you may know, our state have the second-highest rate of homelessness in the US, behind only California. In a 2023 report, the Vermont Coalition to End Homelessness and the Chittenden County Homelessness Alliance presented a pretty damning picture for our state: the number of individuals experiencing homelessness on a single night in our state has <strong>doubled</strong> compared to similar counts five years ago. This count appears to still be on the rise, due in part to rising rents and the end of pandemic era housing supports. This is challenging data science work, from data collection to interpretation to presentation to advocacy. These organizations are daring to turn the light of truth on a deep social wrong.</p>
+</section>
+</section>
+<section id="my-challenges-for-you" class="level2">
+<h2 class="anchored" data-anchor-id="my-challenges-for-you">My challenges for you</h2>
+<p>So to you all, especially the students in the room: obviously, since I’m a professor, I have homework for you. My homework comes in the form of challenges. Dares, if you will.</p>
+<section id="if-you-are-already-powerful-in-data-science" class="level3">
+<h3 class="anchored" data-anchor-id="if-you-are-already-powerful-in-data-science">If you are already powerful in data science…</h3>
+<p>First, some of you in here might already be powerful in data science. Maybe you’ve taken some classes in mathematics, statistics, or computer science. Maybe you’ve declared a major, or done a data science project in one of your classes. My dare for you is to ask yourself:</p>
+<blockquote class="blockquote">
+<p>How can I use my skills in data science contribute to a more just, equitable, peaceful, and sustainable world?</p>
+</blockquote>
+<p>It can actually be pretty difficult to know <em>what</em> data science work is going to make the world more just, equitable, peaceful, and sustainable. That’s the lesson we have to learn from all the stories about bias in modern data systems. No one plans to make a racist machine learning model. It happens through systematic negligence, unaware privilege, and failure to learn about the experiences and identities of people different from you.</p>
+<p>So, to use your powers for good, approach your work with humility about the many, <em>many</em> things that you do not know and have not experienced. Stay humble, stay curious, and <em>listen</em>. Listen to the people your data is about. Listen to the folks who might be impacted, for good or for ill, by your work. Listen to activists. Listen to expert women of color. Listen, challenge your assumptions, and learn.</p>
+</section>
+<section id="if-you-are-an-activist" class="level3">
+<h3 class="anchored" data-anchor-id="if-you-are-an-activist">If you are an activist…</h3>
+<p>Now I also want to address my activists and resisters in the room. Y’all are on the front lines fighting for a world with less oppression, discrimination, inequity, and violence. First of all – thank for your courage and for fighting your fight.</p>
+<p>Your insight, from your experience and the experience of the communities you fight for, is needed as we seek a more inclusive and equitable world of data science. Rightly or wrongly, to get yourself in the conversations that matter most, it’s necessary to speak the language – data, computation, statistics, figures.</p>
+<p>So, my challenge for you is simple: level yourselves up with data. Seek allies who are gathering the data that your movement needs – or become the person who’s gathering data that your movement needs. Learn to work with your data, understand its power and its limitations. Here at Midd we have a lot of ways for you to do that, and we’re getting more every year. Level yourselves up, get in the room, and be heard.</p>
+</section>
+<section id="wrapping-up" class="level3">
+<h3 class="anchored" data-anchor-id="wrapping-up">Wrapping up</h3>
+<p>Y’all. Data science is a part of our present day, and it’s complicated. Data science a fun and exciting way to apply skills to the real world. Data science is an oppressive and inequitable tool of racialized corporate power. It’s both/and. Today, I’ve encouraged you to look to some folks in our history and our present day to see the promise of data science as a practice of resistance. I try to take some inspiration from their work, and I hope that you will too.</p>
+<p>So. You see wrong in the world? Turn the light of truth.</p>
+<p>Thanks y’all.</p>
+</section>
+</section>
+<section id="sources-and-inspirations" class="level2">
+<h2 class="anchored" data-anchor-id="sources-and-inspirations">Sources and Inspirations</h2>
+<ul>
+<li><a href="https://www.newyorker.com/books/page-turner/what-web-du-bois-conveyed-in-his-captivating-infographics">“What W. E. B. Du Bois Conveyed in His Captivating Infographics”</a> – The New Yorker, 2019.</li>
+<li><a href="https://www.loc.gov/pictures/related/?fi=subject&amp;q=Exposition+universelle--%281900+%3A--Paris%2C+France%29--Exhibitions+%26+displays.">Digital archive of “The Georgia Negro”</a> at the Library of Congress.</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
