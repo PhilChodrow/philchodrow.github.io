@@ -8,7 +8,7 @@ I'm Phil Chodrow, assistant professor of computer science here at Middlebury. My
 
 - I love aikido, a Japanese martial art focused on controlling conflict through locating personal strength and blending with the opponent.  I have served as a junior aikido instructor at Harvard Aikikai, New England Aikikai, and Aikido Tekkojuku of Boston. 
 - I am a founder of NinjaGram at Swarthmore College. NinjaGram is a comic Valentine's Day card delivery service / charity that persists at Swarthmore to this day.
-- I ran into [Magnus Carlsen](https://en.wikipedia.org/wiki/Magnus_Carlsen), the current world champion of chess, on a boat near Stavanger, Norway. I have his autograph!   
+- I ran into [Magnus Carlsen](https://en.wikipedia.org/wiki/Magnus_Carlsen), the strongest active chess player, on a boat near Stavanger, Norway. I have his autograph!   
 - While I lived in Norway, I did just a bit of skiing (cross-country and downhill). I'm eager to get back into skiing now that I again live in a beautiful snowy place! 
 
 
@@ -17,10 +17,5 @@ I'm Phil Chodrow, assistant professor of computer science here at Middlebury. My
 Before coming to Middlebury, I was a visiting assistant professor in the Department of Mathematics at UCLA, mentored by [Mason Porter](https://www.math.ucla.edu/~mason/). 
 I did my PhD at MIT's [Operations Research Center](https://www.mit.edu/~orc/) under the mentorship of [Marta González](https://ced.berkeley.edu/ced/faculty-staff/marta-gonzalez) and [Patrick Jaillet](http://web.mit.edu/jaillet/www/). My research at MIT was supported by the NSF Graduate Research Fellowship. Prior to MIT, I was an undergraduate at Swarthmore College and a Fulbright Research Scholar at the University of Oslo, Norway. Here's a visual representation of my journey (excluding Norway, which doesn't fit well on the map): 
 
-```{r echo=FALSE}
-#| fig-alt: "A map of the contiguous US with the following locations joined by sequential arrows: Staunton VA, Swarthmore PA, Boston MA, Los Angeles CA, and Middlebury VT."
-knitr::include_graphics("assets/img/geo-intro-light-bg.png")
-```
- 
 
-#
+![](assets/img/geo-intro-light-bg.png)

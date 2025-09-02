@@ -43,6 +43,9 @@ format:
     padding-top: "2em"
     smooth-scroll: true	
 
+execute:
+  freeze: auto
+
   
 
 
