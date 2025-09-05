@@ -199,3 +199,12 @@
 - date: 2025-12-15
   text: |
     I am invited mentor at the <a href="https://vermontcomplexsystems.org/events/cnww/">Complex Networks Winter Workshop</a> (CNWW) in Quebec City, Canada. 
+- date: 2025-09-10
+  text: |
+    In Fall '25 I am teaching <a href="https://middcs.github.io/csci-0200-f25/syllabus.html">CSCI 0200: Math Foundations of Computing</a> and CSCI 0702: Senior Thesis.
+- date: 2025-08-20
+  text: |
+    "Edge correlations and link prediction in growing hypergraphs" has been published in <a href="https://journals.aps.org/pre/abstract/10.1103/4lkd-mtzq"><i>Physical Review E</i></a>. Huge thanks to collaborators Xie He and Peter Mucha!  
+- date: 2025-07-15
+  text: |
+    "Equivalence of Informations Characterizes Bregman Divergences" is published in <a href="https://www.mdpi.com/1099-4300/27/7/766"><i>Entropy</i></a>.
