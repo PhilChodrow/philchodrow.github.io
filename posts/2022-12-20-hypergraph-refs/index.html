@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,14 +36,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-68ff986d29bff60eb85e390ca32b9b90.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-b0b9e57f825e56aeb1e8404f0fc78593.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -293,7 +294,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -319,6 +320,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title"><span class="display-name"> Dr.&nbsp;<b>Phil Chodrow</b></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6UmVzZWFyY2g=">Research</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Jlc2VhcmNoLmh0bWw=">/research.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6VGVhY2hpbmc=">Teaching</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3RlYWNoaW5nLmh0bWw=">/teaching.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6R3JvdXA=">Group</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Jlc2VhcmNoLXN0dWRlbnRzLmh0bWw=">/research-students.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6Q1Y=">CV</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6aHR0cHM6Ly93d3cucGhpbGNob2Ryb3cucHJvZi9jdi9jdi5wZGY=">https://www.philchodrow.prof/cv/cv.pdf</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6RkFRcw==">FAQs</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2ZhcXMuaHRtbA==">/faqs.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6UmVzb3VyY2Vz">Resources</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Jlc291cmNlcy5odG1s">/resources.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6R3JhdGl0dWRl">Gratitude</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2Fja25vd2xlZGdtZW50cy5odG1s">/acknowledgments.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6T3RoZXIuLi4=">Other…</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6TXkgTWF0aCBBdXRvYmlvZ3JhcGh5">My Math Autobiography</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L21hdGgtYXV0b2Jpb2dyYXBoeS5odG1s">/math-autobiography.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6Sm9icyBhdCBTTEFDcw==">Jobs at SLACs</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2pvYl9hcHAuaHRtbA==">/job_app.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6V2hhdCBJJ20gUmVhZGluZw==">What I’m Reading</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3JlYWRpbmcuaHRtbA==">/reading.html</span></span>
     </a>
@@ -442,7 +445,7 @@ window.Quarto = {
 <h3 class="anchored" data-anchor-id="the-importance-of-higher-order-structure">The Importance of Higher-Order Structure</h3>
 <div class="list">
 <div id="listing-general" class="quarto-listing quarto-listing-container-custom">
-<table data-quarto-postprocess="true" class="table">
+<table class="table">
 <colgroup>
 <col style="width: 100%">
 </colgroup>
@@ -499,7 +502,7 @@ Federico Battiston, Giulia Cencetti, Iacopo Iacopini, Vito Latora, Maxime Lucas,
 <h3 class="anchored" data-anchor-id="community-detection">Community Detection</h3>
 <div class="list">
 <div id="listing-community-detection" class="quarto-listing quarto-listing-container-custom">
-<table data-quarto-postprocess="true" class="table">
+<table class="table">
 <colgroup>
 <col style="width: 100%">
 </colgroup>
@@ -570,7 +573,7 @@ Anton Eriksson, Daniel Edler, Alexis Rojas, Manlio de Domenico, and Martin Rosva
 <h3 class="anchored" data-anchor-id="centrality-ranking-and-core-periphery">Centrality, Ranking, and Core-Periphery</h3>
 <div class="list">
 <div id="listing-centrality-ranking-core-periphery" class="quarto-listing quarto-listing-container-custom">
-<table data-quarto-postprocess="true" class="table">
+<table class="table">
 <colgroup>
 <col style="width: 100%">
 </colgroup>
@@ -613,7 +616,7 @@ Austin Benson<br>
 <h3 class="anchored" data-anchor-id="link-prediction-and-edge-correlations">Link Prediction and Edge Correlations</h3>
 <div class="list">
 <div id="listing-link-prediction" class="quarto-listing quarto-listing-container-custom">
-<table data-quarto-postprocess="true" class="table">
+<table class="table">
 <colgroup>
 <col style="width: 100%">
 </colgroup>
@@ -656,7 +659,7 @@ Austin Benson, Ravi Kumar, and Andrew Tomkins<br>
 <h3 class="anchored" data-anchor-id="hypergraph-reconstruction">Hypergraph Reconstruction</h3>
 <div class="list">
 <div id="listing-reconstruction" class="quarto-listing quarto-listing-container-custom">
-<table data-quarto-postprocess="true" class="table">
+<table class="table">
 <colgroup>
 <col style="width: 100%">
 </colgroup>
@@ -699,7 +702,7 @@ Yanbang Wang and Jon Kleinberg<br>
 <h3 class="anchored" data-anchor-id="null-models">Null Models</h3>
 <div class="list">
 <div id="listing-null-models" class="quarto-listing quarto-listing-container-custom">
-<table data-quarto-postprocess="true" class="table">
+<table class="table">
 <colgroup>
 <col style="width: 100%">
 </colgroup>
@@ -737,7 +740,7 @@ Phil Chodrow<br>
 </section>
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-networks">
-<table data-quarto-postprocess="true" class="table">
+<table class="table">
 <colgroup>
 <col style="width: 100%">
 </colgroup>
@@ -825,13 +828,14 @@ Leto Peel, Dan Larremore, and Aaron Clauset<br>
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
