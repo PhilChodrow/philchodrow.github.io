@@ -208,3 +208,9 @@
 - date: 2025-07-15
   text: |
     "Equivalence of Informations Characterizes Bregman Divergences" is published in <a href="https://www.mdpi.com/1099-4300/27/7/766"><i>Entropy</i></a>.
+- date: 2025-10-01
+  text: |
+    An Adhikari (Middlebury '25) wrote an app called <a href="https://www.lyncx.ai/">lyncx</a> which incorporates some cool network science ideas. An calls <a href="https://middcs.github.io/csci-0442-s25/">CSCI 0442</a> at Midd "the class that started it all" in the <a href="https://www.aadhikari.info/blog/lyncx-story">blog post</a> documenting his development journey.
+- date: 2025-11-17
+  text: | 
+    Invited talk on gender representation in academic mathematics at the UVM Complex Systems Institute.

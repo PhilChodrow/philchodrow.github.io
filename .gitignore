@@ -2,3 +2,4 @@
 .DS_Store
 *.icloud
 docs
+**/*.quarto_ipynb

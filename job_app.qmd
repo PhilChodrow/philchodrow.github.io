@@ -2,11 +2,13 @@
 title: "CS Jobs at Small Liberal Arts Colleges"
 page-layout: article
 toc: true
+reference-location: margin
+citation-location: margin
 ---
 
 I work at Middlebury College, a small liberal arts college (SLAC) with a balanced teaching load that attracts academically high-achieving students. I love the SLAC environment and think it's a great place for many academics. 
-Careers at SLACs offer distinctive advantages and disadvantages when compared to careers at research-intensive institutions.
-Since SLAC jobs are less visible in PhD-granting institutions than research-intensive jobs, many folks may not know much about what these jobs are like or how to get them.  The purpose of this page is to give some basic information about my CS position at Middlebury (which I believe is not atypical of many CS SLAC positions), and to share some tips from my recent experience as both an applicant and a hiring committee member. 
+Careers at SLACs offer distinctive benefits and limitations when compared to careers at research-intensive institutions.
+Since SLAC jobs are less visible in PhD-granting institutions than research-intensive jobs, many early-career folks may not know much about what these jobs are like or how to get them.  The purpose of this page is to give some basic information about my CS position at Middlebury, offer some opinions about who should consider SLACs, and to share some tips from my recent experience as both an applicant and a hiring committee member. 
 
 ## Consider SLACs if...
 
@@ -23,18 +25,30 @@ A SLAC might not be for you if...
 
 I started as a tenure-track assistant professor at Middlebury in fall of 2022. Here are the rough contours of my position:
 
-- My **teaching portfolio** includes introductory CS, machine learning, network science, math foundations of computing (discrete math) and thesis supervision. 
-- My **teaching load** is four 12-week courses per year. Usually these courses are doubled sections of the same course in at least one semester. 
-- My **service expectations** involve contributing to the mission of the department and potentially serving on one committee that serves the broader College. I was exempt from service expectations in my first year, but chose to take up a small role in building our department's Responsible Computing program. I am currently on the steering committee of midd.data, Middlebury's initiative around data science and data literacy, as well as a committee tasked with proposing a revision to our curricular distribution requirements. 
-- My **salary** is relatively low among CS positions at top liberal arts schools, but there was enough to draw me here regardless. I have given myself a "raise" via a successful grant application that pays me summer salary. I receive regular cost-of-living adjustments each year. In the last two years, COL adjustments at Middlebury have been in the neighborhood of 4%. I will receive larger raises for passing my third-year review and my promotion reviews (for tenure/associate professor and for full professor). 
-- I am currently funded by roughly $50K of **startup** as well as a grant from the National Science Foundation. Both of these funds primarily support advanced computing needs, student research, and research travel. I negotiated my startup package with our Dean of Faculty during contract negotiations, and applied for the NSF grant in the fall of my second year on the job. 
-- After my startup and grant expire, I will have regular access to $4K/year of **ongoing research funds**. I can apply for more grants if I need more funding. 
-- Middlebury will usually fund 2-3 summer research students, and I can take more with grant support. I can also take research students for academic credit during the school year, especially for thesis work. 
-- I will have a full-year **sabbatical** in my fifth year, and then every sixth year thereafter. 
-- I will be **reviewed** in my third year and again (for tenure and promotion) in my seventh year. For tenure, I am expected to demonstrate excellence in teaching and a reputation for significant research in the broader scientific community. There have been no unsuccessful tenure cases in my department. 
-- Some **perks** include very comfortable, subsidized faculty housing; discounts at the College-owned ski areas; and some very nice built-in support networks through the College. 
 
+My **teaching portfolio** includes introductory CS, machine learning, network science, math foundations of computing (discrete math) and thesis supervision. 
 
+My **teaching load** is usually four 12-week courses per year, including doubled sections of the same course in at least one semester. Rarely, I teach 5 courses in a year or teach in the 4-week intensive January term.
+
+My **service expectations** involve contributing to the mission of the department and serving on college committees. I was exempt from service expectations in my first year, but chose to take up a small role in building our department's Responsible Computing program. I am currently on the steering committee of midd.data, Middlebury's initiative around data science and data literacy, as well as a committee tasked with developing a structure of faculty governance in scholarly computing. I previously served on a committee studying the College-wide distribution requirements. I've also served on hiring committees in my own department as well as Math/Statistics.  
+
+My **salary** is in what I understand to be the typical range for CS positions at top liberal arts schools, and is somewhat higher than many of my peers at Middlebury.[^1] I have given myself a "raise" via a successful grant application that pays me summer salary. I receive regular cost-of-living adjustments each year. In the last two years, COL adjustments at Middlebury have been in the neighborhood of 4%. I received a larger raise for passing my third-year review, and will receive another for my promotion reviews (for tenure/associate professor and for full professor). 
+
+I am currently funded by roughly $50K of **startup** as well as a grant from the National Science Foundation. Both of these funds primarily support advanced computing needs, student research, and research travel. I negotiated my startup package with our Dean of Faculty during contract negotiations, and applied for the NSF grant in the fall of my second year on the job. 
+
+After my startup and grant expire, I will have regular access to $4K/year of **ongoing research funds**. I can apply for more grants if I need more funding. 
+
+Middlebury will usually fund 2-3 summer research students, and I can take more with grant support. I can also take research students for academic credit during the school year, especially for thesis work.[^2] 
+
+[^2]: I am not compensated for supervising research students unless I supply my own salary through grant funding. 
+
+I will have a full-year **sabbatical** in my fifth year, and then every sixth year thereafter. 
+
+I was **reviewed** in my third year and again (for tenure and promotion) in my seventh year. For tenure, I am expected to demonstrate excellence in teaching and a reputation for significant research in the broader scientific community. There have been no unsuccessful tenure cases in my department. 
+
+Some **perks** include very comfortable, subsidized faculty housing; discounts at the College-owned ski areas; and some very nice built-in support networks through the College. 
+
+[^1]: This is not particularly fair and reflects the fact that computer science is one of several fields which often commands a higher salary.
 
 ## Application Tips
 
