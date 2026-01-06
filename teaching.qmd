@@ -19,7 +19,7 @@ Many of the courses below link to recent public course websites on which you can
 - [CSCI 1010: Applied Data Science](https://middcs.github.io/csci-1010-w26/) (co-taught with Michael Linderman)
 - CSCI 0702: Senior Thesis
 
-**Fall 2026**: 
+**Fall 2025**: 
 
 - [CSCI 0200: Math Foundations of Computing](https://middcs.github.io/csci-0200-f25/syllabus.html)
 - CSCI 0702: Senior Thesis
