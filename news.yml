@@ -217,7 +217,7 @@
 - date: 2025-12-15
   text: | 
     Invited talk on prestige-based hierarchies at the Complex Networks Winter Workshop in Quebec City, Canada. (<a href="https://www.philchodrow.prof/talks/2025-CNWW/#/title-slide">Slides</a>)
-- date: 2026-03-15
+- date: 2026-04-15
   text: | 
     Invited talk on gender representation in academic mathematics at the CU Boulder Applied Mathematics seminar. 
 - date: 2026-01-07
@@ -226,6 +226,13 @@
 - date: 2026-02-09
   text: | 
     In Spring '26, I am teaching <a href="https://middcs.github.io/csci-0451-s26/">CSCI 0451: Machine Learning</a>.
+<<<<<<< HEAD
 - date: 2026-01-29
   text: | 
     Student Frannie Cataldo '27 defends his thesis on community detection in growing hypergraphs. Great work Frannie! Frannie's thesis builds on work we started in Summer '25 and continued through Fall '25 and Winter '26.
+=======
+- date: 2026-03-05
+  text: |
+    "<a href="https://www.siam.org/publications/siam-news/articles/modeling-social-systems-transparency-reproducibility-and-responsibility/">Modeling Social Systems: Transparency, Reproducibility, and Responsibility</a>" appears in SIAM News.
+  
+>>>>>>> 4bdd341548dac218e63555321a40e1ab919fe53e

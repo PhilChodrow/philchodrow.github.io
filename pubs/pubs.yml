@@ -144,3 +144,12 @@
   year: "2025"
   priority: 1
   page-layout: article
+- title: "Modeling Social Systems: Transparency, Reproducibility, and Responsibility"
+  authors: [Maximino Aldana, Heather Brooks, PSC, Fillipe Georgiou, Joseph Johnson, Krešimir Josić, Zachary Kilpatrick, Kath Landgren, Andrew Nugent, Maurizio Porfiri, Nancy Rodriguez,  Pablo Suárez-Serrato, Roni Barak Ventura, David White, Alexander Wiedemann, Sam Zhang]
+  categories: [mathematical sociology, data science, social justice, mathematics community]
+  image: "oaxacamito.jpg"
+  venue: "SIAM News"
+  year: "2026"
+  priority: 10
+  url: "https://www.siam.org/publications/siam-news/articles/modeling-social-systems-transparency-reproducibility-and-responsibility/"
+  page-layout: article
