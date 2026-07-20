@@ -244,6 +244,12 @@
 - date: 2026-03-30
   text: |
     Research student Frannie Cataldo '27 has won a Goldwater Scholarship -- congratulations Frannie!!
-- date: 2026-07-01
+- date: 2026-07-28
   text: |
     Contributed talk on gender representation in academic mathematics at the International Conference on Complex Social Systems (IC2S2) in Burlington, VT. 
+- date: 2026-07-01
+  text: |
+    I am on leave in academic year 2026-2027. Looking forward to coming back to teaching in Fall '27!
+- date: 2026-07-20
+  text: | 
+    New preprint! "<a href='https://arxiv.org/abs/2607.16046'>Growing Hypergraphs with Homophily</a>" is joint work with mentees Violet Ross '25 and Frannie Cataldo '27. This model proposes a model of growing hypergraphs with tunable homophily based on node labels. We show how to perform both parameter inference and community detection in hypergraphs using this model. 
