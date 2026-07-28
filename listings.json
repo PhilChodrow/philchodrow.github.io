@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/research-students.html",
-    "items": []
-  },
-  {
     "listing": "/list.html",
     "items": [
       "/posts/2023-10-15-tedx-talk/index.html",
@@ -16,7 +12,15 @@
     ]
   },
   {
-    "listing": "/research.html",
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/2022-12-20-hypergraph-refs/index.html",
+    "items": []
+  },
+  {
+    "listing": "/news_archive.html",
     "items": []
   },
   {
@@ -32,15 +36,11 @@
     ]
   },
   {
-    "listing": "/posts/2022-12-20-hypergraph-refs/index.html",
+    "listing": "/research.html",
     "items": []
   },
   {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
-    "listing": "/news_archive.html",
+    "listing": "/research-students.html",
     "items": []
   }
 ]
