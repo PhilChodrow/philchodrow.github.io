@@ -153,3 +153,11 @@
   priority: 10
   url: "https://www.siam.org/publications/siam-news/articles/modeling-social-systems-transparency-reproducibility-and-responsibility/"
   page-layout: article
+- title: "Growing Hypergraphs With Homophily"
+  authors: [Violet Ross, Frannie Cataldo, PSC]
+  categories: [hypergraphs, network algorithms, community detection]
+  image: "growing-homophily.png"
+  venue: "arXiv preprint"
+  year: "2026"
+  priority: 10
+  url: "https://arxiv.org/abs/2607.16046"
