@@ -1,0 +1,30 @@
+```{=html}
+<% items.sort(function(a,b){return b.year - a.year + 0.1*((a.genre == "fiction") - (b.genre == "fiction" ))}) %>
+
+
+
+<% var currentYear = 0 %>
+<div class="list book-list reading-list">
+    <% for (const book of items) { %>
+    
+    <% if (book.status != "reading") { continue } %>
+        <% var Year = book.year %>
+        <div class="book" <%= metadataAttrs(book) %>> 
+            
+                <span class="book-year-phantom"><%= book.year %></span>
+                <a href="<%- book.url %>"><i><%= book.title %></i></a> by <%= book.author %>
+                <br>
+        </div>
+            <% if (book.categories) { %>
+                <span class="book-year-phantom"><%= book.year %></span>
+                <div class="book-categories listing-categories">
+                    <% for (const category of book.categories) { %>
+                        <div class="book-category listing-category">
+                            <%= category %>
+                        </div>
+                        <% } %>
+                    </div>
+                <% } %>
+        <% } %>
+</div>
+```

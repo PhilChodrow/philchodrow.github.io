@@ -128,6 +128,38 @@ $font-family-sans-serif: system-ui, -apple-system, "Source Sans Pro", Roboto, "H
     }
 }
 
+
+.book-list{
+    .book-categories {
+            display: inline-flex;
+            // flex-wrap: wrap;
+            row-gap: 0.4em;
+            column-gap: 0.4em;
+            margin: 0.5em 0;
+
+            .book-category {
+                color: $gray-600;
+                border: 1px solid $gray-500;
+                border-radius: 0.25rem;
+                // text-transform: uppercase;
+                font-size: 0.65em;
+                padding: 0.15em 0.5em;
+                // cursor: pointer;
+            }
+        }
+
+    .book-year {
+        color: #adabab;
+        margin-right: 0.5em;
+    }
+    .book-year-phantom {
+        opacity: 0;
+        margin-right: 0.5em;
+    }
+}
+
+
+
 // Blog categories
 #quarto-margin-sidebar {
     .quarto-listing-category-title {
@@ -156,7 +188,7 @@ $font-family-sans-serif: system-ui, -apple-system, "Source Sans Pro", Roboto, "H
         .quarto-category-count {
             font-weight: 200;
             font-size: 0.8em;
-            color: $gray-600;
+            color: $gray-300;
         }
     }
 }

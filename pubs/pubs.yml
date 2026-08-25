@@ -155,7 +155,7 @@
   page-layout: article
 - title: "Growing Hypergraphs With Homophily"
   authors: [Violet Ross, Frannie Cataldo, PSC]
-  categories: [hypergraphs, network algorithms, community detection]
+  categories: [hypergraphs, network algorithms, clustering]
   image: "growing-homophily.png"
   venue: "arXiv preprint"
   year: "2026"
