@@ -8,6 +8,10 @@
     "items": []
   },
   {
+    "listing": "/reading.html",
+    "items": []
+  },
+  {
     "listing": "/list.html",
     "items": [
       "/posts/2023-10-15-tedx-talk/index.html",
