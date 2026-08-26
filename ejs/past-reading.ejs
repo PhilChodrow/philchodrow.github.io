@@ -1,30 +1,24 @@
 ```{=html}
 <% items.sort(function(a,b){return b.year - a.year + 0.1*((a.genre == "fiction") - (b.genre == "fiction" ))}) %>
 
+<!-- filter items to only include ones where status is "read" -->
+<% items = items.filter(function(item) { return item.status === "read"; }) %>
 
-<% var currentYear = 0 %>
-<div class="list book-list reading-list">
-    <% for (const book of items) { %>
-    
-    <% if (book.status != "read") { continue } %>
-        <% var Year = book.year %>
-        <div class="book" <%= metadataAttrs(book) %>> 
-            
-                <span class="book-year"><%= book.year %></span> <a href="<%- book.url %>"><i><%= book.title %></i></a> by <%= book.author %>
-                <br>
-        </div>
-            <% if (book.categories) { %>
-                <span class="book-year-phantom"><%= book.year %></span><div class="book-categories listing-categories">
-                    <% for (const category of book.categories) { %>
-                        <div class="book-category listing-category">
-                            <%= category %>
-                        </div>
-                        <% } %>
-                    </div>
-                <% } %>
+<table class="book-list">
+    <tbody class="list">
+    <% items.forEach(function(item) { %>
+    <tr class="listing-book" <%= metadataAttrs(item) %>>
+        <td class="book-year"><%= item.year %></td>
+        <td class="listing-title book-title"><a href="<%- item.url %>"><i><%= item.title %></i></a></td>
+        <td class="listing-author book-author">by <%= item.author %></td>
+        <% if (item.categories) { %>
+            <td class="listing-categories">
+                <% item.categories.forEach(function(category) { %>
+                    <span class="listing-category"><%= category %></span>
+                <% }); %>
+            </td>
         <% } %>
-</div>
-
-
-
+    <% }); %>
+    </tbody>
+</table>
 ```

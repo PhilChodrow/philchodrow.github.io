@@ -4,20 +4,16 @@ page-layout: article
 listing:
   - id: past-reading
     contents: reading.yml
-    # sort-ui: true
-    # filter-ui: true
     template: ejs/past-reading.ejs
     categories: unnumbered
-    max-items: 500
+    max-items: 5000
     page-size: 500
   - id: current-reading
     contents: reading.yml
-    # sort-ui: true
-    # filter-ui: true
     template: ejs/current-reading.ejs
-    categories: true
-    max-items: 500
-    page-size: 500
+    categories: unnumbered
+    max-items: 10
+    page-size: 10
 ---
 
 
@@ -33,8 +29,8 @@ One of my personal goals is to read more. Some kinds of books I like to read are
 
 
 
-## Past Reading
+## Past
 
 
-::: {#current-reading}
+::: {#past-reading}
 :::

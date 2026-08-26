@@ -130,33 +130,60 @@ $font-family-sans-serif: system-ui, -apple-system, "Source Sans Pro", Roboto, "H
 
 
 .book-list{
-    .book-categories {
+    border-spacing: 10px 10px; 
+
+    .listing-book{
+        margin-bottom: 2em;
+    }
+
+    .listing-categories {
             display: inline-flex;
             // flex-wrap: wrap;
             row-gap: 0.4em;
             column-gap: 0.4em;
-            margin: 0.5em 0;
+            margin: 0.0em 0;
+            padding: 0px;
 
-            .book-category {
-                color: $gray-600;
-                border: 1px solid $gray-500;
-                border-radius: 0.25rem;
-                // text-transform: uppercase;
-                font-size: 0.65em;
-                padding: 0.15em 0.5em;
-                // cursor: pointer;
-            }
         }
-
+    
+    // vertically align to top
+    .book-author {
+        vertical-align: top;
+    }
+        
     .book-year {
         color: #adabab;
         margin-right: 0.5em;
+        padding: 0px;
+        display: inline-block;
+        width: 3em;
     }
+   
+    
+    .book-title {
+        padding: 0px;
+        vertical-align: top;
+    }
+
+
+    .listing-category {
+            color: $gray-600;
+            border: 1px solid $gray-500;
+            border-radius: 0.25rem;
+            // text-transform: uppercase;
+            font-size: 0.65em;
+            padding: 0.15em 0.5em;
+            // cursor: pointer;
+        }
+
     .book-year-phantom {
-        opacity: 0;
-        margin-right: 0.5em;
-    }
+            opacity: 0;
+            margin-right: 0.5em;
+            padding: 0px;
+        }
+
 }
+
 
 
 

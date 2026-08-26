@@ -20,7 +20,7 @@
   url: "https://bookshop.org/p/books/something-in-the-woods-loves-you-jarod-k-anderson/ec6ed01002e5d9b2?ean=9781643262291&next=t"
   genre: "nonfiction"
   status: "reading"
-  categories: ["nonfiction", "nature", "spirituality", "mental health"]
+  categories: ["nonfiction", "nature", "mental health"]
 
 - title: "How We Live Is How We Die"
   author: "Pema Chodron"
@@ -134,15 +134,15 @@
   status: "read"
   categories: ["nonfiction", "art"]
 
-- title: "The Places That Scare You: A Guide to Fearlessness in Difficult Times"
+- title: "The Places That Scare You"
   author: "Pema Chodron"
   year: 2026
   url: "https://bookshop.org/p/books/the-places-that-scare-you-a-guide-to-fearlessness-in-difficult-times-pema-chodron/da4be7e8b42dc8f8?ean=9781611805963&bkshp-astro=t"
   genre: "nonfiction"
   status: "read"
-  categories: ["nonfiction", "spirituality", "Buddhism", "mental health"]
+  categories: ["nonfiction", "spirituality", "Buddhism"]
 
-- title: "The Art of Gathering: How We Meet and Why It Matters"
+- title: "The Art of Gathering"
   author: "Priya Parker"
   year: 2026
   url: "https://bookshop.org/p/books/the-art-of-gathering-how-we-meet-and-why-it-matters-priya-parker/6cf339d7407925e3?ean=9781594634932&next=t"
@@ -158,7 +158,7 @@
   status: "read"
   categories: ["nonfiction", "spirituality", "psychology", "social life"]
 
-- title: "The Blue Machine: How the Ocean Works"
+- title: "The Blue Machine"
   author: "Helen Czerski"
   year: 2026
   url: "https://bookshop.org/p/books/the-blue-machine-how-the-ocean-works-helen-czerski/86372fa7ac5f1a3b"
@@ -166,7 +166,7 @@
   status: "read"
   categories: ["nonfiction", "science"]
 
-- title: "Balance in Motion: Cultural BioMechanics Background of Aikido Formation"
+- title: "Balance in Motion"
   author: "Kei Izawa"
   year: 2026
   url: "https://www.amazon.com/Balance-Motion-BioMechanics-Background-Formation/dp/1960363018"
@@ -174,7 +174,7 @@
   status: "read"
   categories: ["nonfiction", "aikido"]
 
-- title: "A Different Kind of Power: A Memoir"
+- title: "A Different Kind of Power"
   author: "Jacinda Ardern"
   year: 2026
   url: "https://bookshop.org/p/books/a-different-kind-of-power-a-memoir-jacinda-ardern/4dfbc1742ce13b26"
@@ -220,7 +220,7 @@
   url: "https://bookshop.org/p/books/the-ai-con-how-to-fight-big-tech-s-hype-and-create-the-future-we-want-alex-hanna/914a89ac020fc825?ean=9780063418561&next=t"
   genre: "nonfiction"
   status: "read"
-  categories: ["nonfiction", "technology", "AI", "tech ethics"]
+  categories: ["nonfiction",  "AI", "tech ethics"]
 
 - title: "Breath Sweeps Mind"
   author: "Jean Smith"
@@ -244,7 +244,7 @@
   url: "https://bookshop.org/p/books/ai-snake-oil-what-artificial-intelligence-can-do-what-it-can-t-and-how-to-tell-the-difference-arvind-narayanan/21324674?ean=9780691249131&next=t"
   genre: "nonfiction"
   status: "read"
-  categories: ["nonfiction", "technology", "AI", "tech ethics"]
+  categories: ["nonfiction",  "AI", "tech ethics"]
 
 - title: "The Sabbath World"
   author: "Judith Shulevitz"
@@ -260,10 +260,10 @@
   url: "https://bookshop.org/p/books/the-anxious-generation-how-the-great-rewiring-of-childhood-is-causing-an-epidemic-of-mental-illness-jonathan-haidt/20144236?ean=9780593655030&next=t"
   genre: "nonfiction"
   status: "read"
-  categories: ["nonfiction", "psychology", "mental health", "parenthood", "social life"]
+  categories: ["nonfiction", "psychology", "parenthood", "social life"]
 
 - title: "Blood Over Brighthaven"
-  author: ""
+  author: "M. L. Wang"
   year: 2025
   url: "https://bookshop.org/p/books/blood-over-bright-haven-a-novel-m-l-wang/bf1a42d91c007c39?ean=9780593873373&next=t"
   genre: "fiction"
@@ -407,7 +407,7 @@
   status: "read"
   categories: ["nonfiction", "mindfulness"]
 
-- title: "Caste: The Origins of Our Discontents"
+- title: "Caste"
   author: "Isabel Wilkerson"
   year: 2024
   url: "https://bookshop.org/p/books/caste-oprah-s-book-club-the-origins-of-our-discontents-isabel-wilkerson/15481820?ean=9780593230275"
@@ -415,7 +415,7 @@
   status: "read"
   categories: ["nonfiction", "history", "sociology", "race"]
 
-- title: "Heisenberg's War: The Secret History of the German Bomb"
+- title: "Heisenberg's War"
   author: "Thomas Powers"
   year: 2024
   url: "https://bookshop.org/p/books/heisenberg-s-war-thomas-powers/16573241?ean=9780306810114"
@@ -423,7 +423,7 @@
   status: "read"
   categories: ["nonfiction", "history", "science"]
 
-- title: "Cooked: A Natural History of Transformation"
+- title: "Cooked"
   author: "Michael Pollan"
   year: 2024
   url: "https://bookshop.org/p/books/cooked-a-natural-history-of-transformation-michael-pollan/586239?ean=9780143125334&next=t"
@@ -431,7 +431,7 @@
   status: "read"
   categories: ["nonfiction", "food", "science"]
 
-- title: "How To Do Nothing: Resisting the Attention Economy"
+- title: "How To Do Nothing"
   author: "Jenny Odell"
   year: 2024
   url: "https://bookshop.org/p/books/how-to-do-nothing-resisting-the-attention-economy-jenny-odell/8076119?ean=9781612198552"
@@ -447,13 +447,13 @@
   status: "read"
   categories: ["nonfiction",  "mindfulness"]
 
-- title: "Unmasking Autism: Discovering the New Faces of Neurodiversity"
+- title: "Unmasking Autism"
   author: "Devon Price"
   year: 2024
   url: "https://bookshop.org/p/books/unmasking-autism-discovering-the-new-faces-of-neurodiversity-devon-price/17622818?ean=9780593235232"
   genre: "nonfiction"
   status: "read"
-  categories: ["nonfiction", "psychology", "mental health"]
+  categories: ["nonfiction", "psychology"]
 
 - title: "Modeling Social Behavior"
   author: "Paul Smaldino"
@@ -677,9 +677,9 @@
   url: "https://bookshop.org/p/books/race-after-technology-abolitionist-tools-for-the-new-jim-code-ruha-benjamin/7508567?ean=9781509526406"
   genre: "nonfiction"
   status: "read"
-  categories: ["nonfiction", "technology", "race", "sociology"]
+  categories: ["nonfiction",  "race", "sociology"]
 
-- title: "Ungrading: Why Rating Students Undermines Learning (and What to Do Instead)"
+- title: "Ungrading"
   author: "Susan D. Blum"
   year: 2023
   url: "https://bookshop.org/p/books/ungrading-why-rating-students-undermines-learning-and-what-to-do-instead-susan-d-blum/14432567?ean=9781949199826"
@@ -797,7 +797,7 @@
   url: "https://fairmlbook.org"
   genre: "nonfiction"
   status: "read"
-  categories: ["nonfiction", "technology", "AI", "tech ethics", "math"]
+  categories: ["nonfiction",  "AI", "tech ethics", "math"]
 
 - title: "Hero of Two Worlds: The Marquis de Lafayette in the Age of Revolution"
   author: "Mike Duncan"
@@ -1086,7 +1086,7 @@
   url: "https://bookshop.org/books/algorithms-of-oppression-how-search-engines-reinforce-racism/9781479837243"
   genre: "nonfiction"
   status: "read"
-  categories: ["nonfiction", "technology", "social justice"]
+  categories: ["nonfiction",  "social justice"]
 
 - title: "Automating Inequality"
   author: "Virginia Eubanks"
@@ -1094,7 +1094,7 @@
   url: "https://bookshop.org/books/automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor/9781250215789"
   genre: "nonfiction"
   status: "read"
-  categories: ["nonfiction", "technology", "social justice"]
+  categories: ["nonfiction",  "social justice"]
 
 - title: "Weapons of Math Destruction"
   author: "Cathy O'Neil"
@@ -1102,7 +1102,7 @@
   url: "https://bookshop.org/books/weapons-of-math-destruction-how-big-data-increases-inequality-and-threatens-democracy/9780553418835"
   genre: "nonfiction"
   status: "read"
-  categories: ["nonfiction", "technology", "social justice"]
+  categories: ["nonfiction",  "social justice"]
 
 - title: "Washington: A Life"
   author: "Ron Chernow"
