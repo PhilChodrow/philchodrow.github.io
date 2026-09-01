@@ -1,9 +1,17 @@
+- title: "Tao Te Ching"
+  author: "Lao Tzu and Ursula K. Leguin"
+  year: 2026
+  url: "https://bookshop.org/p/books/lao-tzu-tao-te-ching-a-book-about-the-way-and-the-power-of-the-way-ursula-k-le-guin/5471ca4589425696?ean=9781611807240&bkshp-astro=t"
+  genre: "philosophy"
+  status: "read"
+  categories: ["philosophy", "spirituality"]
+
 - title: "A Trade of Blood"
   author: "Robert Jackson Bennett"
   year: 2026
   url: "https://bookshop.org/p/books/a-trade-of-blood-an-ana-and-din-mystery-robert-jackson-bennett/a08e9ea10ab1467e?ean=9780593723852&utm_source=google&utm_medium=cpc&utm_campaign=dsa_nonbrand&utm_content=%7Badgroupname%7D&utm_term=aud-1885352274184:dsa-19959388920&gad_source=1&gad_campaignid=12440232635&gbraid=0AAAAACfld40WZKUplJDLqoK81HszWQTGO&gclid=CjwKCAjw-rTUBhAiEiwADv8gBCjxRC0moOup8hLMMjM6FSQOLV7UYMu826ryZEgrZeRSqh3R7_smxRoCKVcQAvD_BwE"
   genre: "fiction"
-  status: "reading"
+  status: "read"
   categories: ["fiction", "mystery", "fantasy"]
 
 - title: "The Brothers Karamazov"
@@ -20,7 +28,7 @@
   url: "https://bookshop.org/p/books/something-in-the-woods-loves-you-jarod-k-anderson/ec6ed01002e5d9b2?ean=9781643262291&next=t"
   genre: "nonfiction"
   status: "reading"
-  categories: ["nonfiction", "nature", "mental health"]
+  categories: ["nonfiction", "nature", "mental health", "memoir"]
 
 - title: "How We Live Is How We Die"
   author: "Pema Chodron"
