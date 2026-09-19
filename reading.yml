@@ -1,3 +1,11 @@
+- title: "Everything is Tuberculosis"
+  author: "John Green"
+  year: 2026
+  url: "https://bookshop.org/p/books/everything-is-tuberculosis-signed-edition-the-history-and-persistence-of-our-deadliest-infection-john-green/57e35f61394b6daf?ean=9780525556572&bkshp-astro=t"
+  genre: "nonfiction
+  status: "read"
+  categories: ["nonfiction", "public health"]
+
 - title: "Tao Te Ching"
   author: "Lao Tzu and Ursula K. Leguin"
   year: 2026
@@ -35,7 +43,7 @@
   year: 2026
   url: "https://bookshop.org/p/books/how-we-live-is-how-we-die-pema-ch-dr-n/b2dcea760ebbcec7?ean=9781645472407&bkshp-astro=t"
   genre: "nonfiction"
-  status: "reading"
+  status: "read"
   categories: ["nonfiction", "spirituality", "Buddhism"]
 
 - title: "Nurture"
