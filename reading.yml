@@ -13,11 +13,12 @@
   genre: "nonfiction"
   status: "reading"
   categories: ["nonfiction", "spirituality", "Buddhism"]
+  
 - title: "Everything is Tuberculosis"
   author: "John Green"
   year: 2026
   url: "https://bookshop.org/p/books/everything-is-tuberculosis-signed-edition-the-history-and-persistence-of-our-deadliest-infection-john-green/57e35f61394b6daf?ean=9780525556572&bkshp-astro=t"
-  genre: "nonfiction
+  genre: "nonfiction"
   status: "read"
   categories: ["nonfiction", "public health"]
 
