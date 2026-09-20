@@ -1,16 +1,62 @@
 ```{=html}
-<% items.sort(function(a,b){return b.year - a.year + 0.1*((a.genre == "fiction") - (b.genre == "fiction" ))}) %>
 
-<!-- filter items to only include ones where status is "read" -->
-<% items = items.filter(function(item) { return item.status === "read"; }) %>
+<!-- sort items so that "reading" items appear first, then by last date read, then alphabetically by last name of first author -->
+
+<% items.sort(function(a,b){return b.status.localeCompare(a.status) || b.last_date_read - a.last_date_read || b.is_fiction - a.is_fiction  || a.authors[0].split(' ').pop().localeCompare(b.authors[0].split(' ').pop())}) %>
+
+<% var currentStatus = "reading" %>
+<% var currentYear = new Date().getFullYear() + 1 %>
+
+<% var isFiction = false %>
 
 <table class="book-list">
     <tbody class="list">
+    <tr>
+    <td colspan="4" class="reading-header">
+        Currently Reading
+    </tr>
     <% items.forEach(function(item) { %>
+    <% if (item.status != currentStatus) { %>
+        <% currentStatus = item.status %>
+        <tr>
+        <td colspan="4" class="reading-header">
+            <br>
+            <%= currentStatus.charAt(0).toUpperCase() + currentStatus.slice(1) %>
+        </tr>
+    <% } %>
+    <% if (item.last_date_read && item.last_date_read != currentYear) { %>
+        <!-- do ???? if the the date last read is different from the current year and the date last read is before 2020 -->
+        
+        <% currentYear = item.last_date_read %>
+        <tr>
+        <td colspan="4" class="reading-year">
+            <%= currentYear %>
+        </tr>
+        <% isFiction = false %>
+    <% } %>
+    <% if (item.is_fiction != isFiction) { %>
+        <% isFiction = item.is_fiction %>
+        <tr>
+        <td colspan="4" class="reading-genre">
+            <%= isFiction ? "Fiction" : "Non-Fiction" %>
+        </tr>
+    <% } %>
     <tr class="listing-book" <%= metadataAttrs(item) %>>
-        <td class="book-year"><%= item.year %></td>
-        <td class="listing-title book-title"><a href="<%- item.url %>"><i><%= item.title %></i></a></td>
-        <td class="listing-author book-author">by <%= item.author %></td>
+        <td class="book-year">
+            <% if (item.status == "read") { %> 
+                <%= item.last_date_read %>
+            <% } %>
+        </td>
+        <td class="listing-title book-title"><i><%= item.title %></i></td>
+        <td class="listing-author book-author">by 
+            <% for (var i = 0; i < item.authors.length; i++) { %>
+                <%=item.authors[i]%>
+                <% if (item.authors.length > 2) { %>
+                    <% if (i < item.authors.length - 2) {%>, <% } %>
+                <% } %>
+                <% if (i == item.authors.length - 2) { %>and <% } %>
+            <% } %>
+        </td>
         <% if (item.categories) { %>
             <td class="listing-categories">
                 <% item.categories.forEach(function(category) { %>
@@ -18,6 +64,8 @@
                 <% }); %>
             </td>
         <% } %>
+    </tr>
+    
     <% }); %>
     </tbody>
 </table>

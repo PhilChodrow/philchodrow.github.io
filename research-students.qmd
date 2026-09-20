@@ -3,11 +3,11 @@ title: "Research Group"
 listing:
   - id: current-students
     contents: 
-      - research-students.yaml
+      - data/raw/research-students.yaml
     template: ejs/research-students-current.ejs
   - id: alums
     contents: 
-      - research-students.yaml
+      - data/raw/research-students.yaml
     template: ejs/research-students-alums.ejs
 ---
 

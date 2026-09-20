@@ -3,17 +3,17 @@ title: "What I'm Reading"
 page-layout: article
 listing:
   - id: past-reading
-    contents: reading.yml
+    contents: data/processed/reading.yaml
     template: ejs/past-reading.ejs
     categories: unnumbered
     max-items: 5000
     page-size: 500
-  - id: current-reading
-    contents: reading.yml
-    template: ejs/current-reading.ejs
-    categories: unnumbered
-    max-items: 10
-    page-size: 10
+  # - id: current-reading
+  #   contents: data/processed/reading.yaml
+  #   template: ejs/current-reading.ejs
+  #   categories: unnumbered
+  #   max-items: 10
+  #   page-size: 10
 ---
 
 
@@ -21,15 +21,15 @@ listing:
 
 One of my personal goals is to read more. Some kinds of books I like to read are sci-fi and fantasy novels; U.S. and modern world history; feminism and antiracism; and, yes, the occasional book on math, network science, or computing. 
 
-## Current 
+<!-- ## Current 
 
 ::: {#current-reading}
-:::
+::: -->
 
 
 
 
-## Past
+
 
 
 ::: {#past-reading}

@@ -1,17 +1,29 @@
 ```{=html}
-<% items.sort(function(a,b){return b.year - a.year + 0.1*((a.genre == "fiction") - (b.genre == "fiction" ))}) %>
+<!-- <% items.sort(function(a,b){return b.last_date_read - a.last_date_read + 0.1*((a.genre == "fiction") - (b.genre == "fiction" ))}) %> -->
+
+<!-- function to sort items by status, then date last read, then last name of first author -->
+<% items.sort(function(a,b){return b.status.localeCompare(a.status) || b.last_date_read - a.last_date_read || a.authors[0].split(' ').pop().localeCompare(b.authors[0].split(' ').pop())}) %>
+
+
 
 <!-- filter items to only include ones where status is "reading" -->
-<% items = items.filter(function(item) { return item.status === "reading"; }) %>
-
+<!-- <% items = items.filter(function(item) { return item.status === "reading"; }) %> -->
 
 <table class="book-list">
     <tbody class="list">
     <% items.forEach(function(item) { %>
     <tr class="listing-book" <%= metadataAttrs(item) %>>
-        <td class="book-year"><%= item.year %></td>
+        <td class="book-year"><%= item.last_date_read %></td>
         <td class="listing-title book-title"><a href="<%- item.url %>"><i><%= item.title %></i></a></td>
-        <td class="listing-author book-author">by <%= item.author %></td>
+        <td class="listing-author book-author">by 
+            <% for (var i = 0; i < item.authors.length; i++) { %>
+                <%=item.authors[i]%>
+                <% if (item.authors.length > 2) { %>
+                    <% if (i < item.authors.length - 2) {%>, <% } %>
+                <% } %>
+                <% if (i == item.authors.length - 2) { %>and <% } %>
+            <% } %>
+        </td>
         <% if (item.categories) { %>
             <td class="listing-categories">
                 <% item.categories.forEach(function(category) { %>

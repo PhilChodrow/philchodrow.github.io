@@ -5,7 +5,7 @@ toc: false
 listing:
   - id: news
     contents: 
-      - news.yml
+      - data/raw/news.yml
     sort-ui: false
     filter-ui: false
     template: ejs/news.ejs
