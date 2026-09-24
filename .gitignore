@@ -3,3 +3,5 @@
 *.icloud
 docs
 **/*.quarto_ipynb
+
+/env/

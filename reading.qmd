@@ -16,10 +16,7 @@ listing:
   #   page-size: 10
 ---
 
-
-
-
-One of my personal goals is to read more. Some kinds of books I like to read are sci-fi and fantasy novels; U.S. and modern world history; feminism and antiracism; and, yes, the occasional book on math, network science, or computing. 
+I like to read! This list of my current and past reading is powered by data from my [StoryGraph profile](https://app.thestorygraph.com/profile/philchodrow).
 
 <!-- ## Current 
 

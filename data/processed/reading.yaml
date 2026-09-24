@@ -2,7 +2,7 @@
   authors:
   - Barbara Kingsolver
   status: read
-  last_date_read: 2015.0
+  last_date_read: 2019
   review: .nan
   categories:
   - literary
@@ -16,6 +16,15 @@
   categories:
   - tea
   is_fiction: false
+- title: 'Guns, Germs, and Steel: The Fates of Human Societies'
+  authors:
+  - Jared Diamond
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - history
+  is_fiction: false
 - title: The Witness for the Dead
   authors:
   - Katherine Addison
@@ -25,6 +34,15 @@
   categories:
   - fantasy
   is_fiction: true
+- title: 'The Claim of Reason: Wittgenstein, Skepticism, Morality, and Tragedy'
+  authors:
+  - Stanley Cavell
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - philosophy
+  is_fiction: false
 - title: Parable of the Sower
   authors:
   - Octavia E. Butler
@@ -39,7 +57,7 @@
   authors:
   - Brandon Sanderson
   status: read
-  last_date_read: 2018.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -59,7 +77,7 @@
   authors:
   - Ray Bradbury
   status: read
-  last_date_read: 2006.0
+  last_date_read: 2019
   review: .nan
   categories:
   - dystopic
@@ -103,6 +121,15 @@
   - psychology
   - tech-ethics
   is_fiction: false
+- title: 'The Other Significant Others: Reimagining Life with Friendship at the Center'
+  authors:
+  - Rhaina Cohen
+  status: read
+  last_date_read: 2024.0
+  review: .nan
+  categories:
+  - lgbtqia
+  is_fiction: false
 - title: The Three-Body Problem
   authors:
   - Cixin Liu
@@ -125,13 +152,22 @@
 - title: 'Lao Tzu: Tao Te Ching: A Book about the Way and the Power of the Way'
   authors:
   - Ursula K. Le Guin
-  - Lao Tzu
+  - Laozi
   - J.P. Seaton
   status: read
   last_date_read: 2026.0
   review: .nan
   categories:
   - spirituality
+  is_fiction: false
+- title: The Man Who Mistook His Wife for a Hat and Other Clinical Tales
+  authors:
+  - Oliver Sacks
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - psychology
   is_fiction: false
 - title: 'Living Beautifully: with Uncertainty and Change'
   authors:
@@ -147,7 +183,7 @@
   authors:
   - Brandon Sanderson
   status: read
-  last_date_read: 2018.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -202,6 +238,24 @@
   - ai
   - tech-ethics
   is_fiction: false
+- title: Tehanu
+  authors:
+  - Ursula K. Le Guin
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - fantasy
+  is_fiction: true
+- title: The Two Towers
+  authors:
+  - J.R.R. Tolkien
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - fantasy
+  is_fiction: true
 - title: The City We Became
   authors:
   - N.K. Jemisin
@@ -222,6 +276,15 @@
   - memoir
   - politics
   is_fiction: false
+- title: The Stranger
+  authors:
+  - Albert Camus
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - literary
+  is_fiction: true
 - title: 'Hero of Two Worlds: The Marquis de Lafayette and the Age of Revolution'
   authors:
   - Mike Duncan
@@ -299,11 +362,21 @@
   - fantasy
   - mystery
   is_fiction: true
+- title: 'The Gateless Gate: The Classic Book of Zen Koans'
+  authors:
+  - Koun Yamada
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - buddhism
+  - spirituality
+  is_fiction: false
 - title: The Broken Kingdoms
   authors:
   - N.K. Jemisin
   status: read
-  last_date_read: 2018.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -337,6 +410,15 @@
   categories:
   - parenthood
   is_fiction: false
+- title: A Tale for the Time Being
+  authors:
+  - Ruth Ozeki
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - literary
+  is_fiction: true
 - title: The Sentence
   authors:
   - Louise Erdrich
@@ -408,7 +490,7 @@
   authors:
   - Philip Pullman
   status: read
-  last_date_read: 2017.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -443,11 +525,20 @@
   - climate
   - science-fiction
   is_fiction: true
+- title: The Fall
+  authors:
+  - Albert Camus
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - literary
+  is_fiction: true
 - title: The Kingdom of Gods
   authors:
   - N.K. Jemisin
   status: read
-  last_date_read: 2018.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -461,6 +552,15 @@
   categories:
   - lgbtqia
   - science-fiction
+  is_fiction: true
+- title: The Plague
+  authors:
+  - Albert Camus
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - literary
   is_fiction: true
 - title: The Poisonwood Bible
   authors:
@@ -508,7 +608,7 @@
   authors:
   - Barbara Kingsolver
   status: read
-  last_date_read: 2015.0
+  last_date_read: 2019
   review: .nan
   categories:
   - literary
@@ -523,6 +623,15 @@
   categories:
   - dystopic
   is_fiction: true
+- title: A Wizard of Earthsea
+  authors:
+  - Ursula K. Le Guin
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - fantasy
+  is_fiction: true
 - title: Wild Dark Shore
   authors:
   - Charlotte McConaghy
@@ -533,6 +642,16 @@
   - climate
   - family
   is_fiction: true
+- title: The Botany of Desire
+  authors:
+  - Michael Pollan
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - nature
+  - food
+  is_fiction: false
 - title: Future Home of the Living God
   authors:
   - Louise Erdrich
@@ -543,6 +662,15 @@
   - dystopic
   - science-fiction
   is_fiction: true
+- title: 'The Wok: Recipes and Techniques'
+  authors:
+  - J. Kenji López-Alt
+  status: read
+  last_date_read: 2023.0
+  review: .nan
+  categories:
+  - food
+  is_fiction: false
 - title: Artificial Condition
   authors:
   - Martha Wells
@@ -562,6 +690,16 @@
   - dystopic
   - science-fiction
   is_fiction: true
+- title: A Short History of Nearly Everything
+  authors:
+  - Bill Bryson
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - history
+  - science
+  is_fiction: false
 - title: The Ministry of Time
   authors:
   - Kaliane Bradley
@@ -571,6 +709,24 @@
   categories:
   - science-fiction
   is_fiction: true
+- title: The Silmarillion
+  authors:
+  - J.R.R. Tolkien
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - fantasy
+  is_fiction: true
+- title: 'Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking'
+  authors:
+  - Samin Nosrat
+  status: read
+  last_date_read: 2019.0
+  review: .nan
+  categories:
+  - food
+  is_fiction: false
 - title: 'Modeling Social Behavior: Mathematical and Agent-Based Models of Social
     Dynamics and Cultural Evolution'
   authors:
@@ -599,6 +755,16 @@
   categories:
   - pedagogy
   is_fiction: false
+- title: "The Emperor's New Mind: Concerning Computers, Minds and the Laws of Physics"
+  authors:
+  - Roger Penrose
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - math
+  - philosophy
+  is_fiction: false
 - title: Blue Mars
   authors:
   - Kim Stanley Robinson
@@ -609,6 +775,16 @@
   - climate
   - science-fiction
   is_fiction: true
+- title: "Zen Mind, Beginner's Mind: Informal Talks on Zen Meditation and Practice"
+  authors:
+  - Shunryu Suzuki
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - buddhism
+  - spirituality
+  is_fiction: false
 - title: 'Specifications Grading: Restoring Rigor, Motivating Students, and Saving
     Faculty Time'
   authors:
@@ -619,6 +795,25 @@
   categories:
   - pedagogy
   is_fiction: false
+- title: 'The Road to Reality: A Complete Guide to the Laws of the Universe'
+  authors:
+  - Roger Penrose
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - math
+  - science
+  is_fiction: false
+- title: The Magic Mountain
+  authors:
+  - Thomas Mann
+  status: read
+  last_date_read: .nan
+  review: .nan
+  categories:
+  - literary
+  is_fiction: true
 - title: 'Entitled: How Male Privilege Hurts Women'
   authors:
   - Kate Manne
@@ -638,6 +833,15 @@
   categories:
   - literary
   is_fiction: true
+- title: 'Something from Nothing: A Cookbook'
+  authors:
+  - Alison Roman
+  status: read
+  last_date_read: 2023.0
+  review: .nan
+  categories:
+  - food
+  is_fiction: false
 - title: All the Light We Cannot See
   authors:
   - Anthony Doerr
@@ -647,6 +851,16 @@
   categories:
   - historical
   is_fiction: true
+- title: 'The Miracle of Mindfulness: An Introduction to the Practice of Meditation'
+  authors:
+  - Thích Nhất Hạnh
+  status: read
+  last_date_read: 2026.0
+  review: .nan
+  categories:
+  - buddhism
+  - spirituality
+  is_fiction: false
 - title: Adulthood Rites
   authors:
   - Octavia E. Butler
@@ -673,6 +887,32 @@
   review: .nan
   categories: []
   is_fiction: true
+- title: The Tombs of Atuan
+  authors:
+  - Ursula K. Le Guin
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - fantasy
+  is_fiction: true
+- title: Notes from the Underground
+  authors:
+  - Fyodor Dostoevsky
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - philosophy
+  is_fiction: true
+- title: 'The Fellowship of the Ring '
+  authors:
+  - J.R.R. Tolkien
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories: []
+  is_fiction: false
 - title: How We Live Is How We Die
   authors:
   - Pema Chödrön
@@ -697,7 +937,7 @@
   authors:
   - N.K. Jemisin
   status: read
-  last_date_read: 2017.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -751,6 +991,15 @@
   - fantasy
   - cosmere
   is_fiction: true
+- title: MaddAddam
+  authors:
+  - Margaret Atwood
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - dystopic
+  is_fiction: true
 - title: 'The 1619 Project: A New Origin Story'
   authors:
   - Nikole Hannah-Jones
@@ -775,7 +1024,7 @@
   authors:
   - N.K. Jemisin
   status: read
-  last_date_read: 2018.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -784,7 +1033,7 @@
   authors:
   - N.K. Jemisin
   status: read
-  last_date_read: 2017.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -816,7 +1065,7 @@
   authors:
   - George Orwell
   status: read
-  last_date_read: 2007.0
+  last_date_read: 2019
   review: .nan
   categories:
   - dystopic
@@ -836,11 +1085,30 @@
   authors:
   - N.K. Jemisin
   status: read
-  last_date_read: 2018.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
   is_fiction: true
+- title: The Phantom Tollbooth
+  authors:
+  - Norton Juster
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - fantasy
+  is_fiction: true
+- title: "Turing's Cathedral: The Origins of the Digital Universe"
+  authors:
+  - George Dyson
+  status: read
+  last_date_read: 2019.0
+  review: .nan
+  categories:
+  - history
+  - science
+  is_fiction: false
 - title: Abaddon's Gate
   authors:
   - James S.A. Corey
@@ -869,6 +1137,16 @@
   - lgbtqia
   - science-fiction
   is_fiction: true
+- title: 'Resistance, Rebellion, and Death: Essays'
+  authors:
+  - Albert Camus
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - philosophy
+  - essays
+  is_fiction: false
 - title: 'Blue Machine: How the Ocean Shapes Our World'
   authors:
   - Helen Czerski
@@ -878,6 +1156,16 @@
   categories:
   - climate
   - biology
+  is_fiction: false
+- title: 'Gödel, Escher, Bach: an Eternal Golden Braid'
+  authors:
+  - Douglas R. Hofstadter
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - math
+  - philosophy
   is_fiction: false
 - title: 'Unmasking Autism: Discovering the New Faces of Neurodiversity'
   authors:
@@ -892,7 +1180,7 @@
   authors:
   - Brandon Sanderson
   status: read
-  last_date_read: 2017.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -946,6 +1234,15 @@
   categories:
   - science-fiction
   is_fiction: true
+- title: The Year of the Flood
+  authors:
+  - Margaret Atwood
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - dystopic
+  is_fiction: true
 - title: 'Polysecure: Attachment, Trauma and Consensual Nonmonogamy'
   authors:
   - Jessica Fern
@@ -969,7 +1266,7 @@
   authors:
   - Brandon Sanderson
   status: read
-  last_date_read: 2018.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -979,7 +1276,7 @@
   authors:
   - Philip Pullman
   status: read
-  last_date_read: 2017.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -1002,6 +1299,15 @@
   review: .nan
   categories:
   - science-fiction
+  is_fiction: true
+- title: 'The Hobbit: or There and Back Again'
+  authors:
+  - J.R.R. Tolkien
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - fantasy
   is_fiction: true
 - title: 'Teaching to Transgress: Education as the Practice of Freedom'
   authors:
@@ -1034,6 +1340,27 @@
   - lgbtqia
   - fantasy
   is_fiction: true
+- title: 'Einstein: His Life and Universe'
+  authors:
+  - Walter Isaacson
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - history
+  - science
+  - biography
+  is_fiction: false
+- title: "For All the Tea in China: Espionage, Empire and the Secret Formula for the
+    World's Favourite Drink"
+  authors:
+  - Sarah Rose
+  status: read
+  last_date_read: 2021.0
+  review: .nan
+  categories:
+  - history
+  is_fiction: false
 - title: 'Calling Bullshit: The Art of Skepticism in a Data-Driven World'
   authors:
   - Jevin D. West
@@ -1048,11 +1375,39 @@
   authors:
   - Brandon Sanderson
   status: read
-  last_date_read: 2017.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
   - cosmere
+  is_fiction: true
+- title: The Farthest Shore
+  authors:
+  - Ursula K. Le Guin
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - fantasy
+  is_fiction: true
+- title: Philosophical Investigations & Philosophische Untersuchungen
+  authors:
+  - Rush Rhees
+  - Ludwig Wittgenstein
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - philosophy
+  is_fiction: false
+- title: The Return of the King
+  authors:
+  - J.R.R. Tolkien
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - fantasy
   is_fiction: true
 - title: 'Linear Algebra and Optimization for Machine Learning: A Textbook'
   authors:
@@ -1064,11 +1419,21 @@
   - ai
   - math
   is_fiction: false
+- title: 'Must We Mean What We Say?: A Book of Essays'
+  authors:
+  - Stanley Cavell
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - language
+  - philosophy
+  is_fiction: false
 - title: Foundation
   authors:
   - Isaac Asimov
   status: read
-  last_date_read: 2007.0
+  last_date_read: 2019
   review: .nan
   categories:
   - science-fiction
@@ -1105,7 +1470,7 @@
   authors:
   - Barbara Kingsolver
   status: read
-  last_date_read: 2015.0
+  last_date_read: 2019
   review: .nan
   categories:
   - literary
@@ -1159,6 +1524,15 @@
   - history
   - socio
   is_fiction: false
+- title: The Symposium
+  authors:
+  - Plato
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - philosophy
+  is_fiction: false
 - title: Project Hail Mary
   authors:
   - Andy Weir
@@ -1168,6 +1542,16 @@
   categories:
   - science-fiction
   is_fiction: true
+- title: 'The Rebel: An Essay on Man in Revolt'
+  authors:
+  - Albert Camus
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - philosophy
+  - essays
+  is_fiction: false
 - title: The Secret Commonwealth
   authors:
   - Philip Pullman
@@ -1201,7 +1585,7 @@
   authors:
   - Erin Morgenstern
   status: read
-  last_date_read: 2016.0
+  last_date_read: 2019
   review: .nan
   categories:
   - romance
@@ -1229,11 +1613,20 @@
   - psychology
   - education
   is_fiction: false
+- title: Nonlinear Dynamics and Chaos
+  authors:
+  - Steven Strogatz
+  status: read
+  last_date_read: 2023.0
+  review: .nan
+  categories:
+  - math
+  is_fiction: false
 - title: The Hundred Thousand Kingdoms
   authors:
   - N.K. Jemisin
   status: read
-  last_date_read: 2018.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -1242,7 +1635,7 @@
   authors:
   - N.K. Jemisin
   status: read
-  last_date_read: 2017.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -1355,7 +1748,7 @@
   authors:
   - Barbara Kingsolver
   status: read
-  last_date_read: 2015.0
+  last_date_read: 2019
   review: .nan
   categories:
   - food
@@ -1393,12 +1786,21 @@
   authors:
   - Brandon Sanderson
   status: read
-  last_date_read: 2018.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
   - cosmere
   is_fiction: true
+- title: 'Balance in Motion: Cultural BioMechanics Background of Aikido Formation'
+  authors:
+  - Kei Izawa
+  status: read
+  last_date_read: .nan
+  review: .nan
+  categories:
+  - aikido
+  is_fiction: false
 - title: Far Sector
   authors:
   - N.K. Jemisin
@@ -1429,6 +1831,16 @@
   - history
   - biography
   is_fiction: false
+- title: The Myth of Sisyphus and Other Essays
+  authors:
+  - Albert Camus
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - philosophy
+  - essays
+  is_fiction: false
 - title: Tress of the Emerald Sea
   authors:
   - Brandon Sanderson
@@ -1452,7 +1864,7 @@
   authors:
   - Orson Scott Card
   status: read
-  last_date_read: 2007.0
+  last_date_read: 2019
   review: .nan
   categories:
   - science-fiction
@@ -1465,6 +1877,27 @@
   review: .nan
   categories:
   - history
+  is_fiction: false
+- title: 'The Coddling of the American Mind: How Good Intentions and Bad Ideas Are
+    Setting Up a Generation for Failure'
+  authors:
+  - Greg Lukianoff
+  status: read
+  last_date_read: 2025.0
+  review: .nan
+  categories:
+  - psychology
+  - education
+  is_fiction: false
+- title: Republic
+  authors:
+  - Plato
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - philosophy
+  - politics
   is_fiction: false
 - title: Mirrored Heavens
   authors:
@@ -1555,7 +1988,7 @@
   authors:
   - Philip Pullman
   status: read
-  last_date_read: 2017.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -1570,6 +2003,24 @@
   - fantasy
   - mystery
   is_fiction: true
+- title: Aikido Exercises for Teaching and Training
+  authors:
+  - C. M. Shifflett
+  status: read
+  last_date_read: 2019.0
+  review: .nan
+  categories:
+  - aikido
+  is_fiction: false
+- title: 'Leaves of Grass: First and Death-Bed Editions'
+  authors:
+  - Karen Karbiener
+  - Walt Whitman
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories: []
+  is_fiction: false
 - title: A Psalm for the Wild-Built
   authors:
   - Becky Chambers
@@ -1616,7 +2067,7 @@
   authors:
   - Patrick Rothfuss
   status: read
-  last_date_read: 2018.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy
@@ -1640,6 +2091,43 @@
   categories:
   - science-fiction
   is_fiction: true
+- title: Stepping Off The Mat
+  authors:
+  - Rick Berry
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - aikido
+  is_fiction: false
+- title: Nicomachean Ethics
+  authors:
+  - Aristotle
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - philosophy
+  - politics
+  is_fiction: false
+- title: 'The Storm Before the Storm: The Beginning of the End of the Roman Republic'
+  authors:
+  - Mike Duncan
+  status: read
+  last_date_read: 2021.0
+  review: .nan
+  categories:
+  - history
+  is_fiction: false
+- title: Oryx and Crake
+  authors:
+  - Margaret Atwood
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - dystopic
+  is_fiction: true
 - title: 'Stamped from the Beginning: The Definitive History of Racist Ideas in America'
   authors:
   - Ibram X. Kendi
@@ -1659,6 +2147,16 @@
   categories:
   - fantasy
   is_fiction: true
+- title: 'Justice as Fairness: A Restatement'
+  authors:
+  - John Rawls
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - philosophy
+  - politics
+  is_fiction: false
 - title: The Starless Sea
   authors:
   - Erin Morgenstern
@@ -1690,6 +2188,15 @@
   - ai
   - tech-ethics
   is_fiction: false
+- title: 'Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values'
+  authors:
+  - Robert M. Pirsig
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - philosophy
+  is_fiction: true
 - title: Vera Wong's Unsolicited Advice for Murderers
   authors:
   - Jesse Q. Sutanto
@@ -1740,6 +2247,15 @@
   - history
   - politics
   is_fiction: false
+- title: The Seducer's Diary
+  authors:
+  - Søren Kierkegaard
+  status: read
+  last_date_read: 2019
+  review: .nan
+  categories:
+  - philosophy
+  is_fiction: true
 - title: The Invisible Life of Addie LaRue
   authors:
   - V.E. Schwab
@@ -1756,8 +2272,8 @@
   last_date_read: 2023.0
   review: .nan
   categories:
+  - race
   - tech-ethics
-  - face
   is_fiction: false
 - title: The Sunlit Man
   authors:
@@ -1769,11 +2285,21 @@
   - fantasy
   - cosmere
   is_fiction: true
+- title: 'Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism'
+  authors:
+  - Sarah Wynn-Williams
+  status: read
+  last_date_read: 2026.0
+  review: .nan
+  categories:
+  - tech-ethics
+  - memoir
+  is_fiction: false
 - title: Prodigal Summer
   authors:
   - Barbara Kingsolver
   status: read
-  last_date_read: 2017.0
+  last_date_read: 2019
   review: .nan
   categories:
   - literary
@@ -1782,7 +2308,7 @@
   authors:
   - Brandon Sanderson
   status: read
-  last_date_read: 2017.0
+  last_date_read: 2019
   review: .nan
   categories:
   - fantasy

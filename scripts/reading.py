@@ -3,6 +3,8 @@ import pandas as pd
 import ruamel.yaml
 # convert csv reading file to yaml file
 
+CUTOFF = 2019
+
 csv_path = "data/raw/reading.csv"
 yaml_path = "data/processed/reading.yaml"
 
@@ -30,6 +32,10 @@ for book in d:
     
     book["is_fiction"] = True if book["categories"] and "fiction" in book["categories"] else False
     book["categories"] = [tag for tag in book["categories"] if tag != "fiction" and tag != "nonfiction"]
+    if pd.notnull(book["last_date_read"]):
+        # book["last_date_read"] = int(book["last_date_read"].split("-")[0])
+        if book["last_date_read"] < CUTOFF:
+            book["last_date_read"] = CUTOFF
     
     
 

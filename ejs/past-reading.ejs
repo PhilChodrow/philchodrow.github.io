@@ -9,6 +9,10 @@
 
 <% var isFiction = false %>
 
+<% var cutoffDate = 2019 %>
+<% var printedPastHeader = false %>
+
+
 <table class="book-list">
     <tbody class="list">
     <tr>
@@ -24,13 +28,31 @@
             <%= currentStatus.charAt(0).toUpperCase() + currentStatus.slice(1) %>
         </tr>
     <% } %>
-    <% if (item.last_date_read && item.last_date_read != currentYear) { %>
-        <!-- do ???? if the the date last read is different from the current year and the date last read is before 2020 -->
-        
-        <% currentYear = item.last_date_read %>
+
+    <!-- only do the below if item.last_date_read is not null and greater than currentYear -->
+    <% if (item.last_date_read && item.last_date_read > cutoffDate) { %>
+        <% var yearToShow = item.last_date_read %>
+        <% if (item.last_date_read != currentYear) { %>
+            <% currentYear = item.last_date_read %>
+            <tr>
+            <td colspan="4" class="reading-year">
+                <%= currentYear %>
+            </tr>
+            <% isFiction = false %>
+        <% } %>
+        <% if (item.is_fiction != isFiction) { %>
+            <% isFiction = item.is_fiction %>
+            <tr>
+            <td colspan="4" class="reading-genre">
+                <%= isFiction ? "Fiction" : "Non-Fiction" %>
+            </tr>
+        <% } %>
+    <% } %>
+    <% if (item.last_date_read <= cutoffDate && !printedPastHeader) { %>
+        <% printedPastHeader = true %>
         <tr>
         <td colspan="4" class="reading-year">
-            <%= currentYear %>
+            <i>Sometime in the distant past...</i>
         </tr>
         <% isFiction = false %>
     <% } %>
@@ -41,10 +63,12 @@
             <%= isFiction ? "Fiction" : "Non-Fiction" %>
         </tr>
     <% } %>
+    
+
     <tr class="listing-book" <%= metadataAttrs(item) %>>
         <td class="book-year">
             <% if (item.status == "read") { %> 
-                <%= item.last_date_read %>
+                <%= yearToShow %>
             <% } %>
         </td>
         <td class="listing-title book-title"><i><%= item.title %></i></td>
