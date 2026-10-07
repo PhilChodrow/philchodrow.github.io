@@ -110,7 +110,7 @@
   year: "2017"
   url: "https://www.pnas.org/content/pnas/114/44/11591.full.pdf"
   page-layout: article
-- title: "Equivalence of Informations Characterizes Bregman Divergences"
+- title: "Equivalence of informations characterizes Bregman divergences"
   authors: [PSC]
   categories: [information theory]
   venue: Entropy
@@ -119,14 +119,14 @@
   page-layout: article
   priority: 1
   url: "https://www.mdpi.com/1099-4300/27/7/766"
-- title: "Hypergraph link prediction via hyperedge copying"
+- title: "Edge correlations and link prediction in growing hypergraphs"
   authors: [Xie He, PSC, Peter J. Mucha]
   categories: [hypergraphs, network algorithms, link prediction]
   image: "hcm.png"
-  venue: "arXiv preprint arXiv:2502.02386"
+  venue: "Physical Review E"
   year: "2025"
   priority: 1
-  url: "https://arxiv.org/abs/2502.02386"
+  url: "https://journals.aps.org/pre/abstract/10.1103/4lkd-mtzq"
 - title: "The illusion of households as entities in social networks"
   authors: [Izabel Aguiar, PSC, Johan Ugander]
   categories: [network analysis, mathematical sociology]
@@ -144,7 +144,7 @@
   year: "2025"
   priority: 1
   page-layout: article
-- title: "Modeling Social Systems: Transparency, Reproducibility, and Responsibility"
+- title: "Modeling social systems: transparency, reproducibility, and responsibility"
   authors: [Maximino Aldana, Heather Brooks, PSC, Fillipe Georgiou, Joseph Johnson, Krešimir Josić, Zachary Kilpatrick, Kath Landgren, Andrew Nugent, Maurizio Porfiri, Nancy Rodriguez,  Pablo Suárez-Serrato, Roni Barak Ventura, David White, Alexander Wiedemann, Sam Zhang]
   categories: [mathematical sociology, data science, social justice, mathematics community]
   image: "oaxacamito.jpg"
@@ -153,7 +153,7 @@
   priority: 10
   url: "https://www.siam.org/publications/siam-news/articles/modeling-social-systems-transparency-reproducibility-and-responsibility/"
   page-layout: article
-- title: "Growing Hypergraphs With Homophily"
+- title: "Growing hypergraphs with homophily"
   authors: [Violet Ross, Frannie Cataldo, PSC]
   categories: [hypergraphs, network algorithms, clustering]
   image: "growing-homophily.png"
@@ -161,3 +161,11 @@
   year: "2026"
   priority: 10
   url: "https://arxiv.org/abs/2607.16046"
+- title: "Measuring diversity and segregation with convex functions"
+  authors: [PSC]
+  categories: [information theory, mathematical sociology, data science]
+  image: "atlanta-agg.png"
+  venue: "arXiv preprint"
+  year: "2026"
+  priority: 10
+  url: "https://arxiv.org/abs/2610.02446"

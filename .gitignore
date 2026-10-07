@@ -5,3 +5,5 @@ docs
 **/*.quarto_ipynb
 
 /env/
+*/__pycache__/
+*.pyc

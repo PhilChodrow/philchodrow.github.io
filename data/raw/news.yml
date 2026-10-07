@@ -253,3 +253,19 @@
 - date: 2026-07-20
   text: | 
     New preprint! "<a href='https://arxiv.org/abs/2607.16046'>Growing Hypergraphs with Homophily</a>" is joint work with mentees Violet Ross '25 and Frannie Cataldo '27. This model proposes a model of growing hypergraphs with tunable homophily based on node labels. We show how to perform both parameter inference and community detection in hypergraphs using this model. 
+- date: 2026-10-05
+  text: |
+    New preprint! "<a href='https://arxiv.org/abs/2610.02446'>Measuring Diversity and Segregation with Convex Functions</a>" is a largely expository paper that gives an opinionated tour of the mathematics of spatial segregation measurement through the lens of convexity and information theory. This is a continuation of things I was thinking about <a href="https://www.pnas.org/doi/abs/10.1073/pnas.1708201114">a long time ago</a> and it's refreshing to come back to them with a new eye! 
+- date: 2026-10-02
+  text: |
+    Middlebury student Toby Penner has produced a <a href="https://tobypenner.com/wikigraph/">beautiful, large-scale network data visualization</a> of English-language Wikipedia. I'm not involved in this in any way -- I just think it's awesome. 
+- date: 2026-10-21
+  text: |
+    Invited talk on math models of social influence at the Santa Fe Institute. 
+- date: 2026-11-05
+  text: |
+    Invited talk on math models of social influence at the Bi-College Consortium Mathematics Colloquium (hosted by Haverford and Bryn Mawr Colleges).
+  
+
+
+
