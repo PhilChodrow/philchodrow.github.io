@@ -169,3 +169,11 @@
   year: "2026"
   priority: 10
   url: "https://arxiv.org/abs/2610.02446"
+- title: "Learning Social Influence with Unobserved Attention"
+  authors: [Will Thompson, Moyi Tian, Linh Huynh, Vicki Modisette, PSC, and Heather Brooks]
+  categories: [opinion dynamics, data science, dynamical systems, agent-based models]
+  image: "retention.png"
+  venue: "arXiv preprint"
+  year: "2026"
+  priority: 10
+  url: "https://arxiv.org/abs/2610.12616"
