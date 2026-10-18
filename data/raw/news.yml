@@ -265,6 +265,9 @@
 - date: 2026-11-05
   text: |
     Invited talk on math models of social influence at the Bi-College Consortium Mathematics Colloquium (hosted by Haverford and Bryn Mawr Colleges).
+- date: 2026-10-30
+  text: |
+    New preprint! "<a href='https://arxiv.org/abs/2610.12616'>Learning Social Influence with Unobserved Attention</a>" is joint work led by <a href="https://www.willhwthompson.com/">Will Thompson</a> at UVM. In this work, we propose a new model of social influence in networks that accounts for simple agent choices in whether they are susceptible to influence and by whom. We show that these choices make a big difference for inference and prediction across a wide range of experimental and social network data sets. We began this work at the AMS Math Research Community on Complex Social Systems in Summer '23 and we're so excited to see it out in the world! 
   
 
 
