@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
     "listing": "/research.html",
     "items": []
   },
@@ -12,15 +8,11 @@
     "items": []
   },
   {
-    "listing": "/news_archive.html",
-    "items": []
-  },
-  {
     "listing": "/posts/2022-12-20-hypergraph-refs/index.html",
     "items": []
   },
   {
-    "listing": "/reading.html",
+    "listing": "/news_archive.html",
     "items": []
   },
   {
@@ -43,8 +35,16 @@
       "/posts/2023-09-01-CSCI-0200-reflections/index.html",
       "/posts/2022-12-20-hypergraph-refs/index.html",
       "/posts/2022-06-24-bregman/index.html",
-      "/posts/2022-06-16-info-segregation-2/index.html",
-      "/posts/2022-06-16-info-segregation/index.html"
+      "/posts/2022-06-16-info-segregation/index.html",
+      "/posts/2022-06-16-info-segregation-2/index.html"
     ]
+  },
+  {
+    "listing": "/reading.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": []
   }
 ]
