@@ -19,11 +19,13 @@ Please remember to address all your professors respectfully and according to the
 
 ### Will you be my advisor?
 
-Maybe! At this time, I have a full load of advisees and am only accepting new advisees who have interests (at the intersection of math, CS, and data science) that align closely with my expertise. Once some of my advisees graduate, I'll start taking many more. 
+Yes, I'm happy to act as an advisor for any student who wants to declare a major in computer science. I am an especially good fit as an advisor for students who are also considering a major or minor in mathematics or statistics, or who are interested in data science.
+
+
 
 ### If you won't be me advisor, whom should I ask?
 
-You can ask any CS faculty member to be your advisor! Usually the role of the advisor is limited to helping you plan your classes, and any of us can do this effectively! Ultimately, it doesn't matter too much who your advisor is. You're always welcome to come chat with me about your interests in courses, careers, and research. 
+If for any reason I don't turn out to be advisor, don't sweat it. Usually the role of the advisor is limited to helping you plan your classes, and any of us can do this effectively! Ultimately, it doesn't matter too much who your advisor is. You're always welcome to come chat with me about your interests in courses, careers, and research. 
 
 ## Letters of Recommendation
 
@@ -56,9 +58,6 @@ The [Just Mathematics Collective](https://www.justmathematicscollective.net/) ha
 
 This course is *usually* offered at least once each academic year. Recently, I've been teaching it in the spring semester. The department is not able to guarantee that the course will be offered every year, but this has been the recent trend. 
 
-In some years, only one section of CSCI 0451 is offered. In such years, there are typically only enough spots for seniors. In other years, two sections of CSCI 0451 are taught. In these years, there are usually enough spots for everyone who wants to enroll. 
-
-
 ### Do I have to be a CSCI major or minor to take this class?
 
 If you have considerable mathematics background (up to the level of MATH 0223: Multivariable Calculus) and if you have taken several courses involving data analysis and programming, you may be able to be successful in this course even if you are not a CSCI major. You can contact me about the possibility of a waiver to allow you to take the course. I treat such requests on a case-by-case basis. 
@@ -77,7 +76,7 @@ There is some overlap, although I have tried to minimize this to the extent reas
 
 ### Will this course teach me the latest, cutting-edge tools in machine learning and generative AI?
 
-No, the focus of this course is on theoretical fundamentals and their implementation in efficient code. The aim is to give you a foundation from which to explore more complex techniques ify ou choose. 
+No, the focus of this course is on theoretical fundamentals and how these fundamentals inform recent developments. We will briefly discuss how these fundamentals relate to generative AI, but this course won't teach you to either build or use modern large language models.
 
 ## CSCI 0442: Network Science
 
@@ -113,10 +112,9 @@ We'll use Python for all our computational experiments and data analysis in this
 
 ### Does this course count towards the majors in mathematics or statistics? 
 
-Majors in mathematics and statistics are warmly welcome to enroll in this course. However, the course does not towards these majors. It does count as college credit, a DED requirement, and an elective torwards the computer science major. 
+Majors in mathematics and statistics are warmly welcome to enroll in this course. However, the course does not count towards these majors. It does count as college credit, a DED requirement, and an elective for the computer science major. 
 
 ### How often is this course offered?
-
 
 I expect to teach this course *roughly* once every two years. 
 
@@ -124,15 +122,15 @@ I expect to teach this course *roughly* once every two years.
 
 Doing well in CSCI 0442 does not guarantee that I will accept you as a summer research student or thesis student. It definitely helps though! 
 
-### Will there be exams?
-
-There will be one midterm exam and a final project, as well as regular problem sets. Problem sets will include both math problems and computational experiments. 
-
 # Prospective Research Students
 
 ### What kinds of things do you like to study? 
 
-Most of my research these days involves using mathematical and computational techniques to study complex systems. Some of my current interests include gender representation in academic science, mathematical models of social hierarchies, and identity groups in higher-order networks. You can learn more about my research areas and find my publications on my [research page](research.qmd).
+Most of my research these days involves using mathematical and computational techniques to study complex systems. Some of my current interests include gender representation in academic science, mathematical models of social hierarchies, and identity groups in higher-order networks. You can learn more about my research areas and find my publications on my [research page](research.qmd). 
+
+### How do you work with your research mentees? 
+
+Great question! I have an entire separate page on [how I work with research students](research-starter-pack.qmd). 
 
 ## CSCI 0702: Senior Thesis
 
@@ -140,8 +138,8 @@ Most of my research these days involves using mathematical and computational tec
 
 Maybe! To write a thesis with me, you usually need to either: 
 
-a. Have advanced mathematical background sufficient to work on some of my existing research activities or 
-b. Have an idea of your own that I find very exciting. 
+-  Have advanced mathematical background sufficient to work on some of my existing research activities or 
+-  Have an idea of your own that I find very exciting. 
 
 ### Can I do a machine learning thesis with you? {#sec-ml}
 
@@ -240,14 +238,12 @@ I spend a lot of time on my laptop, and I've given some thought to the tools tha
 - **Writing**: LaTeX and Markdown. I use LaTeX for most technical writing, including scientific articles, reviews of other's writings, working notes containing proofs and similar things, and any time I want to produce a PDF document. Lots of folks don't like LaTeX, but perhaps through raw familiarity I am a very cheerful LaTeX writer. I use Markdown for most other writing, especially including writing for websites like this one. 
     - I have taken some tentative steps into learning [Typst](https://typst.app/), a competitor to LaTeX. My [CV](https://www.philchodrow.prof/cv/cv.pdf) is constructed in Typst. I haven't decided yet whether I'm going to invest in learning more Typst. 
 - **Slides**: [reveal.js](https://revealjs.com/) via [Quarto](https://quarto.org/docs/presentations/revealjs/). I've created a few custom css themes for my slides. I also cheerfully use Google Slides. I previously did a lot of slides in Beamer (LaTeX), but since moved away to HTML slides and haven't looked back. 
-- **Slides**: [reveal.js](https://revealjs.com/) via [Quarto](https://quarto.org/docs/presentations/revealjs/). I've created a few custom css themes for my slides. I am also comfortable using 
-- **Text editor**: [VSCode](https://code.visualstudio.com/). I use this for writing code, as well as writing mathematical documents and research papers using LaTeX. I have extensions that make it easy to work with some of my main tools, including Python, Julia, R, LaTeX, Quarto, and Markdown. When coding in R, I sometimes use [RStudio](https://www.rstudio.com/) instead of VSCode. 
+- **Text editor**: [VSCode](https://code.visualstudio.com/). I use this for writing code, as well as writing mathematical documents and research papers using LaTeX. I have extensions that make it easy to work with some of my main tools, including Python, Julia, R, LaTeX, Quarto, and Markdown. 
 - **Operating system**: MacOS. I don't have strong negative feelings about Windows, but as someone who writes code I strongly prefer an OS with a first class terminal. I have dabbled in Linux but don't consider myself enough of a power user to justify the time investment. Because I have access to high-performance servers, I don't need a very powerful laptop. 
-- **Website**: [Quarto](https://quarto.org) and [GitHub](https://github.com/). This website, as well as my course websites, are generated by the Quarto publishing sytem using plaintext files. I edit these files in VSCode, run Quarto to preview them, and then push them to GitHub which hosts them online. Through working on my websites, I have picked up a **minimal** amount of HTML and CSS. 
-    - Ethics note: GitHub has [contributed an infrastructure product to ICE](https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-sparks-developer-protests/604339/) and developed a machine learning product that [may infringe on open source code licenses](https://sdtimes.com/os/github-copilot-sparks-debates-around-open-source-licenses/). While I rely on GitHub for now, I may change to a competitor like [GitLab](https://gitlab.com/) or [BitBucket](https://bitbucket.org/product) in the future. 
-- **Email client**: [Spark](https://sparkmailapp.com/) -- it's free, simple, and cross-platform. 
+- **Website**: [Quarto](https://quarto.org) and [GitHub](https://github.com/). This website, as well as my course websites, are generated by the Quarto publishing sytem using plaintext files. I edit these files in VSCode, run Quarto to preview them, and then push them to GitHub which hosts them online. Through working on my websites, I have picked up a **minimal** amount of HTML and CSS.  
 - **Launcher**: [Alfred](https://www.alfredapp.com/). Pressing a simple keyboard shortcut spawns a search bar when I can open apps, search for files, etc. 
-- **Browser**: [Arc](https://arc.net/). A customizable browser compatible with Chrome plugins. 
+- **Browser**: [Dia](https://www.diabrowser.com/). I really liked [Arc](https://arc.net/), but this browser has unfortunately been sunsetted. Dia is similar but has more features that I don't need. 
+
 
 
 ### Is programming language A better than programming language B?

@@ -21,10 +21,11 @@ website:
       - text: CV
         href: https://www.philchodrow.prof/cv/cv.pdf
       - faqs.qmd
-      - resources.qmd
       - acknowledgments.qmd
       - text: "Other..."
         menu: 
+        - text: Resources
+          href: resources.qmd
         - text: My Math Autobiography
           href: math-autobiography.qmd
         - text: Jobs at SLACs
